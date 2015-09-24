@@ -1,0 +1,110 @@
+/*Sass Color Variables*/
+/* Custom CSS */
+/*Replica Google Font Import*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+/*Resets*/
+body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif; }
+
+h1 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: .6em; }
+
+h5 {
+  font-size: 14px; }
+
+h4 {
+  font-size: 16px; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 60px;
+  background-color: #f2f0f3; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #0E0C0F; }
+
+section {
+  min-height: 400px; }
+
+/*Sub-Resets*/
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+section h1, section h2, section h3, section h4, section h5, section h6 {
+  text-align: center;
+  margin-top: .5em; }
+
+section i {
+  color: #9ED6E7; }
+
+.navbar {
+  background-color: #0e0c0f; }
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+.btn-primary {
+  color: #1C7A99;
+  background-color: #ffffff;
+  border: 3px #1C7A99 solid;
+  border-radius: 0px;
+  padding: 0px 14px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 1.5em; }
+
+/*Custom Resets*/
+.reinz-logo {
+  font-size: 40px;
+  font-weight: bold;
+  color: white; }
+
+.page-wrapper {
+  margin-top: 60px;
+  background-color: #fff; }
+
+.header-public-image-top {
+  background-image: url("../img/bg-parallax-e.jpg");
+  background-position: center; }
+
+.fa-bar-chart {
+  width: 60px;
+  font-size: 60px; }
+
+.section-icon, .section-icon-b {
+  width: 60px;
+  font-size: 60px;
+  margin-top: .5em; }
+
+.section-icon-b i {
+  color: #fff; }
+
+.media {
+  background-color: #9ED6E7; }
+
+.footer-text {
+  color: #fff; }
+
+.section-a-cols {
+  color: #1C7A99;
+  font-weight: bold; }
+
+.section-a-cols h4 {
+  font-weight: bold;
+  min-height: 2.2em;
+  margin-top: 2em; }
+
+.section-b-cols h4 {
+  float: left;
+  display: inline-block; }
