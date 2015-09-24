@@ -11,6 +11,10 @@ h1{
   font-weight: 800;
 }
 
+h5{
+  font-size: 16px;
+}
+
 html {
   position: relative;
   min-height: 100%;
@@ -94,5 +98,8 @@ section i {
   color: #fff;
 }
 
-
+.section-a-cols, .section-a-cols h4 {
+  color: #1A7899;
+  font-weight: bold;
+}
 
