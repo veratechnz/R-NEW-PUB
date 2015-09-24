@@ -1,3 +1,10 @@
+/*Sass Color Variables*/
+$black: #000000;
+$white: #ffffff;
+
+$blue-a: #9ED6E7;
+$blue-b: #1C7A99; 
+
 /* Custom CSS */
 
 /*Replica Google Font Import*/
@@ -9,9 +16,14 @@ body, p, h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
 h1{
   font-size: 27px;
   font-weight: 800;
+  margin-bottom: .6em;
 }
 
 h5{
+  font-size: 14px;
+}
+
+h4{
   font-size: 16px;
 }
 
@@ -49,7 +61,7 @@ section h1, section h2, section h3, section h4, section h5, section h6{
 }
 
 section i {
-  color: #9CD5E4;
+  color: $blue-a;
 }
 
 .navbar {
@@ -59,6 +71,17 @@ section i {
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px;
+}
+
+.btn-primary{
+  color: $blue-b;
+  background-color: $white;
+  border: 3px $blue-b solid;
+  border-radius: 0px;
+  padding: 0px 14px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-bottom: 1.5em;
 }
 
 /*Custom Resets*/
@@ -74,7 +97,7 @@ section i {
 }
 
 .header-public-image-top{
-  background-image: url("img/bg-parallax-e.jpg");
+  background-image: url("../img/bg-parallax-e.jpg");
   background-position:center;
 }
 
@@ -83,22 +106,33 @@ section i {
   font-size: 60px;
 }
 
-.section-icon {
-   width: 60px;
+.section-icon, .section-icon-b {
+  width: 60px;
   font-size: 60px;
   margin-top: .5em; 
 }
 
+.section-icon-b i{
+  color: #fff;
+}
+
 .media{
-  background-color: #9CD5E4;
+  background-color: $blue-a;
 }
 
 .footer-text{
   color: #fff;
 }
 
-.section-a-cols, .section-a-cols h4 {
-  color: #1A7899;
+.section-a-cols {
+  color: $blue-b;
   font-weight: bold;
 }
+
+.section-a-cols h4 {
+  font-weight: bold;
+  min-height: 2.2em;
+  margin-top: 2em;
+}
+
 
