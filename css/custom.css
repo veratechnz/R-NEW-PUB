@@ -15,7 +15,9 @@ h5 {
   font-size: 14px; }
 
 h4 {
-  font-size: 16px; }
+  font-size: 15px;
+  color: #000000;
+  font-weight: 800; }
 
 html {
   position: relative;
@@ -26,11 +28,12 @@ body {
   background-color: #f2f0f3; }
 
 .footer {
+  padding: 1.2em;
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #0E0C0F; }
+  background-color: #000000; }
 
 section {
   min-height: 400px; }
@@ -40,50 +43,94 @@ section {
   float: none;
   margin: 0 auto; }
 
-section h1, section h2, section h3, section h4, section h5, section h6 {
+.light {
+  font-weight: 400; }
+
+.public-slide section h1,
+.public-slide section h2,
+.public-slide section h3,
+.public-slide section h4,
+.public-slide section h5,
+.public-slide section h6 {
   text-align: center;
-  margin-top: .5em; }
+  margin-top: .1em; }
 
 section i {
-  color: #9ED6E7; }
+  color: #aed5e4; }
 
 .navbar {
-  background-color: #0e0c0f; }
+  background-color: #000000;
+  height: 55px;
+  border-color: #000000; }
 
 .footer > .container {
   padding-right: 15px;
   padding-left: 15px; }
 
 .btn-primary {
-  color: #1C7A99;
-  background-color: #ffffff;
-  border: 3px #1C7A99 solid;
+  color: #467698;
+  background-color: transparent;
+  border: 3px #467698 solid;
   border-radius: 0px;
-  padding: 0px 14px;
+  padding: 3px 18px;
   font-size: 10px;
   font-weight: bold;
-  margin-bottom: 1.5em; }
+  margin-bottom: 1.9em;
+  margin-top: 1.1em; }
+
+.join-btn {
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
+  background-color: #aed5e4;
+  color: #000000;
+  border-color: #aed5e4;
+  font-weight: 900; }
+
+.log-btn {
+  color: #ffffff;
+  border-color: #ffffff;
+  margin-bottom: 0em;
+  margin-top: 0.2em; }
+
+.view-btn {
+  color: #ffffff;
+  border-color: #ffffff;
+  width: 8.2em;
+  margin: 0 auto;
+  text-align: center;
+  border: 0.35em #ffffff solid;
+  padding: 0.5em 1em; }
+
+.uline-none {
+  text-decoration: none; }
 
 /*Custom Resets*/
+.navbar-header {
+  margin-top: 0.25em; }
+
 .reinz-logo {
-  font-size: 40px;
+  margin-top: 0.5em; }
+
+.reinz-logo a {
+  color: #ffffff;
   font-weight: bold;
-  color: white; }
+  color: white;
+  font-size: 26px; }
 
 .page-wrapper {
-  margin-top: 60px;
-  background-color: #fff; }
+  margin-top: 55px;
+  background-color: #ffffff; }
 
 .header-public-image-top {
-  background-image: url("../img/bg-parallax-e.jpg");
+  background-image: url("../img/new-public.jpg");
   background-position: center; }
 
 .fa-bar-chart {
   width: 60px;
-  font-size: 60px; }
+  font-size: 80px; }
 
 .section-icon, .section-icon-b {
-  width: 60px;
+  width: 61px;
   font-size: 60px;
   margin-top: .5em; }
 
@@ -91,20 +138,129 @@ section i {
   color: #fff; }
 
 .media {
-  background-color: #9ED6E7; }
+  background-color: #aed5e4; }
 
 .footer-text {
-  color: #fff; }
+  color: #fff;
+  font-size: 10px; }
 
 .section-a-cols {
-  color: #1C7A99;
+  color: #467698;
   font-weight: bold; }
 
 .section-a-cols h4 {
   font-weight: bold;
-  min-height: 2.2em;
-  margin-top: 2em; }
+  min-height: 2em;
+  font-size: 15px;
+  font-weight: 900;
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 2.2em;
+  margin-bottom: 0.5em;
+  color: #467698;
+  width: 8em; }
 
 .section-b-cols h4 {
-  float: left;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 0.9em;
+  margin-bottom: 0.2em; }
+
+.section-b-cols {
+  margin-top: 1.5em; }
+
+.section-b-cols .col-md-3 {
+  margin-bottom: 3em; }
+
+.reinz-nav {
+  background: #000000; }
+
+.reinz-nav ul {
+  margin-top: 0.99em;
+  padding: 0em;
+  display: inline-block;
+  float: right; }
+
+.reinz-nav li {
+  display: inline;
+  padding: 0.8em 0.2em 0.7em;
+  margin-right: 2.7em; }
+
+.reinz-nav ul .nav-button-margin {
+  margin-right: 3em; }
+
+.reinz-nav ul li a {
+  color: #fff;
+  font-weight: 800;
+  font-size: 11px; }
+
+ul .nav-searcher {
+  margin-right: 0em; }
+
+.nav-searcher i {
+  color: #ffffff;
+  font-size: 18px;
+  padding-top: 0.1em; }
+
+.demo-logo {
+  width: 250px;
+  height: 40px; }
+
+.logo-col {
+  padding-left: 0em; }
+
+.latest-stats .col-xs-8 {
+  padding: 2.2em; }
+
+/*Quick View Side Boxes*/
+.box-a {
+  width: 17.5em;
+  height: 7.1em;
+  margin: 2em 0em 1.6em 0em;
+  padding: 0.45em 0em 0em 0em;
+  background: -webkit-linear-gradient(left, #aed5e4, #467698);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #aed5e4, #467698);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #aed5e4, #467698);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #aed5e4, #467698);
+  /* Standard syntax */ }
+
+.box-b {
+  border: solid 3px #467698;
+  width: 17.5em;
+  margin: 1em 0em 2em 0em;
+  padding: 1em; }
+
+.box-c {
+  border: solid 3px #467698;
+  height: 20em;
+  width: 17.5em;
+  padding: 1em;
+  margin-bottom: 3em; }
+
+.box-a h3 {
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: .8em;
+  margin-top: 0.7em; }
+
+.box-b h3, .box-c h3 {
+  width: 6.7em;
+  margin: 0 auto;
+  color: #467698;
+  font-weight: 800;
+  font-size: 21px; }
+
+.box-b p {
+  color: #467698;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700; }
+
+.box-b p.uline-none {
+  text-decoration: none; }
