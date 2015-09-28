@@ -2,12 +2,14 @@
   "name": "templates",
   "version": "1.0.0",
   "description": "R Template Build",
-  "main": "index.js",
+  "main": "index.html",
   "dependencies": {
     "gulp": "^3.9.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-connect": "^2.2.0",
+    "gulp-livereload": "^3.8.0",
     "gulp-sass": "^2.0.4"
   },
   "scripts": {
@@ -17,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/veratechnz/R-NEW-PUB.git"
   },
-  "author": "JAred",
+  "author": "Jared",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/veratechnz/R-NEW-PUB/issues"
