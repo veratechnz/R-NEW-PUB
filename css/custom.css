@@ -38,6 +38,10 @@ body {
 section {
   min-height: 400px; }
 
+a {
+  color: #345973;
+  font-weight: 600; }
+
 /*Sub-Resets*/
 .overflow-a {
   overflow: auto; }
@@ -59,13 +63,13 @@ section {
   margin-top: .1em; }
 
 section i {
-  color: #aed5e4; }
+  color: #8bcddc; }
 
 .navbar {
   border: none;
-  background-image: -webkit-linear-gradient(left, #aed5e4 33%, #467698 67%);
-  background-image: -o-linear-gradient(left, #aed5e4 33%, #467698 67%);
-  background-image: linear-gradient(to right, #aed5e4 33%, #467698 67%);
+  background-image: -webkit-linear-gradient(left, #8bcddc 33%, #345973 67%);
+  background-image: -o-linear-gradient(left, #8bcddc 33%, #345973 67%);
+  background-image: linear-gradient(to right, #8bcddc 33%, #345973 67%);
   height: 76px; }
 
 .inner-nav {
@@ -77,9 +81,9 @@ section i {
   padding-left: 15px; }
 
 .btn-primary {
-  color: #467698;
+  color: #345973;
   background-color: transparent;
-  border: 3px #467698 solid;
+  border: 3px #345973 solid;
   border-radius: 0px;
   padding: 0.6em 2em;
   font-size: 10px;
@@ -90,9 +94,9 @@ section i {
 .join-btn {
   margin-top: 0.2em;
   margin-bottom: 0.1em;
-  background-color: #aed5e4;
+  background-color: #8bcddc;
   color: #000000;
-  border-color: #aed5e4;
+  border-color: #8bcddc;
   font-weight: 900; }
 
 .log-btn {
@@ -147,14 +151,14 @@ section i {
   color: #fff; }
 
 .media {
-  background-color: #aed5e4; }
+  background-color: #8bcddc; }
 
 .footer-text {
   color: #fff;
   font-size: 10px; }
 
 .section-a-cols {
-  color: #467698;
+  color: #345973;
   font-weight: bold; }
 
 .section-a-cols h4 {
@@ -166,14 +170,14 @@ section i {
   margin: 0 auto;
   margin-top: 2.2em;
   margin-bottom: 0.5em;
-  color: #467698;
+  color: #345973;
   width: 8em; }
 
 .section-b-cols h4 {
   display: inline-block;
   font-size: 14px;
   font-weight: 900;
-  margin-top: 0.9em;
+  margin-top: 0.3em;
   margin-bottom: 0.2em; }
 
 .section-b-cols {
@@ -194,7 +198,7 @@ section i {
 .reinz-nav li {
   display: inline;
   padding: 0.8em 0.2em 0.7em;
-  margin-right: 2.7em; }
+  margin-left: 2.5em; }
 
 .reinz-nav ul .nav-button-margin {
   margin-right: 3em; }
@@ -221,7 +225,9 @@ ul .nav-searcher {
   margin: 0.5em 0em 0.2em 0em; }
 
 .member-sub-nav p {
-  text-align: center; }
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800; }
 
 .eight-split {
   float: left;
@@ -243,7 +249,7 @@ ul .nav-searcher {
   color: #ffffff; }
 
 .nav-welcome {
-  color: #aed5e4;
+  color: #8bcddc;
   font-size: 12px;
   font-weight: 800;
   display: inline;
@@ -263,50 +269,69 @@ ul .nav-searcher {
 .box-a {
   width: 17.5em;
   height: 7.1em;
-  margin: 3.4em 0em 1.6em 0em;
+  margin: 0 auto;
+  margin-top: 2.4em;
+  margin-bottom: 1.6em;
   padding: 0.2em 0em 0em 0em;
-  background: -webkit-linear-gradient(left, #aed5e4, #467698);
+  background: -webkit-linear-gradient(left, #8bcddc, #345973);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #aed5e4, #467698);
+  background: -o-linear-gradient(right, #8bcddc, #345973);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #aed5e4, #467698);
+  background: -moz-linear-gradient(right, #8bcddc, #345973);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #aed5e4, #467698);
+  background: linear-gradient(to right, #8bcddc, #345973);
   /* Standard syntax */ }
 
 .box-b {
-  border: solid 3px #467698;
+  border: solid 3px #345973;
   width: 17.5em;
-  margin: 1em 0em 2em 0em;
+  margin: 0 auto;
+  margin-top: 0.8em;
+  margin-bottom: 2em;
   padding: 1em; }
 
 .box-c {
-  border: solid 3px #467698;
-  height: 20em;
+  border: solid 3px #345973;
   width: 17.5em;
   padding: 1em;
-  margin-bottom: 3em; }
+  margin-bottom: 3em;
+  margin: 0 auto;
+  margin-bottom: 2em; }
 
 .box-a h3 {
   color: #ffffff;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: .8em;
   margin-top: 0.7em; }
 
 .box-b h3, .box-c h3 {
-  width: 6.7em;
+  width: 6em;
   margin: 0 auto;
-  color: #467698;
-  font-weight: 800;
-  font-size: 21px; }
+  margin-bottom: 0.7em;
+  color: #345973;
+  font-weight: 600;
+  font-size: 21px;
+  display: inline-block; }
 
-.box-b p {
-  color: #467698;
+.box-b p, .box-c p {
+  color: #345973;
   text-decoration: underline;
   font-size: 14px;
   font-weight: 700; }
 
-.box-b p.uline-none {
+.box-b p .uline-none {
   text-decoration: none; }
+
+.box-b i {
+  color: #345973;
+  font-size: 40px;
+  display: inline;
+  margin: 0em 0.4em 1em 0em; }
+
+.box-c i {
+  color: #345973;
+  font-size: 40px;
+  display: inline;
+  margin: 0em 0.4em 1em 0em; }

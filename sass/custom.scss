@@ -1,8 +1,8 @@
 /*Sass Variables*/
 $black: #000000;
 $white: #ffffff;
-$blue-a: #aed5e4;
-$blue-b: #467698; 
+$blue-a: #8bcddc;
+$blue-b: #345973; 
 $grey: #efefef;
 
 /* Custom CSS */
@@ -50,7 +50,10 @@ section {
   min-height: 400px;
 }
 
-
+a {
+  color: #345973;
+  font-weight: 600;
+}
 
 
 /*Sub-Resets*/
@@ -217,7 +220,7 @@ section i {
   display: inline-block;
   font-size: 14px;
   font-weight: 900;
-  margin-top: 0.9em;
+  margin-top: 0.3em;
   margin-bottom: 0.2em;
 }
 
@@ -243,7 +246,7 @@ section i {
 .reinz-nav li{
   display: inline;
   padding: 0.8em 0.2em 0.7em; 
-  margin-right: 2.7em;
+  margin-left: 2.5em;
 }
 
 .reinz-nav ul .nav-button-margin{
@@ -278,6 +281,9 @@ ul .nav-searcher {
 
 .member-sub-nav p {
   text-align: center;
+  font-size: 12px;
+  font-weight: 800;
+
 }
 
 .eight-split {
@@ -330,57 +336,79 @@ ul .nav-searcher {
 
 /*Quick View Side Boxes*/
 .box-a {
-  width: 17.5em; height: 7.1em;
-  margin: 3.4em 0em 1.6em 0em;
+  width: 17.5em; 
+  height: 7.1em;
+  margin: 0 auto;
+  margin-top: 2.4em;
+  margin-bottom: 1.6em;
   padding: .2em 0em 0em 0em;
   background: -webkit-linear-gradient(left, $blue-a , $blue-b); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, $blue-a , $blue-b); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, $blue-a , $blue-b); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, $blue-a , $blue-b); /* Standard syntax */
+
 }
 
 .box-b {
   border: solid 3px $blue-b;
   width: 17.5em;
-  margin: 1em 0em 2em 0em;
+  margin: 0 auto;
+  margin-top: 0.8em;
+  margin-bottom: 2em;
   padding: 1em;
 }
 
 .box-c {
   border: solid 3px $blue-b;
-  height: 20em;
   width: 17.5em;
   padding: 1em;
   margin-bottom: 3em;
+  margin: 0 auto;
+  margin-bottom: 2em;
 }
 
 .box-a h3 {
   color: $white;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   margin-bottom: .8em;
   margin-top: 0.7em;
 }
 
 .box-b h3, .box-c h3 {
-  width: 6.7em;
+  width: 6em;
   margin: 0 auto;
+  margin-bottom: 0.7em;
   color: $blue-b;
-  font-weight: 800;
+  font-weight: 600;
   font-size: 21px;
+  display: inline-block;
 }
 
-.box-b p {
+.box-b p, .box-c p {
   color: $blue-b;
   text-decoration: underline;;
   font-size: 14px;
   font-weight: 700;
 }
 
-.box-b p.uline-none{
+.box-b p .uline-none{
   text-decoration: none;
 }
 
+.box-b i {
+  color: $blue-b;
+  font-size: 40px;
+  display: inline;
+  margin: 0em 0.4em 1em 0em;
+}
+
+.box-c i {
+  color: $blue-b;
+  font-size: 40px;
+  display: inline;
+  margin: 0em 0.4em 1em 0em;
+}
 
 
