@@ -45,13 +45,13 @@
 .sf-menu a {
 	border-left: 1px solid #000;
 	border-top: 1px solid #000; /* fallback colour must use full shorthand */
-	border-top: 1px solid rgba(255,255,255,.5);
 	padding: .75em 1em;
 	text-decoration: none;
 	zoom: 1; /* IE7 */
+	font-weight: bold;
 }
 .sf-menu a {
-	color: #000;
+	color: #fff;
 }
 .sf-menu li {
 	background: #000;
@@ -68,7 +68,7 @@
 }
 .sf-menu li:hover,
 .sf-menu li.sfHover {
-	background: #CFDEFF;
+	background: #000;
 	/* only transition out, not in */
 	-webkit-transition: none;
 	transition: none;

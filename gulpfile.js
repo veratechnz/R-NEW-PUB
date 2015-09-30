@@ -3,6 +3,7 @@ var gulp = require('gulp');
 	sass = require('gulp-sass');
  	livereload = require('gulp-livereload');
  	connect = require('gulp-connect');
+ 	jshint = require('gulp-jshint');
  
 //Server Task
 gulp.task('serve', function(event) {
@@ -22,18 +23,27 @@ gulp.task('styles', function() {
 });
 
 //HTML Task 
-gulp.task('html', function () {
-  gulp.src('./*.html')
-    .pipe(connect.reload());
+gulp.task('html', function() {
+    gulp.src('./*.html')
+    	.pipe(connect.reload());
+});
+
+//JS Lint Task
+gulp.task('lint', function(){
+    gulp.src('js/*.js')
+    .pipe(jshint())
+	.pipe(jshint.reporter('default'))
+	.pipe(connect.reload());
+
 });
 
 //Watch Task
 gulp.task('watch', function(){
 	gulp.watch('sass/**/*.scss', ['styles']);
 	gulp.watch('./*.html', ['html']);
-
+	gulp.watch('js/*.js', ['lint']);
 });
 
 //Watch task
-gulp.task('default', ['serve', 'styles', 'html', 'watch']);
+gulp.task('default', ['serve', 'styles', 'html', 'lint', 'watch']);
 

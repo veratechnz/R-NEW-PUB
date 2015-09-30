@@ -1,8 +1,8 @@
 /*Sass Variables*/
 $black: #000000;
 $white: #ffffff;
-$blue-a: #8bcddc;
-$blue-b: #345973; 
+$blue-a: #5BC5C6;
+$blue-b: #125f81; 
 $grey: #efefef;
 
 /* Custom CSS */
@@ -121,6 +121,7 @@ section i {
 .join-btn{
  margin-top: 0.2em;
  margin-bottom:0.1em;
+ margin-right: 1.8em;
  background-color: $blue-a;
  color: $black;
  border-color: $blue-a;
@@ -132,6 +133,7 @@ section i {
   border-color: $white;
   margin-bottom: 0em;
   margin-top: 0.2em;
+  margin-right: 1.8em;
 }
 
 .view-btn{
@@ -148,6 +150,27 @@ section i {
   text-decoration: none;
 }
 
+.public-nav {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 800;
+    margin-top: 1.5em;
+    float: right;
+    width: 90%;
+}
+
+.public-nav li {
+  margin-right: 0.8%;
+}
+
+.public-nav li a {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.public-nav-items{
+  width: 55em;
+}
 
 
 
@@ -263,6 +286,11 @@ section i {
   font-size: 11px;
 }
 
+.public-nav-items div {
+  display: inline-block;
+  margin: 1.3em 0.6em 0.4em 0em;
+}
+
 ul .nav-searcher {
   margin-right: 0em;
 }
@@ -321,12 +349,18 @@ ul .nav-searcher {
   font-size: 20px;
 }
 
+.search-public{
+  width: 1em;
+  color: $white;
+  font-size: 24px;
+  margin-top: 0.7em;
+}
+
 .nav-welcome {
   color: $blue-a;
   font-size: 13px;
   font-weight: 800;
   display: inline;
-  margin-top: 4em;
 }
 
 .demo-logo{
@@ -349,6 +383,8 @@ ul .nav-searcher {
 .member-text {
   margin-top: 9.4em;
 }
+
+
 
 
 /*Quick View Side Boxes*/
@@ -415,7 +451,7 @@ ul .nav-searcher {
 
 .member-text .box-b p, .member-text .box-c p  {
   color: $blue-b;
-  text-decoration: underline;;
+  text-decoration: underline;
   font-size: 14px;
   font-weight: 700;
   margin-bottom: 0.7em;
@@ -438,7 +474,5 @@ ul .nav-searcher {
   display: inline;
   margin: 0em 0.4em 1em 0em;
 }
-
-
 
 

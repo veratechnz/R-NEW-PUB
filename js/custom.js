@@ -1,7 +1,10 @@
 // Custom JS File
 
-// Jquery Scroll To Effect
+
 $(function() {
+
+// Jquery ScrollTo Effect 
+ function onePageScroll(){ 
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -14,9 +17,23 @@ $(function() {
       }
     }
   });
+ }
+ onePageScroll();
 
-  //Superfish Menu Plugin
-  // $('ul.sf-menu').superfish();
+//Public Website Black Navigation 
+ function superFishNav(){
+	$(document).ready(function() {
+		$('ul.sf-menu').superfish({
+			delay:       1000,                            // one second delay on mouseout
+			animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
+			speed:       'fast',                         // faster animation speed                          // disable generation of arrow mark-up
+		  cssArrows:   true
+    });
+	});
+ }
+ superFishNav();
+
 });
+//this is
 
 

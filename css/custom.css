@@ -66,13 +66,13 @@ a {
   margin-top: .1em; }
 
 section i {
-  color: #8bcddc; }
+  color: #5BC5C6; }
 
 .navbar {
   border: none;
-  background-image: -webkit-linear-gradient(left, #8bcddc 33%, #345973 67%);
-  background-image: -o-linear-gradient(left, #8bcddc 33%, #345973 67%);
-  background-image: linear-gradient(to right, #8bcddc 33%, #345973 67%);
+  background-image: -webkit-linear-gradient(left, #5BC5C6 33%, #125f81 67%);
+  background-image: -o-linear-gradient(left, #5BC5C6 33%, #125f81 67%);
+  background-image: linear-gradient(to right, #5BC5C6 33%, #125f81 67%);
   height: 76px; }
 
 .inner-nav {
@@ -84,9 +84,9 @@ section i {
   padding-left: 15px; }
 
 .btn-primary {
-  color: #345973;
+  color: #125f81;
   background-color: transparent;
-  border: 3px #345973 solid;
+  border: 3px #125f81 solid;
   border-radius: 0px;
   padding: 0.6em 2em;
   font-size: 10px;
@@ -97,16 +97,18 @@ section i {
 .join-btn {
   margin-top: 0.2em;
   margin-bottom: 0.1em;
-  background-color: #8bcddc;
+  margin-right: 1.8em;
+  background-color: #5BC5C6;
   color: #000000;
-  border-color: #8bcddc;
+  border-color: #5BC5C6;
   font-weight: 900; }
 
 .log-btn {
   color: #ffffff;
   border-color: #ffffff;
   margin-bottom: 0em;
-  margin-top: 0.2em; }
+  margin-top: 0.2em;
+  margin-right: 1.8em; }
 
 .view-btn {
   color: #ffffff;
@@ -119,6 +121,24 @@ section i {
 
 .uline-none {
   text-decoration: none; }
+
+.public-nav {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  margin-top: 1.5em;
+  float: right;
+  width: 90%; }
+
+.public-nav li {
+  margin-right: 0.8%; }
+
+.public-nav li a {
+  font-size: 13px;
+  font-weight: 800; }
+
+.public-nav-items {
+  width: 55em; }
 
 /*Custom Resets*/
 .navbar-header {
@@ -154,14 +174,14 @@ section i {
   color: #fff; }
 
 .media {
-  background-color: #8bcddc; }
+  background-color: #5BC5C6; }
 
 .footer-text {
   color: #fff;
   font-size: 10px; }
 
 .section-a-cols {
-  color: #345973;
+  color: #125f81;
   font-weight: bold; }
 
 .section-a-cols h4 {
@@ -173,7 +193,7 @@ section i {
   margin: 0 auto;
   margin-top: 2.2em;
   margin-bottom: 0.5em;
-  color: #345973;
+  color: #125f81;
   width: 8em; }
 
 .section-b-cols h4 {
@@ -210,6 +230,10 @@ section i {
   color: #fff;
   font-weight: 800;
   font-size: 11px; }
+
+.public-nav-items div {
+  display: inline-block;
+  margin: 1.3em 0.6em 0.4em 0em; }
 
 ul .nav-searcher {
   margin-right: 0em; }
@@ -259,12 +283,17 @@ ul .nav-searcher {
   margin-right: 0.4em;
   font-size: 20px; }
 
+.search-public {
+  width: 1em;
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 0.7em; }
+
 .nav-welcome {
-  color: #8bcddc;
+  color: #5BC5C6;
   font-size: 13px;
   font-weight: 800;
-  display: inline;
-  margin-top: 4em; }
+  display: inline; }
 
 .demo-logo {
   width: 250px;
@@ -297,17 +326,17 @@ ul .nav-searcher {
   margin-top: 2.4em;
   margin-bottom: 1.6em;
   padding: 0.2em 0em 0em 0em;
-  background: -webkit-linear-gradient(left, #8bcddc, #345973);
+  background: -webkit-linear-gradient(left, #5BC5C6, #125f81);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #8bcddc, #345973);
+  background: -o-linear-gradient(right, #5BC5C6, #125f81);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #8bcddc, #345973);
+  background: -moz-linear-gradient(right, #5BC5C6, #125f81);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #8bcddc, #345973);
+  background: linear-gradient(to right, #5BC5C6, #125f81);
   /* Standard syntax */ }
 
 .box-b {
-  border: solid 3px #345973;
+  border: solid 3px #125f81;
   width: 20em;
   margin: 0 auto;
   margin-top: 0.8em;
@@ -315,7 +344,7 @@ ul .nav-searcher {
   padding: 1em; }
 
 .box-c {
-  border: solid 3px #345973;
+  border: solid 3px #125f81;
   width: 20em;
   padding: 1em;
   margin-bottom: 3em;
@@ -334,13 +363,13 @@ ul .nav-searcher {
   width: 6em;
   margin: 0 auto;
   margin-bottom: 0.7em;
-  color: #345973;
+  color: #125f81;
   font-weight: 600;
   font-size: 20px;
   display: inline-block; }
 
 .member-text .box-b p, .member-text .box-c p {
-  color: #345973;
+  color: #125f81;
   text-decoration: underline;
   font-size: 14px;
   font-weight: 700;
@@ -350,13 +379,13 @@ ul .nav-searcher {
   text-decoration: none; }
 
 .box-b i {
-  color: #345973;
+  color: #125f81;
   font-size: 40px;
   display: inline;
   margin: 0em 0.4em 1em 0em; }
 
 .box-c i {
-  color: #345973;
+  color: #125f81;
   font-size: 40px;
   display: inline;
   margin: 0em 0.4em 1em 0em; }
