@@ -10,3 +10,11 @@
 .demo-logo {
   width: 250px;
   height: 40px; }
+
+.full-scrn {
+  background: url("../img/bg-temp.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 1000px; }

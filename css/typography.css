@@ -168,3 +168,8 @@ section i {
 .footer-text {
   color: #fff;
   font-size: 10px; }
+
+.full-scrn i {
+  font-size: 10em;
+  color: #ffffff;
+  text-align: center; }
