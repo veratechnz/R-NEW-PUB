@@ -18,7 +18,7 @@ $(function() {
     }
   });
  }
- onePageScroll();
+
 
 //Public Website Black Navigation 
  function superFishNav(){
@@ -31,9 +31,26 @@ $(function() {
     });
 	});
  }
- superFishNav();
+
+
+ //Member Sub Nav B Animation and Population
+ function subNavB(){
+  $('#mainLogo').click(function(){
+      $('#memberSubNavB').slideToggle(1000);
+      $('.member-text').animate({marginTop: '16em'}, 1000);
+  });
+ }
+
+
+
+
+ var init = function(){
+    onePageScroll();
+    superFishNav();
+    subNavB();
+ };
+
+init();
 
 });
-//this is
-
 

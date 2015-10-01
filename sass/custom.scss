@@ -332,7 +332,32 @@ ul .nav-searcher {
   text-align: center;
   font-size: 12px;
   font-weight: 800;
+}
 
+.member-sub-nav-b{
+  display: none;
+  height: 3.5em;
+  padding-top: 0.8em;
+  margin-bottom: 1em;
+  background-color: #efefef;
+}
+
+.member-sub-nav-b ul {
+  width: 80em;
+  margin: 0 auto;
+}
+
+.member-sub-nav-b ul li {
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.member-sub-nav-b ul li a{
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 800;
 }
 
 .eight-split {
