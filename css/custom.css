@@ -1,24 +1,8 @@
+/*Custom Sass*/
 /*Sass Variables*/
-/* Custom CSS */
-/*Replica Google Font Import*/
+/*Layout*/
+/*Sass Variables*/
 @import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
-/*Resets*/
-body, p, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', sans-serif; }
-
-h1 {
-  font-size: 27px;
-  font-weight: 800;
-  margin-bottom: .6em; }
-
-h5 {
-  font-size: 14px; }
-
-h4 {
-  font-size: 15px;
-  color: #000000;
-  font-weight: 800; }
-
 html {
   position: relative;
   min-height: 100%; }
@@ -35,14 +19,13 @@ body {
   height: 60px;
   background-color: #000000; }
 
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px; }
+
 section {
   min-height: 400px; }
 
-a {
-  color: #345973;
-  font-weight: 600; }
-
-/*Sub-Resets*/
 .gone {
   display: none; }
 
@@ -53,21 +36,90 @@ a {
   float: none;
   margin: 0 auto; }
 
-.light {
-  font-weight: 400; }
+.page-wrapper {
+  margin-top: 55px;
+  background-color: #ffffff; }
 
-.public-slide section h1,
-.public-slide section h2,
-.public-slide section h3,
-.public-slide section h4,
-.public-slide section h5,
-.public-slide section h6 {
-  text-align: center;
-  margin-top: .1em; }
+.media {
+  background-color: #5BC5C6; }
 
-section i {
-  color: #5BC5C6; }
+.section-a-cols {
+  color: #125f81;
+  font-weight: bold; }
 
+.section-b-cols {
+  margin-top: 1.5em; }
+
+.section-b-cols .col-md-3 {
+  margin-bottom: 3em; }
+
+.reinz-nav {
+  background: #000000; }
+
+.reinz-nav:first-child {
+  margin-top: 1.2em;
+  padding: 0em;
+  display: inline-block;
+  float: right; }
+
+.reinz-nav li {
+  display: inline;
+  padding: 0.8em 0.2em 0.7em;
+  margin-left: 2.5em; }
+
+.eight-split {
+  float: left;
+  width: 12.5%; }
+
+.newbie {
+  display: inline-block; }
+
+.logo-col {
+  padding-left: 0em; }
+
+.latest-stats {
+  margin-top: 9em; }
+
+.latest-stats .col-xs-8 {
+  padding: 1em 2.2em 2.2em 1.1em; }
+
+.member-text {
+  margin-top: 9.4em; }
+
+.box-a {
+  width: 20em;
+  height: 7.1em;
+  margin: 0 auto;
+  margin-top: 2.4em;
+  margin-bottom: 1.6em;
+  padding: 0.2em 0em 0em 0em;
+  background: -webkit-linear-gradient(left, #5BC5C6, #125f81);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #5BC5C6, #125f81);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #5BC5C6, #125f81);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #5BC5C6, #125f81);
+  /* Standard syntax */ }
+
+.box-b {
+  border: solid 3px #125f81;
+  width: 20em;
+  margin: 0 auto;
+  margin-top: 0.8em;
+  margin-bottom: 2em;
+  padding: 1em; }
+
+.box-c {
+  border: solid 3px #125f81;
+  width: 20em;
+  padding: 1em;
+  margin-bottom: 3em;
+  margin: 0 auto;
+  margin-bottom: 2em; }
+
+/*Navigation*/
+/*Sass Variables*/
 .navbar {
   border: none;
   background-image: -webkit-linear-gradient(left, #5BC5C6 33%, #125f81 67%);
@@ -79,10 +131,61 @@ section i {
   background-color: #000;
   height: 68px; }
 
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px; }
+.public-nav {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  margin: 0 auto;
+  margin-top: 1.1em;
+  float: right;
+  width: 90%; }
 
+.public-nav li {
+  margin-right: 0.8%; }
+
+.navbar-header {
+  margin-top: 0.25em; }
+
+.reinz-nav ul .nav-button-margin {
+  margin-right: 3em; }
+
+ul .nav-searcher {
+  margin-right: 0em; }
+
+.member-sub-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 1031;
+  margin: 1.5em 0em 0em 0em;
+  height: 7.5em;
+  background-color: #fff;
+  opacity: 0.96;
+  -webkit-box-shadow: 0px 2px 4px 0px #cccacc;
+  -moz-box-shadow: 0px 2px 4px 0px #cccacc;
+  box-shadow: 0px 2px 4px 0px #cccacc; }
+
+.member-sub-nav p {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 800; }
+
+.member-sub-nav-b {
+  display: none;
+  height: 3.5em;
+  padding-top: 0.8em;
+  margin-bottom: 1em;
+  background-color: #efefef; }
+
+.member-sub-nav-b ul {
+  width: 80em;
+  margin: 0 auto; }
+
+.member-sub-nav-b ul li {
+  display: inline-block;
+  margin-right: 1em; }
+
+/*Buttons*/
+/*Sass Variables*/
 .btn-primary {
   color: #125f81;
   background-color: transparent;
@@ -119,26 +222,6 @@ section i {
   border: 0.35em #ffffff solid;
   padding: 0.5em 1em; }
 
-.uline-none {
-  text-decoration: none; }
-
-.public-nav {
-  color: #fff;
-  font-size: 11px;
-  font-weight: 800;
-  margin: 0 auto;
-  margin-top: 1.1em;
-  float: right;
-  width: 90%; }
-
-.public-nav li {
-  margin-right: 0.8%; }
-
-.public-nav li a {
-  font-size: 13px;
-  font-weight: 800; }
-
-/*Public Nav*/
 .join-button {
   float: right;
   margin-top: 1.2em; }
@@ -154,52 +237,54 @@ section i {
   font-size: 24px;
   margin-top: .45em; }
 
-.search-public i {
-  color: #ffffff; }
-
-/*Custom Resets*/
-.navbar-header {
-  margin-top: 0.25em; }
-
-.reinz-logo {
-  margin-top: 0.75em; }
-
-.reinz-logo a {
-  color: #ffffff;
-  font-weight: bold;
-  color: white;
-  font-size: 26px; }
-
-.page-wrapper {
-  margin-top: 55px;
-  background-color: #ffffff; }
-
+/*Images*/
+/*Sass Variables*/
 .header-public-image-top {
   background-image: url("../img/new-public.jpg");
   background-position: center; }
 
-.fa-bar-chart {
-  width: 60px;
-  font-size: 80px; }
+.reinz-logo {
+  margin-top: 0.75em; }
 
-.section-icon, .section-icon-b {
-  width: 61px;
-  font-size: 60px;
-  margin-top: .5em; }
+.demo-logo {
+  width: 250px;
+  height: 40px; }
 
-.section-icon-b i {
-  color: #fff; }
+/*Typography*/
+/*Sass Variables*/
+/*Replica Google Font Import*/
+/*Resets*/
+body, p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif; }
 
-.media {
-  background-color: #5BC5C6; }
+h1 {
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: .6em; }
 
-.footer-text {
-  color: #fff;
-  font-size: 10px; }
+h5 {
+  font-size: 14px; }
 
-.section-a-cols {
-  color: #125f81;
-  font-weight: bold; }
+h4 {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 800; }
+
+a {
+  color: #345973;
+  font-weight: 600; }
+
+.public-slide section h1,
+.public-slide section h2,
+.public-slide section h3,
+.public-slide section h4,
+.public-slide section h5,
+.public-slide section h6 {
+  text-align: center;
+  margin-top: .1em; }
+
+.uline-none {
+  text-decoration: none; }
 
 .section-a-cols h4 {
   font-weight: bold;
@@ -220,74 +305,19 @@ section i {
   margin-top: 0.3em;
   margin-bottom: 0.2em; }
 
-.section-b-cols {
-  margin-top: 1.5em; }
-
-.section-b-cols .col-md-3 {
-  margin-bottom: 3em; }
-
-.reinz-nav {
-  background: #000000; }
-
-.reinz-nav:first-child {
-  margin-top: 1.2em;
-  padding: 0em;
-  display: inline-block;
-  float: right; }
-
-.reinz-nav li {
-  display: inline;
-  padding: 0.8em 0.2em 0.7em;
-  margin-left: 2.5em; }
-
-.reinz-nav ul .nav-button-margin {
-  margin-right: 3em; }
+.section-icon-b i {
+  color: #fff; }
 
 .reinz-nav ul li a {
   color: #fff;
   font-weight: 800;
   font-size: 11px; }
 
-ul .nav-searcher {
-  margin-right: 0em; }
-
-.member-sub-nav {
-  position: fixed;
-  width: 100%;
-  z-index: 1031;
-  margin: 1.5em 0em 0em 0em;
-  height: 7.5em;
-  background-color: #fff;
-  opacity: 0.96;
-  -webkit-box-shadow: 0px 2px 4px 0px #cccacc;
-  -moz-box-shadow: 0px 2px 4px 0px #cccacc;
-  box-shadow: 0px 2px 4px 0px #cccacc; }
-
 .member-sub-nav i {
   font-size: 40px;
   display: block;
   text-align: center;
   margin: 0.5em 0em 0.2em 0em; }
-
-.member-sub-nav p {
-  text-align: center;
-  font-size: 12px;
-  font-weight: 800; }
-
-.member-sub-nav-b {
-  display: none;
-  height: 3.5em;
-  padding-top: 0.8em;
-  margin-bottom: 1em;
-  background-color: #efefef; }
-
-.member-sub-nav-b ul {
-  width: 80em;
-  margin: 0 auto; }
-
-.member-sub-nav-b ul li {
-  display: inline-block;
-  margin-right: 1em; }
 
 .member-sub-nav-b ul li a {
   display: inline-block;
@@ -296,30 +326,15 @@ ul .nav-searcher {
   color: #000000;
   font-weight: 800; }
 
-.eight-split {
-  float: left;
-  width: 12.5%; }
-
 .nav-searcher i {
   color: #ffffff;
   font-size: 18px;
   padding-top: 0.1em; }
 
-.searcher input[type="text"], textarea {
-  background-color: #000000;
-  color: #ffffff;
-  border: none;
-  border-bottom: 2px solid #ffffff;
-  padding: 0em 0em 0.5em 0.5em;
-  font-size: 12px; }
-
 .searcher i {
   color: #ffffff;
   margin-right: 0.4em;
   font-size: 20px; }
-
-.newbie {
-  display: inline-block; }
 
 .nav-welcome {
   color: #5BC5C6;
@@ -327,61 +342,12 @@ ul .nav-searcher {
   font-weight: 800;
   display: inline; }
 
-.demo-logo {
-  width: 250px;
-  height: 40px; }
-
-.logo-col {
-  padding-left: 0em; }
-
-.latest-stats {
-  margin-top: 9em; }
-
-.latest-stats .col-xs-8 {
-  padding: 1em 2.2em 2.2em 1.1em; }
-
-.member-text {
-  margin-top: 9.4em; }
-
-/*Quick View Side Boxes*/
 .member-text h4 {
   margin-bottom: 0em; }
 
 .member-text p {
   font-size: 16px;
   margin-bottom: 1em; }
-
-.box-a {
-  width: 20em;
-  height: 7.1em;
-  margin: 0 auto;
-  margin-top: 2.4em;
-  margin-bottom: 1.6em;
-  padding: 0.2em 0em 0em 0em;
-  background: -webkit-linear-gradient(left, #5BC5C6, #125f81);
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #5BC5C6, #125f81);
-  /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #5BC5C6, #125f81);
-  /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #5BC5C6, #125f81);
-  /* Standard syntax */ }
-
-.box-b {
-  border: solid 3px #125f81;
-  width: 20em;
-  margin: 0 auto;
-  margin-top: 0.8em;
-  margin-bottom: 2em;
-  padding: 1em; }
-
-.box-c {
-  border: solid 3px #125f81;
-  width: 20em;
-  padding: 1em;
-  margin-bottom: 3em;
-  margin: 0 auto;
-  margin-bottom: 2em; }
 
 .box-a h3 {
   color: #ffffff;
@@ -421,3 +387,35 @@ ul .nav-searcher {
   font-size: 40px;
   display: inline;
   margin: 0em 0.4em 1em 0em; }
+
+.light {
+  font-weight: 400; }
+
+section i {
+  color: #5BC5C6; }
+
+.public-nav li a {
+  font-size: 13px;
+  font-weight: 800; }
+
+.search-public i {
+  color: #ffffff; }
+
+.reinz-logo a {
+  color: #ffffff;
+  font-weight: bold;
+  color: white;
+  font-size: 26px; }
+
+.fa-bar-chart {
+  width: 60px;
+  font-size: 80px; }
+
+.section-icon, .section-icon-b {
+  width: 61px;
+  font-size: 60px;
+  margin-top: .5em; }
+
+.footer-text {
+  color: #fff;
+  font-size: 10px; }

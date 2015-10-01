@@ -1,7 +1,15 @@
 // Custom JS File
 
-
 $(function() {
+
+//Initialiaze all functions
+function init(){
+    onePageScroll();
+    superFishNav();
+    subNavB();
+ }
+
+init();
 
 // Jquery ScrollTo Effect 
  function onePageScroll(){ 
@@ -36,21 +44,11 @@ $(function() {
  //Member Sub Nav B Animation and Population
  function subNavB(){
   $('#mainLogo').click(function(){
-      $('#memberSubNavB').slideToggle(1000);
-      $('.member-text').animate({marginTop: '16em'}, 1000);
+      $('#memberSubNavB').slideToggle(200);
+      $('.member-text').animate({marginTop: '13.5em'}, 400);
   });
  }
 
-
-
-
- var init = function(){
-    onePageScroll();
-    superFishNav();
-    subNavB();
- };
-
-init();
 
 });
 

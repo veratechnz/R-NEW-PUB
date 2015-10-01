@@ -1,0 +1,116 @@
+/*Layout*/
+/*Sass Variables*/
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 60px;
+  background-color: #f2f0f3; }
+
+.footer {
+  padding: 1.2em;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #000000; }
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px; }
+
+section {
+  min-height: 400px; }
+
+.gone {
+  display: none; }
+
+.overflow-a {
+  overflow: auto; }
+
+.col-centered {
+  float: none;
+  margin: 0 auto; }
+
+.page-wrapper {
+  margin-top: 55px;
+  background-color: #ffffff; }
+
+.media {
+  background-color: #5BC5C6; }
+
+.section-a-cols {
+  color: #125f81;
+  font-weight: bold; }
+
+.section-b-cols {
+  margin-top: 1.5em; }
+
+.section-b-cols .col-md-3 {
+  margin-bottom: 3em; }
+
+.reinz-nav {
+  background: #000000; }
+
+.reinz-nav:first-child {
+  margin-top: 1.2em;
+  padding: 0em;
+  display: inline-block;
+  float: right; }
+
+.reinz-nav li {
+  display: inline;
+  padding: 0.8em 0.2em 0.7em;
+  margin-left: 2.5em; }
+
+.eight-split {
+  float: left;
+  width: 12.5%; }
+
+.newbie {
+  display: inline-block; }
+
+.logo-col {
+  padding-left: 0em; }
+
+.latest-stats {
+  margin-top: 9em; }
+
+.latest-stats .col-xs-8 {
+  padding: 1em 2.2em 2.2em 1.1em; }
+
+.member-text {
+  margin-top: 9.4em; }
+
+.box-a {
+  width: 20em;
+  height: 7.1em;
+  margin: 0 auto;
+  margin-top: 2.4em;
+  margin-bottom: 1.6em;
+  padding: 0.2em 0em 0em 0em;
+  background: -webkit-linear-gradient(left, #5BC5C6, #125f81);
+  /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #5BC5C6, #125f81);
+  /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #5BC5C6, #125f81);
+  /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #5BC5C6, #125f81);
+  /* Standard syntax */ }
+
+.box-b {
+  border: solid 3px #125f81;
+  width: 20em;
+  margin: 0 auto;
+  margin-top: 0.8em;
+  margin-bottom: 2em;
+  padding: 1em; }
+
+.box-c {
+  border: solid 3px #125f81;
+  width: 20em;
+  padding: 1em;
+  margin-bottom: 3em;
+  margin: 0 auto;
+  margin-bottom: 2em; }

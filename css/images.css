@@ -1,0 +1,12 @@
+/*Images*/
+/*Sass Variables*/
+.header-public-image-top {
+  background-image: url("../img/new-public.jpg");
+  background-position: center; }
+
+.reinz-logo {
+  margin-top: 0.75em; }
+
+.demo-logo {
+  width: 250px;
+  height: 40px; }

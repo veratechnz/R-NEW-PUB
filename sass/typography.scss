@@ -1,0 +1,205 @@
+/*Typography*/
+@import "globals.scss";
+
+
+/*Replica Google Font Import*/
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
+/*Resets*/
+body, p, h1, h2, h3, h4, h5, h6 {font-family: 'Lato', sans-serif;}
+
+h1{
+  font-size: 27px;
+  font-weight: 800;
+  margin-bottom: .6em;
+}
+
+h5{
+  font-size: 14px;
+}
+
+h4{
+  font-size: 15px;
+  color: $black;
+  font-weight: 800;
+}
+
+a {
+  color: #345973;
+  font-weight: 600;
+}
+
+.public-slide section h1,
+.public-slide section h2,
+.public-slide section h3,
+.public-slide section h4,
+.public-slide section h5,
+.public-slide section h6 {
+  text-align: center;
+  margin-top: .1em;
+}
+
+.uline-none{
+  text-decoration: none;
+}
+
+.section-a-cols h4 {
+  font-weight: bold;
+  min-height: 2em;
+  font-size: 15px;
+  font-weight: 900;
+  width: 140px;
+  margin: 0 auto;
+  margin-top: 2.2em;
+  margin-bottom: 0.5em;
+  color: $blue-b;
+  width: 8em;
+
+}
+
+.section-b-cols h4 {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 900;
+  margin-top: 0.3em;
+  margin-bottom: 0.2em;
+}
+
+.section-icon-b i{
+  color: #fff;
+}
+
+.reinz-nav ul li a{
+  color: #fff;
+  font-weight: 800;
+  font-size: 11px;
+}
+
+.member-sub-nav i{
+  font-size: 40px;
+  display: block;
+  text-align: center;
+  margin: 0.5em 0em 0.2em 0em;
+}
+
+.member-sub-nav-b ul li a{
+  display: inline-block;
+  margin-right: 2em;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 800;
+}
+
+.nav-searcher i {
+  color: $white;
+  font-size: 18px;
+  padding-top: 0.1em;
+}
+
+.searcher i {
+  color: $white; 
+  margin-right: 0.4em;
+  font-size: 20px;
+}
+
+.nav-welcome {
+  color: $blue-a;
+  font-size: 13px;
+  font-weight: 800;
+  display: inline;
+}
+
+.member-text h4 {
+  margin-bottom: 0em;
+}
+
+.member-text p {
+  font-size: 16px;
+  margin-bottom: 1em;
+}
+
+.box-a h3 {
+  color: $white;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: .8em;
+  margin-top: 0.7em;
+}
+
+.box-b h3, .box-c h3 {
+  width: 6em;
+  margin: 0 auto;
+  margin-bottom: 0.7em;
+  color: $blue-b;
+  font-weight: 600;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.member-text .box-b p, .member-text .box-c p  {
+  color: $blue-b;
+  text-decoration: underline;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+
+.box-b p .uline-none{
+  text-decoration: none;
+}
+
+.box-b i {
+  color: $blue-b;
+  font-size: 40px;
+  display: inline;
+  margin: 0em 0.4em 1em 0em;
+}
+
+.box-c i {
+  color: $blue-b;
+  font-size: 40px;
+  display: inline;
+  margin: 0em 0.4em 1em 0em;
+}
+
+
+.light {
+  font-weight: 400;
+}
+
+
+section i {
+  color: $blue-a;
+}
+
+.public-nav li a {
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.search-public i {
+  color: $white;
+}
+
+.reinz-logo a{
+  color: $white;
+  font-weight: bold;
+  color: white;
+  font-size: 26px;
+}
+
+.fa-bar-chart{
+  width: 60px;
+  font-size: 80px;
+}
+
+.section-icon, .section-icon-b {
+  width: 61px;
+  font-size: 60px;
+  margin-top: .5em; 
+}
+
+.footer-text{
+  color: #fff;
+  font-size: 10px;
+}
