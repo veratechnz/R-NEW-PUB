@@ -205,7 +205,13 @@ section i {
 }
 
 .full-scrn i {
-  font-size: 10em;
+  font-size: 8em;
   color: $white;
-  text-align: center; 
+}
+
+.full-scrn .col-md-3 p{
+  color: #fff;
+  font-weight: 800;
+  font-size: 15px;
+  padding-top: 1em;
 }

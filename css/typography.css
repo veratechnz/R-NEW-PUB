@@ -170,6 +170,11 @@ section i {
   font-size: 10px; }
 
 .full-scrn i {
-  font-size: 10em;
-  color: #ffffff;
-  text-align: center; }
+  font-size: 8em;
+  color: #ffffff; }
+
+.full-scrn .col-md-3 p {
+  color: #fff;
+  font-weight: 800;
+  font-size: 15px;
+  padding-top: 1em; }

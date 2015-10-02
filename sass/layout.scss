@@ -147,12 +147,16 @@ section {
 }
 
 .full-scrn .col-xs-10{
-  margin-top: 4em;
+  margin-top: 7.2em;
   text-align: center;
 }
 
+.full-scrn .col-md-3{
+    margin-bottom: 4em;
+}
 .full-scrn .col-md-3 a{
   display: inline-block;
   margin: auto;
   text-align: center;
+  text-decoration: none;
 }
