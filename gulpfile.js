@@ -16,7 +16,7 @@ gulp.task('serve', function(event) {
 
 //Styles Task
 gulp.task('styles', function() {
-    gulp.src('sass/**/*.scss')
+    gulp.src('sass/**/custom.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(gulp.dest('./css/'))
         .pipe(connect.reload());

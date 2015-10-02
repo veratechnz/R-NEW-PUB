@@ -133,3 +133,23 @@ section {
   margin: auto;
   text-align: center;
   text-decoration: none; }
+
+/*Splash Page Layout*/
+.splash {
+  height: 100%; }
+
+.container-fluid, .right-home-panel {
+  min-height: 100%;
+  height: 100%; }
+
+/*Custom Classes*/
+.right-home-panel {
+  background-color: #000;
+  color: #FFF;
+  height: 100%;
+  font-size: 14px; }
+
+.left-home-panel {
+  height: 100%;
+  background: url("../img/home-main.jpg") no-repeat center top scroll;
+  background-size: cover; }
