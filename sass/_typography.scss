@@ -91,19 +91,20 @@ a {
 
 .nav-searcher i {
   color: $white;
-  font-size: 18px;
+  font-size: 4em;
   padding-top: 0.1em;
+  font-size: 28px;
 }
 
 .searcher i {
   color: $white; 
   margin-right: 0.8em;
-  font-size: 20px;
+  font-size: 28px;
 }
 
 .nav-welcome {
   color: $blue-a;
-  font-size: 13px;
+  font-size: 16px;
   font-weight: 800;
   display: inline;
 }
@@ -211,8 +212,8 @@ section i {
 
 .full-scrn .col-md-3 p{
   color: #fff;
-  font-weight: 800;
-  font-size: 15px;
+  font-weight: bolder;
+  font-size: 16px;
   padding-top: 1em;
 }
 
@@ -238,7 +239,6 @@ section i {
 }
 
 .member-login h1 {
-  margin-top: 1.8em;
   font-size: 1.1em;
 }
 

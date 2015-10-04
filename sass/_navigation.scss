@@ -5,12 +5,12 @@
   background-image: -webkit-linear-gradient(left, $blue-a 33%, $blue-b 67%);
   background-image: -o-linear-gradient(left, $blue-a 33%, $blue-b 67%);
   background-image: linear-gradient(to right, $blue-a 33%, $blue-b 67%);
-  height: 76px;
+  height: 6.5em;
 }
 
 .inner-nav {
   background-color: #000;
-  height: 68px;
+  height: 6em;
 }
 
 .public-nav {
@@ -75,13 +75,47 @@ ul .nav-searcher {
   margin-right: 1em;
 }
 
+.reinz-nav{
+    background: $black; 
+    width: 60em;
+    height: 5em;
+}
 
 .reinz-nav input[type="text"], textarea {
-
   background-color : #000000;
   border: none;
   color: #fff; 
-
+  font-size: 16px;
 }
 
+.reinz-nav ul {
+	width: 38em;
+	display: inline-block;
+	margin-top: 1.1em;
+	height: 4em;
+}
+.reinz-nav:first-child {
+   margin-top: 0.5em;
+   padding: 0em;
+   display: inline-block;
+   float: right;
+}
 
+.reinz-nav li{
+  display: inline;
+  padding: 0.8em 0.2em 0.7em; 
+  margin-left: 2.5em;
+}
+
+.nav-button{
+	width: 11em;
+	display: inline-block;
+	float: right;
+	margin-left: 1.5em;
+	margin-top: 1em;
+	margin: 1em 0em 0em 1.5em;
+}
+
+.nav-button button{
+	margin-top: 0em;
+}

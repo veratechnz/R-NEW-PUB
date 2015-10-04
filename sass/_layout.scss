@@ -64,23 +64,6 @@ section {
   margin-bottom: 3em;
 }
 
-.reinz-nav{
-    background: $black; 
-}
-
-.reinz-nav:first-child {
-   margin-top: 1.2em;
-   padding: 0em;
-   display: inline-block;
-   float: right;
-}
-
-.reinz-nav li{
-  display: inline;
-  padding: 0.8em 0.2em 0.7em; 
-  margin-left: 2.5em;
-}
-
 .eight-split {
   float: left;
   width: 12.5%;
@@ -147,7 +130,7 @@ section {
 }
 
 .full-scrn .col-xs-10{
-  margin-top: 7.2em;
+  margin-top: 28vh;
   text-align: center;
 }
 
@@ -187,3 +170,9 @@ section {
 .member-login-box {
   width: 12em;
 }
+
+.member-login-outer {
+  display: flex;
+  align-items: center; 
+}
+
