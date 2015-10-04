@@ -158,6 +158,10 @@ section {
   background: url("../img/home-main.jpg") no-repeat center top scroll;
   background-size: cover; }
 
+/*Member Login Page Layout*/
+.member-login-box {
+  width: 12em; }
+
 /*Navigation*/
 /*Sass Variables*/
 .navbar {
@@ -222,6 +226,11 @@ ul .nav-searcher {
 .member-sub-nav-b ul li {
   display: inline-block;
   margin-right: 1em; }
+
+.reinz-nav input[type="text"], textarea {
+  background-color: #000000;
+  border: none;
+  color: #fff; }
 
 /*Buttons*/
 /*Sass Variables*/
@@ -307,6 +316,16 @@ ul .nav-searcher {
   background-color: #487699;
   font-size: 12px;
   font-weight: 900; }
+
+.member-login input {
+  margin: 1em 0.5em 1em 1.9em; }
+
+.member-login input[type="text"], textarea {
+  background-color: transparent;
+  border: 0.3em solid #fff;
+  padding: 0.4em;
+  font-size: 0.7em;
+  display: block; }
 
 /*Images*/
 /*Sass Variables*/
@@ -413,7 +432,7 @@ a {
 
 .searcher i {
   color: #ffffff;
-  margin-right: 0.4em;
+  margin-right: 0.8em;
   font-size: 20px; }
 
 .nav-welcome {
@@ -515,3 +534,19 @@ section i {
   font-weight: 600;
   margin: 0px 0px 9px 13px;
   font-size: 17px; }
+
+.member-text-header {
+  color: #fff;
+  font-size: 56px;
+  font-weight: 800;
+  text-align: right;
+  border-right: 0.1em  solid #fff;
+  padding-right: 1em; }
+
+.member-login {
+  color: #fff;
+  font-size: 22px; }
+
+.member-login h1 {
+  margin-top: 1.8em;
+  font-size: 1.1em; }
