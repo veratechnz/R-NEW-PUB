@@ -230,6 +230,8 @@ section i {
   font-weight: 800;
   text-align: right;
   border-right: 0.1em  solid #fff;
+  padding-top: 0.2em;
+  padding-bottom: 0.2sem;
   padding-right: 1em;
 }
 
@@ -238,7 +240,12 @@ section i {
   font-size: 22px;
 }
 
-.member-login h1 {
-  font-size: 1.1em;
+
+.member-login-box h1{
+  font-size: 1.3sem;
+  text-align: left;
+  padding-left: 1.2em;
+  margin-top: 1.6em;
+  margin-bottom: 1.4em;
 }
 
