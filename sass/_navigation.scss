@@ -79,6 +79,8 @@ ul .nav-searcher {
     background: $black; 
     width: 60em;
     height: 5em;
+    display: flex;
+    align-items: center; 
 }
 
 .reinz-nav input[type="text"], textarea {
@@ -89,7 +91,7 @@ ul .nav-searcher {
 }
 
 .reinz-nav ul {
-	width: 38em;
+	width: 48Sem;
 	display: inline-block;
 	margin-top: 1.1em;
 	height: 4em;

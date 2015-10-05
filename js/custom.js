@@ -7,6 +7,7 @@ $(function() {
         onePageScroll();
         superFishNav();
         subNavB();
+        searchButtonTrigger();
      }
 
     init();
@@ -49,6 +50,13 @@ $(function() {
           $('.col-md-10').animate({'marginTop':'2.5em'}, 200, 'linear');
 
     });
+    }
+
+    function searchButtonTrigger(){
+      $('#searchInput').click(function() {
+        console.log('clicked');
+        $('#goButton').slideDown(1000);
+      });
     }
 
 

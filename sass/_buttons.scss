@@ -10,7 +10,6 @@
   font-size: 10px;
   font-weight: bold;
   margin-bottom: 1.9em;
-  margin-top: 1.1em;
 }
 
 .join-btn{
@@ -31,6 +30,25 @@
   font-size: 16px;
 }
 
+.go-btn{
+  color: $white;
+  border-color: $white;
+  font-size: 16px;
+  margin-left: 2.5em;
+  margin-top: 0.9em;
+  display: none;
+}
+
+.login-btn{
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #fff;
+  font-size: 0.8em;
+  font-weight: 900;
+  float: right;
+  margin-top: 0em;
+}
+
 .view-btn{
   color: $white;
   border-color: $white;
@@ -42,11 +60,6 @@
 }
 
 .join-button{
-  float: right;
-  margin-top: 1.2em;
-}
-
-.log-button{
   float: right;
   margin-top: 1.2em;
 }
@@ -93,8 +106,8 @@
 }
 
 .member-login input {
-  width: 100%;
-  margin: 1em 0.5em 1em 1.9em;
+  width: 21em;
+  margin: 2em 0.5em 2em 1.9em;
 }
 
 .member-login input[type="text"], textarea {
@@ -103,4 +116,8 @@
   padding: 0.4em;
   font-size: 0.7em;
   display: block;
+}
+
+.go-button{
+  display: inline-block;
 }

@@ -43,8 +43,12 @@
                <div class="reinz-nav">
                 <ul>
                       <li class="nav-welcome">Welcome John Smith</li>
-                      <li class="searcher"><i class="fa fa-search"></i><input type="text" placeholder="What are you looking for?" class="searcher-text" id="searcher-text">
+                      <li class="searcher"><i class="fa fa-search"></i><input type="text" placeholder="What are you looking for?" class="searcher-text" id="searchInput">
+                      </li>
                 </ul>
+                <div class="go-button">
+                  <button type="button" class="btn btn-primary go-btn" id="goButton">GO</button>
+                </div>
                 <div class="nav-button">
                 <button type="button" class="btn btn-primary log-btn">LOG OUT</button>
                 </div>
@@ -74,8 +78,9 @@
                 <div class="col-xs-6 member-login">
                   <div class="member-login-box">
                     <h1>MEMBERS LOGIN</h1>
-                    <input type="text" placeholder="USER NAME" id="memberUsername">
-                    <input type="text" placeholder="PASSWORD" id="memberPassword">
+                    <input type="text" class="form-control-white" placeholder="USER NAME" id="memberUsername">
+                    <input type="text" class="form-control-white" placeholder="PASSWORD" id="memberPassword">
+                    <button class="btn btn-primary login-btn" type="button">ENTER</button>
                   </div>
 
                 </div>
@@ -90,6 +95,7 @@
 
           <!-- Script Files -->
           <script src="bower_components/jquery/jquery.min.js"></script>
+          <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
           <script src="bower_components/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
           <script src="js/jquery.hoverIntent.js"></script>
           <script src="bower_components/superfish-master/dist/js/superfish.js"></script>
