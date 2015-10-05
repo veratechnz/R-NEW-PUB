@@ -92,7 +92,6 @@ section {
 .box-a {
   width: 20em; 
   height: 7.1em;
-  margin: 0 auto;
   margin-top: 2.4em;
   margin-bottom: 1.6em;
   padding: .2em 0em 0em 0em;
@@ -100,16 +99,16 @@ section {
   background: -o-linear-gradient(right, $blue-a , $blue-b); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, $blue-a , $blue-b); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, $blue-a , $blue-b); /* Standard syntax */
-
+  float: right;
 }
 
 .box-b {
   border: solid 3px $blue-b;
   width: 20em;
-  margin: 0 auto;
   margin-top: 0.8em;
   margin-bottom: 2em;
   padding: 1em;
+  float: right;
 }
 
 .box-c {
@@ -117,8 +116,8 @@ section {
   width: 20em;
   padding: 1em;
   margin-bottom: 3em;
-  margin: 0 auto;
   margin-bottom: 2em;
+  float: right;
 }
 
 .member-fullscrn{
@@ -130,7 +129,7 @@ section {
 }
 
 .full-scrn .col-xs-10{
-  margin-top: 28vh;
+  margin-top: 20vh;
   text-align: center;
 }
 
@@ -178,6 +177,10 @@ section {
 .member-login-outer {
   display: flex;
   align-items: center; 
+}
+
+.reinz-nav ul {
+  float: right;
 }
 
 

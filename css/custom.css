@@ -1,33 +1,9 @@
 /*Custom Sass*/
 /*.col-md-10{border: 1px solid transparent;}*/
 /*Sass Variables*/
-@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
-.form-control-a::-webkit-input-placeholder {
-  color: white; }
-
-.form-control-a:-moz-placeholder {
-  color: white; }
-
-.form-control-a::-moz-placeholder {
-  color: white; }
-
-.form-control-a:-ms-input-placeholder {
-  color: white; }
-
 /*Layout*/
 /*Sass Variables*/
-.form-control-a::-webkit-input-placeholder {
-  color: white; }
-
-.form-control-a:-moz-placeholder {
-  color: white; }
-
-.form-control-a::-moz-placeholder {
-  color: white; }
-
-.form-control-a:-ms-input-placeholder {
-  color: white; }
-
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic);
 html {
   position: relative;
   min-height: 100%; }
@@ -100,7 +76,6 @@ section {
 .box-a {
   width: 20em;
   height: 7.1em;
-  margin: 0 auto;
   margin-top: 2.4em;
   margin-bottom: 1.6em;
   padding: 0.2em 0em 0em 0em;
@@ -111,23 +86,24 @@ section {
   background: -moz-linear-gradient(right, #afd5e5, #345973);
   /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, #afd5e5, #345973);
-  /* Standard syntax */ }
+  /* Standard syntax */
+  float: right; }
 
 .box-b {
   border: solid 3px #345973;
   width: 20em;
-  margin: 0 auto;
   margin-top: 0.8em;
   margin-bottom: 2em;
-  padding: 1em; }
+  padding: 1em;
+  float: right; }
 
 .box-c {
   border: solid 3px #345973;
   width: 20em;
   padding: 1em;
   margin-bottom: 3em;
-  margin: 0 auto;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  float: right; }
 
 .member-fullscrn {
   margin-bottom: 0px; }
@@ -179,20 +155,11 @@ section {
   display: flex;
   align-items: center; }
 
+.reinz-nav ul {
+  float: right; }
+
 /*Navigation*/
 /*Sass Variables*/
-.form-control-a::-webkit-input-placeholder {
-  color: white; }
-
-.form-control-a:-moz-placeholder {
-  color: white; }
-
-.form-control-a::-moz-placeholder {
-  color: white; }
-
-.form-control-a:-ms-input-placeholder {
-  color: white; }
-
 .navbar {
   border: none;
   background-image: -webkit-linear-gradient(left, #afd5e5 33%, #345973 67%);
@@ -299,18 +266,6 @@ ul .nav-searcher {
 
 /*Buttons*/
 /*Sass Variables*/
-.form-control-a::-webkit-input-placeholder {
-  color: white; }
-
-.form-control-a:-moz-placeholder {
-  color: white; }
-
-.form-control-a::-moz-placeholder {
-  color: white; }
-
-.form-control-a:-ms-input-placeholder {
-  color: white; }
-
 .btn-primary {
   color: #345973;
   background-color: transparent;
@@ -422,18 +377,6 @@ ul .nav-searcher {
 
 /*Images*/
 /*Sass Variables*/
-.form-control-a::-webkit-input-placeholder {
-  color: white; }
-
-.form-control-a:-moz-placeholder {
-  color: white; }
-
-.form-control-a::-moz-placeholder {
-  color: white; }
-
-.form-control-a:-ms-input-placeholder {
-  color: white; }
-
 .header-public-image-top {
   background-image: url("../img/new-public.jpg");
   background-position: center; }
@@ -456,18 +399,6 @@ ul .nav-searcher {
 
 /*Typography*/
 /*Sass Variables*/
-.form-control-a::-webkit-input-placeholder {
-  color: white; }
-
-.form-control-a:-moz-placeholder {
-  color: white; }
-
-.form-control-a::-moz-placeholder {
-  color: white; }
-
-.form-control-a:-ms-input-placeholder {
-  color: white; }
-
 /*Replica Google Font Import*/
 /*Resets*/
 body, p, h1, h2, h3, h4, h5, h6 {
