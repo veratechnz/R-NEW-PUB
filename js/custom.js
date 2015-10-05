@@ -7,7 +7,6 @@ $(function() {
         onePageScroll();
         superFishNav();
         subNavB();
-        searchButtonTrigger();
      }
 
     init();
@@ -52,12 +51,6 @@ $(function() {
     });
     }
 
-    function searchButtonTrigger(){
-      $('#searchInput').click(function() {
-        console.log('clicked');
-        $('#goButton').slideDown(1000);
-      });
-    }
 
 
 });

@@ -112,7 +112,7 @@ section {
   margin-top: 5.4em; }
 
 .full-scrn .col-xs-10 {
-  margin-top: 28vh;
+  margin-top: 20vh;
   text-align: center; }
 
 .full-scrn .col-md-3 {
@@ -196,7 +196,7 @@ ul .nav-searcher {
   position: fixed;
   width: 100%;
   z-index: 1031;
-  margin: 1.5em 0em 0em 0em;
+  margin: 2.6em 0em 0em 0em;
   height: 7.5em;
   background-color: #fff;
   -webkit-box-shadow: 0px 2px 4px 0px #cccacc;
@@ -209,7 +209,6 @@ ul .nav-searcher {
   font-weight: 800; }
 
 .member-sub-nav-b {
-  display: none;
   height: 3.5em;
   padding-top: 0.8em;
   margin-bottom: 1em;
@@ -223,32 +222,35 @@ ul .nav-searcher {
   display: inline-block;
   margin-right: 1em; }
 
-.reinz-nav {
+.reinz-nav, .reinz-nav-public {
   background: #000000;
   width: 60em;
   height: 5em;
   display: flex;
   align-items: center; }
 
-.reinz-nav input[type="text"], textarea {
+.reinz-nav-public {
+  width: 34em; }
+
+.reinz-nav-public input[type="text"], .reinz-nav input[type="text"], textarea {
   background-color: #000000;
   border: none;
   color: #fff;
   font-size: 16px; }
 
-.reinz-nav ul {
+.reinz-nav ul, .reinz-nav-public ul {
   width: 48Sem;
   display: inline-block;
   margin-top: 1.1em;
   height: 4em; }
 
-.reinz-nav:first-child {
+.reinz-nav:first-child, .reinz-nav-public:first-child {
   margin-top: 0.5em;
   padding: 0em;
   display: inline-block;
   float: right; }
 
-.reinz-nav li {
+.reinz-nav li, .reinz-nav-public li {
   display: inline;
   padding: 0.8em 0.2em 0.7em;
   margin-left: 2.5em; }
@@ -290,7 +292,8 @@ ul .nav-searcher {
   border-color: #ffffff;
   margin-bottom: 0em;
   margin-right: 1.8em;
-  font-size: 16px; }
+  font-size: 16px;
+  float: right; }
 
 .go-btn {
   color: #ffffff;
