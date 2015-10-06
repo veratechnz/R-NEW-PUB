@@ -40,7 +40,7 @@ ul .nav-searcher {
 .member-sub-nav{
   position: fixed;
   width: 100%;
-  z-index: 1031;
+  z-index: 10;
   margin: 2.6em 0em 0em 0em; 
   height: 7.5em;
   background-color: #fff;
@@ -65,11 +65,13 @@ ul .nav-searcher {
 .member-sub-nav-b ul {
   width: 80em;
   margin: 0 auto;
+  z-index: 1040;
 }
 
 .member-sub-nav-b ul li {
   display: inline-block;
   margin-right: 1em;
+  z-index: 1040;
 }
 
 .reinz-nav, .reinz-nav-public {
@@ -96,6 +98,7 @@ ul .nav-searcher {
 	display: inline-block;
 	margin-top: 1.1em;
 	height: 4em;
+  z-index: 1040;
 }
 .reinz-nav:first-child, .reinz-nav-public:first-child {
    margin-top: 0.5em;
@@ -148,9 +151,11 @@ ul .nav-searcher {
   margin: 0;
   padding: 0;
   list-style: none;
+  z-index: 1040;
 }
 .sf-menu li {
   position: relative;
+  z-index: 1040;
 }
 .sf-menu ul {
   position: absolute;
@@ -158,22 +163,27 @@ ul .nav-searcher {
   top: 100%;
   left: 0;
   z-index: 99;
+  z-index: 1040;
 }
 .sf-menu > li {
   float: left;
+  z-index: 1040;
 }
 .sf-menu li:hover > ul,
 .sf-menu li.sfHover > ul {
   display: block;
+  z-index: 1040;
 }
 
 .sf-menu a {
   display: block;
   position: relative;
+  z-index: 1040;
 }
 .sf-menu ul ul {
   top: 0;
   left: 100%;
+  z-index: 1040;
 }
 
 
@@ -183,11 +193,13 @@ ul .nav-searcher {
   margin-top: 1em;
   position: relative;
   left: 50%;
+  z-index: 1040;
 }
 .sf-menu ul {
   box-shadow: 2px 2px 6px rgba(0,0,0,.2);
   min-width: 12em; /* allow long menu items to determine submenu width */
   *width: 12em; /* no auto sub width for IE7, see white-space comment below */
+  z-index: 1040;
 }
 .sf-menu a {
   border-left: 1px solid #000;
@@ -196,9 +208,11 @@ ul .nav-searcher {
   text-decoration: none;
   zoom: 1; /* IE7 */
   font-weight: bold;
+  z-index: 1040;
 }
 .sf-menu a {
   color: #fff;
+  z-index: 1040;
 }
 .sf-menu li {
   background: #000;
@@ -207,13 +221,16 @@ ul .nav-searcher {
   -webkit-transition: background .2s;
   transition: background .2s;
   left: -50%;
+  z-index: 1040;
 }
 .sf-menu ul li {
   left: 0%;
   background: #000;
+  z-index: 1040;
 }
 .sf-menu ul ul li {
   background: #000;
+  z-index: 1040;
 }
 .sf-menu li:hover,
 .sf-menu li.sfHover {
@@ -221,12 +238,14 @@ ul .nav-searcher {
   /* only transition out, not in */
   -webkit-transition: none;
   transition: none;
+  z-index: 1040;
 }
 
 /*** arrows (for all except IE7) **/
 .sf-arrows .sf-with-ul {
   padding-right: 1.8em;
   *padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
+  z-index: 1040;
 }
 /* styling for both css and generated arrows */
 .sf-arrows .sf-with-ul:after {
@@ -240,11 +259,13 @@ ul .nav-searcher {
   /* order of following 3 rules important for fallbacks to work */
   border: 5px solid transparent;
   border-top-color: #125f81; /* edit this to suit design (no rgba in IE8) */
+  z-index: 1040;
 }
 .sf-arrows > li > .sf-with-ul:focus:after,
 .sf-arrows > li:hover > .sf-with-ul:after,
 .sf-arrows > .sfHover > .sf-with-ul:after {
-  border-top-color: #000; /* IE8 fallback colour */
+  border-top-color: #fff; /* IE8 fallback colour */
+  z-index: 1040;
 }
 /* styling for right-facing arrows */
 .sf-arrows ul .sf-with-ul:after {
@@ -253,15 +274,18 @@ ul .nav-searcher {
   border-color: transparent;
   border-left-color: #000; /* edit this to suit design (no rgba in IE8) */
   border-left-color: rgba(255,255,255,.5);
+  z-index: 1040;
 }
 .sf-arrows ul li > .sf-with-ul:focus:after,
 .sf-arrows ul li:hover > .sf-with-ul:after,
 .sf-arrows ul .sfHover > .sf-with-ul:after {
-  border-left-color: #000;
+  border-left-color: #fff;
+  z-index: 1040;
 }
 
 .sf-menu li ul a {
   font-weight: 400;
   font-size: 17px;
+  z-index: 1040;
 }
 /******************************Superfish Menu End**********************************/
