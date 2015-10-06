@@ -1,23 +1,5 @@
 /*Media Queries*/
 
-/* Large Devices, Wide Screens */
-/*@media(min-width:768px){
-	.public-nav li a {
-	font-size: 24px;
-	}	
-}
-@media(min-width:992px){
-	.public-nav li a {
-	font-size: 38px;
-	}	
-}
-@media(min-width:1200px){
-	.public-nav li a {
-	font-size: 10px;
-	}	
-}*/
-
-
 /* Extra Small xs*/
 @media(max-width:767px){
 	.public-nav li a {
@@ -42,6 +24,6 @@
 /* Large lg*/
 @media(min-width:1200px){
 	.public-nav li a {
-	font-size: 19px;
+	font-size: 18px;
 	}	
 }

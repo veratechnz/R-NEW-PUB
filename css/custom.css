@@ -95,7 +95,8 @@ section {
   margin-top: 0.8em;
   margin-bottom: 2em;
   padding: 1em;
-  float: right; }
+  float: right;
+  clear: both; }
 
 .box-c {
   border: solid 3px #345973;
@@ -103,7 +104,8 @@ section {
   padding: 1em;
   margin-bottom: 3em;
   margin-bottom: 2em;
-  float: right; }
+  float: right;
+  clear: both; }
 
 .member-fullscrn {
   margin-bottom: 0px; }
@@ -203,7 +205,7 @@ ul .nav-searcher {
 
 .member-sub-nav p {
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: 800; }
 
 .member-sub-nav-b {
@@ -362,7 +364,7 @@ ul .nav-searcher {
 
 /*** arrows (for all except IE7) **/
 .sf-arrows .sf-with-ul {
-  padding-right: 2.5em;
+  padding-right: 1.8em;
   *padding-right: 1em;
   /* no CSS arrows for IE7 (lack pseudo-elements) */ }
 
@@ -628,9 +630,10 @@ a {
 
 .nav-welcome {
   color: #afd5e5;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
-  display: inline; }
+  float: right;
+  margin: 0.7em 0em 0em 0em; }
 
 .member-text h4 {
   margin-bottom: 0em; }
@@ -753,22 +756,6 @@ section i {
   font-size: 4em; }
 
 /*Media Queries*/
-/* Large Devices, Wide Screens */
-/*@media(min-width:768px){
-	.public-nav li a {
-	font-size: 24px;
-	}	
-}
-@media(min-width:992px){
-	.public-nav li a {
-	font-size: 38px;
-	}	
-}
-@media(min-width:1200px){
-	.public-nav li a {
-	font-size: 10px;
-	}	
-}*/
 /* Extra Small xs*/
 @media (max-width: 767px) {
   .public-nav li a {
@@ -787,4 +774,4 @@ section i {
 /* Large lg*/
 @media (min-width: 1200px) {
   .public-nav li a {
-    font-size: 19px; } }
+    font-size: 18px; } }
