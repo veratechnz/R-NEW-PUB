@@ -112,7 +112,6 @@ a {
 .public-slide section h2,
 .public-slide section h3,
 .public-slide section h4,
-.public-slide section h5,
 .public-slide section h6 {
   text-align: center;
   margin-top: .1em; }
@@ -121,16 +120,11 @@ a {
   text-decoration: none; }
 
 .section-a-cols h4 {
-  font-weight: bold;
   min-height: 2em;
-  font-size: 15px;
-  font-weight: 900;
-  width: 140px;
   margin: 0 auto;
   margin-top: 2.2em;
   margin-bottom: 0.5em;
-  color: #345973;
-  width: 8em; }
+  width: 10em; }
 
 .section-b-cols h4 {
   display: inline-block;
@@ -172,7 +166,7 @@ a {
   font-size: 28px; }
 
 .nav-welcome {
-  color: #afd5e5;
+  color: #8EC6CE;
   font-size: 20px;
   font-weight: 800;
   float: right;
@@ -222,7 +216,7 @@ a {
   font-weight: 400; }
 
 section i {
-  color: #afd5e5; }
+  color: #8EC6CE; }
 
 .public-nav li a {
   font-size: 2px;
@@ -332,11 +326,7 @@ section {
   background-color: #ffffff; }
 
 .media {
-  background-color: #afd5e5; }
-
-.section-a-cols {
-  color: #345973;
-  font-weight: bold; }
+  background-color: #8EC6CE; }
 
 .section-b-cols {
   margin-top: 1.5em; }
@@ -369,13 +359,13 @@ section {
   margin-top: 2.4em;
   margin-bottom: 1.6em;
   padding: 0.2em 0em 0em 0em;
-  background: -webkit-linear-gradient(left, #afd5e5, #345973);
+  background: -webkit-linear-gradient(left, #8EC6CE, #345973);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #afd5e5, #345973);
+  background: -o-linear-gradient(right, #8EC6CE, #345973);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #afd5e5, #345973);
+  background: -moz-linear-gradient(right, #8EC6CE, #345973);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #afd5e5, #345973);
+  background: linear-gradient(to right, #8EC6CE, #345973);
   /* Standard syntax */
   float: right; }
 
@@ -454,9 +444,9 @@ section {
 /*Sass Variables*/
 .navbar {
   border: none;
-  background-image: -webkit-linear-gradient(left, #afd5e5 33%, #345973 67%);
-  background-image: -o-linear-gradient(left, #afd5e5 33%, #345973 67%);
-  background-image: linear-gradient(to right, #afd5e5 33%, #345973 67%);
+  background-image: -webkit-linear-gradient(left, #8EC6CE 33%, #345973 67%);
+  background-image: -o-linear-gradient(left, #8EC6CE 33%, #345973 67%);
+  background-image: linear-gradient(to right, #8EC6CE 33%, #345973 67%);
   height: 6.5em; }
 
 .inner-nav {
@@ -570,7 +560,7 @@ ul .nav-searcher {
 
 .search-extend i.fa.fa-search {
   font-size: 2.6em;
-  margin-top: 0.7em; }
+  margin-top: 0.55em; }
 
 /*************************Superfish Menu Start*************************/
 /*** ESSENTIAL STYLES ***/
@@ -614,7 +604,7 @@ ul .nav-searcher {
 /*** DEMO SKIN ***/
 .sf-menu {
   float: left;
-  margin-top: 1em;
+  margin-top: 1.47em;
   position: relative;
   left: 50%;
   z-index: 1040; }
@@ -682,13 +672,13 @@ ul .nav-searcher {
   content: '';
   position: absolute;
   top: 50%;
-  right: 1em;
+  right: 0.75em;
   margin-top: -3px;
   height: 0;
   width: 0;
   /* order of following 3 rules important for fallbacks to work */
   border: 5px solid transparent;
-  border-top-color: #125f81;
+  border-top-color: #8EC6CE;
   /* edit this to suit design (no rgba in IE8) */
   z-index: 1040; }
 
@@ -737,9 +727,9 @@ ul .nav-searcher {
   margin-top: 0.2em;
   margin-bottom: 0.1em;
   margin-right: 1.8em;
-  background-color: #afd5e5;
+  background-color: #8EC6CE;
   color: #000000;
-  border-color: #afd5e5;
+  border-color: #8EC6CE;
   font-weight: 900; }
 
 .log-btn {

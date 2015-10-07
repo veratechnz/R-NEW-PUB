@@ -140,7 +140,7 @@ ul .nav-searcher {
 
 .search-extend i.fa.fa-search {
   font-size: 2.6em;
-  margin-top: 0.7em;
+  margin-top: 0.55em;
 }
 
 
@@ -190,7 +190,7 @@ ul .nav-searcher {
 /*** DEMO SKIN ***/
 .sf-menu {
   float: left;
-  margin-top: 1em;
+  margin-top: 1.47em;
   position: relative;
   left: 50%;
   z-index: 1040;
@@ -252,13 +252,13 @@ ul .nav-searcher {
   content: '';
   position: absolute;
   top: 50%;
-  right: 1em;
+  right: 0.75em;
   margin-top: -3px;
   height: 0;
   width: 0;
   /* order of following 3 rules important for fallbacks to work */
   border: 5px solid transparent;
-  border-top-color: #125f81; /* edit this to suit design (no rgba in IE8) */
+  border-top-color: $blue-a; /* edit this to suit design (no rgba in IE8) */
   z-index: 1040;
 }
 .sf-arrows > li > .sf-with-ul:focus:after,

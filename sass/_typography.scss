@@ -172,7 +172,6 @@ a{
 .public-slide section h2,
 .public-slide section h3,
 .public-slide section h4,
-.public-slide section h5,
 .public-slide section h6 {
   text-align: center;
   margin-top: .1em;
@@ -183,17 +182,11 @@ a{
 }
 
 .section-a-cols h4 {
-  font-weight: bold;
   min-height: 2em;
-  font-size: 15px;
-  font-weight: 900;
-  width: 140px;
   margin: 0 auto;
   margin-top: 2.2em;
   margin-bottom: 0.5em;
-  color: $blue-b;
-  width: 8em;
-
+  width: 10em;
 }
 
 .section-b-cols h4 {
