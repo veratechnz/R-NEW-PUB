@@ -20,7 +20,7 @@ section {
 }
 
 hr {
-  margin-bottom: 2.5em;
+  margin-bottom: 4em;
 }
 .col-md-9 .col-md-12{
   padding-left: 0px;
@@ -193,10 +193,21 @@ hr {
 }
 
 .para {
-  margin: 5em 0em 5em 0em;
+  margin: 3em 0em 3em 0em;
+  height: 30em; 
 }
 
-.parallax {
-  height: 34em; 
+
+.parallax-a {
   background: url("../img/full-c.jpg");
 }
+
+.parallax-b {
+  background: url("../img/full-i.jpg");
+}
+
+.parallax-c {
+  background: url("../img/full-f.jpg");
+}
+
+

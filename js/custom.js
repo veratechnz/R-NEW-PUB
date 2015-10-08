@@ -7,6 +7,7 @@ $(function() {
         onePageScroll();
         superFishNav();
         subNavB();
+        parallaxGo();
      }
 
     init();
@@ -51,6 +52,13 @@ $(function() {
     });
     }
 
+
+    function parallaxGo(){
+      $.stellar({
+            horizontalScrolling: false,
+            responsive: true
+        });
+    }
 
 
 });
