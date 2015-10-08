@@ -74,6 +74,48 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'proxima_nova_alt_rgregular';
+  src: url("../fonts/proxima_nova_alt_regular-webfont.eot");
+  src: url("../fonts/proxima_nova_alt_regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima_nova_alt_regular-webfont.woff2") format("woff2"), url("../fonts/proxima_nova_alt_regular-webfont.woff") format("woff"), url("../fonts/proxima_nova_alt_regular-webfont.ttf") format("truetype"), url("../fonts/proxima_nova_alt_regular-webfont.svg#proxima_nova_alt_rgregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_nova_alt_condensedSBd';
+  src: url("../fonts/proxima_nova_alt_condensed_semibold-webfont.eot");
+  src: url("../fonts/proxima_nova_alt_condensed_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima_nova_alt_condensed_semibold-webfont.woff2") format("woff2"), url("../fonts/proxima_nova_alt_condensed_semibold-webfont.woff") format("woff"), url("../fonts/proxima_nova_alt_condensed_semibold-webfont.ttf") format("truetype"), url("../fonts/proxima_nova_alt_condensed_semibold-webfont.svg#proxima_nova_alt_condensedSBd") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_nova_altSBdIt';
+  src: url("../fonts/proxima_nova_alt_semibold_italic-webfont.eot");
+  src: url("../fonts/proxima_nova_alt_semibold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima_nova_alt_semibold_italic-webfont.woff2") format("woff2"), url("../fonts/proxima_nova_alt_semibold_italic-webfont.woff") format("woff"), url("../fonts/proxima_nova_alt_semibold_italic-webfont.ttf") format("truetype"), url("../fonts/proxima_nova_alt_semibold_italic-webfont.svg#proxima_nova_altSBdIt") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_nova_altsemibold';
+  src: url("../fonts/proxima_nova_alt_semibold-webfont.eot");
+  src: url("../fonts/proxima_nova_alt_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima_nova_alt_semibold-webfont.woff2") format("woff2"), url("../fonts/proxima_nova_alt_semibold-webfont.woff") format("woff"), url("../fonts/proxima_nova_alt_semibold-webfont.ttf") format("truetype"), url("../fonts/proxima_nova_alt_semibold-webfont.svg#proxima_nova_altsemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_novasemibold_italic';
+  src: url("../fonts/proxima_nova_semibold_italic-webfont.eot");
+  src: url("../fonts/proxima_nova_semibold_italic-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima_nova_semibold_italic-webfont.woff2") format("woff2"), url("../fonts/proxima_nova_semibold_italic-webfont.woff") format("woff"), url("../fonts/proxima_nova_semibold_italic-webfont.ttf") format("truetype"), url("../fonts/proxima_nova_semibold_italic-webfont.svg#proxima_novasemibold_italic") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'proxima_nova_ltsemibold';
+  src: url("../fonts/proxima_nova_semibold-webfont.eot");
+  src: url("../fonts/proxima_nova_semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/proxima_nova_semibold-webfont.woff2") format("woff2"), url("../fonts/proxima_nova_semibold-webfont.woff") format("woff"), url("../fonts/proxima_nova_semibold-webfont.ttf") format("truetype"), url("../fonts/proxima_nova_semibold-webfont.svg#proxima_nova_ltsemibold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*Resets*/
 p {
   font-family: 'proxima_nova_altlight';
@@ -81,7 +123,7 @@ p {
 
 h1 {
   font-family: 'proxima_nova_ththin';
-  font-size: 54px;
+  font-size: 50px;
   font-weight: 800;
   margin-bottom: .6em; }
 
@@ -102,8 +144,10 @@ h4 {
   color: #345973; }
 
 h5 {
-  font-family: 'proxima_nova_blblack';
-  font-size: 12pt; }
+  font-family: 'proxima_nova_rgbold';
+  font-size: 11pt;
+  letter-spacing: 0.03em;
+  font-weight: 400; }
 
 h6 {
   font-family: 'proxima_nova_blblack';
@@ -199,7 +243,7 @@ a {
 .member-text .box-b p, .member-text .box-c p {
   color: #345973;
   text-decoration: underline;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 0.7em; }
 
@@ -311,6 +355,9 @@ body {
 section {
   min-height: 400px; }
 
+hr {
+  margin-bottom: 2.5em; }
+
 .col-md-9 .col-md-12 {
   padding-left: 0px;
   padding-right: 0px; }
@@ -364,7 +411,7 @@ section {
   margin-top: 9.4em; }
 
 .box-a {
-  width: 20em;
+  width: 22em;
   height: 7.1em;
   margin-top: 2.4em;
   margin-bottom: 1.6em;
@@ -381,7 +428,7 @@ section {
 
 .box-b {
   border: solid 3px #345973;
-  width: 20em;
+  width: 22em;
   margin-top: 0.8em;
   margin-bottom: 2em;
   padding: 1em;
@@ -390,7 +437,7 @@ section {
 
 .box-c {
   border: solid 3px #345973;
-  width: 20em;
+  width: 22em;
   padding: 1em;
   margin-bottom: 3em;
   margin-bottom: 2em;
@@ -579,6 +626,11 @@ ul .nav-searcher {
 .search-extend i.fa.fa-search {
   font-size: 2.6em;
   margin-top: 0.55em; }
+
+.nav-button {
+  width: 11em;
+  display: inline-block;
+  margin: 1.15em 0em 0em 1.5em; }
 
 /*************************Superfish Menu Start*************************/
 /*** ESSENTIAL STYLES ***/

@@ -19,6 +19,9 @@ section {
   min-height: 400px;
 }
 
+hr {
+  margin-bottom: 2.5em;
+}
 .col-md-9 .col-md-12{
   padding-left: 0px;
   padding-right: 0px;
@@ -87,7 +90,7 @@ section {
 }
 
 .box-a {
-  width: 20em; 
+  width: 22em; 
   height: 7.1em;
   margin-top: 2.4em;
   margin-bottom: 1.6em;
@@ -101,7 +104,7 @@ section {
 
 .box-b {
   border: solid 3px $blue-b;
-  width: 20em;
+  width: 22em;
   margin-top: 0.8em;
   margin-bottom: 2em;
   padding: 1em;
@@ -111,7 +114,7 @@ section {
 
 .box-c {
   border: solid 3px $blue-b;
-  width: 20em;
+  width: 22em;
   padding: 1em;
   margin-bottom: 3em;
   margin-bottom: 2em;

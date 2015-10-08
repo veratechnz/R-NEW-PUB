@@ -120,6 +120,84 @@
 
 }
 
+@font-face {
+    font-family: 'proxima_nova_alt_rgregular';
+    src: url('../fonts/proxima_nova_alt_regular-webfont.eot');
+    src: url('../fonts/proxima_nova_alt_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_alt_regular-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_alt_regular-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_alt_regular-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_alt_regular-webfont.svg#proxima_nova_alt_rgregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_alt_condensedSBd';
+    src: url('../fonts/proxima_nova_alt_condensed_semibold-webfont.eot');
+    src: url('../fonts/proxima_nova_alt_condensed_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_alt_condensed_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_alt_condensed_semibold-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_alt_condensed_semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_alt_condensed_semibold-webfont.svg#proxima_nova_alt_condensedSBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_altSBdIt';
+    src: url('../fonts/proxima_nova_alt_semibold_italic-webfont.eot');
+    src: url('../fonts/proxima_nova_alt_semibold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_alt_semibold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_alt_semibold_italic-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_alt_semibold_italic-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_alt_semibold_italic-webfont.svg#proxima_nova_altSBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_altsemibold';
+    src: url('../fonts/proxima_nova_alt_semibold-webfont.eot');
+    src: url('../fonts/proxima_nova_alt_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_alt_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_alt_semibold-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_alt_semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_alt_semibold-webfont.svg#proxima_nova_altsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_novasemibold_italic';
+    src: url('../fonts/proxima_nova_semibold_italic-webfont.eot');
+    src: url('../fonts/proxima_nova_semibold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_semibold_italic-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_semibold_italic-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_semibold_italic-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_semibold_italic-webfont.svg#proxima_novasemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'proxima_nova_ltsemibold';
+    src: url('../fonts/proxima_nova_semibold-webfont.eot');
+    src: url('../fonts/proxima_nova_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_semibold-webfont.woff2') format('woff2'),
+         url('../fonts/proxima_nova_semibold-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_semibold-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_semibold-webfont.svg#proxima_nova_ltsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /*Resets*/
 p{
   font-family: 'proxima_nova_altlight';
@@ -128,7 +206,7 @@ p{
 
 h1{
   font-family:'proxima_nova_ththin';
-  font-size: 54px;
+  font-size: 50px;
   font-weight: 800;
   margin-bottom: .6em;
 }
@@ -153,8 +231,10 @@ h4{
 }
 
 h5{
-  font-family: 'proxima_nova_blblack';
-  font-size: 12pt;
+  font-family: 'proxima_nova_rgbold';
+  font-size: 11pt;
+  letter-spacing: 0.03em;
+  font-weight: 400;
 }
 
 h6 {
@@ -267,7 +347,7 @@ a{
 .member-text .box-b p, .member-text .box-c p  {
   color: $blue-b;
   text-decoration: underline;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   margin-bottom: 0.7em;
 }
@@ -381,3 +461,5 @@ section i {
   color: #fff;
   font-size: 4em;
 }
+
+
