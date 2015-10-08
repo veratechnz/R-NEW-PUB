@@ -140,8 +140,9 @@ h2{
 }
 
 h3{
-  font-family: 'proxima_nova_blblack';
-  font-size: 12pt;
+  font-family: 'proxima_nova_rgbold';
+  font-size: 25px;
+  letter-spacing: 1px;
 }
 
 h4{
@@ -153,14 +154,13 @@ h4{
 
 h5{
   font-family: 'proxima_nova_blblack';
-  font-size: 9pt;
-  color: $blue-b;
+  font-size: 12pt;
 }
 
 h6 {
-  font-family: 'proxima_nova_rgbold';
-  font-size: 25px;
-  letter-spacing: 1px;
+  font-family: 'proxima_nova_blblack';
+  font-size: 9pt;
+  color: $blue-b;
 }
 
 a{

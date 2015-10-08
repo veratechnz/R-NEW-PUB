@@ -3,21 +3,11 @@
 
 html {
   position: relative;
-  min-height: 100%;
+  height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
-  background-color: #f2f0f3;
-}
-
-.footer {
-  padding: 1.2em;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 60px;
-  background-color: $black;
+  min-height: 100%;
 }
 
 .footer > .container {
@@ -27,6 +17,11 @@ body {
 
 section {
   min-height: 400px;
+}
+
+.col-md-9 .col-md-12{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .gone {
@@ -40,6 +35,13 @@ section {
 .col-centered {
     float: none;
     margin: 0 auto;
+}
+
+.v-center {
+    height: 70vh;
+    position: relative;
+    top: 50vh;
+    transform: translateY(-44vh);
 }
 
 .page-wrapper {
@@ -126,7 +128,6 @@ section {
 }
 
 .full-scrn .col-xs-10{
-  margin-top: 30vh;
   text-align: center;
 }
 
@@ -140,14 +141,18 @@ section {
   text-decoration: none;
 }
 
+.fill{
+  min-height: 100vh;
+  height: 100vh;
+}
+
 
 /*Splash Page Layout*/
 .splash{
   height: 100%;
 }
 .container-fluid, .right-home-panel {
-    min-height: 100%;
-    height: 100%;
+  height: 100vh;
 }
 /*Custom Classes*/
 .right-home-panel {
@@ -180,4 +185,7 @@ section {
   float: right;
 }
 
+.member-login-box h2 {
+  margin-top: 1.4em;
+}
 
