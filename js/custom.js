@@ -2,16 +2,6 @@
 
 $(function() {
 
-    //Initialiaze all functions
-    function init(){
-        onePageScroll();
-        superFishNav();
-        subNavB();
-        parallaxGo();
-     }
-
-    init();
-
     // Jquery ScrollTo Effect 
      function onePageScroll(){ 
       $('a[href*=#]:not([href=#])').click(function() {
@@ -60,5 +50,13 @@ $(function() {
         });
     }
 
+    //Initialiaze all functions
+    function init(){
+        onePageScroll();
+        superFishNav();
+        subNavB();
+        parallaxGo();
+     }
 
+    init();
 });

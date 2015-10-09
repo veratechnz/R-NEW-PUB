@@ -2,28 +2,24 @@
 
 /* Extra Small xs*/
 @media(max-width:767px){
-	.public-nav li a {
-	font-size: 15px;
+ 	h2.member-text-header {
+	font-size: 10px;
 	}	
 }
 
 /* Small sm*/
 @media(min-width:768px) and (max-width:991px){
-	.public-nav li a {
-	font-size: 15px;
+	 h2.member-text-header {
+	font-size: 3em;
 	}	
 }
 
 /* Medium md*/
 @media(min-width:992px) and (max-width:1199px){
-	.public-nav li a {
-	font-size: 16px;
-	}	
+
 }
 
 /* Large lg*/
 @media(min-width:1200px){
-	.public-nav li a {
-	font-size: 18px;
-	}	
+
 }

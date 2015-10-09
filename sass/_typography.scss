@@ -211,18 +211,21 @@ h1{
   font-size: 50px;
   font-weight: 800;
   margin-bottom: 1.2em;
+  text-transform: uppercase;
 }
 
 h2{
   font-family: 'proxima_nova_rgbold';
   font-size: 32px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h3{
   font-family: 'proxima_nova_rgbold';
   font-size: 25px;
   letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 h4{
@@ -230,6 +233,7 @@ h4{
   font-size: 20px;
   letter-spacing: 0.1em;
   color: $blue-b;
+  text-transform: uppercase;
 }
 
 h5{
@@ -237,12 +241,14 @@ h5{
   font-size: 11pt;
   letter-spacing: 0.03em;
   font-weight: 400;
+  text-transform: uppercase;
 }
 
 h6 {
   font-family: 'proxima_nova_blblack';
   font-size: 9pt;
   color: $blue-b;
+  text-transform: uppercase;
 }
 
 a{
@@ -250,6 +256,14 @@ a{
   font-weight: 600;
 }
 
+/*Placeholder Color Change*/
+.place-color::-webkit-input-placeholder { color: white; }
+.place-color:-moz-placeholder { color: white; }
+.place-color::-moz-placeholder { color: white; }
+.place-color:-ms-input-placeholder { color: white; }
+
+
+/*Custom Resets*/
 .public-slide section h1,
 .public-slide section h2,
 .public-slide section h3,

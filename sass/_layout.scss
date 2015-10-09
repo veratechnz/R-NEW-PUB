@@ -1,4 +1,4 @@
-/*Layout*/
+Layout*/
 @import "globals.scss";
 
 html {
@@ -8,11 +8,6 @@ html {
 
 body {
   min-height: 100%;
-}
-
-.footer > .container {
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 section {
@@ -40,17 +35,11 @@ hr {
     margin: 0 auto;
 }
 
-.v-center {
-    height: 70vh;
-    position: relative;
-    top: 50vh;
-    transform: translateY(-44vh);
-}
-
 .page-wrapper {
   margin-top: 55px;
   background-color: $white;
 }
+
 
 .media{
   background-color: $blue-a;
@@ -142,6 +131,7 @@ hr {
   margin: auto;
   text-align: center;
   text-decoration: none;
+  margin-bottom: 4.2em;
 }
 
 .fill{
@@ -154,9 +144,7 @@ hr {
 .splash{
   height: 100%;
 }
-.container-fluid, .right-home-panel {
-  height: 100vh;
-}
+
 /*Custom Classes*/
 .right-home-panel {
   background-color: #000;
@@ -179,11 +167,6 @@ hr {
   width: 16em;
 }
 
-.member-login-outer {
-  display: flex;
-  align-items: center; 
-}
-
 .reinz-nav ul {
   float: right;
 }
@@ -193,21 +176,56 @@ hr {
 }
 
 .para {
-  margin: 3em 0em 3em 0em;
-  height: 30em; 
+  margin: 3.2em 0em 3.2em 0em;
+  height: 26em; 
+}
+
+.apps .h4 {
+  margin-bottom: 6em;
+}
+
+.member-login-outer {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.v-center{
+  width: 100%;
+  height: 80%;
+  margin-top: 30%;
+  padding-top: 8.5%;
+  /*padding-top: 17.5vh;*/
+  margin: 0 auto;
 }
 
 
-.parallax-a {
-  background: url("../img/full-c.jpg");
+
+
+/*http://stackoverflow.com/questions/17966140/twitter-bootstrap-3-sticky-footer*/
+
+/* Set the fixed height of the footer here */
+.footer {
+  height: 20px;
+  background-color: #000;
 }
 
-.parallax-b {
-  background: url("../img/full-i.jpg");
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
 }
 
-.parallax-c {
-  background: url("../img/full-f.jpg");
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #000;
 }
 
-
+/*http://stackoverflow.com/questions/17966140/twitter-bootstrap-3-sticky-footer
