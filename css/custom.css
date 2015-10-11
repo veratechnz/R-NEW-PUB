@@ -296,7 +296,6 @@ section i {
   color: #8EC6CE; }
 
 .public-nav li a {
-  font-size: 2px;
   font-weight: 800; }
 
 .search-public i {
@@ -752,7 +751,8 @@ ul .nav-searcher {
 
 .sf-menu a {
   color: #fff;
-  z-index: 1040; }
+  z-index: 1040;
+  font-size: 17px; }
 
 .sf-menu li {
   background: #000;
@@ -989,14 +989,6 @@ ul .nav-searcher {
 
 /*Media Queries*/
 /* Extra Small xs*/
-@media (max-width: 767px) {
-  h2.member-text-header {
-    font-size: 10px; } }
-
 /* Small sm*/
-@media (min-width: 768px) and (max-width: 991px) {
-  h2.member-text-header {
-    font-size: 3em; } }
-
 /* Medium md*/
 /* Large lg*/
