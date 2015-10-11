@@ -9,12 +9,18 @@
   background-image: -webkit-linear-gradient(left, $blue-a 33%, $blue-b 67%);
   background-image: -o-linear-gradient(left, $blue-a 33%, $blue-b 67%);
   background-image: linear-gradient(to right, $blue-a 33%, $blue-b 67%);
-  height: 10.5em; //previous value: 6.5em
+  height: 6.5em;
+}
+.navbar-logout {
+  height: 10.5em;
 }
 
 .inner-nav {
   background-color: #000;
-  height: 10em; //previous value: 6em
+  height: 6em;
+}
+.inner-nav-logout {
+  height: 10em;
 }
 
 .public-nav {

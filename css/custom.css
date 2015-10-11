@@ -450,10 +450,16 @@ section {
   background-image: -webkit-linear-gradient(left, #8EC6CE 33%, #345973 67%);
   background-image: -o-linear-gradient(left, #8EC6CE 33%, #345973 67%);
   background-image: linear-gradient(to right, #8EC6CE 33%, #345973 67%);
+  height: 6.5em; }
+
+.navbar-logout {
   height: 10.5em; }
 
 .inner-nav {
   background-color: #000;
+  height: 6em; }
+
+.inner-nav-logout {
   height: 10em; }
 
 .public-nav {
