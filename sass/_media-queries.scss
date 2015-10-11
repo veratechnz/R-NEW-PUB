@@ -2,28 +2,32 @@
 
 /* Extra Small xs*/
 @media(max-width:767px){
-	.public-nav li a {
-	font-size: 15px;
-	}	
+	.public-nav li a,
+	.public-nav li li a {
+		font-size: 14px;
+	}
 }
 
 /* Small sm*/
 @media(min-width:768px) and (max-width:991px){
-	.public-nav li a {
-	font-size: 15px;
-	}	
+	.public-nav li a,
+	.public-nav li li a {
+		font-size: 14px;
+	}
 }
 
 /* Medium md*/
-@media(min-width:992px) and (max-width:1199px){
-	.public-nav li a {
-	font-size: 16px;
-	}	
+@media(min-width:992px) {
+	.public-nav li a,
+	.public-nav li li a {
+		font-size: 14px;
+	}
 }
 
 /* Large lg*/
 @media(min-width:1200px){
-	.public-nav li a {
-	font-size: 18px;
-	}	
+	.public-nav li a,
+	.public-nav li li a {
+		font-size: 15px;
+	}
 }
