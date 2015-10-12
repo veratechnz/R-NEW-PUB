@@ -69,19 +69,31 @@ ul .nav-searcher {
   height: 3.5em;
   padding-top: 0.8em;
   margin-bottom: 1em;
-  background-color: #efefef;
+  margin-top: 7.5em; //This property was added
+  border-top:3px solid $subnav-menu-items-border-top;
+  background-color: $subnav-menu-items-bgd; //previous value: #efefef
+  display: none;
 }
 
 .member-sub-nav-b ul {
-  width: 80em;
-  margin: 0 auto;
+  // width: 80em;
+  // margin: 0 6em auto;
   z-index: 1040;
 }
 
 .member-sub-nav-b ul li {
   display: inline-block;
-  margin-right: 1em;
+  margin-right: 2em;
   z-index: 1040;
+}
+
+.member-sub-nav-b ul li a {
+  color: $white;
+  font-family: "proxima_nova_altlight";
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .reinz-nav, .reinz-nav-public {

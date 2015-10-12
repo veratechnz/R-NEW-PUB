@@ -1,6 +1,8 @@
 // Custom JS File
 
-$(function() {
+// $(function() {
+
+    init();
 
     //Initialiaze all functions
     function init(){
@@ -9,10 +11,8 @@ $(function() {
         subNavB();
      }
 
-    init();
-
-    // Jquery ScrollTo Effect 
-     function onePageScroll(){ 
+    // Jquery ScrollTo Effect
+     function onePageScroll(){
       $('a[href*=#]:not([href=#])').click(function() {
         if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
           var target = $(this.hash);
@@ -28,7 +28,7 @@ $(function() {
      }
 
 
-    //Public Website Black Navigation 
+    //Public Website Black Navigation
      function superFishNav(){
     	$(document).ready(function() {
     		$('ul.sf-menu').superfish({
@@ -42,15 +42,11 @@ $(function() {
 
 
      //Member Sub Nav B Animation and Population
-     function subNavB(){
-      $('#mainLogo').click(function(){
-
-          $('#memberSubNavB').slideDown(200, 'linear');
-          $('.col-md-10').animate({'marginTop':'2.5em'}, 200, 'linear');
-
-    });
-    }
-
-
-
-});
+     function subNavB() {
+       $('#mainLogo').click(function() {
+        //  $('#memberSubNavB').toggle(200, 'linear');
+         $('.member-sub-nav-b').slideToggle(400, 'swing');
+         //$('.col-md-10').animate({'marginTop':'2.5em'}, 200, 'linear');
+       });
+     }
+// });

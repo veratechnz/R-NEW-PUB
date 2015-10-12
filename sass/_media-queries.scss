@@ -14,6 +14,12 @@
 	.public-nav li li a {
 		font-size: 14px;
 	}
+	.member-sub-nav-b ul {
+		margin-left: 3em;
+	}
+	.member-sub-nav-b ul li {
+		margin-right: 3em;
+	}
 }
 
 /* Medium md*/
@@ -22,6 +28,12 @@
 	.public-nav li li a {
 		font-size: 14px;
 	}
+	.member-sub-nav-b ul {
+		margin-left: 4em;
+	}
+	.member-sub-nav-b ul li {
+		margin-right: 3em;
+	}
 }
 
 /* Large lg*/
@@ -29,5 +41,23 @@
 	.public-nav li a,
 	.public-nav li li a {
 		font-size: 15px;
+	}
+	.member-sub-nav-b ul {
+		margin-left: 4.5em;
+	}
+	.member-sub-nav-b ul li {
+		font-size: 15px;
+		margin-right: 4.5em;
+	}
+}
+
+// XL
+@media(min-width:1920px) {
+	.member-sub-nav-b ul {
+		margin-left: 10.5em;
+	}
+	.member-sub-nav-b ul li {
+		font-size: 17px;
+		margin-right: 6.5em;
 	}
 }
