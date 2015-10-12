@@ -206,9 +206,21 @@ ul .nav-searcher {
   *width: 12em; /* no auto sub width for IE7, see white-space comment below */
   z-index: 1040;
 }
+
+.sf-menu ul:before {
+  position: absolute;
+  top: -12px;
+  left: 3.3em;
+  display: inline-block;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid #ccc;
+  border-left: 14px solid transparent;
+  border-bottom-color: $blue-b;
+  content: '';
+  opacity: 0.95;
+}
+
 .sf-menu a {
-  border-left: 1px solid #000;
-  border-top: 1px solid #000; /* fallback colour must use full shorthand */
   padding: .75em 1em;
   text-decoration: none;
   zoom: 1; /* IE7 */
@@ -229,18 +241,26 @@ ul .nav-searcher {
   left: -50%;
   z-index: 1040;
 }
+
 .sf-menu ul li {
   left: 0%;
-  background: #000;
+  background: $blue-b;
+  border-bottom: 1px solid #fff;
+  opacity: 0.95;
   z-index: 1040;
 }
+
+.sf-menu ul li:nth-last-child(1) {
+  border-bottom: none;
+}
+
 .sf-menu ul ul li {
   background: #000;
   z-index: 1040;
 }
-.sf-menu li:hover,
-.sf-menu li.sfHover {
-  background: #000;
+.sf-menu ul li:hover,
+.sf-menu ul li.sfHover {
+  background: $blue-a;
   /* only transition out, not in */
   -webkit-transition: none;
   transition: none;
@@ -290,8 +310,10 @@ ul .nav-searcher {
 }
 
 .sf-menu li ul a {
-  font-weight: 400;
-  font-size: 17px;
+  font-weight: lighter;
+  font-size: 16px;
   z-index: 1040;
+  color: #F4F4F4;
 }
+
 /******************************Superfish Menu End**********************************/

@@ -254,6 +254,11 @@ h6 {
 a{
   color: #345973;
   font-weight: 600;
+  outline: 0;
+}
+
+a:focus {
+  outline: 0;
 }
 
 /*Placeholder Color Change*/
