@@ -195,7 +195,7 @@ ul .nav-searcher {
 /*** DEMO SKIN ***/
 .sf-menu {
   float: left;
-  margin-top: 1.47em;
+  margin-top: 1.4em;
   position: relative;
   left: 50%;
   z-index: 1040;
@@ -268,52 +268,5 @@ ul .nav-searcher {
 }
 
 /*** arrows (for all except IE7) **/
-.sf-arrows .sf-with-ul {
-  padding-right: 1.8em;
-  *padding-right: 1em; /* no CSS arrows for IE7 (lack pseudo-elements) */
-  z-index: 1040;
-}
-/* styling for both css and generated arrows */
-.sf-arrows .sf-with-ul:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 0.75em;
-  margin-top: -3px;
-  height: 0;
-  width: 0;
-  /* order of following 3 rules important for fallbacks to work */
-  border: 5px solid transparent;
-  border-top-color: $blue-a; /* edit this to suit design (no rgba in IE8) */
-  z-index: 1040;
-}
-.sf-arrows > li > .sf-with-ul:focus:after,
-.sf-arrows > li:hover > .sf-with-ul:after,
-.sf-arrows > .sfHover > .sf-with-ul:after {
-  border-top-color: #fff; /* IE8 fallback colour */
-  z-index: 1040;
-}
-/* styling for right-facing arrows */
-.sf-arrows ul .sf-with-ul:after {
-  margin-top: -5px;
-  margin-right: -3px;
-  border-color: transparent;
-  border-left-color: #000; /* edit this to suit design (no rgba in IE8) */
-  border-left-color: rgba(255,255,255,.5);
-  z-index: 1040;
-}
-.sf-arrows ul li > .sf-with-ul:focus:after,
-.sf-arrows ul li:hover > .sf-with-ul:after,
-.sf-arrows ul .sfHover > .sf-with-ul:after {
-  border-left-color: #fff;
-  z-index: 1040;
-}
-
-.sf-menu li ul a {
-  font-weight: 600;
-  font-size: 1.45em;
-  z-index: 1040;
-  color: #F4F4F4;
-}
 
 /******************************Superfish Menu End**********************************/

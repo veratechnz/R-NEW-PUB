@@ -23,10 +23,9 @@ $(function() {
      function superFishNav(){
     	$(document).ready(function() {
     		$('ul.sf-menu').superfish({
-    			delay:       1000,                            // one second delay on mouseout
+    			delay:       600,                             // one second delay on mouseout
     			animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
-    			speed:       'normal',
-          delay:       800,                             // faster animation speed                          
+    			speed:       200,                          // faster animation speed                          
     		  cssArrows:   false                            // disable generation of arrow mark-up
         });
     	});
