@@ -245,7 +245,7 @@ ul .nav-searcher {
 .sf-menu ul li {
   left: 0%;
   background: $blue-b;
-  border-bottom: 1px solid #fff;
+  border-bottom: 0.2em solid #fff;
   opacity: 0.95;
   z-index: 1040;
 }
@@ -310,8 +310,8 @@ ul .nav-searcher {
 }
 
 .sf-menu li ul a {
-  font-weight: lighter;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 1.45em;
   z-index: 1040;
   color: #F4F4F4;
 }

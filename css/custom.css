@@ -151,7 +151,7 @@ h4 {
   font-family: "proxima_nova_rgbold";
   font-size: 20px;
   letter-spacing: 0.1em;
-  color: #184570;
+  color: #0D497C;
   text-transform: uppercase; }
 
 h5 {
@@ -164,7 +164,7 @@ h5 {
 h6 {
   font-family: 'proxima_nova_blblack';
   font-size: 9pt;
-  color: #184570;
+  color: #0D497C;
   text-transform: uppercase; }
 
 a {
@@ -266,13 +266,13 @@ a:focus {
   width: 6em;
   margin: 0 auto;
   margin-bottom: 0.7em;
-  color: #184570;
+  color: #0D497C;
   font-weight: 600;
   font-size: 20px;
   display: inline-block; }
 
 .member-text .box-b p, .member-text .box-c p {
-  color: #184570;
+  color: #0D497C;
   text-decoration: underline;
   font-size: 16px;
   font-weight: 700;
@@ -282,13 +282,13 @@ a:focus {
   text-decoration: none; }
 
 .box-b i {
-  color: #184570;
+  color: #0D497C;
   font-size: 40px;
   display: inline;
   margin: 0em 0.4em 1em 0em; }
 
 .box-c i {
-  color: #184570;
+  color: #0D497C;
   font-size: 40px;
   display: inline;
   margin: 0em 0.4em 1em 0em; }
@@ -446,18 +446,18 @@ hr {
   margin-top: 2.4em;
   margin-bottom: 1.6em;
   padding: 0.2em 0em 0em 0em;
-  background: -webkit-linear-gradient(left, #8EC6CE, #184570);
+  background: -webkit-linear-gradient(left, #8EC6CE, #0D497C);
   /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, #8EC6CE, #184570);
+  background: -o-linear-gradient(right, #8EC6CE, #0D497C);
   /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, #8EC6CE, #184570);
+  background: -moz-linear-gradient(right, #8EC6CE, #0D497C);
   /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, #8EC6CE, #184570);
+  background: linear-gradient(to right, #8EC6CE, #0D497C);
   /* Standard syntax */
   float: right; }
 
 .box-b {
-  border: solid 3px #184570;
+  border: solid 3px #0D497C;
   width: 22em;
   margin-top: 0.8em;
   margin-bottom: 2em;
@@ -466,7 +466,7 @@ hr {
   clear: both; }
 
 .box-c {
-  border: solid 3px #184570;
+  border: solid 3px #0D497C;
   width: 22em;
   padding: 1em;
   margin-bottom: 3em;
@@ -567,9 +567,9 @@ hr {
 
 .navbar {
   border: none;
-  background-image: -webkit-linear-gradient(left, #8EC6CE 33%, #184570 67%);
-  background-image: -o-linear-gradient(left, #8EC6CE 33%, #184570 67%);
-  background-image: linear-gradient(to right, #8EC6CE 33%, #184570 67%);
+  background-image: -webkit-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
+  background-image: -o-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
+  background-image: linear-gradient(to right, #8EC6CE 33%, #0D497C 67%);
   height: 6.5em; }
 
 .inner-nav {
@@ -753,7 +753,7 @@ ul .nav-searcher {
   border-right: 14px solid transparent;
   border-bottom: 14px solid #ccc;
   border-left: 14px solid transparent;
-  border-bottom-color: #184570;
+  border-bottom-color: #0D497C;
   content: '';
   opacity: 0.95; }
 
@@ -783,8 +783,8 @@ ul .nav-searcher {
 
 .sf-menu ul li {
   left: 0%;
-  background: #184570;
-  border-bottom: 1px solid #fff;
+  background: #0D497C;
+  border-bottom: 0.2em solid #fff;
   opacity: 0.95;
   z-index: 1040; }
 
@@ -849,8 +849,8 @@ ul .nav-searcher {
   z-index: 1040; }
 
 .sf-menu li ul a {
-  font-weight: lighter;
-  font-size: 16px;
+  font-weight: 600;
+  font-size: 1.45em;
   z-index: 1040;
   color: #F4F4F4; }
 
@@ -864,9 +864,9 @@ ul .nav-searcher {
   color: #000000; }
 
 .btn-primary {
-  color: #184570;
+  color: #0D497C;
   background-color: transparent;
-  border: 2px #184570 solid;
+  border: 2px #0D497C solid;
   border-radius: 0px;
   padding: 0.4em 1.7em;
   font-size: 10px;
@@ -1008,6 +1008,9 @@ ul .nav-searcher {
 
 .parallax-c {
   background: url("../img/full-f.jpg"); }
+
+.parallax-d {
+  background: url("../img/full-a.jpg"); }
 
 /*Media Queries*/
 /* Extra Small xs*/
