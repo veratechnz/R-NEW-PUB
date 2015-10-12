@@ -480,21 +480,31 @@ ul .nav-searcher {
   z-index: 10;
   margin: 2.5em 0em 0em 0em;
   height: 7.5em;
-  background-color: #fff;
+  background-color: #ffffff;
   -webkit-box-shadow: 0px 2px 4px 0px #cccacc;
   -moz-box-shadow: 0px 2px 4px 0px #cccacc;
   box-shadow: 0px 2px 4px 0px #cccacc; }
+
+.member-sub-nav .col-xs-1 {
+  height: 7.5em;
+  background-color: #ffffff; }
 
 .member-sub-nav p {
   text-align: center;
   font-size: 15px;
   font-weight: 800; }
 
+.member-sub-nav i {
+  cursor: pointer; }
+
 .member-sub-nav-b {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
   height: 3.5em;
   padding-top: 0.8em;
   margin-bottom: 1em;
-  margin-top: 7.5em;
+  margin-top: 10em;
   border-top: 3px solid #345973;
   background-color: rgba(0, 71, 125, 0.9);
   display: none; }

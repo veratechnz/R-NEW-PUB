@@ -1,7 +1,5 @@
 // Custom JS File
 
-// $(function() {
-
     init();
 
     //Initialiaze all functions
@@ -41,12 +39,14 @@
      }
 
 
-     //Member Sub Nav B Animation and Population
+     //Member Sub Nav B Animation
      function subNavB() {
-       $('#mainLogo').click(function() {
-        //  $('#memberSubNavB').toggle(200, 'linear');
-         $('.member-sub-nav-b').slideToggle(400, 'swing');
-         //$('.col-md-10').animate({'marginTop':'2.5em'}, 200, 'linear');
+       $('#mainLogo, .member-sub-nav i').click(function(event) {
+         event.stopPropagation();
+         $('.member-sub-nav-b').slideToggle(400, 'linear');
        });
      }
-// });
+    // Hide SubNav menu if click happens outside logo and any SubNav icon
+     $(document).click(function() {
+       $('.member-sub-nav-b').slideUp(400, 'linear');
+     });
