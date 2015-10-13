@@ -2,21 +2,14 @@
 
 $(function() {
 
-    // Jquery ScrollTo Effect 
-     function onePageScroll(){ 
-      $('a[href*=#]:not([href=#])').click(function() {
-        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-          var target = $(this.hash);
-          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-          if (target.length) {
-            $('html,body').animate({
-              scrollTop: target.offset().top
-            }, 1000);
-            return false;
-          }
-        }
-      });
+    //Initialiaze all functions
+    function init(){
+        superFishNav();
+        parallaxGo();
+        subNavMember();
      }
+
+    init();
 
 
     //Public Website Black Navigation 
@@ -31,18 +24,7 @@ $(function() {
     	});
      }
 
-
-     //Member Sub Nav B Animation and Population
-     function subNavB(){
-      $('#mainLogo').click(function(){
-
-          $('#memberSubNavB').slideDown(200, 'linear');
-          $('.col-md-10').animate({'marginTop':'2.5em'}, 200, 'linear');
-
-    });
-    }
-
-
+    //Parallax imagery plugin
     function parallaxGo(){
       $.stellar({
             horizontalScrolling: false,
@@ -50,13 +32,18 @@ $(function() {
         });
     }
 
-    //Initialiaze all functions
-    function init(){
-        onePageScroll();
-        superFishNav();
-        subNavB();
-        parallaxGo();
-     }
+    //Member Sub Nav B Animation
+    function subNavMember() {
+      $('#mainLogo').click(function(event) {
+        event.stopPropagation();
+        $('.member-sub-nav-b').slideToggle(400, 'linear');
+      });
 
-    init();
+      // Hide SubNav menu if click happens outside logo and any SubNav icon
+       $(document).click(function() {
+         $('.member-sub-nav-b').slideUp(400, 'linear');
+       });
+    }
+
+
 });

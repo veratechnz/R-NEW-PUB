@@ -55,24 +55,34 @@ ul .nav-searcher {
   font-weight: 800;
 }
 
-.member-sub-nav-b{
+.member-sub-nav-b {
+  position: fixed;
+  width: 100%;
+  z-index: 9;
   height: 3.5em;
   padding-top: 0.8em;
   margin-bottom: 1em;
-  background-color: #efefef;
+  margin-top: 10em;
+  border-top: 3px solid #345973;
+  background-color: rgba(0, 71, 125, 0.9);
+  display: none; 
 }
 
 .member-sub-nav-b ul {
-  width: 80em;
-  margin: 0 auto;
-  z-index: 1040;
-}
+  z-index: 1040; }
 
 .member-sub-nav-b ul li {
   display: inline-block;
-  margin-right: 1em;
-  z-index: 1040;
-}
+  margin-right: 2em;
+  z-index: 1040; }
+
+.member-sub-nav-b ul li a {
+  color: #ffffff;
+  font-family: "proxima_nova_altlight";
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-decoration: none;
+  display: inline-block; }
 
 .reinz-nav, .reinz-nav-public {
     background: $black; 
@@ -197,7 +207,7 @@ ul .nav-searcher {
   float: left;
   margin-top: 1.4em;
   position: relative;
-  left: 50%;
+  left: 52%;
   z-index: 1040;
 }
 .sf-menu ul {
@@ -228,7 +238,7 @@ ul .nav-searcher {
   font-family: 'proxima_nova_altlight';
   color: #fff;
   z-index: 1040;
-  font-size: 1px;
+  font-size: 18px;
   font-weight: 800;
 }
 
