@@ -55,17 +55,28 @@ ul .nav-searcher {
   font-weight: 800;
 }
 
+.member-sub-nav-b p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0.2em;
+}
+
 .member-sub-nav-b {
   position: fixed;
   width: 100%;
   z-index: 9;
   height: 3.5em;
-  padding-top: 0.8em;
   margin-bottom: 1em;
   margin-top: 10em;
   border-top: 3px solid #345973;
-  background-color: rgba(0, 71, 125, 0.9);
+  background-color: $blue-b;
   display: none; 
+  opacity: 0.95;
+}
+
+.member-sub-nav-b .overflow-a{
+  height: 100%;
+  overflow: hidden;
 }
 
 .member-sub-nav-b ul {

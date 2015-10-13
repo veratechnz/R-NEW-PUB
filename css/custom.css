@@ -426,9 +426,20 @@ hr {
   width: 12.5%; }
 
 .eight-splitb {
+  display: inherit;
+  height: 100%;
   float: left;
   width: 12.5%;
-  color: #fff; }
+  color: #fff;
+  padding: 0.8em; }
+
+.eight-splitb:hover {
+  background-color: #8EC6CE; }
+
+.eight-splitb p.text-center {
+  font-size: 15px;
+  margin-top: 0em;
+  margin-bottom: 0em; }
 
 .newbie {
   display: inline-block; }
@@ -616,17 +627,26 @@ ul .nav-searcher {
   font-size: 15px;
   font-weight: 800; }
 
+.member-sub-nav-b p {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 0.2em; }
+
 .member-sub-nav-b {
   position: fixed;
   width: 100%;
   z-index: 9;
   height: 3.5em;
-  padding-top: 0.8em;
   margin-bottom: 1em;
   margin-top: 10em;
   border-top: 3px solid #345973;
-  background-color: rgba(0, 71, 125, 0.9);
-  display: none; }
+  background-color: #0D497C;
+  display: none;
+  opacity: 0.95; }
+
+.member-sub-nav-b .overflow-a {
+  height: 100%;
+  overflow: hidden; }
 
 .member-sub-nav-b ul {
   z-index: 1040; }

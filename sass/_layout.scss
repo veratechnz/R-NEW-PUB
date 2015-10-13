@@ -67,9 +67,22 @@ hr {
 }
 
 .eight-splitb {
+  display: inherit;
+  height: 100%;
   float: left;
   width: 12.5%;
   color: #fff;
+  padding: 0.8em;
+}
+
+.eight-splitb:hover {
+  background-color: $blue-a;
+}
+
+.eight-splitb p.text-center{
+  font-size: 15px;
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
 .newbie{
