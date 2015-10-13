@@ -4,12 +4,13 @@
 .btn-primary{
   color: $blue-b;
   background-color: transparent;
-  border: 2px $blue-b solid;
+  border: 3px $blue-b solid;
   border-radius: 0px;
   padding: 0.4em 1.7em;
   font-size: 10px;
   font-weight: bold;
   margin-bottom: 1.9em;
+  font-family:'proxima_nova_ththin';
 }
 
 .join-btn{
@@ -20,6 +21,7 @@
  color: $black;
  border-color: $blue-a;
  font-weight: 900;
+ font-family:'proxima_nova_ththin';
 }
 
 .log-btn{
@@ -29,6 +31,7 @@
   font-size: 16px;
   font-weight: 800;
   float: right;
+  font-family:'proxima_nova_ththin';
 }
 
 .go-btn{
@@ -43,7 +46,7 @@
 .login-btn{
   background-color: #fff;
   color: #000;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
   font-size: 0.8em;
   font-weight: 900;
   float: right;
