@@ -763,11 +763,10 @@ ul .nav-searcher {
   zoom: 1;
   /* IE7 */
   font-weight: bold;
-  z-index: 1040;
   font-family: 'proxima_nova_altlight';
   color: #fff;
   z-index: 1040;
-  font-size: 19px;
+  font-size: 1px;
   font-weight: 800; }
 
 .sf-menu li {
@@ -1041,11 +1040,10 @@ ul .nav-searcher {
     font-family: 'proxima_nova_ththin';
     font-size: 1.4em;
     padding-left: 0.4em;
-    padding-right: 0.4em;
-    margin-top: 0.5em; }
+    padding-right: 0.4em; }
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     left: 48%;
-    margin-top: 1.15em; }
+    margin-top: 1.8em; }
   .mini-logo {
     display: block; }
   .demo-logo {
