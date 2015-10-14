@@ -7,6 +7,7 @@ $(function() {
         superFishNav();
         parallaxGo();
         subNavMember();
+        hoverSubNav();
      }
 
     init();
@@ -32,18 +33,80 @@ $(function() {
         });
     }
 
-    //Member Sub Nav B Animation
-    function subNavMember() {
-      $('#mainLogo').click(function(event) {
-        event.stopPropagation();
-        $('.member-sub-nav-b').slideToggle(400, 'linear');
-      });
 
-      // Hide SubNav menu if click happens outside logo and any SubNav icon
-       $(document).click(function() {
-         $('.member-sub-nav-b').slideUp(400, 'linear');
-       });
+
+
+
+    //Testing for toggle of subnav
+    function boxShadowCheck(){
+        // if else for removing the box shadow with speed
+        ($('#memberSubNav').hasClass('no-shadow')) ? 
+            $('#memberSubNav').toggleClass('no-shadow').promise()
+            .done(function(){
+            $('#memberSubNavB').slideToggle('linear');
+          })
+         : 
+          $('#memberSubNavB').slideToggle('linear', function(){
+           $('#memberSubNav').toggleClass('no-shadow');
+          });       
+        // if else ends
     }
 
+    function subNavMember() {
+      $('#mainLogo').click(function(event){
+        event.stopPropagation();
+        event.preventDefault();
+        boxShadowCheck();
+      });
+    } 
 
-});
+//Member Sub Nav Test
+
+  function openSub(){
+        // if else for removing the box shadow with speed
+
+          $('#memberSubNavB').slideDown('linear');
+          $('#memberSubNav').addClass('no-shadow');
+       
+        // if else ends
+  }
+
+
+  function closeSub(){
+      //***
+      if($('#memberSubNavB').is(':hover') || $('#dataSub').is(':hover')) {
+        return;
+        } else {
+            $('#memberSubNavB').slideUp('linear');
+            $('#memberSubNav').removeClass('no-shadow');
+        }
+    }
+
+    function hoverSubNav(){
+      $('#dataSub').mouseenter(function(){
+        openSub(); 
+      });
+      $('#dataSub').mouseleave(function(){
+        //***
+        if($('#memberSubNavB').is(':hover')) {
+              isMemberSubNavB();
+            }
+            else {
+              setTimeout(function(){
+                closeSub();
+              }, 350);
+            }
+      });
+
+          function isMemberSubNavB(){
+              $('#memberSubNavB').mouseleave(function(){
+                setTimeout(function(){
+                  closeSub();
+                }, 350);
+              });
+          }
+
+  }
+
+
+}); //selfie END

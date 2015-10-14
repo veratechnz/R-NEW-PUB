@@ -48,9 +48,12 @@ hr {
   background-color: $white;
 }
 
-
 .media{
   background-color: $blue-a;
+}
+
+.no-shadow{
+  box-shadow: none !important;
 }
 
 .section-b-cols{
