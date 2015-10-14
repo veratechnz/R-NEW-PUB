@@ -60,6 +60,11 @@ $(function() {
       });
     } 
 
+
+
+
+
+
 //Member Sub Nav Test
 
   function openSub(){
@@ -73,40 +78,50 @@ $(function() {
 
 
   function closeSub(){
-      //***
-      if($('#memberSubNavB').is(':hover') || $('#dataSub').is(':hover')) {
-        return;
-        } else {
             $('#memberSubNavB').slideUp('linear');
             $('#memberSubNav').removeClass('no-shadow');
-        }
-    }
+  }
 
     function hoverSubNav(){
+      //Open the subNav
       $('#dataSub').mouseenter(function(){
         openSub(); 
       });
+      unHoverSubNav();
+    }
+
+
+  function unHoverSubNav(){
       $('#dataSub').mouseleave(function(){
-        //***
         if($('#memberSubNavB').is(':hover')) {
               isMemberSubNavB();
             }
             else {
               setTimeout(function(){
                 closeSub();
-              }, 350);
+              }, 100);
             }
       });
 
-          function isMemberSubNavB(){
-              $('#memberSubNavB').mouseleave(function(){
-                setTimeout(function(){
-                  closeSub();
-                }, 350);
-              });
-          }
+            function isMemberSubNavB(){
+            if($('#memberSubNavB').is(':hover') || $('#dataSub').is(':hover')) {
+              return;
+              } else {
+
+                $('#memberSubNavB').mouseleave(function(){
+                  setTimeout(function(){
+                    closeSub();
+                  }, 100);
+                });
+
+            }
+
+            }
 
   }
+
+
+
 
 
 }); //selfie END
