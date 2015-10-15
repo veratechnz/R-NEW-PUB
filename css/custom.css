@@ -385,7 +385,11 @@ body {
   width: 100%; }
 
 section {
-  min-height: 400px; }
+  min-height: 200px; }
+
+#data2 {
+  background-color: #e7eefe;
+  padding: 4em 0; }
 
 hr {
   margin-bottom: 4em; }
@@ -457,7 +461,19 @@ hr {
   padding: 1em 2.2em 2.2em 1.1em; }
 
 .member-text {
-  margin-top: 9.4em; }
+  margin-top: 4em;
+  margin-bottom: 4em; }
+  .member-text img {
+    margin-top: 20px; }
+  .member-text h2 {
+    font-size: 20px; }
+  .member-text hr {
+    text-align: left;
+    border: 1px solid #000000;
+    margin: -5px 0 10px;
+    width: 55%; }
+  .member-text p {
+    font-size: 14px; }
 
 .box-a {
   width: 22em;
