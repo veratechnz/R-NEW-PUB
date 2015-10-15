@@ -1,0 +1,3 @@
+* Added some variables to _globals.scss
+* Added some functions in custom.js for testing purposes only
+* Created sass/_footer.scss

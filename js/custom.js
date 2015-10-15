@@ -8,18 +8,19 @@ $(function() {
         parallaxGo();
         subNavMember();
         hoverSubNav();
+        ftrNoWhere(); //To avoid scroll up when clicking menu items in footer
      }
 
     init();
 
 
-    //Public Website Black Navigation 
+    //Public Website Black Navigation
      function superFishNav(){
     	$(document).ready(function() {
     		$('ul.sf-menu').superfish({
     			delay:       600,                             // one second delay on mouseout
     			animation:   {opacity:'show',height:'show'},  // fade-in and slide-down animation
-    			speed:       200,                          // faster animation speed                          
+    			speed:       200,                          // faster animation speed
     		  cssArrows:   false                            // disable generation of arrow mark-up
         });
     	});
@@ -40,15 +41,15 @@ $(function() {
     //Testing for toggle of subnav
     function boxShadowCheck(){
         // if else for removing the box shadow with speed
-        ($('#memberSubNav').hasClass('no-shadow')) ? 
+        ($('#memberSubNav').hasClass('no-shadow')) ?
             $('#memberSubNav').toggleClass('no-shadow').promise()
             .done(function(){
             $('#memberSubNavB').slideToggle('linear');
           })
-         : 
+         :
           $('#memberSubNavB').slideToggle('linear', function(){
            $('#memberSubNav').toggleClass('no-shadow');
-          });       
+          });
         // if else ends
     }
 
@@ -58,11 +59,18 @@ $(function() {
         event.preventDefault();
         boxShadowCheck();
       });
-    } 
+    }
 
 
-
-
+// Test functions
+  function noWhere(element) {
+    $(element).click(function(event) {
+      event.preventDefault();
+    });
+  }
+  function ftrNoWhere() {
+    noWhere('.ftr-menu a');
+  }
 
 
 //Member Sub Nav Test
@@ -72,7 +80,7 @@ $(function() {
 
           $('#memberSubNavB').slideDown('linear');
           $('#memberSubNav').addClass('no-shadow');
-       
+
         // if else ends
   }
 
@@ -85,7 +93,7 @@ $(function() {
     function hoverSubNav(){
       //Open the subNav
       $('#dataSub').mouseenter(function(){
-        openSub(); 
+        openSub();
       });
       unHoverSubNav();
     }
