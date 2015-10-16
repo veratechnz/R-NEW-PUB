@@ -137,7 +137,7 @@ h1 {
 
 h2 {
   font-family: 'proxima_nova_rgbold';
-  font-size: 32px;
+  font-size: 20px;
   letter-spacing: 1px;
   text-transform: uppercase; }
 
@@ -467,8 +467,6 @@ hr {
   margin-bottom: 2em; }
   .member-text img {
     margin-top: 20px; }
-  .member-text h2 {
-    font-size: 20px; }
   .member-text hr {
     text-align: left;
     border: 1px solid #000000;
@@ -476,6 +474,37 @@ hr {
     width: 55%; }
   .member-text p {
     font-size: 14px; }
+
+.article-thumb h2 {
+  color: #0D497C; }
+
+.article-thumb hr {
+  border-color: #0D497C;
+  width: 75%; }
+
+.article-thumb .view-btn {
+  color: #0D497C;
+  font-size: 11px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 0.05em solid #0D497C; }
+
+.sidebar {
+  color: #ffffff; }
+  .sidebar h2 {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 25px; }
+  .sidebar .filter-form {
+    background-color: #0D497C;
+    padding: 5px 25px 25px 25px;
+    margin-top: 20px; }
+    .sidebar .filter-form .form-control {
+      font-size: 12px;
+      border-radius: 0;
+      margin: 10px auto; }
 
 .box-a {
   width: 22em;
