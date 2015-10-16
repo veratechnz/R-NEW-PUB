@@ -149,27 +149,62 @@ hr {
 }
 
 .sidebar {
-  color: $white;
 
   h2 {
+    color: $white;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     text-transform: uppercase;
-    font-size: 25px;
-  }
-
-  .filter-form {
-    background-color: $blue-b;
-    padding: 5px 25px 25px 25px;
-    margin-top: 20px;
-
-    .form-control {
-      font-size: 12px;
-      border-radius: 0;
-      margin: 10px auto;
-    }
+    font-size: 23px;
   }
 }
 
+.filter-form {
+  color: $white;
+  background-color: $blue-b;
+  padding: 5px 25px 25px 25px;
+  margin-top: 20px;
+
+  .form-control {
+    font-size: 12px;
+    border-radius: 0;
+    margin: 20px auto;
+  }
+  .input-group {
+    margin-bottom: 20px;
+
+    .form-control {
+      margin: 0;
+    }
+    .input-group-addon {
+      cursor: pointer;
+    }
+  }
+  .view-btn {
+    color: $white;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 6.5em;
+    padding: 10px;
+    border: 0.05em solid $white;
+  }
+}
+
+.rec-posts {
+  padding: 5px 25px 25px 25px;
+  border: 1px solid $bootstrap-black;
+  margin-top: 20px;
+
+  h2 {
+    color: $bootstrap-black;
+  }
+  dl {
+    margin-top: 20px;
+  }
+  dt {
+    margin-top: 10px;
+  }
+}
 
 .box-a {
   width: 22em;
