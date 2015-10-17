@@ -387,6 +387,9 @@ body {
 section {
   min-height: 200px; }
 
+#data1 {
+  margin-top: 11em; }
+
 #data2 {
   background-color: #e7eefe;
   padding: 4em 0; }
@@ -461,8 +464,7 @@ hr {
   padding: 1em 2.2em 2.2em 1.1em; }
 
 .member-text {
-  margin-top: 4em;
-  margin-bottom: 4em; }
+  margin-bottom: 2em; }
   .member-text img {
     margin-top: 20px; }
   .member-text h2 {

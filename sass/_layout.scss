@@ -15,6 +15,9 @@ body {
 section {
   min-height: 200px;
 }
+#data1 {
+  margin-top: 11em;
+}
 #data2 {
   background-color: #e7eefe;
   padding: 4em 0;
@@ -109,8 +112,8 @@ hr {
 }
 
 .member-text {
-  margin-top: 4em;
-  margin-bottom: 4em;
+  // margin-top: 4em;
+  margin-bottom: 2em;
 
   img {
     margin-top: 20px;

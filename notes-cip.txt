@@ -1,4 +1,5 @@
 * Added some variables to _globals.scss
 * Added some functions in custom.js for testing purposes only
-* Created template-a.html in the root directory
+* Created 'template-a.html', 'template-b.html' and 'template-c.html' in the root directory
+* Added rules to _layout.scss
 * Created sass/_footer.scss
