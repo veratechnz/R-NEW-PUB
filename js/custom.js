@@ -100,4 +100,4 @@ $(function() {
 
 
 
-}); //selfie END
+}); //selfie ENDs
