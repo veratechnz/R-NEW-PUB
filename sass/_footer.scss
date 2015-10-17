@@ -78,9 +78,9 @@
 }
 
 .footer-container{
-  background-image: -webkit-linear-gradient(left, $blue-a 33%, $blue-b 67%);
-  background-image: -o-linear-gradient(left, $blue-a 33%, $blue-b 67%);
-  background-image: linear-gradient(to right, $blue-a 33%, $blue-b 67%);
+  background-image: -webkit-linear-gradient(left, $blue-b 33%, $blue-a 67%);
+  background-image: -o-linear-gradient(left, $blue-b 33%, $blue-a 67%);
+  background-image: linear-gradient(to right, $blue-b 33%, $blue-a 67%);
   max-height: 4em;
 }
 
@@ -123,7 +123,7 @@
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 12px;
   line-height: 1.7;
-  color: #000; }
+  }
 
 .footer .form-control {
   background-color: #000000;
@@ -148,7 +148,7 @@
 }
 
 .copy-foot{
-  color: $black;
+  color: $white;
   padding-left: 1.4em;
   font-size: 12px;
   margin-top: 0.8em;

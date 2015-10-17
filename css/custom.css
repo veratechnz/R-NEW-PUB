@@ -924,9 +924,9 @@ ul .nav-searcher {
   color: #fff; }
 
 .footer-container {
-  background-image: -webkit-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
-  background-image: -o-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
-  background-image: linear-gradient(to right, #8EC6CE 33%, #0D497C 67%);
+  background-image: -webkit-linear-gradient(left, #0D497C 33%, #8EC6CE 67%);
+  background-image: -o-linear-gradient(left, #0D497C 33%, #8EC6CE 67%);
+  background-image: linear-gradient(to right, #0D497C 33%, #8EC6CE 67%);
   max-height: 4em; }
 
 .ftr-logo {
@@ -972,8 +972,7 @@ ul .nav-searcher {
 .footer p {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 12px;
-  line-height: 1.7;
-  color: #000; }
+  line-height: 1.7; }
 
 .footer .form-control {
   background-color: #000000;
@@ -995,7 +994,7 @@ ul .nav-searcher {
   padding-top: 2em; }
 
 .copy-foot {
-  color: #000000;
+  color: #ffffff;
   padding-left: 1.4em;
   font-size: 12px;
   margin-top: 0.8em; }
