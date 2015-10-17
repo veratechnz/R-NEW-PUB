@@ -13,7 +13,14 @@ body {
 }
 
 section {
-  min-height: 400px;
+  min-height: 200px;
+}
+#data1 {
+  margin-top: 11em;
+}
+#data2 {
+  background-color: #e7eefe;
+  padding: 4em 0;
 }
 
 hr {
@@ -105,11 +112,28 @@ hr {
 }
 
 .member-text {
-  margin-top: 9.4em;
+  // margin-top: 4em;
+  margin-bottom: 2em;
+
+  img {
+    margin-top: 20px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  hr {
+    text-align: left;
+    border: 1px solid $black;
+    margin: -5px 0 10px;
+    width: 55%;
+  }
+  p {
+    font-size: 14px;
+  }
 }
 
 .box-a {
-  width: 22em; 
+  width: 22em;
   height: 7.1em;
   margin-top: 2.4em;
   margin-bottom: 1.6em;
@@ -207,7 +231,7 @@ hr {
 
 .para {
   margin: 3.2em 0em 3.2em 0em;
-  height: 26em; 
+  height: 26em;
 }
 
 .para-large{
@@ -237,8 +261,7 @@ hr {
 
 .footer{
   background-color: #000;
-  height: 160px;
   color: #fff;
+  // height: 160px;
+  padding-top: 25px;
 }
-
-

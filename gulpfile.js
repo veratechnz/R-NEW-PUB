@@ -4,7 +4,7 @@ var gulp = require('gulp');
  	livereload = require('gulp-livereload');
  	connect = require('gulp-connect');
  	jshint = require('gulp-jshint');
- 
+
 //Server Task
 gulp.task('serve', function(event) {
     connect.server({
@@ -22,7 +22,7 @@ gulp.task('styles', function() {
         .pipe(connect.reload());
 });
 
-//HTML Task 
+//HTML Task
 gulp.task('html', function() {
     gulp.src('./*.html')
     	.pipe(connect.reload());
@@ -45,5 +45,5 @@ gulp.task('watch', function(){
 });
 
 //Watch task
-gulp.task('default', ['serve', 'styles', 'html', 'lint', 'watch']);
-
+// gulp.task('default', ['serve', 'styles', 'html', 'lint', 'watch']);
+gulp.task('default', ['serve', 'styles', 'html', 'watch']);

@@ -1,0 +1,72 @@
+.footer {
+  h1 {
+    font-size: 18px;
+    font-weight:600;
+    text-transform: capitalize;
+  }
+
+  p {
+    color: $ftr-white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .form-control {
+    background-color: $black;
+    border: none;
+  }
+
+  .input-group-addon {
+    color: $white;
+    background-color: #02357C;
+    cursor: pointer;
+    border: none;
+  }
+}
+
+.ftr-logo {
+  margin: 10px 0 15px;
+}
+
+.ftr-menu {
+  padding-left: 0px;
+  list-style: outside none none;
+
+  li::first-letter {
+    text-transform: capitalize;
+  }
+
+  li {
+    margin-top: 10px;
+
+    a {
+      color: #7D8681;
+      font-weight: normal;
+      // font-size: 16px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: $white;
+    }
+  }
+
+}
+
+.ftr-social {
+  float: right;
+
+  .social-bgd {
+    color: #323635;
+  }
+
+  .fa-stack-1x {
+    color: $white;
+    font-size: 14px;
+  }
+}
+
+.ftr-bottom {
+  margin-top: 45px;
+}
