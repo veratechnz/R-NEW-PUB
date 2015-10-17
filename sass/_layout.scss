@@ -41,6 +41,12 @@ hr {
   display: none;
 }
 
+.top-gap{
+  margin-top: 12.5em;
+  margin-top: 19vh;
+
+}
+
 .overflow-a {
   overflow: auto;
 }
@@ -135,7 +141,6 @@ hr {
 .box-a {
   width: 22em;
   height: 7.1em;
-  margin-top: 2.4em;
   margin-bottom: 1.6em;
   padding: .2em 0em 0em 0em;
   background: -webkit-linear-gradient(left, $blue-a , $blue-b); /* For Safari 5.1 to 6.0 */
@@ -259,9 +264,3 @@ hr {
   margin: 0 auto;
 }
 
-.footer{
-  background-color: #000;
-  color: #fff;
-  // height: 160px;
-  padding-top: 25px;
-}

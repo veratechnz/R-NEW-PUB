@@ -366,6 +366,9 @@ section i {
   color: #fff;
   font-size: 4em; }
 
+.page-title {
+  margin-top: 0px; }
+
 /*Layout*/
 /*Sass Variables*/
 .white {
@@ -407,6 +410,10 @@ hr {
 
 .gone {
   display: none; }
+
+.top-gap {
+  margin-top: 12.5em;
+  margin-top: 19vh; }
 
 .overflow-a {
   overflow: auto; }
@@ -480,7 +487,6 @@ hr {
 .box-a {
   width: 22em;
   height: 7.1em;
-  margin-top: 2.4em;
   margin-bottom: 1.6em;
   padding: 0.2em 0em 0em 0em;
   background: -webkit-linear-gradient(left, #8EC6CE, #0D497C);
@@ -588,11 +594,6 @@ hr {
   padding-top: 8.5%;
   /*padding-top: 17.5vh;*/
   margin: 0 auto; }
-
-.footer {
-  background-color: #000;
-  color: #fff;
-  padding-top: 25px; }
 
 /*Navigation*/
 /*Sass Variables*/
@@ -917,6 +918,93 @@ ul .nav-searcher {
 
 .ftr-bottom {
   margin-top: 45px; }
+
+.footer {
+  background-color: #000;
+  color: #fff; }
+
+.footer-container {
+  background-image: -webkit-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
+  background-image: -o-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
+  background-image: linear-gradient(to right, #8EC6CE 33%, #0D497C 67%);
+  max-height: 4em; }
+
+.ftr-logo {
+  margin: 10px 0 15px; }
+
+.ftr-menu {
+  padding-left: 0px;
+  list-style: outside none none; }
+
+.ftr-menu li::first-letter {
+  text-transform: capitalize; }
+
+.ftr-menu li {
+  margin-top: 10px; }
+
+.ftr-menu li a {
+  color: #7D8681;
+  font-weight: normal;
+  text-decoration: none; }
+
+.ftr-menu li a:hover {
+  color: #ffffff; }
+
+.ftr-social {
+  float: right; }
+
+.ftr-social .social-bgd {
+  color: #323635; }
+
+.ftr-social .fa-stack-1x {
+  color: #ffffff;
+  font-size: 14px; }
+
+.ftr-bottom {
+  margin-top: 8px;
+  padding: 0em; }
+
+.footer h1 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize; }
+
+.footer p {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 12px;
+  line-height: 1.7;
+  color: #000; }
+
+.footer .form-control {
+  background-color: #000000;
+  border: none; }
+
+.footer .input-group-addon {
+  color: #ffffff;
+  background-color: #02357C;
+  cursor: pointer;
+  border: none; }
+
+.footer .col-md-10 {
+  padding: 2.2em; }
+
+.footer-container .ftr-bottom {
+  padding: 0em; }
+
+.row.footer .input-group {
+  padding-top: 2em; }
+
+.copy-foot {
+  color: #000000;
+  padding-left: 1.4em;
+  font-size: 12px;
+  margin-top: 0.8em; }
+
+.footer div.col-md-3 p {
+  color: #7d8681; }
+
+.footer-logo {
+  margin-bottom: 1.4em; }
 
 /*Buttons*/
 /*Sass Variables*/
