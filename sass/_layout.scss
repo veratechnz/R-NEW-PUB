@@ -124,9 +124,6 @@ hr {
   img {
     margin-top: 20px;
   }
-  h2 {
-    font-size: 20px;
-  }
   hr {
     text-align: left;
     border: 1px solid $black;
@@ -135,6 +132,83 @@ hr {
   }
   p {
     font-size: 14px;
+  }
+}
+
+.article-thumb {
+  h2 {
+    color: $blue-b;
+  }
+  hr {
+    border-color: $blue-b;
+    width: 75%;
+  }
+  .view-btn {
+    color: $blue-b;
+    font-size: 11px;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 9.5em;
+    padding: 0.8em 1.1em;
+    border: 0.05em solid $blue-b; //#446171;
+  }
+}
+
+.sidebar {
+
+  h2 {
+    color: $white;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-size: 23px;
+  }
+}
+
+.filter-form {
+  color: $white;
+  background-color: $blue-b;
+  padding: 5px 25px 25px 25px;
+  margin-top: 20px;
+
+  .form-control {
+    font-size: 12px;
+    border-radius: 0;
+    margin: 20px auto;
+  }
+  .input-group {
+    margin-bottom: 20px;
+
+    .form-control {
+      margin: 0;
+    }
+    .input-group-addon {
+      cursor: pointer;
+    }
+  }
+  .view-btn {
+    color: $white;
+    font-size: 12px;
+    text-transform: uppercase;
+    background-color: transparent;
+    width: 6.5em;
+    padding: 10px;
+    border: 0.05em solid $white;
+  }
+}
+
+.rec-posts {
+  padding: 5px 25px 25px 25px;
+  border: 1px solid $bootstrap-black;
+  margin-top: 20px;
+
+  h2 {
+    color: $bootstrap-black;
+  }
+  dl {
+    margin-top: 20px;
+  }
+  dt {
+    margin-top: 10px;
   }
 }
 
