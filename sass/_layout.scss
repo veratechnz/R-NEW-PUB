@@ -142,6 +142,8 @@ hr {
   color: $white;
   background-color: $blue-b;
   padding: 5px 25px 25px 25px;
+  width: 80%;
+  margin: 0 auto;
   margin-top: 20px;
 
   .form-control {
@@ -173,7 +175,9 @@ hr {
 .rec-posts {
   padding: 20px 20px 20px 30px;
   border: 1px solid $blue-a;
-  margin-top: 20px;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px;
 
   dl {
     margin-top: 20px;

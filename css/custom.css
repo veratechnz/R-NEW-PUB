@@ -394,7 +394,7 @@ section i {
   border-bottom: 3px solid #8EC6CE; }
 
 .sub-header {
-  padding-bottom: 14px;
+  padding-bottom: 10px;
   position: relative; }
 
 .sub-header:before {
@@ -525,6 +525,8 @@ hr {
   color: #ffffff;
   background-color: #0D497C;
   padding: 5px 25px 25px 25px;
+  width: 80%;
+  margin: 0 auto;
   margin-top: 20px; }
   .filter-form .form-control {
     font-size: 12px;
@@ -548,7 +550,9 @@ hr {
 .rec-posts {
   padding: 20px 20px 20px 30px;
   border: 1px solid #8EC6CE;
-  margin-top: 20px; }
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 50px; }
   .rec-posts dl {
     margin-top: 20px; }
   .rec-posts dt {
@@ -1133,7 +1137,7 @@ ul .nav-searcher {
 .login-btn {
   background-color: #fff;
   color: #000;
-  border: 3px solid #fff;
+  border: 2px solid #fff;
   font-size: 0.8em;
   font-weight: 900;
   float: right;
@@ -1155,7 +1159,7 @@ ul .nav-searcher {
   background-color: transparent;
   width: 9.5em;
   padding: 0.8em 1.1em;
-  border: 3px solid #0D497C;
+  border: 2px solid #0D497C;
   margin-bottom: 25px; }
 
 .search-btn {
@@ -1165,7 +1169,7 @@ ul .nav-searcher {
   background-color: transparent;
   width: 9.5em;
   padding: 0.8em 1.1em;
-  border: 3px solid #ffffff;
+  border: 2px solid #ffffff;
   margin: 10px 0 25px 0; }
 
 .join-button {
