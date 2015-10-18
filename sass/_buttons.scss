@@ -63,6 +63,29 @@
   padding: 0.5em 1em;
 }
 
+.read-btn {
+  color: $blue-b;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 3px solid $blue-b;
+  margin-bottom: 25px;
+}
+
+.search-btn {
+  color: $white;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 3px solid $white;
+  margin: 10px 0 25px 0;
+}
+
+
 .join-button{
   float: right;
   margin-top: 1.2em;

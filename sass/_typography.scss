@@ -199,11 +199,16 @@
 }
 
 /*Resets*/
-p{
+p {
   font-family: 'proxima_nova_altlight';
   font-size: 20px;
   margin-bottom: 1.2em;
 
+}
+
+dt, dd{
+  font-family: 'proxima_nova_altlight';
+  font-size: 20px;
 }
 
 h1{
@@ -222,9 +227,10 @@ h2{
 }
 
 h3{
-  font-family: 'proxima_nova_rgbold';
-  font-size: 25px;
-  letter-spacing: 1px;
+  font-family:'proxima_nova_ththin';
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 1.2em;
   text-transform: uppercase;
 }
 
@@ -248,6 +254,13 @@ h6 {
   font-family: 'proxima_nova_blblack';
   font-size: 9pt;
   color: $blue-b;
+  text-transform: uppercase;
+}
+
+h3 .old{
+  font-family: 'proxima_nova_rgbold';
+  font-size: 25px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 

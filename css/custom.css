@@ -128,6 +128,10 @@ p {
   font-size: 20px;
   margin-bottom: 1.2em; }
 
+dt, dd {
+  font-family: 'proxima_nova_altlight';
+  font-size: 20px; }
+
 h1 {
   font-family: 'proxima_nova_ththin';
   font-size: 50px;
@@ -142,9 +146,10 @@ h2 {
   text-transform: uppercase; }
 
 h3 {
-  font-family: 'proxima_nova_rgbold';
-  font-size: 25px;
-  letter-spacing: 1px;
+  font-family: 'proxima_nova_ththin';
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 1.2em;
   text-transform: uppercase; }
 
 h4 {
@@ -165,6 +170,12 @@ h6 {
   font-family: 'proxima_nova_blblack';
   font-size: 9pt;
   color: #0D497C;
+  text-transform: uppercase; }
+
+h3 .old {
+  font-family: 'proxima_nova_rgbold';
+  font-size: 25px;
+  letter-spacing: 1px;
   text-transform: uppercase; }
 
 a {
@@ -495,30 +506,10 @@ hr {
     border: 1px solid #000000;
     margin: -5px 0 10px;
     width: 55%; }
-  .member-text p {
-    font-size: 14px; }
-
-.article-thumb h2 {
-  color: #0D497C; }
 
 .article-thumb hr {
-  border-color: #0D497C;
+  border: 1px solid #0D497C;
   width: 75%; }
-
-.article-thumb .view-btn {
-  color: #0D497C;
-  font-size: 11px;
-  text-transform: uppercase;
-  background-color: transparent;
-  width: 9.5em;
-  padding: 0.8em 1.1em;
-  border: 0.05em solid #0D497C; }
-
-.sidebar h2 {
-  color: #ffffff;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  text-transform: uppercase;
-  font-size: 23px; }
 
 .filter-form {
   color: #ffffff;
@@ -542,14 +533,12 @@ hr {
     background-color: transparent;
     width: 6.5em;
     padding: 10px;
-    border: 0.05em solid #ffffff; }
+    border: 0.05em solid #0D497C; }
 
 .rec-posts {
-  padding: 5px 25px 25px 25px;
-  border: 1px solid #333;
+  padding: 20px 20px 20px 30px;
+  border: 1px solid #8EC6CE;
   margin-top: 20px; }
-  .rec-posts h2 {
-    color: #333; }
   .rec-posts dl {
     margin-top: 20px; }
   .rec-posts dt {
@@ -1139,6 +1128,26 @@ ul .nav-searcher {
   text-align: center;
   border: 0.35em #ffffff solid;
   padding: 0.5em 1em; }
+
+.read-btn {
+  color: #0D497C;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 3px solid #0D497C;
+  margin-bottom: 25px; }
+
+.search-btn {
+  color: #ffffff;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 3px solid #ffffff;
+  margin: 10px 0 25px 0; }
 
 .join-button {
   float: right;
