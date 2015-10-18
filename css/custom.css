@@ -130,13 +130,13 @@ p {
 
 dt, dd {
   font-family: 'proxima_nova_altlight';
-  font-size: 20px; }
+  font-size: 18px; }
 
 h1 {
   font-family: 'proxima_nova_ththin';
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 800;
-  margin-bottom: 1.2em;
+  margin-bottom: 0.8em;
   text-transform: uppercase; }
 
 h2 {
@@ -383,6 +383,13 @@ section i {
   padding-bottom: 14px;
   position: relative; }
 
+.page-title-no-icon {
+  margin-top: 0px;
+  padding-bottom: 14px;
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-left: 15px; }
+
 .page-title:before {
   content: "";
   position: absolute;
@@ -393,19 +400,24 @@ section i {
   /* or 100px */
   border-bottom: 3px solid #8EC6CE; }
 
+.page-title-no-icon:before {
+  content: "";
+  position: absolute;
+  left: 0.3em;
+  bottom: 0;
+  height: 1px;
+  width: 2.5em;
+  /* or 100px */
+  border-bottom: 3px solid #8EC6CE; }
+
 .sub-header {
   padding-bottom: 10px;
   position: relative; }
 
-.sub-header:before {
-  content: "";
-  position: absolute;
-  left: 0.1;
-  bottom: 0;
-  height: 1px;
-  width: 60%;
-  /* or 100px */
-  border-bottom: 1px solid #8EC6CE; }
+.sub {
+  margin-bottom: 0em;
+  padding-left: 1em;
+  color: #707070; }
 
 /*Layout*/
 /*Sass Variables*/
@@ -525,7 +537,7 @@ hr {
   color: #ffffff;
   background-color: #0D497C;
   padding: 5px 25px 25px 25px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 20px; }
   .filter-form .form-control {
@@ -550,9 +562,10 @@ hr {
 .rec-posts {
   padding: 20px 20px 20px 30px;
   border: 1px solid #8EC6CE;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  margin-top: 50px; }
+  margin-top: 21px;
+  margin-bottom: 50px; }
   .rec-posts dl {
     margin-top: 20px; }
   .rec-posts dt {
@@ -677,6 +690,21 @@ hr {
 
 .bg-dark {
   background-color: #0D497C; }
+
+.image-section {
+  margin-bottom: 2em;
+  max-height: 400px; }
+
+.image-section img {
+  height: 400px; }
+
+.img-bdr-r {
+  border-right: 1px solid #efefef;
+  padding-right: 30px; }
+
+.img-bdr-l {
+  border-left: 1px solid #efefef;
+  padding-left: 30px; }
 
 /*Navigation*/
 /*Sass Variables*/
@@ -1031,7 +1059,7 @@ ul .nav-searcher {
   text-decoration: none; }
 
 .ftr-menu li a:hover {
-  color: #ffffff; }
+  color: #0D497C; }
 
 .ftr-social {
   float: right; }

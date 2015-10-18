@@ -142,7 +142,7 @@ hr {
   color: $white;
   background-color: $blue-b;
   padding: 5px 25px 25px 25px;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
   margin-top: 20px;
 
@@ -175,9 +175,10 @@ hr {
 .rec-posts {
   padding: 20px 20px 20px 30px;
   border: 1px solid $blue-a;
-  width: 80%;
+  width: 70%;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 21px;
+  margin-bottom: 50px;
 
   dl {
     margin-top: 20px;
@@ -324,4 +325,23 @@ hr {
 
 .bg-dark{
   background-color: $blue-b;
+}
+
+.image-section{
+  margin-bottom: 2em;
+  max-height: 400px;
+}
+
+.image-section img {
+  height: 400px;
+}
+
+.img-bdr-r{
+  border-right: 1px solid $grey;
+  padding-right: 30px;
+}
+
+.img-bdr-l{
+  border-left: 1px solid $grey;
+  padding-left: 30px;
 }

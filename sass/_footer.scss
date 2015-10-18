@@ -98,8 +98,9 @@
       color: #7D8681;
       font-weight: normal;
       text-decoration: none; }
-    .ftr-menu li a:hover {
-      color: #ffffff; }
+      .ftr-menu li a:hover{
+        color: $blue-b;
+      }
 
 .ftr-social {
   float: right; }
@@ -161,3 +162,4 @@
 .footer-logo{
   margin-bottom:1.4em;
 }
+

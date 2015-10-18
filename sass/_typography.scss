@@ -208,14 +208,14 @@ p {
 
 dt, dd{
   font-family: 'proxima_nova_altlight';
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h1{
   font-family:'proxima_nova_ththin';
-  font-size: 50px;
+  font-size: 42px;
   font-weight: 800;
-  margin-bottom: 1.2em;
+  margin-bottom: 0.8em;
   text-transform: uppercase;
 }
 
@@ -501,7 +501,15 @@ section i {
   position: relative;
 }
 
-.page-title:before{
+.page-title-no-icon{
+  margin-top: 0px;
+  padding-bottom: 14px;
+  position: relative;
+  margin-bottom: 0.5em;
+  padding-left: 15px;
+}
+
+.page-title:before {
   content : "";
   position: absolute;
   left    : 0.1;
@@ -511,19 +519,25 @@ section i {
   border-bottom:3px solid $blue-a;  
 }
 
+.page-title-no-icon:before{
+  content : "";
+  position: absolute;
+  left    : 0.3em;
+  bottom  : 0;
+  height  : 1px;
+  width   : 2.5em;  /* or 100px */
+  border-bottom:3px solid $blue-a;   
+}
+
 .sub-header {
   padding-bottom: 10px;
   position: relative;
 }
 
-.sub-header:before{
-  content : "";
-  position: absolute;
-  left    : 0.1;
-  bottom  : 0;
-  height  : 1px;
-  width   : 60%;  /* or 100px */
-  border-bottom:1px solid $blue-a;   
+.sub{
+  margin-bottom: 0em;
+  padding-left: 1em;
+  color: $black-c;
 }
 
 
