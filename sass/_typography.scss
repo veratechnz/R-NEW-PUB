@@ -483,5 +483,20 @@ section i {
 
 .page-title{
   margin-top: 0px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  position: relative;
 }
+
+.page-title:before{
+  content : "";
+  position: absolute;
+  left    : 0.1;
+  bottom  : 0;
+  height  : 1px;
+  width   : 2.5em;  /* or 100px */
+  border-bottom:3px solid $blue-a;  
+}
+
+
 

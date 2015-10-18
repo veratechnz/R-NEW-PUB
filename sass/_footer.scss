@@ -58,12 +58,12 @@
   float: right;
 
   .social-bgd {
-    color: #323635;
+    color: $black;
   }
 
   .fa-stack-1x {
     color: $white;
-    font-size: 14px;
+    font-size: 15px;
   }
 }
 
@@ -104,7 +104,7 @@
 .ftr-social {
   float: right; }
   .ftr-social .social-bgd {
-    color: #323635; }
+    color: $blue-b; }
   .ftr-social .fa-stack-1x {
     color: #ffffff;
     font-size: 14px; }

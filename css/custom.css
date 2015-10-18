@@ -367,7 +367,20 @@ section i {
   font-size: 4em; }
 
 .page-title {
-  margin-top: 0px; }
+  margin-top: 0px;
+  padding-left: 15px;
+  padding-bottom: 10px;
+  position: relative; }
+
+.page-title:before {
+  content: "";
+  position: absolute;
+  left: 0.1;
+  bottom: 0;
+  height: 1px;
+  width: 2.5em;
+  /* or 100px */
+  border-bottom: 3px solid #8EC6CE; }
 
 /*Layout*/
 /*Sass Variables*/
@@ -413,7 +426,10 @@ hr {
 
 .top-gap {
   margin-top: 200px;
-  margin-top: 200px; }
+  margin-top: 200px;
+  margin-bottom: 80px;
+  margin-bottom: 6em;
+  min-height: 50vh; }
 
 .overflow-a {
   overflow: auto; }
@@ -966,10 +982,10 @@ ul .nav-searcher {
 .ftr-social {
   float: right; }
   .ftr-social .social-bgd {
-    color: #323635; }
+    color: #000000; }
   .ftr-social .fa-stack-1x {
     color: #ffffff;
-    font-size: 14px; }
+    font-size: 15px; }
 
 .ftr-bottom {
   margin-top: 45px; }
@@ -1009,7 +1025,7 @@ ul .nav-searcher {
   float: right; }
 
 .ftr-social .social-bgd {
-  color: #323635; }
+  color: #0D497C; }
 
 .ftr-social .fa-stack-1x {
   color: #ffffff;
