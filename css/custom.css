@@ -380,7 +380,7 @@ section i {
 .page-title {
   margin-top: 0px;
   padding-left: 15px;
-  padding-bottom: 10px;
+  padding-bottom: 14px;
   position: relative; }
 
 .page-title:before {
@@ -392,6 +392,20 @@ section i {
   width: 2.5em;
   /* or 100px */
   border-bottom: 3px solid #8EC6CE; }
+
+.sub-header {
+  padding-bottom: 14px;
+  position: relative; }
+
+.sub-header:before {
+  content: "";
+  position: absolute;
+  left: 0.1;
+  bottom: 0;
+  height: 1px;
+  width: 60%;
+  /* or 100px */
+  border-bottom: 1px solid #8EC6CE; }
 
 /*Layout*/
 /*Sass Variables*/
@@ -422,6 +436,7 @@ section {
   padding: 4em 0; }
 
 hr {
+  margin-top: 4em;
   margin-bottom: 4em; }
 
 .new-min {
@@ -501,11 +516,6 @@ hr {
   margin-bottom: 2em; }
   .member-text img {
     margin-top: 20px; }
-  .member-text hr {
-    text-align: left;
-    border: 1px solid #000000;
-    margin: -5px 0 10px;
-    width: 55%; }
 
 .article-thumb hr {
   border: 1px solid #0D497C;
@@ -654,6 +664,15 @@ hr {
   padding-top: 8.5%;
   /*padding-top: 17.5vh;*/
   margin: 0 auto; }
+
+.spacer-a {
+  margin: 20px 0 20px 0; }
+
+.bg-light {
+  background-color: #8EC6CE; }
+
+.bg-dark {
+  background-color: #0D497C; }
 
 /*Navigation*/
 /*Sass Variables*/

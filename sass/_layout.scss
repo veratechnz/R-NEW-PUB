@@ -24,6 +24,7 @@ section {
 }
 
 hr {
+  margin-top: 4em;
   margin-bottom: 4em;
 }
 
@@ -126,12 +127,6 @@ hr {
 
   img {
     margin-top: 20px;
-  }
-  hr {
-    text-align: left;
-    border: 1px solid $black;
-    margin: -5px 0 10px;
-    width: 55%;
   }
 }
 
@@ -315,3 +310,14 @@ hr {
 }
 
 
+.spacer-a {
+  margin: 20px 0 20px 0;
+}
+
+.bg-light{
+  background-color: $blue-a;
+}
+
+.bg-dark{
+  background-color: $blue-b;
+}
