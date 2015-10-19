@@ -6,10 +6,11 @@
 	padding: 4em;
 	border: 3px solid $grey;
 	border-radius: 2px;
+	min-height: 50vh;
 
 	.btn-primary{
 		text-transform: uppercase;
-		font-size: 16px;
+		font-size: 20px;
 		color: $white;
 		background-color: $blue-b;
 
@@ -20,7 +21,7 @@
 	}
 
 	.btn-primary:hover{
-		font-size: 16px;
+		font-size: 20px;
 		color: $white;
 		background-color: $blue-a;
 		border: 2px solid $blue-a;
@@ -31,7 +32,7 @@
 	}
 
 	.btn-default{
-		font-size: 16px;
+		font-size: 20px;
 		padding: 8px;
 		margin-right: 16px;
 	}
@@ -43,17 +44,28 @@
 
 	.panel-cat a.list-group-item{
 		font-family: 'proxima_nova_altlight';
-		font-size: 18px;
+		font-size: 20px;
 		font-weight: 300;
+	}
+
+	.details{
+		width: 98%;
 	}
 
 }
 
 .shop{ 
 
+
+	h3{
+		padding-left: 0.2em;
+		margin-left: 0.2em;
+	}
+
 		i {
-			font-size: 22px;
-			padding-right: 8px;
+			font-size: 20px;
+			padding-right: 14px;
+			padding-left: 14px;
 		}
 		.page-title{
 			margin-bottom: 2em;
@@ -62,6 +74,11 @@
 		/*Cart Ajax Indicator Top Left Panel*/
 		.cart-content li a b {
 			color: $blue-b;
+			font-weight: normal;
+		}
+
+		.cart-content a, .tbl-cart tbody tr td.hidden-xs a, .tbl-cart tbody tr td a {
+			font-weight: normal;
 		}
 
 		.table-bordered.tbl-cart a{
@@ -70,15 +87,31 @@
 
 		select{
 			padding: 4px;
-			font-size: 16px;
+			font-size: 20px;
 		}
 
 		input.input-qty.form-control.text-center, td{
-			font-size: 16px;
+			font-size: 20px;
 		}
 
 		.totals td{
 			font-size: 20px;
+		}
+
+		.input-qty.form-control.text-center {
+			min-height: 42px;
+		}
+
+		table{
+			margin-bottom: 3em;
+		}
+
+		td{
+			font-size: 20px;
+		}
+
+		.order-success, .order-fail{
+			float: right;
 		}
 
 }

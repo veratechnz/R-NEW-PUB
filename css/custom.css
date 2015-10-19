@@ -1433,24 +1433,25 @@ ul .nav-searcher {
   width: 98%;
   padding: 4em;
   border: 3px solid #efefef;
-  border-radius: 2px; }
+  border-radius: 2px;
+  min-height: 50vh; }
   .cart .btn-primary {
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     background-color: #0D497C;
     margin-right: 16px; }
     .cart .btn-primary i {
       color: #ffffff; }
   .cart .btn-primary:hover {
-    font-size: 16px;
+    font-size: 20px;
     color: #ffffff;
     background-color: #8EC6CE;
     border: 2px solid #8EC6CE; }
     .cart .btn-primary:hover i {
       color: #ffffff; }
   .cart .btn-default {
-    font-size: 16px;
+    font-size: 20px;
     padding: 8px;
     margin-right: 16px; }
   .cart h2 {
@@ -1458,27 +1459,44 @@ ul .nav-searcher {
     margin-bottom: 1.8em; }
   .cart .panel-cat a.list-group-item {
     font-family: 'proxima_nova_altlight';
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300; }
+  .cart .details {
+    width: 98%; }
 
 .shop {
   /*Cart Ajax Indicator Top Left Panel*/ }
+  .shop h3 {
+    padding-left: 0.2em;
+    margin-left: 0.2em; }
   .shop i {
-    font-size: 22px;
-    padding-right: 8px; }
+    font-size: 20px;
+    padding-right: 14px;
+    padding-left: 14px; }
   .shop .page-title {
     margin-bottom: 2em; }
   .shop .cart-content li a b {
-    color: #0D497C; }
+    color: #0D497C;
+    font-weight: normal; }
+  .shop .cart-content a, .shop .tbl-cart tbody tr td.hidden-xs a, .shop .tbl-cart tbody tr td a {
+    font-weight: normal; }
   .shop .table-bordered.tbl-cart a {
     font-size: 20px; }
   .shop select {
     padding: 4px;
-    font-size: 16px; }
+    font-size: 20px; }
   .shop input.input-qty.form-control.text-center, .shop td {
-    font-size: 16px; }
+    font-size: 20px; }
   .shop .totals td {
     font-size: 20px; }
+  .shop .input-qty.form-control.text-center {
+    min-height: 42px; }
+  .shop table {
+    margin-bottom: 3em; }
+  .shop td {
+    font-size: 20px; }
+  .shop .order-success, .shop .order-fail {
+    float: right; }
 
 .cart-static {
   float: right; }
