@@ -1435,9 +1435,11 @@ ul .nav-searcher {
   border: 3px solid #efefef;
   border-radius: 2px; }
   .cart .btn-primary {
+    text-transform: uppercase;
     font-size: 16px;
     color: #ffffff;
-    background-color: #0D497C; }
+    background-color: #0D497C;
+    margin-right: 16px; }
     .cart .btn-primary i {
       color: #ffffff; }
   .cart .btn-primary:hover {
@@ -1454,9 +1456,29 @@ ul .nav-searcher {
   .cart h2 {
     color: #0D497C;
     margin-bottom: 1.8em; }
+  .cart .panel-cat a.list-group-item {
+    font-family: 'proxima_nova_altlight';
+    font-size: 18px;
+    font-weight: 300; }
 
-.shop .page-title {
-  margin-bottom: 2em; }
+.shop {
+  /*Cart Ajax Indicator Top Left Panel*/ }
+  .shop i {
+    font-size: 22px;
+    padding-right: 8px; }
+  .shop .page-title {
+    margin-bottom: 2em; }
+  .shop .cart-content li a b {
+    color: #0D497C; }
+  .shop .table-bordered.tbl-cart a {
+    font-size: 20px; }
+  .shop select {
+    padding: 4px;
+    font-size: 16px; }
+  .shop input.input-qty.form-control.text-center, .shop td {
+    font-size: 16px; }
+  .shop .totals td {
+    font-size: 20px; }
 
 .cart-static {
   float: right; }
