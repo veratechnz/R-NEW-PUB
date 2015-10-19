@@ -1,0 +1,54 @@
+/*Shopping Cart Template Overrides*/
+
+.cart{
+
+	width: 98%;
+	padding: 4em;
+	border: 3px solid $grey;
+	border-radius: 2px;
+
+	.btn-primary{
+		font-size: 16px;
+		color: $white;
+		background-color: $blue-b;
+
+		i{
+			color: $white;	
+		}
+	}
+
+	.btn-primary:hover{
+		font-size: 16px;
+		color: $white;
+		background-color: $blue-a;
+		border: 2px solid $blue-a;
+
+		i{
+			color: $white;	
+		}
+	}
+
+	.btn-default{
+		font-size: 16px;
+		padding: 8px;
+		margin-right: 16px;
+	}
+
+	h2{
+		color: $blue-b;
+		margin-bottom: 1.8em;
+	}
+
+}
+
+.shop{ 
+
+	.page-title{
+		margin-bottom: 2em;
+	}
+
+}
+
+.cart-static{
+	float: right;
+}

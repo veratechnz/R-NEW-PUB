@@ -1427,3 +1427,36 @@ ul .nav-searcher {
     display: block; }
   .demo-logo {
     display: none; } }
+
+/*Shopping Cart Template Overrides*/
+.cart {
+  width: 98%;
+  padding: 4em;
+  border: 3px solid #efefef;
+  border-radius: 2px; }
+  .cart .btn-primary {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #0D497C; }
+    .cart .btn-primary i {
+      color: #ffffff; }
+  .cart .btn-primary:hover {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #8EC6CE;
+    border: 2px solid #8EC6CE; }
+    .cart .btn-primary:hover i {
+      color: #ffffff; }
+  .cart .btn-default {
+    font-size: 16px;
+    padding: 8px;
+    margin-right: 16px; }
+  .cart h2 {
+    color: #0D497C;
+    margin-bottom: 1.8em; }
+
+.shop .page-title {
+  margin-bottom: 2em; }
+
+.cart-static {
+  float: right; }
