@@ -534,6 +534,16 @@ section i {
   position: relative;
 }
 
+.sub-header:before{
+  content : "";
+  position: absolute;
+  left    : 0em;
+  bottom  : 0;
+  height  : 1px;
+  width   : 60%;  /* or 100px */
+  border-bottom:1px solid $blue-a;   
+}
+
 .sub{
   margin-bottom: 0em;
   padding-left: 1em;

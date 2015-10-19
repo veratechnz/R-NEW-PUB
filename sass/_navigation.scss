@@ -66,13 +66,17 @@ ul .nav-searcher {
   position: fixed;
   width: 100%;
   z-index: 9;
-  height: 3.5em;
+  height: 5em;
   margin-bottom: 1em;
   margin-top: 10em;
   border-top: 3px solid #345973;
   background-color: $blue-b;
   display: none; 
   opacity: 0.95;
+}
+
+.member-sub-nav-b h5{
+  padding-top: 0px;
 }
 
 .member-sub-nav-b .overflow-a{

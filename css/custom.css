@@ -414,6 +414,16 @@ section i {
   padding-bottom: 10px;
   position: relative; }
 
+.sub-header:before {
+  content: "";
+  position: absolute;
+  left: 0em;
+  bottom: 0;
+  height: 1px;
+  width: 60%;
+  /* or 100px */
+  border-bottom: 1px solid #8EC6CE; }
+
 .sub {
   margin-bottom: 0em;
   padding-left: 1em;
@@ -502,7 +512,7 @@ hr {
   float: left;
   width: 12.5%;
   color: #fff;
-  padding: 0.8em; }
+  padding: 1.2em 0.8em 0.8em 0.8em; }
 
 .eight-splitb:hover {
   background-color: #8EC6CE; }
@@ -770,13 +780,16 @@ ul .nav-searcher {
   position: fixed;
   width: 100%;
   z-index: 9;
-  height: 3.5em;
+  height: 5em;
   margin-bottom: 1em;
   margin-top: 10em;
   border-top: 3px solid #345973;
   background-color: #0D497C;
   display: none;
   opacity: 0.95; }
+
+.member-sub-nav-b h5 {
+  padding-top: 0px; }
 
 .member-sub-nav-b .overflow-a {
   height: 100%;
@@ -1059,7 +1072,7 @@ ul .nav-searcher {
   text-decoration: none; }
 
 .ftr-menu li a:hover {
-  color: #0D497C; }
+  color: #8EC6CE; }
 
 .ftr-social {
   float: right; }
@@ -1096,7 +1109,7 @@ ul .nav-searcher {
   border: none; }
 
 .footer .col-md-10 {
-  padding: 2.2em; }
+  padding: 2.2em 2.2em 4em 2.2em; }
 
 .footer-container .ftr-bottom {
   padding: 0em; }
