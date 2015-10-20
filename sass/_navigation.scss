@@ -13,18 +13,6 @@
   height: 6em;
 }
 
-.public-nav {
-    color: #fff;
-    font-size: 11px;
-    font-weight: 800;
-    margin-top: 1.6em;
-}
-
-.public-nav a{
-  display: inline-block;
-  padding: 10px;
-}
-
 .navbar-header{
   margin-top: 0.25em;
 }
@@ -152,7 +140,7 @@ ul .nav-searcher {
 	display: inline-block;
 	float: right;
 	margin-left: 1.5em;
-	margin: 0.9em 0em 0em 1.5em;
+	margin: 0.9em 0em 1.8em 1.5em;
 }
 
 .nav-button button{
@@ -176,7 +164,7 @@ ul .nav-searcher {
 .nav-button {
   width: 11em;
   display: inline-block;
-  margin: 1.15em 0em 0em 1.5em; 
+  margin: 0.9em 0em 1.9em 1.5em; 
  }
 
 
@@ -303,6 +291,46 @@ ul .nav-searcher {
   z-index: 1040;
 }
 
-/*** arrows (for all except IE7) **/
+
+/********************************************Universal Nav************************/
+
+div.wsmenucontainer nav.wsmenu{
+  margin: 0 auto;
+  float: none;
+}
+
+.public-nav {
+
+      color: #fff;
+      font-size: 11px;
+      font-weight: 800;
+      background-color: $black;
+      margin: 1.1em;
+
+    .wsmenu-submenu li a {
+      background-color: $blue-b;
+      border-color: $blue-b;
+    }
+
+    .wsmenu-submenu li {
+     border-bottom: 1px solid #fff; 
+    }
+
+    .wsmenu-submenu ul:last-child {
+      border-bottom: none !important;
+    }
+
+    .wsmenu-submenu li:hover {
+      background-color: $blue-a;
+      border-color: $blue-a;
+      border: $blue-a 1px solid;
+    }
+
+}
+
+.public-nav a{
+  display: inline-block;
+  padding: 10px;
+}
 
 /******************************Superfish Menu End**********************************/

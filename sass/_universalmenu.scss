@@ -313,12 +313,10 @@ a:focus {outline:none !important;}
 /* Submenu CSS */
 .wsmenu-submenu{
 	position:absolute;
-	top: 48px;
+	top: 62px;
 	z-index:1000;
 	margin:0px;
 	padding:2px;
-	border:solid 1px #eeeeee;
-	background-color:#fff;
 	opacity: 0;
 	-o-transform-origin: 0% 0%;
 	-ms-transform-origin: 0% 0%;
@@ -330,18 +328,19 @@ a:focus {outline:none !important;}
 	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;}
 
 .wsmenu-submenu li a {
-	background:#fff !important;
+	background:#fff;
 	background-image:none !important;
-	color: #666666 !important;
+	color: #fff !important;
 	border-right: 0 none !important;
 	text-align:left;
 	display:block;
 	line-height:22px;
-	padding:6px 12px;
+	padding:10px 16px;
 	text-transform:none; 
 	font-size:13px;
 	letter-spacing:normal;
-	border-right:0px solid;}
+	border-right:0px solid;
+}
 
 .wsmenu-submenu li{position:relative; margin:0px; padding:0px;}
 
