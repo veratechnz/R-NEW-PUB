@@ -1434,7 +1434,7 @@ ul .nav-searcher {
   padding: 4em;
   border: 3px solid #efefef;
   border-radius: 2px;
-  min-height: 50vh; }
+  min-height: 100vh; }
   .cart .btn-primary {
     text-transform: uppercase;
     font-size: 20px;
@@ -1463,6 +1463,8 @@ ul .nav-searcher {
     font-weight: 300; }
   .cart .details {
     width: 98%; }
+  .cart i {
+    font-size: 22px; }
 
 .shop {
   /*Cart Ajax Indicator Top Left Panel*/ }
@@ -1470,7 +1472,7 @@ ul .nav-searcher {
     padding-left: 0.2em;
     margin-left: 0.2em; }
   .shop i {
-    font-size: 20px;
+    font-size: 22px;
     padding-right: 14px;
     padding-left: 14px; }
   .shop .page-title {

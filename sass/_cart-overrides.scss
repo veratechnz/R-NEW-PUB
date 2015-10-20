@@ -6,7 +6,7 @@
 	padding: 4em;
 	border: 3px solid $grey;
 	border-radius: 2px;
-	min-height: 50vh;
+	min-height: 100vh;
 
 	.btn-primary{
 		text-transform: uppercase;
@@ -52,6 +52,10 @@
 		width: 98%;
 	}
 
+	i {
+		font-size: 22px;
+	}
+
 }
 
 .shop{ 
@@ -63,7 +67,7 @@
 	}
 
 		i {
-			font-size: 20px;
+			font-size: 22px;
 			padding-right: 14px;
 			padding-left: 14px;
 		}
