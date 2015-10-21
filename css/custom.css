@@ -502,7 +502,7 @@ a:focus {
 .wsmenu-submenu li a {
   background: #fff;
   background-image: none !important;
-  color: #fff !important;
+  color: #fff;
   border-right: 0 none !important;
   text-align: left;
   display: block;
@@ -586,19 +586,19 @@ a:focus {
 
 /* Default Theme */
 .wsmenu-list li:hover > a {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.08);
   text-decoration: none; }
 
 .wsmenu-list > li > a:hover {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.08);
   text-decoration: none; }
 
 .wsmenu-list > li > a.active {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.08);
   text-decoration: none; }
 
 .wsmenu-submenu > li > a:hover {
-  background-color: rgba(0, 0, 0, 0.08) !important;
+  background-color: rgba(0, 0, 0, 0.08);
   border-radius: 0px !important;
   text-decoration: none;
   text-decoration: none; }
@@ -2163,7 +2163,7 @@ div.wsmenucontainer nav.wsmenu {
     border-bottom: 1px solid #fff; }
   .public-nav .wsmenu-submenu ul:last-child {
     border-bottom: none !important; }
-  .public-nav .wsmenu-submenu li:hover {
+  .public-nav .wsmenu-submenu li a:hover {
     background-color: #8EC6CE;
     border-color: #8EC6CE;
     border: #8EC6CE 1px solid; }
@@ -2196,47 +2196,19 @@ div.wsmenucontainer nav.wsmenu {
   background-color: #ffffff;
   margin: 0em 1.1em 0em 1.1em;
   height: 100%; }
-  .member-nav .wsmenu-submenu li a {
-    background-color: #0D497C;
-    border-color: #0D497C; }
-  .member-nav .wsmenu-submenu li {
-    border-bottom: 1px solid #fff; }
-  .member-nav .wsmenu-submenu ul:last-child {
-    border-bottom: none !important; }
-  .member-nav .wsmenu-submenu li:hover {
-    background-color: #8EC6CE;
-    border-color: #8EC6CE;
-    border: #8EC6CE 1px solid; }
-  .member-nav .wsmenu-list > li > a {
-    font-family: 'proxima_nova_rgbold';
-    font-size: 11pt;
-    letter-spacing: 0.08em;
-    font-weight: 400;
-    text-transform: uppercase; }
-  .member-nav .wsmenu-submenu li a {
-    font-family: 'proxima_nova_rgbold';
-    font-size: 10pt;
-    letter-spacing: 0.08em;
-    font-weight: light;
-    text-transform: uppercase; }
   .member-nav i.fa.fa-circle-thin {
     text-align: center;
     font-size: 50px;
     color: #000000;
     margin-right: 0pxs;
     padding-top: 0.3em; }
-  .member-nav .mobile-sub.wsmenu-list li a:hover {
-    background-color: #000000; }
-    .member-nav .mobile-sub.wsmenu-list li a:hover i.fa.fa-circle-thin {
-      color: #ffffff; }
-    .member-nav .mobile-sub.wsmenu-list li a:hover h5 {
-      color: #ffffff; }
-  .member-nav div.megamenu {
-    top: 130px; }
+  .member-nav .twelve-point:hover i, .member-nav .twelve-point:hover h5 {
+    color: #8EC6CE;
+    background-color: #fff; }
   .member-nav .wsmenu-list {
     padding: 1.2em 0em 0sem 0em;
     height: 100%; }
-  .member-nav .wsmenu-list li {
+  .member-nav .twelve-point {
     width: 12.5%;
     margin-top: 0.7em;
     height: 100%; }
@@ -2245,25 +2217,33 @@ div.wsmenucontainer nav.wsmenu {
   .member-nav h5 {
     color: #000000;
     padding-bottom: 1.1em; }
-  .member-nav .mega-menu {
-    border: none; }
+  .member-nav .wsmenu-submenu {
+    background-color: #efefef;
+    color: #000000;
+    top: 130px; }
+  .member-nav ul.wsmenu-submenu li a {
+    color: black;
+    font-family: "proxima_nova_ththin";
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase; }
+  .member-nav li.twelve-point ul.wsmenu-submenu li a:hover {
+    background-color: #8EC6CE;
+    color: white; }
+  .member-nav li.twelve-point ul.wsmenu-submenu li a {
+    background-color: #0D497C;
+    border-bottom: 1px solid white;
+    color: white; }
+  .member-nav ul.wsmenu-submenu:last-child {
+    border-bottom: none; }
 
+/*member nav ends*/
 .header {
   background-color: #fff; }
 
 .member-nav a {
   display: inline-block;
   padding: 10px; }
-
-.megamenu {
-  background-color: #0D497C;
-  padding: 0px;
-  min-height: 4em; }
-  .megamenu h3.title {
-    color: #ffffff;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 15px; }
 
 /******************************Superfish Menu End**********************************/
 .footer h1 {

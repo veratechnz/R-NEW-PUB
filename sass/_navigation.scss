@@ -324,7 +324,7 @@ div.wsmenucontainer nav.wsmenu{
       border-bottom: none !important;
     }
 
-    .wsmenu-submenu li:hover {
+    .wsmenu-submenu li a:hover {
       background-color: $blue-a;
       border-color: $blue-a;
       border: $blue-a 1px solid;
@@ -367,48 +367,15 @@ div.wsmenucontainer nav.wsmenu{
 
 
 /*Member Menu*/
+
 .member-nav{
+
     color: $black;
     font-size: 11px;
     font-weight: 800;
     background-color: $white;
     margin: 0em 1.1em 0em 1.1em;
     height: 100%;
-
-  .wsmenu-submenu li a {
-    background-color: $blue-b;
-    border-color: $blue-b;
-  }
-
-  .wsmenu-submenu li {
-   border-bottom: 1px solid #fff; 
-  }
-
-  .wsmenu-submenu ul:last-child {
-    border-bottom: none !important;
-  }
-
-  .wsmenu-submenu li:hover {
-    background-color: $blue-a;
-    border-color: $blue-a;
-    border: $blue-a 1px solid;
-  }
-
-  .wsmenu-list > li > a {
-    font-family: 'proxima_nova_rgbold';
-    font-size: 11pt;
-    letter-spacing: 0.08em;
-    font-weight: 400;
-    text-transform: uppercase;
-  }
-
-  .wsmenu-submenu li a{
-   font-family: 'proxima_nova_rgbold';
-   font-size: 10pt;
-   letter-spacing: 0.08em;
-   font-weight: light;
-   text-transform: uppercase;
-  }
 
   i.fa.fa-circle-thin{
     text-align: center;
@@ -418,30 +385,21 @@ div.wsmenucontainer nav.wsmenu{
     padding-top: 0.3em;
   }
 
-  .mobile-sub.wsmenu-list li a:hover {
-
-      background-color: $black;
-
-      i.fa.fa-circle-thin{
-        color: $white;
-      }
-
-      h5{
-        color: $white;
-      }
-
+  .twelve-point:hover {
+  i, h5{
+    color: $blue-a;
+    background-color: #fff;
   }
 
-  div.megamenu{
-    top: 130px;
-   }
+
+  }
 
   .wsmenu-list{
     padding: 1.2em 0em 0sem 0em;
     height: 100%;
   }
     
-  .wsmenu-list li{
+  .twelve-point{
     width: 12.5%;
     margin-top: 0.7em;
     height: 100%;
@@ -456,37 +414,46 @@ div.wsmenucontainer nav.wsmenu{
     padding-bottom: 1.1em;
   }
 
-  .mega-menu{
-    border: none;
+  .wsmenu-submenu{
+    background-color: $grey;
+    color: $black;
+    top: 130px;
   }
 
-}
-
-
-.header{
-  background-color: #fff;
-}
-
-
-.member-nav a{
-  display: inline-block;
-  padding: 10px;
-}
-
-.megamenu{
-  background-color: $blue-b;
-  padding: 0px;
-  min-height: 4em;
-
-  h3.title{
-    color: $white;
-    margin-top: 2em;
-    margin-bottom: 2em;
-    font-size: 15px;
+  ul.wsmenu-submenu li a{
+    color: black;
+    font-family: "proxima_nova_ththin";
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;  
   }
 
-}
+  li.twelve-point ul.wsmenu-submenu li a:hover{
+    background-color: $blue-a;
+    color: white;
+  }
+
+  li.twelve-point ul.wsmenu-submenu li a{
+    background-color: $blue-b;
+    border-bottom: 1px solid white;
+    color: white;
+  }
+
+  ul.wsmenu-submenu:last-child{
+    border-bottom: none;
+  }
 
 
+} /*member nav ends*/
+
+
+  .header{
+    background-color: #fff;
+  }
+
+  .member-nav a{
+    display: inline-block;
+    padding: 10px;
+  }
 
 /******************************Superfish Menu End**********************************/
