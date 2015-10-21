@@ -297,7 +297,7 @@ ul .nav-searcher {
 /********************************************Universal Nav************************/
 
 
-/*Public*/
+/*Public Menu*/
 div.wsmenucontainer nav.wsmenu{
   margin: 0 auto;
   float: none;
@@ -347,8 +347,8 @@ div.wsmenucontainer nav.wsmenu{
     }
 
     .wsmenu-submenu li a{
-     font-family: 'proxima_nova_rgbold';
-     font-size: 10pt;
+     font-family: 'proxima_nova_ththin';
+     font-size: 13px;
      letter-spacing: 0.08em;
      font-weight: light;
      text-transform: uppercase;
@@ -363,7 +363,10 @@ div.wsmenucontainer nav.wsmenu{
 
 
 
-/*Member*/
+
+
+
+/*Member Menu*/
 .member-nav{
     color: $black;
     font-size: 11px;
@@ -399,10 +402,6 @@ div.wsmenucontainer nav.wsmenu{
     text-transform: uppercase;
   }
 
-  .wsmenu-list > li > a:hover{
-    color: $blue-a;
-  }
-
   .wsmenu-submenu li a{
    font-family: 'proxima_nova_rgbold';
    font-size: 10pt;
@@ -417,6 +416,20 @@ div.wsmenucontainer nav.wsmenu{
     color: $black;
     margin-right: 0pxs;
     padding-top: 0.3em;
+  }
+
+  .mobile-sub.wsmenu-list li a:hover {
+
+      background-color: $black;
+
+      i.fa.fa-circle-thin{
+        color: $white;
+      }
+
+      h5{
+        color: $white;
+      }
+
   }
 
   div.megamenu{
@@ -447,8 +460,8 @@ div.wsmenucontainer nav.wsmenu{
     border: none;
   }
 
-
 }
+
 
 .header{
   background-color: #fff;
@@ -463,12 +476,13 @@ div.wsmenucontainer nav.wsmenu{
 .megamenu{
   background-color: $blue-b;
   padding: 0px;
-  height: 4em;
+  min-height: 4em;
 
   h3.title{
     color: $white;
-    margin-top: 0.2em;
-    margin-bottom: 0.4em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 15px;
   }
 
 }
