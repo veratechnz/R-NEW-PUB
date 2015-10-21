@@ -292,8 +292,12 @@ ul .nav-searcher {
 }
 
 
+
+
 /********************************************Universal Nav************************/
 
+
+/*Public*/
 div.wsmenucontainer nav.wsmenu{
   margin: 0 auto;
   float: none;
@@ -349,9 +353,92 @@ div.wsmenucontainer nav.wsmenu{
      font-weight: light;
      text-transform: uppercase;
     }
+
 }
 
 .public-nav a{
+  display: inline-block;
+  padding: 10px;
+}
+
+
+
+/*Member*/
+.member-nav{
+    color: $black;
+    font-size: 11px;
+    font-weight: 800;
+    background-color: $white;
+    margin: 1.1em;
+
+  .wsmenu-submenu li a {
+    background-color: $blue-b;
+    border-color: $blue-b;
+  }
+
+  .wsmenu-submenu li {
+   border-bottom: 1px solid #fff; 
+  }
+
+  .wsmenu-submenu ul:last-child {
+    border-bottom: none !important;
+  }
+
+  .wsmenu-submenu li:hover {
+    background-color: $blue-a;
+    border-color: $blue-a;
+    border: $blue-a 1px solid;
+  }
+
+  .wsmenu-submenu {
+      top: 46px;
+  }
+
+  .wsmenu-list > li > a {
+    font-family: 'proxima_nova_rgbold';
+    font-size: 11pt;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .wsmenu-list > li > a:hover{
+    color: $blue-a;
+  }
+
+  .wsmenu-submenu li a{
+   font-family: 'proxima_nova_rgbold';
+   font-size: 10pt;
+   letter-spacing: 0.08em;
+   font-weight: light;
+   text-transform: uppercase;
+  }
+
+  i.fa.fa-circle-thin{
+    text-align: center;
+    font-size: 50px;
+    color: $black;
+  }
+
+  div.megamenu{
+    top: 140px;
+   }
+
+  .wsmenu-list{
+    margin-top: 1.2em;
+  }
+    
+  .wsmenu-list li{
+    width: 12.5%;
+    margin-top: 0.7em;
+  }
+
+  h5{
+    color: $black;
+  }
+}
+
+.member-nav a{
   display: inline-block;
   padding: 10px;
 }

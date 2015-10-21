@@ -116,7 +116,7 @@ a:focus {
   color: #fff;
   font-size: 13px;
   padding: 0px;
-  width: 70%;
+  width: 85%;
   float: right;
   -webkit-border-radius: 2px 2px 2px 2px;
   -moz-border-radius: 2px 2px 2px 2px;
@@ -1736,7 +1736,7 @@ hr {
     border: 0.05em solid #0D497C; }
 
 .rec-posts {
-  padding: 20px 20px 20px 30px;
+  padding: 30px 20px 20px 30px;
   border: 1px solid #8EC6CE;
   width: 70%;
   margin: 0 auto;
@@ -2149,6 +2149,7 @@ ul .nav-searcher {
   z-index: 1040; }
 
 /********************************************Universal Nav************************/
+/*Public*/
 div.wsmenucontainer nav.wsmenu {
   margin: 0 auto;
   float: none; }
@@ -2188,6 +2189,58 @@ div.wsmenucontainer nav.wsmenu {
     text-transform: uppercase; }
 
 .public-nav a {
+  display: inline-block;
+  padding: 10px; }
+
+/*Member*/
+.member-nav {
+  color: #000000;
+  font-size: 11px;
+  font-weight: 800;
+  background-color: #ffffff;
+  margin: 1.1em; }
+  .member-nav .wsmenu-submenu li a {
+    background-color: #0D497C;
+    border-color: #0D497C; }
+  .member-nav .wsmenu-submenu li {
+    border-bottom: 1px solid #fff; }
+  .member-nav .wsmenu-submenu ul:last-child {
+    border-bottom: none !important; }
+  .member-nav .wsmenu-submenu li:hover {
+    background-color: #8EC6CE;
+    border-color: #8EC6CE;
+    border: #8EC6CE 1px solid; }
+  .member-nav .wsmenu-submenu {
+    top: 46px; }
+  .member-nav .wsmenu-list > li > a {
+    font-family: 'proxima_nova_rgbold';
+    font-size: 11pt;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .member-nav .wsmenu-list > li > a:hover {
+    color: #8EC6CE; }
+  .member-nav .wsmenu-submenu li a {
+    font-family: 'proxima_nova_rgbold';
+    font-size: 10pt;
+    letter-spacing: 0.08em;
+    font-weight: light;
+    text-transform: uppercase; }
+  .member-nav i.fa.fa-circle-thin {
+    text-align: center;
+    font-size: 50px;
+    color: #000000; }
+  .member-nav div.megamenu {
+    top: 140px; }
+  .member-nav .wsmenu-list {
+    margin-top: 1.2em; }
+  .member-nav .wsmenu-list li {
+    width: 12.5%;
+    margin-top: 0.7em; }
+  .member-nav h5 {
+    color: #000000; }
+
+.member-nav a {
   display: inline-block;
   padding: 10px; }
 

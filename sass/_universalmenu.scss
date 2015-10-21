@@ -22,7 +22,7 @@ a:focus {outline:none !important;}
 	color:#fff;
 	font-size:13px;
 	padding:0px;
-	width:70%;
+	width:85%;
 	float:right;
 	-webkit-border-radius:2px 2px 2px 2px;
 	-moz-border-radius:2px 2px 2px 2px;
@@ -78,7 +78,9 @@ a:focus {outline:none !important;}
 	color:#E5E5E5;
 	padding:0px 14px; line-height:48px;
 	text-decoration:none;
-	position:relative;}
+	position:relative;
+
+}
 
 .wsmenu-list li a:hover .arrow:after{ border-top-color:#b3b3b3}
 .wsmenu-list li a.active .arrow:after{ border-top-color:#b3b3b3}
