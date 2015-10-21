@@ -203,7 +203,7 @@ p {
   font-family: 'proxima_nova_altlight';
   font-size: 20px;
   margin-bottom: 1.2em;
-
+  margin-top: 0.8em;
 }
 
 dt, dd{
@@ -213,7 +213,7 @@ dt, dd{
 
 h1{
   font-family:'proxima_nova_ththin';
-  font-size: 42px;
+  font-size: 38px;
   font-weight: 800;
   margin-bottom: 0.8em;
   text-transform: uppercase;
@@ -531,6 +531,8 @@ section i {
 .sub-header {
   padding-bottom: 10px;
   position: relative;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em;
 }
 
 .sub-header:before{
@@ -548,6 +550,3 @@ section i {
   padding-left: 1em;
   color: $black-c;
 }
-
-
-

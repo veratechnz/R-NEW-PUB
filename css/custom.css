@@ -1290,7 +1290,8 @@ a:focus {
 p {
   font-family: 'proxima_nova_altlight';
   font-size: 20px;
-  margin-bottom: 1.2em; }
+  margin-bottom: 1.2em;
+  margin-top: 0.8em; }
 
 dt, dd {
   font-family: 'proxima_nova_altlight';
@@ -1298,7 +1299,7 @@ dt, dd {
 
 h1 {
   font-family: 'proxima_nova_ththin';
-  font-size: 42px;
+  font-size: 38px;
   font-weight: 800;
   margin-bottom: 0.8em;
   text-transform: uppercase; }
@@ -1575,7 +1576,9 @@ section i {
 
 .sub-header {
   padding-bottom: 10px;
-  position: relative; }
+  position: relative;
+  margin-bottom: 1.2em;
+  margin-top: 1.2em; }
 
 .sub-header:before {
   content: "";
@@ -1709,7 +1712,7 @@ hr {
 .filter-form {
   color: #ffffff;
   background-color: #0D497C;
-  padding: 5px 25px 25px 25px;
+  padding: 25px 25px 25px 25px;
   width: 70%;
   margin: 0 auto;
   margin-top: 20px; }
@@ -2167,6 +2170,22 @@ div.wsmenucontainer nav.wsmenu {
     background-color: #8EC6CE;
     border-color: #8EC6CE;
     border: #8EC6CE 1px solid; }
+  .public-nav .wsmenu-submenu {
+    top: 46px; }
+  .public-nav .wsmenu-list > li > a {
+    font-family: 'proxima_nova_rgbold';
+    font-size: 11pt;
+    letter-spacing: 0.08em;
+    font-weight: 400;
+    text-transform: uppercase; }
+  .public-nav .wsmenu-list > li > a:hover {
+    color: #8EC6CE; }
+  .public-nav .wsmenu-submenu li a {
+    font-family: 'proxima_nova_rgbold';
+    font-size: 10pt;
+    letter-spacing: 0.08em;
+    font-weight: light;
+    text-transform: uppercase; }
 
 .public-nav a {
   display: inline-block;
@@ -2344,7 +2363,8 @@ div.wsmenucontainer nav.wsmenu {
   font-size: 16px;
   font-weight: 800;
   float: right;
-  font-family: 'proxima_nova_ththin'; }
+  font-family: 'proxima_nova_ththin';
+  border: 2px solid #fff; }
 
 .go-btn {
   color: #ffffff;
@@ -2490,6 +2510,9 @@ div.wsmenucontainer nav.wsmenu {
 
 .parallax-d {
   background: url("../img/full-a.jpg"); }
+
+.article-thumb .img-responsive {
+  margin-bottom: 1.4em; }
 
 /*Shopping Cart Template Overrides*/
 .cart {

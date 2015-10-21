@@ -326,6 +326,29 @@ div.wsmenucontainer nav.wsmenu{
       border: $blue-a 1px solid;
     }
 
+    .wsmenu-submenu {
+        top: 46px;
+    }
+
+    .wsmenu-list > li > a {
+      font-family: 'proxima_nova_rgbold';
+      font-size: 11pt;
+      letter-spacing: 0.08em;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    .wsmenu-list > li > a:hover{
+      color: $blue-a;
+    }
+
+    .wsmenu-submenu li a{
+     font-family: 'proxima_nova_rgbold';
+     font-size: 10pt;
+     letter-spacing: 0.08em;
+     font-weight: light;
+     text-transform: uppercase;
+    }
 }
 
 .public-nav a{
