@@ -585,18 +585,6 @@ a:focus {
   display: none; }
 
 /* Default Theme */
-.wsmenu-list li:hover > a {
-  background-color: rgba(0, 0, 0, 0.08);
-  text-decoration: none; }
-
-.wsmenu-list > li > a:hover {
-  background-color: rgba(0, 0, 0, 0.08);
-  text-decoration: none; }
-
-.wsmenu-list > li > a.active {
-  background-color: rgba(0, 0, 0, 0.08);
-  text-decoration: none; }
-
 .wsmenu-submenu > li > a:hover {
   background-color: rgba(0, 0, 0, 0.08);
   border-radius: 0px !important;
@@ -2220,7 +2208,7 @@ div.wsmenucontainer nav.wsmenu {
   .member-nav .wsmenu-submenu {
     background-color: #efefef;
     color: #000000;
-    top: 130px; }
+    top: 126px; }
   .member-nav ul.wsmenu-submenu li a {
     color: black;
     font-family: "proxima_nova_ththin";

@@ -377,9 +377,7 @@ a:focus {outline:none !important;}
 .wsmenu-click{display:none;}
 
 /* Default Theme */ 
-.wsmenu-list li:hover>a{background-color:rgba(0,0,0,0.08) ; text-decoration:none;}
-.wsmenu-list > li > a:hover {background-color:rgba(0,0,0,0.08) ;  text-decoration:none;}
-.wsmenu-list > li > a.active{background-color:rgba(0,0,0,0.08) ; text-decoration:none; }
+
 .wsmenu-submenu > li > a:hover {background-color:rgba(0,0,0,0.08) ; border-radius:0px!important; text-decoration:none;  text-decoration:none;}
 
 .typography-text { padding:0px 0px; font-size:15px;}
