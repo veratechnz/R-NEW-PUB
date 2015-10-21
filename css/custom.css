@@ -147,8 +147,7 @@ a:focus {
 .wsmenu-list > li > a .fa {
   display: inline-block;
   font-size: 14px;
-  line-height: inherit;
-  margin-right: 4px; }
+  line-height: inherit; }
 
 .wsmenu-list li ul li a .fa.fa-angle-double-right {
   font-size: 12px;
@@ -207,9 +206,7 @@ a:focus {
   z-index: 1000;
   margin: 0px;
   text-align: left;
-  padding: 14px;
   font-size: 15px;
-  border: solid 1px #eeeeee;
   background-color: #fff;
   opacity: 0;
   -o-transform-origin: 0% 0%;
@@ -222,7 +219,6 @@ a:focus {
   -webkit-transition: -webkit-transform 0.3s, opacity 0.3s; }
 
 .megamenu .title {
-  border-bottom: 1px solid #CCC;
   font-size: 14px;
   padding: 9px 5px 9px 0px;
   font-size: 17px;
@@ -2198,7 +2194,8 @@ div.wsmenucontainer nav.wsmenu {
   font-size: 11px;
   font-weight: 800;
   background-color: #ffffff;
-  margin: 1.1em; }
+  margin: 0em 1.1em 0em 1.1em;
+  height: 100%; }
   .member-nav .wsmenu-submenu li a {
     background-color: #0D497C;
     border-color: #0D497C; }
@@ -2210,8 +2207,6 @@ div.wsmenucontainer nav.wsmenu {
     background-color: #8EC6CE;
     border-color: #8EC6CE;
     border: #8EC6CE 1px solid; }
-  .member-nav .wsmenu-submenu {
-    top: 46px; }
   .member-nav .wsmenu-list > li > a {
     font-family: 'proxima_nova_rgbold';
     font-size: 11pt;
@@ -2229,20 +2224,41 @@ div.wsmenucontainer nav.wsmenu {
   .member-nav i.fa.fa-circle-thin {
     text-align: center;
     font-size: 50px;
-    color: #000000; }
+    color: #000000;
+    margin-right: 0pxs;
+    padding-top: 0.3em; }
   .member-nav div.megamenu {
-    top: 140px; }
+    top: 130px; }
   .member-nav .wsmenu-list {
-    margin-top: 1.2em; }
+    padding: 1.2em 0em 0sem 0em;
+    height: 100%; }
   .member-nav .wsmenu-list li {
     width: 12.5%;
-    margin-top: 0.7em; }
+    margin-top: 0.7em;
+    height: 100%; }
+  .member-nav .wsmenu-list a {
+    height: 100%; }
   .member-nav h5 {
-    color: #000000; }
+    color: #000000;
+    padding-bottom: 1.1em; }
+  .member-nav .mega-menu {
+    border: none; }
+
+.header {
+  background-color: #fff; }
 
 .member-nav a {
   display: inline-block;
   padding: 10px; }
+
+.megamenu {
+  background-color: #0D497C;
+  padding: 0px;
+  height: 4em; }
+  .megamenu h3.title {
+    color: #ffffff;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em; }
 
 /******************************Superfish Menu End**********************************/
 .footer h1 {

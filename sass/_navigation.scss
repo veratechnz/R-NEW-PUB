@@ -369,7 +369,8 @@ div.wsmenucontainer nav.wsmenu{
     font-size: 11px;
     font-weight: 800;
     background-color: $white;
-    margin: 1.1em;
+    margin: 0em 1.1em 0em 1.1em;
+    height: 100%;
 
   .wsmenu-submenu li a {
     background-color: $blue-b;
@@ -388,10 +389,6 @@ div.wsmenucontainer nav.wsmenu{
     background-color: $blue-a;
     border-color: $blue-a;
     border: $blue-a 1px solid;
-  }
-
-  .wsmenu-submenu {
-      top: 46px;
   }
 
   .wsmenu-list > li > a {
@@ -418,29 +415,64 @@ div.wsmenucontainer nav.wsmenu{
     text-align: center;
     font-size: 50px;
     color: $black;
+    margin-right: 0pxs;
+    padding-top: 0.3em;
   }
 
   div.megamenu{
-    top: 140px;
+    top: 130px;
    }
 
   .wsmenu-list{
-    margin-top: 1.2em;
+    padding: 1.2em 0em 0sem 0em;
+    height: 100%;
   }
     
   .wsmenu-list li{
     width: 12.5%;
     margin-top: 0.7em;
+    height: 100%;
+  }
+
+  .wsmenu-list a {
+    height: 100%;
   }
 
   h5{
     color: $black;
+    padding-bottom: 1.1em;
   }
+
+  .mega-menu{
+    border: none;
+  }
+
+
 }
+
+.header{
+  background-color: #fff;
+}
+
 
 .member-nav a{
   display: inline-block;
   padding: 10px;
 }
+
+.megamenu{
+  background-color: $blue-b;
+  padding: 0px;
+  height: 4em;
+
+  h3.title{
+    color: $white;
+    margin-top: 0.2em;
+    margin-bottom: 0.4em;
+  }
+
+}
+
+
 
 /******************************Superfish Menu End**********************************/
