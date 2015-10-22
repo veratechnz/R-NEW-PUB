@@ -984,25 +984,6 @@ a:focus {
   .wsmenuexpandermain .menuopen {
     left: 240px !important;
     margin-top: 4px !important; }
-  .smallogo {
-    width: 100%;
-    display: block;
-    text-align: center;
-    padding-top: 9px;
-    position: fixed;
-    z-index: 0;
-    width: 100%;
-    height: 52px;
-    background: #262626;
-    background: -moz-linear-gradient(top, #262626 0, #1c1c1c 50%, #262626 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262626), color-stop(50%, #1c1c1c), color-stop(100%, #262626));
-    background: -webkit-linear-gradient(top, #262626 0, #1c1c1c 50%, #262626 100%);
-    background: -o-linear-gradient(top, #262626 0, #1c1c1c 50%, #262626 100%);
-    background: -ms-linear-gradient(top, #262626 0, #1c1c1c 50%, #262626 100%);
-    background: linear-gradient(to bottom, #262626 0, #1c1c1c 50%, #262626 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#262626', endColorstr='#262626', GradientType=0);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5); }
   .animated-arrow {
     cursor: pointer;
     padding: 13px 35px 16px 0px;
@@ -2624,6 +2605,7 @@ mini-logo {
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     left: 48%;
     margin-top: 1.55em; }
+  /*Mobile Member Menu*/
   .log-btn {
     font-size: 14px;
     padding: 0.4em 1.5em; }
@@ -2640,7 +2622,6 @@ mini-logo {
       color: black;
       float: right;
       margin-right: 1.4em; }
-  /*Mobile Member Menu*/
   .ws-menu {
     z-index: 1300;
     -webkit-box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75);
@@ -2673,7 +2654,12 @@ mini-logo {
   .reinz-logo-sm img {
     width: 80px;
     height: 40px;
-    margin-top: 0.2em; } }
+    margin-top: 0.2em; }
+  .public-nav div.wsmenucontainer.clearfix {
+    min-height: 0px; }
+  .wsmenuexpandermain {
+    color: transparent;
+    position: fixed; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2740,7 +2726,9 @@ mini-logo {
   .nav-welcome {
     margin-right: 1.8em; }
   .nav-button {
-    margin-top: 1.2em; } }
+    margin-top: 1.2em; }
+  .public-nav div.wsmenucontainer.clearfix {
+    min-height: 0px; } }
 
 @media (min-width: 1201px) and (max-width: 1580px) {
   a.sf-with-ul, .sf-menu.public-nav a {

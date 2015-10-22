@@ -3,6 +3,7 @@
 /*Media Queries For Public Nav Re-Sizing*/
 
 @media(max-width:767px){
+
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';
 		font-size: 1.3em;
@@ -15,6 +16,8 @@
 		left: 48%;
 		margin-top: 1.55em;
 	}
+
+	/*Mobile Member Menu*/
 
 	.log-btn{
 		font-size: 14px;
@@ -41,7 +44,6 @@
 	}
 	
 
-	/*Mobile Member Menu*/
 	.ws-menu{
 		z-index: 1300;
 		-webkit-box-shadow: 16px -1px 18px -14px rgba(0,0,0,0.75);
@@ -81,13 +83,22 @@
 		height: 30px;
 	}
 
-
 	.reinz-logo-sm img {
 		width: 80px;
 		height: 40px;
 		margin-top: 0.2em;
 	}
 
+	
+	.public-nav div.wsmenucontainer.clearfix{
+		min-height: 0px;
+
+	}
+
+	.wsmenuexpandermain{
+		color: transparent;
+		position: fixed;
+	}
 }
 
 @media(min-width:768px) and (max-width:991px){
@@ -194,6 +205,12 @@
 	.nav-button{
 		margin-top: 1.2em;
 	}
+
+	.public-nav div.wsmenucontainer.clearfix{
+		min-height: 0px;
+		
+	}
+
 
 }
 
