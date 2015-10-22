@@ -16,13 +16,6 @@
 		margin-top: 1.55em;
 	}
 
-	.mini-logo{
-		display: block;
-	}
-	.demo-logo{
-		display: none;
-	}
-
 	.log-btn{
 		font-size: 14px;
 		padding: 0.4em 1.5em;
@@ -32,8 +25,63 @@
 		font-size: 22px;
 		margin-top: 1.4em;
 	}
-}
 
+	.nav-welcome{
+		font-size: 14px;
+	}
+
+	.member-nav .twelve-point{
+		height: 4em;
+		i.fa.fa-circle-thin{display: none;}
+		h5{
+			color: black; 
+			float: right;
+			margin-right: 1.4em;
+		}
+	}
+	
+
+	/*Mobile Member Menu*/
+	.ws-menu{
+		z-index: 1300;
+		-webkit-box-shadow: 16px -1px 18px -14px rgba(0,0,0,0.75);
+		-moz-box-shadow: 16px -1px 18px -14px rgba(0,0,0,0.75);
+		box-shadow: 16px -1px 18px -14px rgba(0,0,0,0.75);
+	}
+	.header{z-index: 1056; min-height: 0px; max-height: 0px; height: 0px; padding: 0px;}
+	.navbar{z-index: 1054;}
+
+	.top-gap{
+		margin-top: 68px;
+	}
+
+	.container-fluid.page-wrapper.fill div.row{
+		max-height: 0px;
+	}
+
+	.member-nav .wsmenu-submenu{
+		top: 0px;
+	}
+
+	.search-extend i.fa.fa-search{
+		margin-top: 0.8em;
+	}
+
+	.wsmenu-list li.twelve-point ul.wsmenu-submenu li{
+		background-color: #fff;
+	}
+
+	.nav-welcome{
+		margin-top: 1.4em;
+	} 
+
+	.reinz-logo-sm{
+		margin: 0.8em 0em 0em 5em;
+		width: 100px;
+		height: 30px;
+	}
+
+}
 
 @media(min-width:768px) and (max-width:991px){
 	a.sf-with-ul, .sf-menu.public-nav a{
@@ -49,13 +97,6 @@
 		margin-top: 1.55em;
 	}
 
-	.mini-logo{
-		display: block;
-	}
-	.demo-logo{
-		display: none;
-	}
-
 	.log-btn{
 		font-size: 14px;
 		padding: 0.4em 1.5em;
@@ -64,6 +105,25 @@
 	.search-extend i.fa.fa-search{
 		font-size: 22px;
 		margin-top: 1.4em;
+	}
+
+	.nav-welcome{
+		margin-right: 2.6em;
+		margin-top: 0.8em;
+		font-size: 17px;
+	}
+
+	.reinz-logo-sm{
+		margin: 1em 0em 0em 1.2em;
+	}
+
+	.nav-button{
+		margin-top: 1.18em;
+	}
+
+	.log-btn{
+		margin-top: 0.4em;
+		margin-right: 2.8em;
 	}
 }
 
@@ -84,9 +144,6 @@
 
 	.mini-logo{
 		display: block;
-	}
-	.demo-logo{
-		display: none;
 	}
 
 	.log-btn{
@@ -114,12 +171,6 @@
 		margin-top: 1.8em;
 	}
 
-	.mini-logo{
-		display: block;
-	}
-	.demo-logo{
-		display: none;
-	}
 
 	.log-btn{
 		font-size: 14px;
@@ -128,6 +179,12 @@
 
 	.search-extend i.fa.fa-search{
 		font-size: 22px;
+		margin-top: 1.2em;
+	}
+	.nav-welcome{
+		margin-right: 1.8em;
+	}
+	.nav-button{
 		margin-top: 1.2em;
 	}
 
@@ -144,13 +201,6 @@
 	#sample-menu-1.sf-menu.public-nav.sf-js-enabled{
 		left: 48%;
 		margin-top: 1.78em;
-	}
-
-	.mini-logo{
-		display: block;
-	}
-	.demo-logo{
-		display: none;
 	}
 
 	.log-btn{
@@ -178,11 +228,6 @@
 		left: 50%;
 	}
 
-	.mini-logo{
-		display: block;
-	}
-	.demo-logo{
-		display: none;
-	}
+
 
 }

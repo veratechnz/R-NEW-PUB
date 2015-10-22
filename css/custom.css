@@ -94,10 +94,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
-img, object, embed, video {
-  border: 0 none;
-  max-width: 100%; }
-
 a:focus {
   outline: none !important; }
 
@@ -120,7 +116,8 @@ a:focus {
   float: right;
   -webkit-border-radius: 2px 2px 2px 2px;
   -moz-border-radius: 2px 2px 2px 2px;
-  border-radius: 2px 2px 2px 2px; }
+  border-radius: 2px 2px 2px 2px;
+  z-index: 1260; }
 
 .wsmenu-list {
   text-align: left;
@@ -615,8 +612,6 @@ a:focus {
   margin-right: 7px; }
 
 @media only screen and (min-width: 780px) and (max-width: 1064px) {
-  .wsmenu-list > li > a > .fa {
-    display: none !important; }
   .hometext {
     display: block !important; }
   .wsmenu {
@@ -682,14 +677,10 @@ a:focus {
     display: block; }
   /* Default Theme */
   .wsmenu-submenu > li:hover > a {
-    background-color: #7b7b7b;
     color: #666666; }
   .wsmenu > .wsmenu-list > li > a.active {
-    color: #666666;
-    background-color: rgba(0, 0, 0, 0.08); }
-  .wsmenu > .wsmenu-list > li > a:hover {
-    color: #666666;
-    background-color: rgba(0, 0, 0, 0.08); }
+    color: #666666; }
+  /*.wsmenu > .wsmenu-list > li > a:hover{ color: #666666; background-color:rgba(0,0,0,0.08);}	*/
   .wsmenu-list li:hover .wsmenu-submenu {
     display: none; }
   .wsmenu-list li:hover .wsmenu-submenu .wsmenu-submenu-sub {
@@ -698,8 +689,7 @@ a:focus {
     display: none;
     list-style: none;
     padding: 2px;
-    border: solid 1px #eeeeee;
-    background-color: #fff; }
+    border: solid 1px #eeeeee; }
   .wsmenu-list li:first-child a {
     -webkit-border-radius: 0px 0px 0px 0px;
     -moz-border-radius: 0px 0px 0px 0px;
@@ -785,7 +775,6 @@ a:focus {
   .wsmenu-submenu-sub li a.active {
     color: #000 !important; }
   .wsmenu-submenu-sub li:hover > a {
-    background-color: #333333 !important;
     color: #fff; }
   .wsmenu-list > li > a .fa {
     margin-right: 6px; }
@@ -813,7 +802,6 @@ a:focus {
   .wsmenu-submenu-sub-sub li a.active {
     color: #000 !important; }
   .wsmenu-submenu-sub-sub li:hover > a {
-    background-color: #606060 !important;
     color: #fff; }
   .wsmenu {
     position: relative; }
@@ -861,27 +849,22 @@ a:focus {
   .mobile-sub .wsmenu-submenu li a {
     line-height: 20px;
     height: 36x;
-    background-color: #e7e7e7 !important;
     font-size: 13px !important;
     padding: 8px 0px 8px 18px;
     color: #8E8E8E; }
   .mobile-sub .wsmenu-submenu li a:hover {
-    background-color: #e7e7e7  !important;
     color: #666666;
     text-decoration: underline; }
   .mobile-sub .wsmenu-submenu li:hover > a {
-    background-color: #e7e7e7 !important;
     color: #666666; }
   .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li a {
     line-height: 20px;
     height: 36x;
-    background-color: #e7e7e7 !important;
     border-bottom: none;
     padding-left: 28px; }
   .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li .wsmenu-submenu-sub-sub li a {
     line-height: 20px;
     height: 36x;
-    background-color: #e7e7e7 !important;
     border-bottom: none !important;
     padding-left: 38px;
     color: #8e8e8e; }
@@ -893,7 +876,6 @@ a:focus {
     -ms-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out; }
   .wsmenu-list .megamenu {
-    background-color: #e7e7e7;
     color: #666666;
     display: none;
     position: relative !important;
@@ -957,7 +939,7 @@ a:focus {
     margin: 0;
     background-color: #fff;
     border-radius: 0px;
-    z-index: 100;
+    z-index: 1265;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -983,10 +965,11 @@ a:focus {
     z-index: 0; }
   /* Navigation arrow Animation */
   .animated-arrow {
+    color: #0D497C;
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 200;
+    z-index: 1250;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
@@ -1041,10 +1024,11 @@ a:focus {
     cursor: pointer;
     height: 3px;
     width: 23px;
-    background: #c9c9c9;
+    background: #8EC6CE;
     position: absolute;
     display: block;
-    content: ''; }
+    content: '';
+    z-index: 1250; }
   .animated-arrow span:before {
     top: -7px; }
   .animated-arrow span:after {
@@ -1598,7 +1582,8 @@ body {
   width: 100%; }
 
 section {
-  min-height: 200px; }
+  min-height: 200px;
+  background-color: white; }
 
 #data1 {
   margin-top: 11em; }
@@ -1623,8 +1608,7 @@ hr {
   display: none; }
 
 .top-gap {
-  margin-top: 200px;
-  margin-top: 200px;
+  margin-top: 192px;
   margin-bottom: 80px;
   margin-bottom: 6em;
   min-height: 50vh; }
@@ -1879,7 +1863,8 @@ hr {
   background-image: -webkit-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
   background-image: -o-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
   background-image: linear-gradient(to right, #8EC6CE 33%, #0D497C 67%);
-  height: 6.5em; }
+  height: 6.5em;
+  z-index: 1201; }
 
 .inner-nav {
   background-color: #000;
@@ -2138,12 +2123,19 @@ div.wsmenucontainer nav.wsmenu {
   margin: 0 auto;
   float: none; }
 
+.header {
+  z-index: 1054;
+  background-color: #fff; }
+
 .public-nav {
   color: #fff;
   font-size: 11px;
   font-weight: 800;
   background-color: #000000;
   margin: 1.1em; }
+  .public-nav a {
+    display: inline-block;
+    padding: 10px; }
   .public-nav .wsmenu-submenu li a {
     background-color: #0D497C;
     border-color: #0D497C; }
@@ -2171,10 +2163,8 @@ div.wsmenucontainer nav.wsmenu {
     letter-spacing: 0.08em;
     font-weight: light;
     text-transform: uppercase; }
-
-.public-nav a {
-  display: inline-block;
-  padding: 10px; }
+  .public-nav nav {
+    margin-top: 0.1em; }
 
 /*Member Menu*/
 .member-nav {
@@ -2189,7 +2179,7 @@ div.wsmenucontainer nav.wsmenu {
     font-size: 50px;
     color: #000000;
     margin-right: 0pxs;
-    padding-top: 0.3em; }
+    padding-top: 0.45em; }
   .member-nav .twelve-point:hover i, .member-nav .twelve-point:hover h5 {
     color: #8EC6CE;
     background-color: #fff; }
@@ -2224,15 +2214,15 @@ div.wsmenucontainer nav.wsmenu {
     color: white; }
   .member-nav ul.wsmenu-submenu:last-child {
     border-bottom: none; }
+  .member-nav nav {
+    background-color: #fff; }
+  .member-nav .header {
+    z-index: 1200; }
+  .member-nav .member-nav a {
+    display: inline-block;
+    padding: 10px; }
 
 /*member nav ends*/
-.header {
-  background-color: #fff; }
-
-.member-nav a {
-  display: inline-block;
-  padding: 10px; }
-
 /******************************Superfish Menu End**********************************/
 .footer h1 {
   font-size: 18px;
@@ -2527,7 +2517,11 @@ div.wsmenucontainer nav.wsmenu {
   margin-top: 1em; }
 
 .demo-logo {
-  width: 400px;
+  width: 324px;
+  height: 50px; }
+
+mini-logo {
+  width: 112px;
   height: 50px; }
 
 .mini-logo {
@@ -2643,16 +2637,52 @@ div.wsmenucontainer nav.wsmenu {
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     left: 48%;
     margin-top: 1.55em; }
-  .mini-logo {
-    display: block; }
-  .demo-logo {
-    display: none; }
   .log-btn {
     font-size: 14px;
     padding: 0.4em 1.5em; }
   .search-extend i.fa.fa-search {
     font-size: 22px;
-    margin-top: 1.4em; } }
+    margin-top: 1.4em; }
+  .nav-welcome {
+    font-size: 14px; }
+  .member-nav .twelve-point {
+    height: 4em; }
+    .member-nav .twelve-point i.fa.fa-circle-thin {
+      display: none; }
+    .member-nav .twelve-point h5 {
+      color: black;
+      float: right;
+      margin-right: 1.4em; }
+  /*Mobile Member Menu*/
+  .ws-menu {
+    z-index: 1300;
+    -webkit-box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75); }
+  .header {
+    z-index: 1056;
+    min-height: 0px;
+    max-height: 0px;
+    height: 0px;
+    padding: 0px; }
+  .navbar {
+    z-index: 1054; }
+  .top-gap {
+    margin-top: 68px; }
+  .container-fluid.page-wrapper.fill div.row {
+    max-height: 0px; }
+  .member-nav .wsmenu-submenu {
+    top: 0px; }
+  .search-extend i.fa.fa-search {
+    margin-top: 0.8em; }
+  .wsmenu-list li.twelve-point ul.wsmenu-submenu li {
+    background-color: #fff; }
+  .nav-welcome {
+    margin-top: 1.4em; }
+  .reinz-logo-sm {
+    margin: 0.8em 0em 0em 5em;
+    width: 100px;
+    height: 30px; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2664,16 +2694,23 @@ div.wsmenucontainer nav.wsmenu {
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     left: 48%;
     margin-top: 1.55em; }
-  .mini-logo {
-    display: block; }
-  .demo-logo {
-    display: none; }
   .log-btn {
     font-size: 14px;
     padding: 0.4em 1.5em; }
   .search-extend i.fa.fa-search {
     font-size: 22px;
-    margin-top: 1.4em; } }
+    margin-top: 1.4em; }
+  .nav-welcome {
+    margin-right: 2.6em;
+    margin-top: 0.8em;
+    font-size: 17px; }
+  .reinz-logo-sm {
+    margin: 1em 0em 0em 1.2em; }
+  .nav-button {
+    margin-top: 1.18em; }
+  .log-btn {
+    margin-top: 0.4em;
+    margin-right: 2.8em; } }
 
 @media (min-width: 992px) and (max-width: 1049px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2687,8 +2724,6 @@ div.wsmenucontainer nav.wsmenu {
     margin-top: 1.55em; }
   .mini-logo {
     display: block; }
-  .demo-logo {
-    display: none; }
   .log-btn {
     font-size: 14px;
     padding: 0.4em 1.5em; }
@@ -2705,15 +2740,15 @@ div.wsmenucontainer nav.wsmenu {
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     left: 48%;
     margin-top: 1.8em; }
-  .mini-logo {
-    display: block; }
-  .demo-logo {
-    display: none; }
   .log-btn {
     font-size: 14px;
     padding: 0.4em 1sem; }
   .search-extend i.fa.fa-search {
     font-size: 22px;
+    margin-top: 1.2em; }
+  .nav-welcome {
+    margin-right: 1.8em; }
+  .nav-button {
     margin-top: 1.2em; } }
 
 @media (min-width: 1201px) and (max-width: 1580px) {
@@ -2724,10 +2759,6 @@ div.wsmenucontainer nav.wsmenu {
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     left: 48%;
     margin-top: 1.78em; }
-  .mini-logo {
-    display: block; }
-  .demo-logo {
-    display: none; }
   .log-btn {
     font-size: 14px;
     padding: 0.4em 1sem; }
@@ -2742,8 +2773,4 @@ div.wsmenucontainer nav.wsmenu {
     padding-right: 0.8em; }
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     margin-top: 1.75em;
-    left: 50%; }
-  .mini-logo {
-    display: block; }
-  .demo-logo {
-    display: none; } }
+    left: 50%; } }

@@ -6,6 +6,7 @@
   background-image: -o-linear-gradient(left, $blue-a 33%, $blue-b 67%);
   background-image: linear-gradient(to right, $blue-a 33%, $blue-b 67%);
   height: 6.5em;
+  z-index: 1201;
 }
 
 .inner-nav {
@@ -291,9 +292,6 @@ ul .nav-searcher {
   z-index: 1040;
 }
 
-
-
-
 /********************************************Universal Nav************************/
 
 
@@ -303,7 +301,17 @@ div.wsmenucontainer nav.wsmenu{
   float: none;
 }
 
+.header{
+  z-index: 1054;
+  background-color: #fff; 
+}
+
 .public-nav {
+
+     a{
+      display: inline-block;
+      padding: 10px;
+      }
 
       color: #fff;
       font-size: 11px;
@@ -354,15 +362,9 @@ div.wsmenucontainer nav.wsmenu{
      text-transform: uppercase;
     }
 
+    nav {margin-top: 0.1em}
+
 }
-
-.public-nav a{
-  display: inline-block;
-  padding: 10px;
-}
-
-
-
 
 
 
@@ -382,7 +384,7 @@ div.wsmenucontainer nav.wsmenu{
     font-size: 50px;
     color: $black;
     margin-right: 0pxs;
-    padding-top: 0.3em;
+    padding-top: 0.45em;
   }
 
   .twelve-point:hover {
@@ -441,17 +443,22 @@ div.wsmenucontainer nav.wsmenu{
     border-bottom: none;
   }
 
+  nav {
+    background-color: #fff;
+  }
 
-} /*member nav ends*/
 
 
   .header{
-    background-color: #fff;
+    z-index: 1200;
   }
 
   .member-nav a{
     display: inline-block;
     padding: 10px;
   }
+
+} /*member nav ends*/
+
 
 /******************************Superfish Menu End**********************************/
