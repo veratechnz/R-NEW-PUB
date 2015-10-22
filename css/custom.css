@@ -171,15 +171,10 @@ a:focus {
   text-decoration: none;
   position: relative; }
 
-.wsmenu-list li a:hover .arrow:after {
-  border-top-color: #b3b3b3; }
-
-.wsmenu-list li a.active .arrow:after {
-  border-top-color: #b3b3b3; }
-
-.wsmenu-list li:hover > a .arrow:after {
-  border-top-color: #b3b3b3; }
-
+/*.wsmenu-list li a:hover .arrow:after{ border-top-color:#b3b3b3}
+.wsmenu-list li a.active .arrow:after{ border-top-color:#b3b3b3}
+.wsmenu-list li:hover>a .arrow:after{ border-top-color:#b3b3b3}
+*/
 .megamenu iframe {
   width: 100%;
   margin-top: 10px;
@@ -582,12 +577,8 @@ a:focus {
   display: none; }
 
 /* Default Theme */
-.wsmenu-submenu > li > a:hover {
-  background-color: rgba(0, 0, 0, 0.08);
-  border-radius: 0px !important;
-  text-decoration: none;
-  text-decoration: none; }
-
+/*.wsmenu-submenu > li > a:hover {background-color:rgba(0,0,0,0.08) ; border-radius:0px!important; text-decoration:none;  text-decoration:none;}
+*/
 .typography-text {
   padding: 0px 0px;
   font-size: 15px; }
@@ -643,9 +634,8 @@ a:focus {
 
 /*------------------------------------ Mobile CSS ---------------------------------------------*/
 @media only screen and (max-width: 780px) {
-  .wsmenu-list > li:hover > a {
-    background-color: rgba(0, 0, 0, 0.08) !important;
-    text-decoration: none; }
+  /*.wsmenu-list > li:hover>a{background-color:rgba(0,0,0,0.08) !important; text-decoration:none;}
+*/
   .hometext {
     display: inline-block !important; }
   .megacollink {
@@ -676,8 +666,8 @@ a:focus {
   .overlapblackbg.menuopen {
     display: block; }
   /* Default Theme */
-  .wsmenu-submenu > li:hover > a {
-    color: #666666; }
+  /*.wsmenu-submenu > li:hover>a{  color:#666666;}
+*/
   .wsmenu > .wsmenu-list > li > a.active {
     color: #666666; }
   /*.wsmenu > .wsmenu-list > li > a:hover{ color: #666666; background-color:rgba(0,0,0,0.08);}	*/
@@ -852,11 +842,8 @@ a:focus {
     font-size: 13px !important;
     padding: 8px 0px 8px 18px;
     color: #8E8E8E; }
-  .mobile-sub .wsmenu-submenu li a:hover {
-    color: #666666;
-    text-decoration: underline; }
-  .mobile-sub .wsmenu-submenu li:hover > a {
-    color: #666666; }
+  /*.mobile-sub .wsmenu-submenu li a:hover{ color:#666666; text-decoration:underline; }
+.mobile-sub .wsmenu-submenu li:hover>a{ color:#666666; }*/
   .mobile-sub .wsmenu-submenu li .wsmenu-submenu-sub li a {
     line-height: 20px;
     height: 36x;
