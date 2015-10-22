@@ -2661,7 +2661,7 @@ mini-logo {
   .member-nav .wsmenu-submenu {
     top: 0px; }
   .search-extend i.fa.fa-search {
-    margin-top: 0.8em; }
+    margin-top: 1.6em; }
   .wsmenu-list li.twelve-point ul.wsmenu-submenu li {
     background-color: #fff; }
   .nav-welcome {
@@ -2693,7 +2693,7 @@ mini-logo {
     margin-top: 1.4em; }
   .nav-welcome {
     margin-right: 2.6em;
-    margin-top: 0.8em;
+    margin-top: 15px;
     font-size: 17px; }
   .reinz-logo-sm {
     margin: 1em 0em 0em 1.2em; }
@@ -2720,7 +2720,7 @@ mini-logo {
     padding: 0.4em 1.5em; }
   .search-extend i.fa.fa-search {
     font-size: 22px;
-    margin-top: 1.4em; } }
+    margin-top: 1.9em; } }
 
 @media (min-width: 1050px) and (max-width: 1200px) {
   a.sf-with-ul, .sf-menu.public-nav a {
