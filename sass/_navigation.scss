@@ -6,7 +6,7 @@
   background-image: -o-linear-gradient(left, $blue-a 33%, $blue-b 67%);
   background-image: linear-gradient(to right, $blue-a 33%, $blue-b 67%);
   height: 6.5em;
-  z-index: 1201;
+  z-index: 1280;
 }
 
 .inner-nav {
@@ -296,28 +296,34 @@ ul .nav-searcher {
 
 
 /*Public Menu*/
+
+
+
+
 div.wsmenucontainer nav.wsmenu{
   margin: 0 auto;
   float: none;
 }
 
 .header{
-  z-index: 1054;
-  background-color: #fff; 
+  z-index: 1265;
+  background-color: #fff;
 }
 
 .public-nav {
-
-     a{
-      display: inline-block;
-      padding: 10px;
-      }
-
+      
+      margin-top: 2.4em;
+      width:100%;
+      display: block;
       color: #fff;
       font-size: 11px;
       font-weight: 800;
       background-color: $black;
-      margin: 1.1em;
+
+    a {
+     display: inline-block;
+     padding: 10px;
+     }
 
     .wsmenu-submenu li a {
       background-color: $blue-b;
@@ -342,6 +348,7 @@ div.wsmenucontainer nav.wsmenu{
         top: 46px;
     }
 
+    
     .wsmenu-list > li > a {
       font-family: 'proxima_nova_rgbold';
       font-size: 11pt;
@@ -364,7 +371,24 @@ div.wsmenucontainer nav.wsmenu{
 
     nav {margin-top: 0.1em}
 
-}
+    .wsmenu-list > li{
+      display: inline-block;
+    }
+
+    .wsmenu-list {
+      text-align: justify;
+      min-width: 80%;
+    }
+
+    .wsmenu-list:after {
+      content: '';
+      display: inline-block;
+      width: 100%;
+    }
+
+
+
+}  /*Public Nav Ends*/
 
 
 
@@ -446,8 +470,6 @@ div.wsmenucontainer nav.wsmenu{
   nav {
     background-color: #fff;
   }
-
-
 
   .header{
     z-index: 1200;

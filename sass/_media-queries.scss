@@ -89,16 +89,16 @@
 		margin-top: 0.2em;
 	}
 
-	
 	.public-nav div.wsmenucontainer.clearfix{
 		min-height: 0px;
-
+		position: absolute;
+	}
+	
+	.reinz-logo{
+		z-index: 1265;
 	}
 
-	.wsmenuexpandermain{
-		color: transparent;
-		position: fixed;
-	}
+
 }
 
 @media(min-width:768px) and (max-width:991px){
@@ -216,6 +216,8 @@
 
 
 @media(min-width:1201px) and (max-width: 1580px){
+
+
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-size: 16px;
 		padding-left: 0.7em;

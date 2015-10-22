@@ -112,7 +112,6 @@ a:focus {
   color: #fff;
   font-size: 13px;
   padding: 0px;
-  width: 85%;
   float: right;
   -webkit-border-radius: 2px 2px 2px 2px;
   -moz-border-radius: 2px 2px 2px 2px;
@@ -1832,7 +1831,7 @@ hr {
   background-image: -o-linear-gradient(left, #8EC6CE 33%, #0D497C 67%);
   background-image: linear-gradient(to right, #8EC6CE 33%, #0D497C 67%);
   height: 6.5em;
-  z-index: 1201; }
+  z-index: 1280; }
 
 .inner-nav {
   background-color: #000;
@@ -2092,15 +2091,17 @@ div.wsmenucontainer nav.wsmenu {
   float: none; }
 
 .header {
-  z-index: 1054;
+  z-index: 1265;
   background-color: #fff; }
 
 .public-nav {
+  margin-top: 2.4em;
+  width: 100%;
+  display: block;
   color: #fff;
   font-size: 11px;
   font-weight: 800;
-  background-color: #000000;
-  margin: 1.1em; }
+  background-color: #000000; }
   .public-nav a {
     display: inline-block;
     padding: 10px; }
@@ -2133,7 +2134,17 @@ div.wsmenucontainer nav.wsmenu {
     text-transform: uppercase; }
   .public-nav nav {
     margin-top: 0.1em; }
+  .public-nav .wsmenu-list > li {
+    display: inline-block; }
+  .public-nav .wsmenu-list {
+    text-align: justify;
+    min-width: 80%; }
+  .public-nav .wsmenu-list:after {
+    content: '';
+    display: inline-block;
+    width: 100%; }
 
+/*Public Nav Ends*/
 /*Member Menu*/
 .member-nav {
   color: #000000;
@@ -2656,10 +2667,10 @@ mini-logo {
     height: 40px;
     margin-top: 0.2em; }
   .public-nav div.wsmenucontainer.clearfix {
-    min-height: 0px; }
-  .wsmenuexpandermain {
-    color: transparent;
-    position: fixed; } }
+    min-height: 0px;
+    position: absolute; }
+  .reinz-logo {
+    z-index: 1265; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   a.sf-with-ul, .sf-menu.public-nav a {
