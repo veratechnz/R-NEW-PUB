@@ -311,8 +311,8 @@ div.wsmenucontainer nav.wsmenu{
 }
 
 .public-nav {
-      
-      margin-top: 2.4em;
+      max-height: 40px;
+      margin: 1em 1em 0em 0em;
       width:100%;
       display: block;
       color: #fff;
@@ -351,10 +351,11 @@ div.wsmenucontainer nav.wsmenu{
     
     .wsmenu-list > li > a {
       font-family: 'proxima_nova_rgbold';
-      font-size: 11pt;
+      font-size: 12pt;
       letter-spacing: 0.08em;
       font-weight: 400;
       text-transform: uppercase;
+      padding: 0px;
     }
 
     .wsmenu-list > li > a:hover{
@@ -378,6 +379,7 @@ div.wsmenucontainer nav.wsmenu{
     .wsmenu-list {
       text-align: justify;
       min-width: 80%;
+      display: inline-block;
     }
 
     .wsmenu-list:after {
@@ -385,8 +387,6 @@ div.wsmenucontainer nav.wsmenu{
       display: inline-block;
       width: 100%;
     }
-
-
 
 }  /*Public Nav Ends*/
 
