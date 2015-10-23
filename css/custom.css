@@ -1221,6 +1221,13 @@ a:focus {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'icomoonregular';
+  src: url("../fonts/reinz-fonts/reinz_icons-webfont.eot");
+  src: url("../fonts/reinz-fonts/reinz_icons-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/reinz-fonts/reinz_icons-webfont.woff2") format("woff2"), url("../fonts/reinz-fonts/reinz_icons-webfont.woff") format("woff"), url("../fonts/reinz-fonts/reinz_icons-webfont.ttf") format("truetype"), url("../fonts/reinz-fonts/reinz_icons-webfont.svg#icomoonregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 /*Resets*/
 p {
   font-family: 'proxima_nova_altlight';
@@ -1285,6 +1292,13 @@ a {
 
 a:focus {
   outline: 0; }
+
+.r-font-nav {
+  font-family: 'icomoonregular';
+  font-size: 30px;
+  color: black;
+  font-size: 50px;
+  margin: 0.5em 0em 0.35em 0em; }
 
 /*Placeholder Color Change*/
 .place-color::-webkit-input-placeholder {
@@ -2149,6 +2163,8 @@ div.wsmenucontainer nav.wsmenu {
     content: '';
     display: inline-block;
     width: 100%; }
+  .public-nav ul.wsmenu-submenu li a:hover {
+    text-decoration: none; }
 
 /*Public Nav Ends*/
 /*Member Menu*/
@@ -2183,13 +2199,14 @@ div.wsmenucontainer nav.wsmenu {
   .member-nav .wsmenu-submenu {
     background-color: #efefef;
     color: #000000;
-    top: 126px; }
+    top: 116px; }
   .member-nav ul.wsmenu-submenu li a {
     color: black;
     font-family: "proxima_nova_ththin";
     font-size: 13px;
     letter-spacing: 0.08em;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    text-decoration: none; }
   .member-nav li.twelve-point ul.wsmenu-submenu li a:hover {
     background-color: #8EC6CE;
     color: white; }
@@ -2694,6 +2711,8 @@ mini-logo {
   .wsmenu-list:after {
     display: table; }
   .log-btn {
+    display: none; }
+  .r-font-nav {
     display: none; } }
 
 @media (min-width: 768px) and (max-width: 991px) {

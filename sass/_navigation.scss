@@ -388,6 +388,10 @@ div.wsmenucontainer nav.wsmenu{
       width: 100%;
     }
 
+    ul.wsmenu-submenu li a:hover{
+     text-decoration: none;
+    }
+
 }  /*Public Nav Ends*/
 
 
@@ -441,7 +445,7 @@ div.wsmenucontainer nav.wsmenu{
   .wsmenu-submenu{
     background-color: $grey;
     color: $black;
-    top: 126px;
+    top: 116px;
   }
 
   ul.wsmenu-submenu li a{
@@ -450,6 +454,7 @@ div.wsmenucontainer nav.wsmenu{
     font-size: 13px;
     letter-spacing: 0.08em;
     text-transform: uppercase;  
+    text-decoration: none;
   }
 
   li.twelve-point ul.wsmenu-submenu li a:hover{
