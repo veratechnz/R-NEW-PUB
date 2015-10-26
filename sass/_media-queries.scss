@@ -48,6 +48,11 @@
 	.public-nav .wsmenu-submenu{
 		top: 0px;
 	}
+
+
+	.public-nav .wsmenu-list > li > a{
+		color: #666;
+	}
 	
 
 	.ws-menu{
@@ -136,6 +141,10 @@
 		display: none;
 	}
 
+	/*Footer Icons*/
+	.ftr-social.list-inline li{display: inline;}
+	.col-md-10.col-md-offset-1.ftr-bottom {margin: 0px;}
+	 ul.ftr-social.list-inline{margin-top: 5%;}
 
 }
 

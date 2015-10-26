@@ -479,12 +479,11 @@ a:focus {
   top: 62px;
   z-index: 1000;
   margin: 0px;
-  padding: 2px;
   opacity: 0;
-  -o-transform-origin: 0% 0%;
-  -ms-transform-origin: 0% 0%;
-  -moz-transform-origin: 0% 0%;
-  -webkit-transform-origin: 0% 0%;
+  -o-transform-origin: 10% 10%;
+  -ms-transform-origin: 10% 10%;
+  -moz-transform-origin: 10% 10%;
+  -webkit-transform-origin: 10% 10%;
   -o-transition: -o-transform 0.3s, opacity 0.3s;
   -ms-transition: -ms-transform 0.3s, opacity 0.3s;
   -moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -1652,10 +1651,8 @@ div.col-xs-10.col-xs-offset-1 {
 .latest-stats .col-xs-8 {
   padding: 1em 2.2em 2.2em 1.1em; }
 
-.member-text {
-  margin-bottom: 2em; }
-  .member-text img {
-    margin-top: 20px; }
+.member-text img {
+  margin-top: 20px; }
 
 .article-thumb hr {
   border: 1px solid #0D497C;
@@ -1986,122 +1983,6 @@ ul .nav-searcher {
   display: inline-block;
   margin: 0.9em 0em 1.9em 1.5em; }
 
-/*************************Superfish Menu Start*************************/
-/*** ESSENTIAL STYLES ***/
-.sf-menu, .sf-menu * {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  z-index: 1040; }
-
-.sf-menu li {
-  position: relative;
-  z-index: 1040; }
-
-.sf-menu ul {
-  position: absolute;
-  display: none;
-  top: 100%;
-  left: 0;
-  z-index: 99;
-  z-index: 1040; }
-
-.sf-menu > li {
-  float: left;
-  z-index: 1040; }
-
-.sf-menu li:hover > ul,
-.sf-menu li.sfHover > ul {
-  display: block;
-  z-index: 1040; }
-
-.sf-menu a {
-  display: block;
-  position: relative;
-  z-index: 1040; }
-
-.sf-menu ul ul {
-  top: 0;
-  left: 100%;
-  z-index: 1040; }
-
-/*** DEMO SKIN ***/
-.sf-menu {
-  float: left;
-  margin-top: 1.4em;
-  position: relative;
-  left: 52%;
-  z-index: 1040; }
-
-.sf-menu ul {
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
-  min-width: 12em;
-  /* allow long menu items to determine submenu width */
-  *width: 12em;
-  /* no auto sub width for IE7, see white-space comment below */
-  z-index: 1040; }
-
-.sf-menu ul:before {
-  position: absolute;
-  top: -12px;
-  left: 3.3em;
-  display: inline-block;
-  border-right: 14px solid transparent;
-  border-bottom: 14px solid #ccc;
-  border-left: 14px solid transparent;
-  border-bottom-color: #0D497C;
-  content: '';
-  opacity: 0.95; }
-
-.sf-menu a {
-  padding: 0.75em 1em;
-  text-decoration: none;
-  zoom: 1;
-  /* IE7 */
-  font-weight: bold;
-  font-family: 'proxima_nova_altlight';
-  color: #fff;
-  z-index: 1040;
-  font-size: 18px;
-  font-weight: 800; }
-
-.sf-menu li {
-  background: #000;
-  white-space: nowrap;
-  /* no need for Supersubs plugin */
-  *white-space: normal;
-  /* ...unless you support IE7 (let it wrap) */
-  -webkit-transition: background 0.2s;
-  transition: background 0.2s;
-  left: -50%;
-  z-index: 1040; }
-
-.sf-menu ul li {
-  left: 0%;
-  background: #0D497C;
-  border-bottom: 1px solid #fff;
-  opacity: 0.95;
-  z-index: 1040; }
-
-.sf-menu li ul li a {
-  font-size: 16px; }
-
-.sf-menu ul li:nth-last-child(1) {
-  border-bottom: none; }
-
-.sf-menu ul ul li {
-  background: #000;
-  z-index: 1040; }
-
-.sf-menu ul li:hover,
-.sf-menu ul li.sfHover {
-  background: #8EC6CE;
-  /* only transition out, not in */
-  -webkit-transition: none;
-  transition: none;
-  z-index: 1040; }
-
-/********************************************Universal Nav************************/
 /*Public Menu*/
 div.wsmenucontainer nav.wsmenu {
   margin: 0 auto;
@@ -2113,11 +1994,10 @@ div.wsmenucontainer nav.wsmenu {
 
 .public-nav {
   max-height: 40px;
-  margin: 1em 1em 0em 0em;
+  margin: 15px 20px 0px 20px;
   width: 100%;
   display: block;
   color: #fff;
-  font-size: 11px;
   font-weight: 800;
   background-color: #000000; }
   .public-nav a {
@@ -2135,14 +2015,15 @@ div.wsmenucontainer nav.wsmenu {
     border-color: #8EC6CE;
     border: #8EC6CE 1px solid; }
   .public-nav .wsmenu-submenu {
-    top: 46px; }
+    top: 56px; }
   .public-nav .wsmenu-list > li > a {
     font-family: 'proxima_nova_rgbold';
-    font-size: 12pt;
+    font-size: 11pt;
     letter-spacing: 0.08em;
     font-weight: 400;
     text-transform: uppercase;
-    padding: 0px; }
+    padding: 0px;
+    color: #ffffff; }
   .public-nav .wsmenu-list > li > a:hover {
     color: #8EC6CE; }
   .public-nav .wsmenu-submenu li a {
@@ -2181,11 +2062,11 @@ div.wsmenucontainer nav.wsmenu {
     color: #000000;
     margin-right: 0pxs;
     padding-top: 0.45em; }
-  .member-nav .twelve-point:hover i, .member-nav .twelve-point:hover h5 {
+  .member-nav .twelve-point:hover h5, .member-nav .twelve-point:hover .r-font-nav {
     color: #8EC6CE;
     background-color: #fff; }
   .member-nav .wsmenu-list {
-    padding: 1.2em 0em 0sem 0em;
+    padding: 0em 0em 0em 0em;
     height: 100%; }
   .member-nav .twelve-point {
     width: 12.5%;
@@ -2225,7 +2106,6 @@ div.wsmenucontainer nav.wsmenu {
     padding: 10px; }
 
 /*member nav ends*/
-/******************************Superfish Menu End**********************************/
 .footer h1 {
   font-size: 18px;
   font-weight: 600;
@@ -2249,6 +2129,10 @@ div.wsmenucontainer nav.wsmenu {
 
 .ftr-logo {
   margin: 10px 0 15px; }
+
+.ftr-logo img.responsive.footer-logo {
+  height: 90%;
+  width: 90%; }
 
 .ftr-menu {
   padding-left: 0px;
@@ -2279,12 +2163,6 @@ div.wsmenucontainer nav.wsmenu {
   background-color: #000;
   color: #fff; }
 
-.footer-container {
-  background-image: -webkit-linear-gradient(left, #0D497C 33%, #8EC6CE 67%);
-  background-image: -o-linear-gradient(left, #0D497C 33%, #8EC6CE 67%);
-  background-image: linear-gradient(to right, #0D497C 33%, #8EC6CE 67%);
-  max-height: 4em; }
-
 .ftr-logo {
   margin: 10px 0 15px; }
 
@@ -2307,7 +2185,8 @@ div.wsmenucontainer nav.wsmenu {
   color: #8EC6CE; }
 
 .ftr-social {
-  float: right; }
+  float: right;
+  margin-top: 8px; }
 
 .ftr-social .social-bgd {
   color: #0D497C; }
@@ -2360,6 +2239,15 @@ div.wsmenucontainer nav.wsmenu {
 
 .footer-logo {
   margin-bottom: 1.4em; }
+
+.footer div.col-md-10.col-md-offset-1 {
+  background-color: #000000; }
+
+.footer div.col-md-12.footer-container, .col-md-10.col-md-offset-1.ftr-bottom {
+  background-image: -webkit-linear-gradient(left, #0D497C 33%, #8EC6CE 67%);
+  background-image: -o-linear-gradient(left, #0D497C 33%, #8EC6CE 67%);
+  background-image: linear-gradient(to right, #0D497C 33%, #8EC6CE 67%);
+  min-height: 60px; }
 
 /*Buttons*/
 /*Sass Variables*/
@@ -2660,6 +2548,8 @@ mini-logo {
       margin-right: 1.4em; }
   .public-nav .wsmenu-submenu {
     top: 0px; }
+  .public-nav .wsmenu-list > li > a {
+    color: #666; }
   .ws-menu {
     z-index: 1300;
     -webkit-box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75);
@@ -2713,7 +2603,14 @@ mini-logo {
   .log-btn {
     display: none; }
   .r-font-nav {
-    display: none; } }
+    display: none; }
+  /*Footer Icons*/
+  .ftr-social.list-inline li {
+    display: inline; }
+  .col-md-10.col-md-offset-1.ftr-bottom {
+    margin: 0px; }
+  ul.ftr-social.list-inline {
+    margin-top: 5%; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   a.sf-with-ul, .sf-menu.public-nav a {
