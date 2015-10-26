@@ -44,16 +44,6 @@
   display: none;
 }
 
-.login-btn{
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #fff;
-  font-size: 0.8em;
-  font-weight: 900;
-  float: right;
-  margin-top: 0em;
-}
-
 .view-btn{
   color: $white;
   border-color: $white;
@@ -74,18 +64,6 @@
   border: 2px solid $blue-b;
   margin-bottom: 25px;
 }
-
-.search-btn {
-  color: $white;
-  font-size: 12px;
-  text-transform: uppercase;
-  background-color: transparent;
-  width: 9.5em;
-  padding: 0.8em 1.1em;
-  border: 2px solid $white;
-  margin: 10px 0 25px 0;
-}
-
 
 .join-button{
   float: right;
@@ -149,3 +127,49 @@
 .go-button{
   display: inline-block;
 }
+
+.log-btn.mob.visible-sm.hidden-xs.btn-xs {
+  margin: 0.5em 0em 0em 0px;
+  padding: 0.4em 0.8em;
+
+}
+
+.login-btn{
+  background-color: #000;
+  color: white;
+  padding: 0.3 0.5 0.3 0.5em;
+  border: #fff solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 16px;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  margin-top: 0.8em;
+  border-radius: 0px;
+}
+
+.search-btn {
+  background-color: #000;
+  color: white;
+  padding: 0.3 0.5 0.3 0.5em;
+  border: #000 solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 22px;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  margin-top: 0.28em;
+  border-radius: 0px;
+}
+
+.search-btn:hover{
+  color: $blue-a;
+}
+
+.login-btn:hover{
+  color:  #fff;
+  border-color: $blue-a;
+  background-color: $blue-a;
+}
+
+

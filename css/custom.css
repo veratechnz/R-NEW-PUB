@@ -2106,6 +2106,9 @@ div.wsmenucontainer nav.wsmenu {
     padding: 10px; }
 
 /*member nav ends*/
+.nav-links {
+  margin-top: .4em; }
+
 .footer h1 {
   font-size: 18px;
   font-weight: 600;
@@ -2232,7 +2235,7 @@ div.wsmenucontainer nav.wsmenu {
   color: #ffffff;
   padding-left: 1.4em;
   font-size: 12px;
-  margin-top: 0.8em; }
+  margin-top: 1.4em; }
 
 .footer div.col-md-3 p {
   color: #7d8681; }
@@ -2296,15 +2299,6 @@ div.wsmenucontainer nav.wsmenu {
   margin-top: 0.9em;
   display: none; }
 
-.login-btn {
-  background-color: #fff;
-  color: #000;
-  border: 2px solid #fff;
-  font-size: 0.8em;
-  font-weight: 900;
-  float: right;
-  margin-top: 0em; }
-
 .view-btn {
   color: #ffffff;
   border-color: #ffffff;
@@ -2323,16 +2317,6 @@ div.wsmenucontainer nav.wsmenu {
   padding: 0.8em 1.1em;
   border: 2px solid #0D497C;
   margin-bottom: 25px; }
-
-.search-btn {
-  color: #ffffff;
-  font-size: 12px;
-  text-transform: uppercase;
-  background-color: transparent;
-  width: 9.5em;
-  padding: 0.8em 1.1em;
-  border: 2px solid #ffffff;
-  margin: 10px 0 25px 0; }
 
 .join-button {
   float: right;
@@ -2390,6 +2374,44 @@ div.wsmenucontainer nav.wsmenu {
 
 .go-button {
   display: inline-block; }
+
+.log-btn.mob.visible-sm.hidden-xs.btn-xs {
+  margin: 0.5em 0em 0em 0px;
+  padding: 0.4em 0.8em; }
+
+.login-btn {
+  background-color: #000;
+  color: white;
+  padding: 0.3 0.5 0.3 0.5em;
+  border: #fff solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 16px;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  margin-top: 0.8em;
+  border-radius: 0px; }
+
+.search-btn {
+  background-color: #000;
+  color: white;
+  padding: 0.3 0.5 0.3 0.5em;
+  border: #000 solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 22px;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  margin-top: 0.28em;
+  border-radius: 0px; }
+
+.search-btn:hover {
+  color: #8EC6CE; }
+
+.login-btn:hover {
+  color: #fff;
+  border-color: #8EC6CE;
+  background-color: #8EC6CE; }
 
 /*Images*/
 /*Sass Variables*/
@@ -2530,12 +2552,6 @@ mini-logo {
     left: 48%;
     margin-top: 1.55em; }
   /*Mobile Member Menu*/
-  .log-btn {
-    font-size: 14px;
-    padding: 0.4em 1.5em; }
-  .search-extend i.fa.fa-search {
-    font-size: 22px;
-    margin-top: 1.4em; }
   .nav-welcome {
     font-size: 14px; }
   .member-nav .twelve-point {
@@ -2625,9 +2641,6 @@ mini-logo {
   .log-btn {
     font-size: 14px;
     padding: 0.4em 1.5em; }
-  .search-extend i.fa.fa-search {
-    font-size: 22px;
-    margin-top: 1.4em; }
   .nav-welcome {
     margin-right: 2.6em;
     margin-top: 15px;
@@ -2636,11 +2649,13 @@ mini-logo {
     margin: 1em 0em 0em 1.2em; }
   .nav-button {
     margin-top: 1.18em; }
-  .log-btn {
-    margin-top: 0.4em;
-    margin-right: 2.8em; }
   .mobile-sub.wsmenu-list li a {
-    font-size: 13px; } }
+    font-size: 13px; }
+  /*Nav Links*/
+  .search-btn {
+    margin-right: 0.1em; }
+  .login-btn {
+    margin-right: 0.1em; } }
 
 @media (min-width: 992px) and (max-width: 1049px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2654,18 +2669,17 @@ mini-logo {
     margin-top: 1.55em; }
   .mini-logo {
     display: block; }
-  .log-btn {
-    font-size: 14px;
-    padding: 0.4em 1.5em; }
-  .search-extend i.fa.fa-search {
-    font-size: 22px;
-    margin-top: 1.9em; }
   img.demo-logo {
     margin-right: 20px;
     width: 182px;
     height: 40px; }
   .mobile-sub.wsmenu-list li a {
-    font-size: 13px; } }
+    font-size: 13px; }
+  /*Nav Links*/
+  .search-btn {
+    margin-right: 0.1em; }
+  .login-btn {
+    margin-right: 0.1em; } }
 
 @media (min-width: 1050px) and (max-width: 1200px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2693,11 +2707,25 @@ mini-logo {
     width: 182px;
     height: 40px; }
   .mobile-sub.wsmenu-list li a {
-    font-size: 13px; } }
+    font-size: 13px; }
+  /*Nav Links*/
+  .search-btn {
+    margin-right: 0.1em;
+    margin-top: 0.4em; }
+  .login-btn {
+    margin-right: 0.1em;
+    font-size: 14px;
+    padding: 6px;
+    margin-top: 1.2em; } }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
   .mobile-sub.wsmenu-list li a {
-    font-size: 13px; } }
+    font-size: 13px; }
+  /*Nav Links*/
+  .search-btn {
+    margin-right: 0.1em; }
+  .login-btn {
+    margin-right: 0.1em; } }
 
 @media (min-width: 1400px) and (max-width: 1580px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2712,7 +2740,12 @@ mini-logo {
     padding: 0.4em 1sem; }
   .search-extend i.fa.fa-search {
     font-size: 22px;
-    margin-top: 1.2em; } }
+    margin-top: 1.2em; }
+  /*Nav Links*/
+  .search-btn {
+    margin-right: 0.1em; }
+  .login-btn {
+    margin-right: 0.1em; } }
 
 @media (min-width: 1600px) and (max-width: 1680px) {
   a.sf-with-ul, .sf-menu.public-nav a {

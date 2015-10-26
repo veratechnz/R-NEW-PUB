@@ -19,17 +19,9 @@
 		margin-top: 1.55em;
 	}
 
+
 	/*Mobile Member Menu*/
 
-	.log-btn{
-		font-size: 14px;
-		padding: 0.4em 1.5em;
-	}
-
-	.search-extend i.fa.fa-search{
-		font-size: 22px;
-		margin-top: 1.4em;
-	}
 
 	.nav-welcome{
 		font-size: 14px;
@@ -167,11 +159,6 @@
 		padding: 0.4em 1.5em;
 	}
 
-	.search-extend i.fa.fa-search{
-		font-size: 22px;
-		margin-top: 1.4em;
-	}
-
 	.nav-welcome{
 		margin-right: 2.6em;
 		margin-top: 15px;
@@ -186,12 +173,16 @@
 		margin-top: 1.18em;
 	}
 
-	.log-btn{
-		margin-top: 0.4em;
-		margin-right: 2.8em;
+	.mobile-sub.wsmenu-list li a{font-size: 13px;}
+
+	/*Nav Links*/
+	.search-btn{
+		margin-right: 0.1em
 	}
 
-	.mobile-sub.wsmenu-list li a{font-size: 13px;}
+	.login-btn{
+		margin-right: 0.1em
+	}
 }
 
 
@@ -213,16 +204,6 @@
 		display: block;
 	}
 
-	.log-btn{
-		font-size: 14px;
-		padding: 0.4em 1.5em;
-	}
-
-	.search-extend i.fa.fa-search{
-		font-size: 22px;
-		margin-top: 1.9em;
-	}
-
 	img.demo-logo{
 	  margin-right: 20px; 
 	  width: 182px;
@@ -230,6 +211,15 @@
 	}
 
 	.mobile-sub.wsmenu-list li a{font-size: 13px;}
+
+	/*Nav Links*/
+	.search-btn{
+		margin-right: 0.1em
+	}
+
+	.login-btn{
+		margin-right: 0.1em
+	}
 
 }
 
@@ -276,12 +266,33 @@
 
 	.mobile-sub.wsmenu-list li a{font-size: 13px;}
 
+		/*Nav Links*/
+	.search-btn{
+		margin-right: 0.1em;
+		margin-top: 0.4em;
+	}
+
+	.login-btn{
+		margin-right: 0.1em;
+		font-size: 14px;
+		padding: 6px;
+		margin-top: 1.2em;
+	}
+
 }
 
 
 @media(min-width:1200px) and (max-width: 1399px){
 
 .mobile-sub.wsmenu-list li a{font-size: 13px;}
+/*Nav Links*/
+.search-btn{
+	margin-right: 0.1em
+}
+
+.login-btn{
+	margin-right: 0.1em
+}
 
 }
 
@@ -307,6 +318,15 @@
 	.search-extend i.fa.fa-search{
 		font-size: 22px;
 		margin-top: 1.2em;
+	}
+
+	/*Nav Links*/
+	.search-btn{
+		margin-right: 0.1em
+	}
+
+	.login-btn{
+		margin-right: 0.1em
 	}
 
 }
