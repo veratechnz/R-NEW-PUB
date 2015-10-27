@@ -316,11 +316,12 @@ a:focus {outline:none !important;}
 	top: 62px;
 	z-index:1000;
 	margin:0px;
+	padding:2px;
 	opacity: 0;
-	-o-transform-origin: 10% 10%;
-	-ms-transform-origin: 10% 10%;
-	-moz-transform-origin: 10% 10%;
-	-webkit-transform-origin: 10% 10%;
+	-o-transform-origin: 0% 0%;
+	-ms-transform-origin: 0% 0%;
+	-moz-transform-origin: 0% 0%;
+	-webkit-transform-origin: 0% 0%;
 	-o-transition: -o-transform 0.3s, opacity 0.3s;
 	-ms-transition: -ms-transform 0.3s, opacity 0.3s;
 	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
@@ -388,32 +389,34 @@ a:focus {outline:none !important;}
 .wsmenu-submenu .fa{ margin-right:7px;}
 
 
-@media only screen and (min-width:780px) and (max-width:1064px) {	
+/*@media only screen and (min-width:780px) and (max-width:1050px) {	
 .hometext{ display:block !important;}
 .wsmenu{ width:100%; font-size:13px !important; position:relative;}
 .bigmegamenu{ position:static !important; }
 .wsmenu-list li a { white-space:nowrap !important; padding-left:4px !important; padding-right:10px !important;}
 .megacollink {width:48%; margin:1% 1%;}
 .typographylinks{width:48%; margin:1% 1%;}
+}*/
 
-
-}
-
-
- 
-
-@media only screen and (min-width: 781px) {
-
+@media only screen and (min-width: 1051px) {
 .wsmenu-list li:hover > .wsmenu-submenu{display:block !important;}
 .wsmenu-submenu li:hover > .wsmenu-submenu-sub{display:block !important;}
 .wsmenu-submenu-sub li:hover > .wsmenu-submenu-sub-sub{display:block !important;}
 .wsmenu-list li:hover > .megamenu{display:block !important;}
 
+/*Breakpoint Adjustment*/
+
+/*Public Nav*/
+html body nav.navbar.navbar-default.navbar-fixed-top div.inner-nav div.container-fluid.top-wrapper div.row div.col-xs-10.col-xs-offset-1 div.col-xs-8.pad-adjust div.wsmenucontainer.clearfix div.public-nav nav.wsmenu.slideLeft.clearfix.menuclose ul.mobile-sub.wsmenu-list li a{
+	color: #000;
+}
+
+
 }
 
 
 /*------------------------------------ Mobile CSS ---------------------------------------------*/
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1050px) {
 /*.wsmenu-list > li:hover>a{background-color:rgba(0,0,0,0.08) !important; text-decoration:none;}
 */.hometext{ display:inline-block !important; }
 .megacollink {width:96% !important; margin:0% 2% !important; }
@@ -421,7 +424,6 @@ a:focus {outline:none !important;}
 .typographylinks{width:98% !important; margin:0% 1% !important;}	
 .typographydiv{width:86% !important; margin:0% 7% !important;}	
 .mainmapdiv{width:90% !important; margin:0% 5% !important; }
-
 .overlapblackbg{
 	left:0;
 	z-index:100;
