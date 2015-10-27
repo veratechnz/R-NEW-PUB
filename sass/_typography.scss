@@ -439,6 +439,11 @@ section i {
   font-weight: 800;
 }
 
+.public-nav .wsmenu-list > li > a{
+  font-size: 14px;
+}
+
+
 .search-public i {
   color: $white;
 }
@@ -571,3 +576,7 @@ section i {
   padding-left: 1em;
   color: $black-c;
 }
+
+
+
+a.callusicon span.fa.fa-phone{color: #fff;}

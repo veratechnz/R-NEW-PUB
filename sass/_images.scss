@@ -27,7 +27,7 @@ mini-logo{
 }
 
 .member-fullscrn, .member-fullscrn .page-wrapper{
-  background: url('../img/queen.jpg') no-repeat center center fixed;
+  background: url('../img/queeen.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -55,5 +55,15 @@ mini-logo{
   margin-bottom: 1.4em;
 }
 
+.reinz-logo-sm-public {
+  position: absolute;
+  top: 8px;
+  left: -10px;
+}
 
+.reinz-logo-sm-member {
+  position: absolute;
+  top: 8px;
+  left: 56px;
+}
 
