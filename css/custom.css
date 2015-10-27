@@ -2155,7 +2155,15 @@ mini-logo {
   .col-md-10.col-md-offset-1.ftr-bottom {
     margin: 0px; }
   ul.ftr-social.list-inline {
-    margin-top: 5%; } }
+    margin-top: 5%; }
+  .wsmenucontainer.clearfix {
+    min-height: 0px; }
+  .top-gap {
+    margin-bottom: 6em;
+    margin-top: 60px;
+    min-height: 50vh; }
+  .nav-welcome {
+    margin-top: 1em; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2208,7 +2216,13 @@ mini-logo {
   .navbar {
     z-index: 1054; }
   .public-nav .mobile-sub .wsmenu-submenu li a {
-    color: #fff; } }
+    color: #fff; }
+  .wsmenucontainer.clearfix {
+    min-height: 0px; }
+  .top-gap {
+    margin-bottom: 6em;
+    margin-top: 60px;
+    min-height: 50vh; } }
 
 @media (min-width: 992px) and (max-width: 1049px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -2266,7 +2280,13 @@ mini-logo {
     height: 0px;
     padding: 0px; }
   .navbar {
-    z-index: 1054; } }
+    z-index: 1054; }
+  .wsmenucontainer.clearfix {
+    min-height: 0px; }
+  .top-gap {
+    margin-bottom: 6em;
+    margin-top: 60px;
+    min-height: 50vh; } }
 
 @media (min-width: 1050px) and (max-width: 1200px) {
   a.sf-with-ul, .sf-menu.public-nav a {

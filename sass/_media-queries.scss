@@ -153,6 +153,18 @@
 	.col-md-10.col-md-offset-1.ftr-bottom {margin: 0px;}
 	 ul.ftr-social.list-inline{margin-top: 5%;}
 
+	 .wsmenucontainer.clearfix{min-height: 0px;}
+
+	 .top-gap {
+	     margin-bottom: 6em;
+	     margin-top: 60px;
+	     min-height: 50vh;
+	 }
+
+	 .nav-welcome{
+	 	margin-top:1em;
+	 }
+
 }
 
 @media(min-width:768px) and (max-width:991px){
@@ -216,6 +228,14 @@
 
 	.public-nav .mobile-sub .wsmenu-submenu li a {
 		color: #fff;
+	}
+
+	.wsmenucontainer.clearfix{min-height: 0px;}
+
+	.top-gap {
+	    margin-bottom: 6em;
+	    margin-top: 60px;
+	    min-height: 50vh;
 	}
 
 }
@@ -286,6 +306,14 @@
 	}
 	.header{z-index: 1056; min-height: 0px; max-height: 0px; height: 0px; padding: 0px;}
 	.navbar{z-index: 1054;}
+
+	.wsmenucontainer.clearfix{min-height: 0px;}
+
+	.top-gap {
+	    margin-bottom: 6em;
+	    margin-top: 60px;
+	    min-height: 50vh;
+	}
 
 }
 
