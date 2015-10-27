@@ -1333,6 +1333,9 @@ div.col-xs-10.col-xs-offset-1 {
   border-left: 1px solid #efefef;
   padding-left: 30px; }
 
+.pad-adjust {
+  padding: 2px; }
+
 /*Navigation*/
 /*Sass Variables*/
 .white {
@@ -2091,6 +2094,8 @@ mini-logo {
     top: 0px; }
   div.col-md-2.col-xs-6.pad-adjust {
     padding: 0px; }
+  .col-md-10.col-md-offset-1.col-xs-12 {
+    padding: 2px; }
   .public-nav .wsmenu-list > li > a {
     color: #666; }
   .public-nav .wsmenu-submenu li a {
@@ -2122,12 +2127,8 @@ mini-logo {
     max-height: 0px; }
   .member-nav .wsmenu-submenu {
     top: 0px; }
-  .search-extend i.fa.fa-search {
-    margin-top: 1.6em; }
   .wsmenu-list li.twelve-point ul.wsmenu-submenu li {
     background-color: #fff; }
-  .nav-welcome {
-    margin-top: 1.4em; }
   .reinz-logo-sm {
     width: 100px;
     height: 30px; }
@@ -2163,7 +2164,9 @@ mini-logo {
     margin-top: 60px;
     min-height: 50vh; }
   .nav-welcome {
-    margin-top: 1em; } }
+    margin-top: 1.2em; }
+  .search-btn, .login-btn {
+    margin-right: 0.2em; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   a.sf-with-ul, .sf-menu.public-nav a {

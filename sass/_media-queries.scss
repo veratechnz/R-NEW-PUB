@@ -52,6 +52,10 @@
 		padding: 0px;
 	}
 
+	.col-md-10.col-md-offset-1.col-xs-12 {
+		padding: 2px;
+	}
+
 	.public-nav .wsmenu-list > li > a{
 		color: #666;
 	}
@@ -97,17 +101,9 @@
 		top: 0px;
 	}
 
-	.search-extend i.fa.fa-search{
-		margin-top: 1.6em;
-	}
-
 	.wsmenu-list li.twelve-point ul.wsmenu-submenu li{
 		background-color: #fff;
 	}
-
-	.nav-welcome{
-		margin-top: 1.4em;
-	} 
 
 	.reinz-logo-sm{
 		width: 100px;
@@ -162,8 +158,13 @@
 	 }
 
 	 .nav-welcome{
-	 	margin-top:1em;
+	 	margin-top:1.2em;
 	 }
+
+	.search-btn, .login-btn{
+		margin-right: 0.2em;
+	}
+
 
 }
 
