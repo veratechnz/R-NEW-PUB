@@ -2395,7 +2395,11 @@ mini-logo {
   .pad-adjust {
     padding: 2px; }
   .pad-adjust {
-    padding: 2px; } }
+    padding: 2px; }
+  img.demo-logo {
+    height: 39px;
+    margin-right: 20px;
+    width: 220px; } }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
   .mobile-sub.wsmenu-list li a {
@@ -2404,9 +2408,13 @@ mini-logo {
   .search-btn {
     margin-right: 0.1em; }
   .login-btn {
-    margin-right: 0.1em; } }
+    margin-right: 0.1em; }
+  img.demo-logo {
+    height: 34px;
+    margin-right: 20px;
+    width: 200px; } }
 
-@media (min-width: 1400px) and (max-width: 1580px) {
+@media (min-width: 1400px) and (max-width: 1550px) {
   a.sf-with-ul, .sf-menu.public-nav a {
     font-size: 16px;
     padding-left: 0.7em;
@@ -2416,7 +2424,7 @@ mini-logo {
     margin-top: 1.78em; }
   .log-btn {
     font-size: 14px;
-    padding: 0.4em 1sem; }
+    padding: 0.4em 1em; }
   .search-extend i.fa.fa-search {
     font-size: 22px;
     margin-top: 1.2em; }
@@ -2424,9 +2432,13 @@ mini-logo {
   .search-btn {
     margin-right: 0.1em; }
   .login-btn {
-    margin-right: 0.1em; } }
+    margin-right: 0.1em; }
+  img.demo-logo {
+    height: 39px;
+    margin-right: 20px;
+    width: 220px; } }
 
-@media (min-width: 1600px) and (max-width: 1680px) {
+@media (min-width: 1551px) {
   a.sf-with-ul, .sf-menu.public-nav a {
     font-size: 18px;
     padding-left: 0.8em;
