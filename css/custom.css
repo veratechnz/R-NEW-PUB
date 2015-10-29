@@ -795,6 +795,12 @@ a:focus {
   font-size: 50px;
   margin: 0.5em 0em 0.35em 0em; }
 
+.r-font-nav-b {
+  font-family: 'icomoonregular';
+  font-size: 80px;
+  color: #ffffff;
+  margin: 0.5em 0em 2em 0em; }
+
 /*Placeholder Color Change*/
 .place-color::-webkit-input-placeholder {
   color: white; }
@@ -868,10 +874,10 @@ a:focus {
 
 .nav-welcome {
   color: #8EC6CE;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   float: right;
-  margin: 0.7em 0em 0em 0em; }
+  margin: 0.76em 0em 0em 0em; }
 
 .member-text h4 {
   margin-bottom: 0em; }
@@ -965,7 +971,7 @@ section i {
 
 .member-text-header {
   color: #fff;
-  font-size: 4.8em;
+  font-size: 3em;
   font-weight: 800;
   text-align: right;
   border-right: 0.1em  solid #fff;
@@ -1041,6 +1047,21 @@ section i {
   margin-bottom: 0em;
   padding-left: 1em;
   color: #707070; }
+
+.navbar-title {
+  color: #ffffff;
+  font-family: "proxima_nova_rgbold";
+  font-size: 11pt;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  padding: 0;
+  text-transform: uppercase;
+  margin-top: 1.9em;
+  margin-left: 1.8em;
+  display: inline-block; }
+
+h4.white {
+  margin-top: 1em; }
 
 a.callusicon span.fa.fa-phone {
   color: #fff; }
@@ -1166,7 +1187,8 @@ div.col-xs-10.col-xs-offset-1 {
   padding: 25px 25px 25px 25px;
   width: 70%;
   margin: 0 auto;
-  margin-top: 20px; }
+  margin-top: 20px;
+  height: 245px; }
   .filter-form .form-control {
     font-size: 12px;
     border-radius: 0;
@@ -1202,7 +1224,7 @@ div.col-xs-10.col-xs-offset-1 {
   width: 22em;
   height: 7.1em;
   margin-bottom: 1.6em;
-  padding: 0.2em 0em 0em 0em;
+  padding: .2em 0em 0em 0em;
   background: -webkit-linear-gradient(left, #8EC6CE, #0D497C);
   /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, #8EC6CE, #0D497C);
@@ -1241,7 +1263,7 @@ div.col-xs-10.col-xs-offset-1 {
   text-align: center; }
 
 .full-scrn .col-md-3 {
-  margin-bottom: 4em; }
+  margin-bottom: 6em; }
 
 .full-scrn .col-md-3 a {
   display: inline-block;
@@ -1296,7 +1318,7 @@ div.col-xs-10.col-xs-offset-1 {
 .member-login-outer {
   min-height: 100%;
   /* Fallback for browsers do NOT support vh unit */
-  min-height: 94vh;
+  min-height: 90vh;
   /* These two lines are counted as one :-)       */
   display: flex;
   align-items: center; }
@@ -1305,9 +1327,15 @@ div.col-xs-10.col-xs-offset-1 {
   width: 100%;
   height: 80%;
   margin-top: 30%;
-  padding-top: 8.5%;
+  padding-top: 10%;
   /*padding-top: 17.5vh;*/
   margin: 0 auto; }
+
+.v-center a:hover .r-font-nav-b {
+  color: #8EC6CE; }
+
+.v-center a:hover h4 {
+  color: #8EC6CE; }
 
 .spacer-a {
   margin: 20px 0 20px 0; }
@@ -1499,7 +1527,7 @@ div.wsmenucontainer nav.wsmenu {
 
 .public-nav {
   max-height: 40px;
-  margin: 15px 20px 0px 20px;
+  margin: 11px 20px 0px 20px;
   width: 100%;
   display: block;
   color: #fff;
@@ -1523,7 +1551,7 @@ div.wsmenucontainer nav.wsmenu {
     top: 56px; }
   .public-nav .wsmenu-list > li > a {
     font-family: 'proxima_nova_rgbold';
-    font-size: 13pt;
+    font-size: 12pt;
     letter-spacing: 0.08em;
     font-weight: 400;
     text-transform: uppercase;
@@ -1794,7 +1822,19 @@ div.wsmenucontainer nav.wsmenu {
   font-weight: 800;
   float: right;
   font-family: 'proxima_nova_ththin';
-  border: 2px solid #fff; }
+  border: 2px solid #fff;
+  background-color: #000;
+  border-radius: 0px; }
+
+.log-btn:hover {
+  color: #ffffff;
+  background-color: #8EC6CE;
+  margin-bottom: 0em;
+  font-size: 16px;
+  font-weight: 800;
+  float: right;
+  font-family: 'proxima_nova_ththin';
+  border: 2px solid #8EC6CE; }
 
 .go-btn {
   color: #ffffff;
@@ -1821,6 +1861,16 @@ div.wsmenucontainer nav.wsmenu {
   width: 9.5em;
   padding: 0.8em 1.1em;
   border: 2px solid #0D497C;
+  margin-bottom: 25px; }
+
+.read-btn:hover {
+  color: #fff;
+  background-color: #8EC6CE;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8EC6CE;
   margin-bottom: 25px; }
 
 .join-button {
@@ -1885,7 +1935,7 @@ div.wsmenucontainer nav.wsmenu {
   padding: 0.4em 0.8em; }
 
 .login-btn {
-  background-color: #000;
+  background-color: transparent;
   color: white;
   padding: 0.3 0.5 0.3 0.5em;
   border: #fff solid 2px;
@@ -1900,13 +1950,24 @@ div.wsmenucontainer nav.wsmenu {
 .search-btn {
   background-color: #000;
   color: white;
-  padding: 0.3 0.5 0.3 0.5em;
+  padding: 0.2 0.4 0.2 0.4em;
   border: #000 solid 2px;
   float: right;
   font-family: 'proxima_nova_altlight';
   font-size: 22px;
   margin-right: 1em;
   margin-bottom: 1.2em;
+  margin-top: 0.28em;
+  border-radius: 0px; }
+
+.search-btn-b {
+  background-color: #0D497C;
+  color: white;
+  padding: 0.4em;
+  border: #fff solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 16px;
   margin-top: 0.28em;
   border-radius: 0px; }
 
@@ -1947,7 +2008,7 @@ mini-logo {
   display: none; }
 
 .member-fullscrn, .member-fullscrn .page-wrapper {
-  background: url("../img/queeen.jpg") no-repeat center center fixed;
+  background: url("../img/queen.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

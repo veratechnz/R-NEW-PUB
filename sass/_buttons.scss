@@ -33,6 +33,19 @@
   float: right;
   font-family:'proxima_nova_ththin';
   border: 2px solid #fff;
+  background-color: #000;
+  border-radius: 0px;
+}
+
+.log-btn:hover{
+  color: $white;
+  background-color: $blue-a;
+  margin-bottom: 0em;
+  font-size: 16px;
+  font-weight: 800;
+  float: right;
+  font-family:'proxima_nova_ththin';
+  border: 2px solid $blue-a;
 }
 
 .go-btn{
@@ -62,6 +75,17 @@
   width: 9.5em;
   padding: 0.8em 1.1em;
   border: 2px solid $blue-b;
+  margin-bottom: 25px;
+}
+
+.read-btn:hover {
+  color: #fff;
+  background-color: $blue-a;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid $blue-a;
   margin-bottom: 25px;
 }
 
@@ -135,7 +159,7 @@
 }
 
 .login-btn{
-  background-color: #000;
+  background-color: transparent;
   color: white;
   padding: 0.3 0.5 0.3 0.5em;
   border: #fff solid 2px;
@@ -151,13 +175,25 @@
 .search-btn {
   background-color: #000;
   color: white;
-  padding: 0.3 0.5 0.3 0.5em;
+  padding: 0.2 0.4 0.2 0.4em;
   border: #000 solid 2px;
   float: right;
   font-family: 'proxima_nova_altlight';
   font-size: 22px;
   margin-right: 1em;
   margin-bottom: 1.2em;
+  margin-top: 0.28em;
+  border-radius: 0px;
+}
+
+.search-btn-b {
+  background-color: $blue-b;
+  color: white;
+  padding: 0.4em;
+  border: #fff solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 16px;
   margin-top: 0.28em;
   border-radius: 0px;
 }

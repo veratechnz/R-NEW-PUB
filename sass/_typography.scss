@@ -295,6 +295,13 @@ a:focus {
       margin: 0.5em 0em 0.35em 0em;
 }
 
+.r-font-nav-b{
+      font-family: 'icomoonregular';
+      font-size: 80px;
+      color: $white;
+      margin: 0.5em 0em 2em 0em;
+}
+
 /*Placeholder Color Change*/
 .place-color::-webkit-input-placeholder { color: white; }
 .place-color:-moz-placeholder { color: white; }
@@ -372,10 +379,10 @@ a:focus {
 
 .nav-welcome {
   color: $blue-a;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 800;
   float:right;
-  margin: 0.7em 0em 0em 0em;
+  margin: 0.76em 0em 0em 0em;
 }
 
 .member-text h4 {
@@ -492,7 +499,7 @@ section i {
 
 .member-text-header {
   color: #fff;
-  font-size: 4.8em;
+  font-size: 3em;
   font-weight: 800;
   text-align: right;
   border-right: 0.1em  solid #fff;
@@ -577,6 +584,20 @@ section i {
   color: $black-c;
 }
 
+.navbar-title{
+  color: #ffffff;
+  font-family: "proxima_nova_rgbold";
+  font-size: 11pt;
+  font-weight: 400; 
+  letter-spacing: 0.08em;
+  padding: 0;
+  text-transform: uppercase;
+  margin-top: 1.9em;
+  margin-left: 1.8em;
+  display: inline-block;
+}
 
+h4.white{ margin-top: 1em;}
 
 a.callusicon span.fa.fa-phone{color: #fff;}
+
