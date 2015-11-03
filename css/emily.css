@@ -1,0 +1,167 @@
+/* CUSTOM CSS by Emily */
+
+
+/*TYPOGRAPHY ---------------------------------------- */
+/* (h1 & h3 css to override errors given) */
+
+h1	{
+  font-family: 'proxima_nova_rgbold';
+  line-height: 1.2;
+}
+
+h3 {
+  font-family: 'proxima_nova_ththin';
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 800;
+  margin-bottom: 1.2em;
+  text-transform: uppercase; }
+
+.heading h3 {
+  	font-size: 35px;
+}
+
+.intro-text-header {
+	color: #fff;
+ 	font-size: 4em;
+ 	font-weight: 800;
+}
+
+.home-body p {
+	font-size: 16px;
+	margin-top: 0;
+}
+
+.content-sub-head, .sub-head-full-line {
+  margin-top: 0px;
+  margin-bottom: 1.2em;
+  padding-bottom: 0.5em;
+  position: relative; 
+}
+
+.content-sub-head:before {
+  content: "";
+  position: absolute;
+  left: 0.1;
+  bottom: 0;
+  height: 1px;
+  width: 25%;
+  /* or 100px */
+  border-bottom: 3px solid #8EC6CE; 
+}
+
+.sub-head-full-line:before {
+  content: "";
+  position: absolute;
+  left: 0.1;
+  bottom: 0;
+  height: 1px;
+  width: 100%;
+  /* or 100px */
+  border-bottom: 3px solid #8EC6CE; 
+}
+
+.r-font-icon {
+  font-family: 'icomoonregular';
+  font-size: 1.7em;
+  vertical-align: middle;
+  color: #8ec6ce;
+  margin: 0.5em 0.2em 0.35em 0em; }
+
+.white {
+	color: #fff;
+}
+
+.double-arrow-icon {
+  color: #fff;
+}
+
+.double-arrow-icon:hover {
+  color: #8EC6CE;
+}
+
+.icon-up {
+  position: absolute;
+  right: 0.5em;
+}
+
+
+
+/*BUTTONS ----------------------------------------- */
+  .read-btn-white, .join-btn-white {
+  color: #FFF;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #FFF;
+  margin-bottom: 25px; }
+
+.read-btn-white:hover, .join-btn-white:hover {
+  color: #fff;
+  background-color: #8EC6CE;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8EC6CE;
+  margin-bottom: 25px; }
+
+.home-body .read-btn {
+  margin-bottom: 4em;
+}
+
+.join-btn-white, .join-btn-white:hover {
+  margin: 4em 0 8em;
+}
+
+
+
+
+
+/*IMAGES -------------------------------------------- */
+
+.content-img {
+  width: 90%;
+  margin-bottom: 2em;
+}
+
+
+
+
+/*LAYOUT -------------------------------------------- */
+.section-intro {
+  padding-top: 10em;
+}
+
+.section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
+  padding: 7em 0;
+}
+
+
+.section-intro {
+  background-image: url("../img/full-e-grad.jpg"); 
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+
+.section-2 {
+  background-image: url("../img/full-b-grad.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-4 {
+  background-image: url("../img/full-c-grad.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.section-6 {
+  background-image: url("../img/027-grad.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
