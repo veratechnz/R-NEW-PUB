@@ -209,9 +209,9 @@
 }
 
 /* PUBLIC PARALLAX BUTTONS ----------------------------------------- */
-  .read-btn-white, .join-btn-white {
+  .read-btn-white {
   color: #FFF;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   background-color: transparent;
   width: 9.5em;
@@ -219,10 +219,33 @@
   border: 2px solid #FFF;
   margin-bottom: 25px; }
 
-.read-btn-white:hover, .join-btn-white:hover {
+  .join-btn-white {
+  color: #FFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #FFF;
+  margin-bottom: 25px;
+  font-weight: 800;
+  }
+
+  .join-btn-white:hover{
   color: #fff;
   background-color: #8EC6CE;
-  font-size: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8EC6CE;
+  margin-bottom: 25px; 
+  }
+
+.read-btn-white:hover {
+  color: #fff;
+  background-color: #8EC6CE;
+  font-size: 16px;
   text-transform: uppercase;
   width: 9.5em;
   padding: 0.8em 1.1em;

@@ -728,7 +728,8 @@ p {
   font-family: 'proxima_nova_altlight';
   font-size: 20px;
   margin-bottom: 1.2em;
-  margin-top: 0.8em; }
+  margin-top: 0.8em;
+  line-height: 1.05em; }
 
 dt, dd {
   font-family: 'proxima_nova_altlight';
@@ -739,51 +740,59 @@ h1 {
   font-size: 38px;
   font-weight: 800;
   margin-bottom: 0.8em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.05em; }
 
 h2 {
   font-family: 'proxima_nova_rgbold';
   font-size: 20px;
   letter-spacing: 1px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.05em; }
 
 h3 {
   font-family: 'proxima_nova_ththin';
   font-size: 20px;
   font-weight: 800;
   margin-bottom: 1.2em;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.05em; }
 
 h4 {
   font-family: "proxima_nova_rgbold";
   font-size: 20px;
   letter-spacing: 0.1em;
   color: #0D497C;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.05em; }
 
 h5 {
   font-family: 'proxima_nova_rgbold';
   font-size: 11pt;
   letter-spacing: 0.03em;
   font-weight: 400;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.05em; }
 
 h6 {
   font-family: 'proxima_nova_blblack';
   font-size: 9pt;
   color: #0D497C;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.05em; }
 
 h3 .old {
   font-family: 'proxima_nova_rgbold';
   font-size: 25px;
   letter-spacing: 1px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  line-height: 1.05em; }
 
 a {
   color: #345973;
   font-weight: 600;
-  outline: 0; }
+  outline: 0;
+  line-height: 1.05em; }
 
 a:focus {
   outline: 0; }
@@ -1089,7 +1098,6 @@ a.callusicon span.fa.fa-phone {
   font-weight: 800; }
 
 .home-body p {
-  font-size: 16px;
   margin-top: 0; }
 
 .content-sub-head, .sub-head-full-line {
@@ -2079,9 +2087,9 @@ div.wsmenucontainer nav.wsmenu {
   background-color: #8EC6CE; }
 
 /* PUBLIC PARALLAX BUTTONS ----------------------------------------- */
-.read-btn-white, .join-btn-white {
+.read-btn-white {
   color: #FFF;
-  font-size: 12px;
+  font-size: 16px;
   text-transform: uppercase;
   background-color: transparent;
   width: 9.5em;
@@ -2089,10 +2097,31 @@ div.wsmenucontainer nav.wsmenu {
   border: 2px solid #FFF;
   margin-bottom: 25px; }
 
-.read-btn-white:hover, .join-btn-white:hover {
+.join-btn-white {
+  color: #FFF;
+  font-size: 16px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #FFF;
+  margin-bottom: 25px;
+  font-weight: 800; }
+
+.join-btn-white:hover {
   color: #fff;
   background-color: #8EC6CE;
-  font-size: 12px;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8EC6CE;
+  margin-bottom: 25px; }
+
+.read-btn-white:hover {
+  color: #fff;
+  background-color: #8EC6CE;
+  font-size: 16px;
   text-transform: uppercase;
   width: 9.5em;
   padding: 0.8em 1.1em;
