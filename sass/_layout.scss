@@ -357,3 +357,38 @@ hr {
 .pad-adjust{
   padding: 2px;
 }
+
+/* Public Paralax LAYOUT -------------------------------------------- */
+.section-intro {
+  padding-top: 10em;
+}
+
+.home-body .section-1,.home-body  .section-2,.home-body  .section-3,.home-body  .section-4,.home-body  .section-5,.home-body  .section-6 {
+  padding: 7em 0;
+}
+
+
+.home-body  .section-intro {
+  background-image: url("../img/full-e-grad.jpg"); 
+  background-size: cover; 
+  background-attachment: fixed;
+}
+
+
+.home-body .section-2 {
+  background-image: url("../img/full-b-grad.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-body .section-4 {
+  background-image: url("../img/full-c-grad.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.home-body .section-6 {
+  background-image: url("../img/027-grad.jpg"); 
+  background-size: cover;
+  background-attachment: fixed;
+}

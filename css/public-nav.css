@@ -4,12 +4,12 @@
 /*TYPOGRAPHY ---------------------------------------- */
 /* (h1 & h3 css to override errors given) */
 
-h1	{
+.home-body h1	{
   font-family: 'proxima_nova_rgbold';
   line-height: 1.2;
 }
 
-h3 {
+.home-body h3 {
   font-family: 'proxima_nova_ththin';
   font-size: 20px;
   line-height: 1.2;
@@ -17,11 +17,11 @@ h3 {
   margin-bottom: 1.2em;
   text-transform: uppercase; }
 
-.heading h3 {
+.home-body .heading h3 {
   	font-size: 35px;
 }
 
-.intro-text-header {
+.home-body .intro-text-header {
 	color: #fff;
  	font-size: 4em;
  	font-weight: 800;
@@ -112,7 +112,7 @@ h3 {
   margin-bottom: 4em;
 }
 
-.join-btn-white, .join-btn-white:hover {
+.home-body .join-btn-white, .join-btn-white:hover {
   margin: 4em 0 8em;
 }
 
@@ -122,7 +122,7 @@ h3 {
 
 /*IMAGES -------------------------------------------- */
 
-.content-img {
+.home-body .content-img {
   width: 90%;
   margin-bottom: 2em;
 }
@@ -130,38 +130,39 @@ h3 {
 
 
 
-/*LAYOUT -------------------------------------------- */
+/* Public Paralax LAYOUT -------------------------------------------- */
 .section-intro {
   padding-top: 10em;
 }
 
-.section-1, .section-2, .section-3, .section-4, .section-5, .section-6 {
+.home-body .section-1,.home-body  .section-2,.home-body  .section-3,.home-body  .section-4,.home-body  .section-5,.home-body  .section-6 {
   padding: 7em 0;
 }
 
 
-.section-intro {
+.home-body  .section-intro {
   background-image: url("../img/full-e-grad.jpg"); 
   background-size: cover; 
   background-attachment: fixed;
 }
 
 
-.section-2 {
+.home-body .section-2 {
   background-image: url("../img/full-b-grad.jpg"); 
   background-size: cover;
   background-attachment: fixed;
 }
 
-.section-4 {
+.home-body .section-4 {
   background-image: url("../img/full-c-grad.jpg"); 
   background-size: cover;
   background-attachment: fixed;
 }
 
-.section-6 {
+.home-body .section-6 {
   background-image: url("../img/027-grad.jpg"); 
   background-size: cover;
   background-attachment: fixed;
 }
 
+/*Comment*/
