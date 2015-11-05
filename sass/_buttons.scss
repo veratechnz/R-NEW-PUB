@@ -261,5 +261,23 @@
 }
 
 .search-results .read-btn{
-  margin-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+.go-search {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-family: "proxima_nova_altlight";
+  font-size: 16px;
+}
+
+.go-search:hover {
+  background-color: $blue-a;
+  color: #fff;
+  border-radius: 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-color: $blue-a;
 }

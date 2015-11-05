@@ -1,0 +1,22 @@
+div.modal-header{
+	background-color: $black;
+	border-bottom: 5px solid $blue-a;
+}
+
+h4#myModalLabel.modal-title{
+	color: #fff;
+}
+
+.form-horizontal div.form-group{
+	margin: 40px 0px 40px 0px;
+}
+
+.modal-body form.form-horizontal div.form-group label.col-sm-2.control-label{
+	font-size: 18px;
+}	
+
+.modal-content div.modal-footer{
+	background-color: $black;
+	border-top: 3px solid $blue-a;
+}
+
