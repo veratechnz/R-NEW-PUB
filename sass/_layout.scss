@@ -34,6 +34,9 @@ hr {
  min-height: 75%;
 }
 
+body{
+  background-color: #fff;
+}
 
  div.col-xs-10.col-xs-offset-1{
   padding: 0px;
@@ -53,7 +56,6 @@ hr {
   margin-bottom: 80px;
   margin-bottom: 6em;
   min-height:50vh; 
-
 }
 
 .overflow-a {
@@ -391,4 +393,12 @@ hr {
   background-image: url("../img/027-grad.jpg"); 
   background-size: cover;
   background-attachment: fixed;
+}
+
+.public-top{
+  margin-top: 70px;
+}
+
+.search-results{
+  margin-bottom: 65px;
 }

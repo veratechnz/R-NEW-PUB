@@ -1146,6 +1146,12 @@ a.callusicon span.fa.fa-phone {
   position: absolute;
   right: 0.5em; }
 
+.search-results h1 {
+  margin-bottom: 60px; }
+
+.search-results h2 {
+  margin-bottom: 8px; }
+
 /*Layout*/
 /*Sass Variables*/
 .white {
@@ -1182,6 +1188,9 @@ hr {
 .new-min {
   min-height: 75vh;
   min-height: 75%; }
+
+body {
+  background-color: #fff; }
 
 div.col-xs-10.col-xs-offset-1 {
   padding: 0px; }
@@ -1470,6 +1479,12 @@ div.col-xs-10.col-xs-offset-1 {
   background-image: url("../img/027-grad.jpg");
   background-size: cover;
   background-attachment: fixed; }
+
+.public-top {
+  margin-top: 70px; }
+
+.search-results {
+  margin-bottom: 65px; }
 
 /*Navigation*/
 /*Sass Variables*/
@@ -2133,6 +2148,9 @@ div.wsmenucontainer nav.wsmenu {
 
 .home-body .join-btn-white, .join-btn-white:hover {
   margin: 4em 0 8em; }
+
+.search-results .read-btn {
+  margin-bottom: 40px; }
 
 /*Images*/
 /*Sass Variables*/
