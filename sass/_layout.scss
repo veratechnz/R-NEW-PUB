@@ -6,19 +6,25 @@ html {
   min-height: 100%;
   width: 100%;
   overflow-x: hidden;
+  background-color: #fff;
 }
+
 body {
   min-height: 100%;
   width: 100%;
+  background-color: #fff;
+  padding-top: 250px;
 }
 
 section {
   min-height: 200px;
   background-color: white;
 }
+
 #data1 {
   margin-top: 11em;
 }
+
 #data2 {
   background-color: #e7eefe;
   padding: 4em 0;
@@ -29,13 +35,19 @@ hr {
   margin-bottom: 4em;
 }
 
+.header{
+  width:100%;
+  display:block;
+  min-height:85px;
+  background:url(../images/topbg.jpg) top center no-repeat;
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  position:fixed;
+  top: 78px;
+  }
+
 .new-min{
  min-height: 75vh;
  min-height: 75%;
-}
-
-body{
-  background-color: #fff;
 }
 
  div.col-xs-10.col-xs-offset-1{
@@ -56,6 +68,7 @@ body{
   margin-bottom: 80px;
   margin-bottom: 6em;
   min-height:50vh; 
+
 }
 
 .overflow-a {
@@ -68,7 +81,6 @@ body{
 }
 
 .page-wrapper {
-  margin-top: 55px;
   background-color: $white;
 }
 
@@ -393,34 +405,4 @@ body{
   background-image: url("../img/027-grad.jpg"); 
   background-size: cover;
   background-attachment: fixed;
-}
-
-.public-top{
-  margin-top: 70px;
-}
-
-.search-results{
-  margin-bottom: 65px;
-}
-
-/*Modal-Layout*/
-.vertical-alignment-helper {
-    display:table;
-    height: 100%;
-    width: 100%;
-    pointer-events:none; /* This makes sure that we can still click outside of the modal to close it */
-}
-.vertical-align-center {
-    /* To center vertically */
-    display: table-cell;
-    vertical-align: middle;
-    pointer-events:none;
-}
-.modal-content {
-    /* Bootstrap sets the size of the modal in the modal-dialog class, we need to inherit it */
-    width:inherit;
-    height:inherit;
-    /* To center horizontally */
-    margin: 0 auto;
-    pointer-events: all;
 }
