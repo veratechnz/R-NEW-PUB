@@ -739,9 +739,9 @@ h1 {
   font-family: 'proxima_nova_ththin';
   font-size: 38px;
   font-weight: 800;
-  margin-bottom: 0.8em;
   text-transform: uppercase;
-  line-height: 1.05em; }
+  line-height: 1.05em;
+  margin-bottom: 70px; }
 
 h2 {
   font-family: 'proxima_nova_rgbold';
@@ -760,7 +760,7 @@ h3 {
 
 h4 {
   font-family: "proxima_nova_rgbold";
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   color: #0D497C;
   text-transform: uppercase;
@@ -789,13 +789,20 @@ h3 .old {
   line-height: 1.05em; }
 
 a {
-  color: #345973;
+  color: #0D497C;
   font-weight: 600;
   outline: 0;
   line-height: 1.05em; }
 
 a:focus {
   outline: 0; }
+
+.public-spacer li {
+  font-family: 'proxima_nova_altlight';
+  font-size: 20px;
+  line-height: 1.05em;
+  list-style-type: disc;
+  margin-left: 5%; }
 
 .r-font-nav {
   font-family: 'icomoonregular';
@@ -1146,9 +1153,6 @@ a.callusicon span.fa.fa-phone {
   position: absolute;
   right: 0.5em; }
 
-.search-results h1 {
-  margin-bottom: 100px; }
-
 .search-results h2 {
   margin-bottom: 8px; }
 
@@ -1170,8 +1174,7 @@ html {
 body {
   min-height: 100%;
   width: 100%;
-  background-color: #fff;
-  padding-top: 250px; }
+  background-color: #fff; }
 
 section {
   min-height: 200px;
@@ -1216,6 +1219,12 @@ div.col-xs-10.col-xs-offset-1 {
   margin-bottom: 80px;
   margin-bottom: 6em;
   min-height: 50vh; }
+
+.public-spacer {
+  margin-top: 130px; }
+
+.member-spacer {
+  margin-top: 230px; }
 
 .overflow-a {
   overflow: auto; }
@@ -1863,7 +1872,8 @@ div.wsmenucontainer nav.wsmenu {
 .footer h1 {
   font-size: 18px;
   font-weight: 600;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  margin-bottom: 30px; }
 
 .footer p {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -2209,9 +2219,6 @@ h4#myModalLabel.modal-title {
 .modal-content div.modal-footer {
   background-color: #000000;
   border-top: 3px solid #8EC6CE; }
-
-body {
-  background-color: #f5f5f5; }
 
 .wrapper {
   max-width: 1200px;

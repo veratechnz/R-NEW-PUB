@@ -229,9 +229,9 @@ h1{
   font-family:'proxima_nova_ththin';
   font-size: 38px;
   font-weight: 800;
-  margin-bottom: 0.8em;
   text-transform: uppercase;
   line-height: 1.05em;
+  margin-bottom: 70px;
 }
 
 h2{
@@ -253,7 +253,7 @@ h3{
 
 h4{
   font-family: "proxima_nova_rgbold";
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   color: $blue-b;
   text-transform: uppercase;
@@ -286,7 +286,7 @@ h3 .old{
 }
 
 a{
-  color: #345973;
+  color: $blue-b;
   font-weight: 600;
   outline: 0;
   line-height: 1.05em;
@@ -294,6 +294,14 @@ a{
 
 a:focus {
   outline: 0;
+}
+
+.public-spacer li{
+  font-family: 'proxima_nova_altlight';
+  font-size: 20px;
+  line-height: 1.05em;
+  list-style-type: disc;
+  margin-left: 5%;
 }
 
 .r-font-nav{
@@ -691,10 +699,6 @@ a.callusicon span.fa.fa-phone{color: #fff;}
 .icon-up {
   position: absolute;
   right: 0.5em;
-}
-
-.search-results h1{
-  margin-bottom: 100px; 
 }
 
 .search-results h2{

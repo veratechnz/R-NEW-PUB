@@ -17,12 +17,12 @@ $(function() {
         });
     }
 
-    function layoutMarginTop(){
-        if ($('div.member-nav').length) {
-            alert('on page');
-          $('body').css( "padding-top", "165px" );
-      } 
-    }
+    // function layoutMarginTop(){
+    //     if ($('div.member-nav').length) {
+    //         alert('on page');
+    //       $('body').css( "padding-top", "165px" );
+    //   } 
+    // }
 
 
 }); //selfie ENDs
