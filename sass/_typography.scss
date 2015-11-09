@@ -240,13 +240,14 @@ h2{
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.05em;
+  margin-bottom: 25px;
 }
 
 h3{
   font-family:'proxima_nova_ththin';
   font-size: 20px;
   font-weight: 800;
-  margin-bottom: 1.2em;
+  margin-bottom: 20px;
   text-transform: uppercase;
   line-height: 1.05em;
 }
@@ -294,6 +295,10 @@ a{
 
 a:focus {
   outline: 0;
+}
+
+.public-spacer ul {
+  margin-bottom: 20px;
 }
 
 .public-spacer li{

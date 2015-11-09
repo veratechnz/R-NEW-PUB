@@ -748,13 +748,14 @@ h2 {
   font-size: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  line-height: 1.05em; }
+  line-height: 1.05em;
+  margin-bottom: 25px; }
 
 h3 {
   font-family: 'proxima_nova_ththin';
   font-size: 20px;
   font-weight: 800;
-  margin-bottom: 1.2em;
+  margin-bottom: 20px;
   text-transform: uppercase;
   line-height: 1.05em; }
 
@@ -796,6 +797,9 @@ a {
 
 a:focus {
   outline: 0; }
+
+.public-spacer ul {
+  margin-bottom: 20px; }
 
 .public-spacer li {
   font-family: 'proxima_nova_altlight';
@@ -1267,6 +1271,9 @@ div.col-xs-10.col-xs-offset-1 {
   font-size: 15px;
   margin-top: 0em;
   margin-bottom: 0em; }
+
+.public-spacer ul {
+  margin-bottom: 20px; }
 
 .newbie {
   display: inline-block; }
