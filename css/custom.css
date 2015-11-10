@@ -2079,7 +2079,6 @@ div.wsmenucontainer nav.wsmenu {
 .login-btn {
   background-color: transparent;
   color: white;
-  padding: 0.3 0.5 0.3 0.5em;
   border: #fff solid 2px;
   float: right;
   font-family: 'proxima_nova_altlight';
@@ -2213,6 +2212,9 @@ div.wsmenucontainer nav.wsmenu {
 div.modal-header {
   background-color: #000000;
   border-bottom: 5px solid #8EC6CE; }
+
+.modal-header h2 {
+  color: #fff; }
 
 h4#myModalLabel.modal-title {
   color: #fff; }

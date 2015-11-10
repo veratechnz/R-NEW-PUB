@@ -1,0 +1,74 @@
+/* CUSTOM CSS by Emily */
+
+
+/*LAYOUT ---------------------------------------- */
+
+.form-box {
+	background-color: #155b75;
+	padding: 3em;
+}
+
+
+.right-content-box {
+	padding: 3em;
+}
+
+
+/* FORMS ---------------------------------------- */
+
+.section-forms input, .section-forms textarea {
+	border: solid 2px #8ec6ce;
+	border-radius: 0;
+	padding: 15px;
+	display: inline;
+	margin-bottom: 20px;
+	background-color: #FFF;
+	color: grey;
+	font-size: 14px;
+}
+
+
+/* BUTTONS ---------------------------------------- */
+
+.submit-btn {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #8ec6ce;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8ec6ce;
+  margin-bottom: 25px; }
+
+.submit-btn:hover {
+  color: #fff;
+  background-color: transparent;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8EC6CE;
+  margin-bottom: 25px; }
+
+
+
+
+
+/* TYPOGRAPHY ---------------------------------------- */
+
+.right-content-box ul i {
+	padding-right: 10px;
+	margin-left: -34px;
+}
+
+.right-content-box ul p {
+	margin-left: 34px;
+}
+
+/*^^^^^ margin-left negative values added to create indent 
+for second line of text when columns squished down^^^^^ */
+
+
+
+
