@@ -70,7 +70,7 @@ hr {
 }
 
 .public-spacer{
-  margin-top: 130px;
+  margin-top: 135px;
 }
 
 .member-spacer{
@@ -415,4 +415,9 @@ hr {
   background-image: url("../img/027-grad.jpg"); 
   background-size: cover;
   background-attachment: fixed;
+}
+
+.contact-page li{
+  list-style-type: none;
+  margin-left: 0%;
 }

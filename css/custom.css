@@ -1225,7 +1225,7 @@ div.col-xs-10.col-xs-offset-1 {
   min-height: 50vh; }
 
 .public-spacer {
-  margin-top: 130px; }
+  margin-top: 135px; }
 
 .member-spacer {
   margin-top: 230px; }
@@ -1503,6 +1503,10 @@ div.col-xs-10.col-xs-offset-1 {
   background-image: url("../img/027-grad.jpg");
   background-size: cover;
   background-attachment: fixed; }
+
+.contact-page li {
+  list-style-type: none;
+  margin-left: 0%; }
 
 /*Navigation*/
 /*Sass Variables*/
@@ -1783,26 +1787,25 @@ div.wsmenucontainer nav.wsmenu {
 .nav-links {
   margin-top: .4em; }
 
-.footer h1 {
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: capitalize; }
-
-.footer p {
-  color: #BBBDBA;
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-  font-size: 14px;
-  line-height: 1.7; }
-
-.footer .form-control {
-  background-color: #000000;
-  border: none; }
-
-.footer .input-group-addon {
-  color: #ffffff;
-  background-color: #02357C;
-  cursor: pointer;
-  border: none; }
+.footer {
+  margin-top: 40px; }
+  .footer h1 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize; }
+  .footer p {
+    color: #BBBDBA;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.7; }
+  .footer .form-control {
+    background-color: #000000;
+    border: none; }
+  .footer .input-group-addon {
+    color: #ffffff;
+    background-color: #02357C;
+    cursor: pointer;
+    border: none; }
 
 .ftr-logo {
   margin: 10px 0 15px; }
