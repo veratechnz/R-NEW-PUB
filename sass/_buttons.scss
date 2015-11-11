@@ -57,6 +57,30 @@
   display: none;
 }
 
+.member-search-btn{
+  color: $white;
+  border-color: $white;
+  margin-bottom: 0em;
+  font-size: 16px;
+  font-family:'proxima_nova_ththin';
+  border: 3px solid #fff;
+  background-color: $blue-b;
+  border-radius: 0px;
+  padding: 0.8em;
+  margin-left: 2em;
+}
+
+
+.member-search-btn:hover {
+  color: $white;
+  background-color: $blue-a;
+  margin-bottom: 0em;
+  font-size: 16px;
+  font-family:'proxima_nova_ththin';
+  border: 3px solid $blue-a;
+  padding: 0.8em;
+}
+
 .view-btn{
   color: $white;
   border-color: $white;

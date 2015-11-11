@@ -1506,6 +1506,42 @@ div.col-xs-10.col-xs-offset-1 {
   list-style-type: none;
   margin-left: 0%; }
 
+/*Member Search Page*/
+.member-map {
+  height: 440px;
+  background-color: #efefef; }
+
+.member-search-box {
+  margin-top: 4em;
+  margin-bottom: 3em; }
+
+.member-search-inputs {
+  display: inline-block;
+  margin: 0 auto;
+  background-color: #0D497C;
+  padding: 4em 4em 4em 4em;
+  margin-bottom: 40px; }
+  .member-search-inputs h2 {
+    color: white;
+    text-align: left; }
+
+.member-search-inputs form {
+  margin-top: 2.8em; }
+
+.member-search-inputs input {
+  display: inline-block;
+  font-size: 20px; }
+
+.member-search-inputs input:first-child {
+  margin-right: 6em; }
+
+.member-search-inputs input, textarea {
+  background-color: #ffffff;
+  border: 2px solid #fff;
+  border-radius: 0px;
+  padding: 10px;
+  width: 400px; }
+
 /*Navigation*/
 /*Sass Variables*/
 .white {
@@ -1992,6 +2028,27 @@ div.wsmenucontainer nav.wsmenu {
   margin-top: 0.9em;
   display: none; }
 
+.member-search-btn {
+  color: #ffffff;
+  border-color: #ffffff;
+  margin-bottom: 0em;
+  font-size: 16px;
+  font-family: 'proxima_nova_ththin';
+  border: 3px solid #fff;
+  background-color: #0D497C;
+  border-radius: 0px;
+  padding: 0.8em;
+  margin-left: 2em; }
+
+.member-search-btn:hover {
+  color: #ffffff;
+  background-color: #8EC6CE;
+  margin-bottom: 0em;
+  font-size: 16px;
+  font-family: 'proxima_nova_ththin';
+  border: 3px solid #8EC6CE;
+  padding: 0.8em; }
+
 .view-btn {
   color: #ffffff;
   border-color: #ffffff;
@@ -2248,6 +2305,9 @@ h4#searchModallLabel.modal-title {
 
 .show-grid {
   background-color: #fff; }
+
+.bg-blue {
+  background-color: #0D497C; }
 
 @-webkit-keyframes rotating {
   from {

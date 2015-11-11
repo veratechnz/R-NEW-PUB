@@ -9,6 +9,8 @@ $(function() {
 	$(items).removeClass('menuopen').addClass('menuclose');
 	}
 
+
+	//Initiator for menuopen
 	$('#navToggle').click(function(){
 		if (wsmenucontent.hasClass('menuopen')) {$(menuclose)}
 		else {$(menuopen)}
@@ -28,13 +30,13 @@ $(function() {
 	$('.wsmenu-mobile').click(function(){
 		$('.wsmenu-list').slideToggle('slow');
 	});
+
 	$('.wsmenu-click').click(function(){
 	$(this).siblings('.wsmenu-submenu').slideToggle('slow');
 	$(this).children('.wsmenu-arrow').toggleClass('wsmenu-rotate');
 	$(this).siblings('.wsmenu-submenu-sub').slideToggle('slow');
 	$(this).siblings('.wsmenu-submenu-sub-sub').slideToggle('slow');
-	$(this).siblings('.megamenu').slideToggle('slow');
-		
+	$(this).siblings('.megamenu').slideToggle('slow');	
 	});
 
 });
