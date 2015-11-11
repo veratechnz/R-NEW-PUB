@@ -1,16 +1,12 @@
 .footer {
 
-  h1 {
-    font-size: 18px;
-    font-weight:600;
-    text-transform: capitalize;
-  }
 
   p {
     color: $ftr-white;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.7;
+    margin:  0px 0px 8px 0px;
   }
 
   .form-control {
@@ -118,10 +114,14 @@
 
 
 .footer h1 {
-  font-size: 18px;
-  font-weight: 600;
-  text-transform: capitalize; 
-  margin-bottom: 30px;
+  color: #ffffff;
+  font-family: "proxima_nova_rgbold";
+  font-size: 12pt;
+  font-weight: 400;
+  padding: 0;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  margin-top: 18px;
 }
 
 .footer p {
