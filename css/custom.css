@@ -1785,25 +1785,26 @@ div.wsmenucontainer nav.wsmenu {
 .nav-links {
   margin-top: .4em; }
 
-.footer {
-  margin-top: 40px; }
-  .footer h1 {
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: capitalize; }
-  .footer p {
-    color: #BBBDBA;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.7; }
-  .footer .form-control {
-    background-color: #000000;
-    border: none; }
-  .footer .input-group-addon {
-    color: #ffffff;
-    background-color: #02357C;
-    cursor: pointer;
-    border: none; }
+.footer h1 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize; }
+
+.footer p {
+  color: #BBBDBA;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.7; }
+
+.footer .form-control {
+  background-color: #000000;
+  border: none; }
+
+.footer .input-group-addon {
+  color: #ffffff;
+  background-color: #02357C;
+  cursor: pointer;
+  border: none; }
 
 .ftr-logo {
   margin: 10px 0 15px; }
@@ -1899,7 +1900,7 @@ div.wsmenucontainer nav.wsmenu {
   border: none; }
 
 .footer .col-md-10 {
-  padding: 2.2em 2.2em 4em 2.2em; }
+  padding: 2.2em 0em 4em 0em; }
 
 .footer-container .ftr-bottom {
   padding: 0em; }
@@ -1927,6 +1928,10 @@ div.wsmenucontainer nav.wsmenu {
   background-image: -o-linear-gradient(left, #0D497C 33%, #8EC6CE 67%);
   background-image: linear-gradient(to right, #0D497C 33%, #8EC6CE 67%);
   min-height: 60px; }
+
+.footer-contact i {
+  color: #ffffff;
+  padding-right: 4px; }
 
 /*Buttons*/
 /*Sass Variables*/

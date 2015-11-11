@@ -1,6 +1,4 @@
 .footer {
-  
-  margin-top: 40px;
 
   h1 {
     font-size: 18px;
@@ -143,7 +141,7 @@
   border: none; }
 
  .footer .col-md-10{
-  padding: 2.2em 2.2em 4em 2.2em;
+  padding: 2.2em 0em 4em 0em;
  }
 
 .footer-container .ftr-bottom{
@@ -180,5 +178,7 @@
   min-height: 60px;
 }
 
-
-
+.footer-contact i {
+  color: $white;
+  padding-right: 4px;
+}
