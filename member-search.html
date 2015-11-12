@@ -149,8 +149,10 @@
               <h1><span class="r-font-icon">A</span> <span class="page-title">Member Search</span></h1>
                 <hr>
             </div> <!-- col offset ends -->
-            <div class="row-fluid">
-                <div id="map"></div>
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div id="map"></div>
+                </div>
             </div>
             <div class="col-md-10 col-md-offset-1 bg-blue member-search-box">
                     <div class="col-md-12 text-center">
@@ -370,7 +372,7 @@
           ['Kumue Auckland', -36.78792,  174.76882, 1]
         ];
 
-        //Pop up box content string
+        //Pop up box content
         var contentString = '<div id="content">'+
             '<div id="siteNotice">'+
             '</div>'+
@@ -428,6 +430,7 @@
             type: 'poly'
           };
 
+        // For loop for locations array
           for (var i = 0; i < beaches.length; i++) {
             var beach = beaches[i];
 
