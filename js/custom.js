@@ -4,7 +4,6 @@ $(function() {
     //Initialiaze all functions
     function init(){
         parallaxGo();
-        layoutMarginTop();
      }
 
     init();
@@ -16,13 +15,6 @@ $(function() {
             responsive: true
         });
     }
-
-    // function layoutMarginTop(){
-    //     if ($('div.member-nav').length) {
-    //         alert('on page');
-    //       $('body').css( "padding-top", "165px" );
-    //   } 
-    // }
 
 
 }); //selfie ENDs
