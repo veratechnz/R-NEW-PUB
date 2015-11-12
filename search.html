@@ -349,11 +349,10 @@
             <form class="form-horizontal" role="form">
 
               <div class="form-group">
-                <label  class="col-sm-2 control-label"
+                <label class="col-sm-2 reinz-id-label control-label"
                           for="">REINZ ID</label>
                 <div class="col-sm-10"> 
-                    <input type="search" class="form-control" 
-                    id="nameInput" placeholder="REINZ ID..."/>
+                    <input type="text" value="" placeholder="REINZ ID..." name="userNameOrEmail" id="username-email" class="form-control" autofocus="autofocus">
                 </div>
               </div>
 
@@ -366,12 +365,19 @@
                </div>
              </div>
 
+             <div class="checkbox">
+               <label class="remember-check">
+                 <input type="checkbox" id="rememberME">Remember me
+               </label>
+             </div>
+
             </form>
             <!-- Modal Body Ends -->
 
           </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-default go-search" data-dismiss="modal" id="goSearch">Login</button>
+                <button onclick="document.getElementById('loginForm').submit();" id="goLogin" class="btn btn-default go-search" type="button">Login</button>
+                <button type="button" class="btn btn-default forgot-password" data-dismiss="modal" id="forgotPassword">Forgot Password</button>
               </div>
             </div>
           </div>

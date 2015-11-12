@@ -2050,7 +2050,7 @@ div.wsmenucontainer nav.wsmenu {
   font-size: 16px;
   font-family: 'proxima_nova_ththin';
   border: 3px solid #8EC6CE;
-  padding: 0.8em; }
+  padding: 0.8  em; }
 
 .view-btn {
   color: #ffffff;
@@ -2142,19 +2142,7 @@ div.wsmenucontainer nav.wsmenu {
   margin: 0.5em 0em 0em 0px;
   padding: 0.4em 0.8em; }
 
-.login-btn {
-  background-color: transparent;
-  color: white;
-  border: #fff solid 2px;
-  float: right;
-  font-family: 'proxima_nova_altlight';
-  font-size: 16px;
-  margin-right: 1em;
-  margin-bottom: 1.2em;
-  margin-top: 0.8em;
-  border-radius: 0px; }
-
-.search-btn {
+.search-btn, .search-btn:active, .search-btn:visited {
   background-color: #000;
   color: white;
   padding: 0.2 0.4 0.2 0.4em;
@@ -2167,6 +2155,9 @@ div.wsmenucontainer nav.wsmenu {
   margin-top: 0.28em;
   border-radius: 0px; }
 
+.search-btn:hover {
+  color: #8EC6CE; }
+
 .search-btn-b {
   background-color: #0D497C;
   color: white;
@@ -2178,10 +2169,19 @@ div.wsmenucontainer nav.wsmenu {
   margin-top: 0.28em;
   border-radius: 0px; }
 
-.search-btn:hover {
-  color: #8EC6CE; }
+a.btn.login-btn, a.btn.login-btn:visited, a.btn.login-btn:active {
+  background-color: transparent;
+  color: white;
+  border: #fff solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 16px;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  margin-top: 0.8em;
+  border-radius: 0px; }
 
-.login-btn:hover {
+a.btn.login-btn:hover {
   color: #fff;
   border-color: #8EC6CE;
   background-color: #8EC6CE; }
@@ -2253,6 +2253,24 @@ div.wsmenucontainer nav.wsmenu {
   text-transform: uppercase;
   border-color: #8EC6CE; }
 
+.forgot-password {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-family: "proxima_nova_altlight";
+  font-size: 16px;
+  float: left; }
+
+.forgot-password:hover {
+  background-color: #8EC6CE;
+  color: #fff;
+  border-radius: 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-color: #8EC6CE;
+  float: left; }
+
 /*Modal-Layout*/
 .vertical-alignment-helper {
   display: table;
@@ -2294,6 +2312,20 @@ h4#searchModallLabel.modal-title {
 .modal-content div.modal-footer {
   background-color: #000000;
   border-top: 3px solid #8EC6CE; }
+
+.form-group label.col-sm-2.reinz-id-label.control-label {
+  text-align: left; }
+
+.close {
+  color: #fff;
+  opacity: 1; }
+
+.close:hover {
+  color: #8EC6CE;
+  opacity: 1; }
+
+.remember-check {
+  float: right; }
 
 .wrapper {
   max-width: 1200px;

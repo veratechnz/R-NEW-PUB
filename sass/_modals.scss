@@ -46,4 +46,21 @@ h4#searchModallLabel.modal-title{
 	border-top: 3px solid $blue-a;
 }
 
+.form-group label.col-sm-2.reinz-id-label.control-label {
+    text-align: left;
+}
+
+.close {
+    color: #fff; 
+    opacity: 1;
+}
+
+.close:hover {
+    color: $blue-a; 
+    opacity: 1;
+}
+
+.remember-check{
+    float: right;
+}
 

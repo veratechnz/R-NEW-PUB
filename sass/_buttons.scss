@@ -78,7 +78,7 @@
   font-size: 16px;
   font-family:'proxima_nova_ththin';
   border: 3px solid $blue-a;
-  padding: 0.8em;
+  padding: 0.8  em;
 }
 
 .view-btn{
@@ -182,20 +182,7 @@
 
 }
 
-.login-btn{
-  background-color: transparent;
-  color: white;
-  border: #fff solid 2px;
-  float: right;
-  font-family: 'proxima_nova_altlight';
-  font-size: 16px;
-  margin-right: 1em;
-  margin-bottom: 1.2em;
-  margin-top: 0.8em;
-  border-radius: 0px;
-}
-
-.search-btn {
+.search-btn, .search-btn:active, .search-btn:visited {
   background-color: #000;
   color: white;
   padding: 0.2 0.4 0.2 0.4em;
@@ -207,6 +194,10 @@
   margin-bottom: 1.2em;
   margin-top: 0.28em;
   border-radius: 0px;
+}
+
+.search-btn:hover{
+  color: $blue-a;
 }
 
 .search-btn-b {
@@ -221,15 +212,26 @@
   border-radius: 0px;
 }
 
-.search-btn:hover{
-  color: $blue-a;
+ a.btn.login-btn,  a.btn.login-btn:visited,  a.btn.login-btn:active{
+  background-color: transparent;
+  color: white;
+  border: #fff solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 16px;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  margin-top: 0.8em;
+  border-radius: 0px;
 }
 
-.login-btn:hover{
+ a.btn.login-btn:hover{
   color:  #fff;
   border-color: $blue-a;
   background-color: $blue-a;
 }
+
+
 
 /* PUBLIC PARALLAX BUTTONS ----------------------------------------- */
   .read-btn-white {
@@ -303,5 +305,25 @@
   font-weight: 800;
   text-transform: uppercase;
   border-color: $blue-a;
+}
+
+.forgot-password {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0px;
+  text-transform: uppercase;
+  font-family: "proxima_nova_altlight";
+  font-size: 16px;
+  float: left;
+}
+
+.forgot-password:hover,  {
+  background-color: $blue-a;
+  color: #fff;
+  border-radius: 0px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border-color: $blue-a;
+  float: left;
 }
 
