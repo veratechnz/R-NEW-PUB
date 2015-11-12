@@ -21,8 +21,8 @@
         width: 100%;
       }
       #map img {
-          margin:0px;
-          padding:0px;
+          margin: -50px;
+          padding: 0px;
       }
     </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -146,7 +146,7 @@
         <!-- Section Begins -->
         <section id="data" class="member-text search-results public-spacer row">
             <div class="col-md-10 col-md-offset-1">
-                <h1><span class="r-font-icon">A</span> <span class="page-title">Member Search</span></h1>
+              <h1><span class="r-font-icon">A</span> <span class="page-title">Member Search</span></h1>
                 <hr>
             </div> <!-- col offset ends -->
             <div class="row-fluid">
@@ -358,28 +358,49 @@
 
     <!-- Map js -->
         <script>
+
+        //Global Variables
+        // Data for the markers consisting of a name, a LatLng and a zIndex for the
+        // order in which these markers should display on top of each other.
+        var beaches = [
+          ['Auckland Museum', -36.86064, 174.77774, 4],
+          ['Henderson Auckland', -36.87393,    174.62772, 5],
+          ['Muriwai Auckland', -36.93818,  174.65408, 3],
+          ['Waiheke Auckland', -36.80235, 175.04944, 2],
+          ['Kumue Auckland', -36.78792,  174.76882, 1]
+        ];
+
+        //Pop up box content string
+        var contentString = '<div id="content">'+
+            '<div id="siteNotice">'+
+            '</div>'+
+            '<h2 id="company-name" class="firstHeading">Company Office Name And Address Here.</h2>'+
+            '<div id="bodyContent" class="member-bubble">'+
+            '<p><b>Manager:</b><span>Mr John Smith</span></p>'+
+            '<p><b>Phone:</b><span>+64 07 862 5588</span></p>'+
+            '<p><b>Website:</b><a href="https://en.wikipedia.org/w/index.php?title=Uluru&oldid=297882194">'+
+            '<span>https://www.thewebsite.co.nz</span></a></p>'+
+            '<p><b>Type:</b><span>Mr John Smith</span></p>'+
+            '</div>'+
+            '</div>';
+
+
         // The following example creates complex markers to indicate beaches near
         // Sydney, NSW, Australia. Note that the anchor is set to (0,32) to correspond
         // to the base of the flagpole.
 
         function initMap() {
           var map = new google.maps.Map(document.getElementById('map'), {
-            zoom: 10,
-            center: {lat: -33.9, lng: 151.2}
+            zoom: 11,
+            center: {lat: -36.84846, lng: 174.76333}
+          });
+
+          //Initializes the popup window. 
+          var infowindow = new google.maps.InfoWindow({
+              content: contentString
           });
 
           setMarkers(map);
-        }
-
-        // Data for the markers consisting of a name, a LatLng and a zIndex for the
-        // order in which these markers should display on top of each other.
-        var beaches = [
-          ['Bondi Beach', -33.890542, 151.274856, 4],
-          ['Coogee Beach', -33.923036, 151.259052, 5],
-          ['Cronulla Beach', -34.028249, 151.157507, 3],
-          ['Manly Beach', -33.80010128657071, 151.28747820854187, 2],
-          ['Maroubra Beach', -33.950198, 151.259302, 1]
-        ];
 
         function setMarkers(map) {
           // Adds markers to the map.
@@ -392,12 +413,13 @@
           var image = {
             url: 'img/map-icon.png',
             // This marker is 20 pixels wide by 32 pixels high.
-            size: new google.maps.Size(20, 32),
+            size: new google.maps.Size(60, 60),
             // The origin for this image is (0, 0).
             origin: new google.maps.Point(0, 0),
             // The anchor for this image is the base of the flagpole at (0, 32).
             anchor: new google.maps.Point(0, 32)
           };
+
           // Shapes define the clickable region of the icon. The type defines an HTML
           // <area> element 'poly' which traces out a polygon as a series of X,Y points.
           // The final coordinate closes the poly by connecting to the first coordinate.
@@ -405,8 +427,10 @@
             coords: [1, 1, 1, 20, 18, 20, 18, 1],
             type: 'poly'
           };
+
           for (var i = 0; i < beaches.length; i++) {
             var beach = beaches[i];
+
             var marker = new google.maps.Marker({
               position: {lat: beach[1], lng: beach[2]},
               map: map,
@@ -415,8 +439,23 @@
               title: beach[0],
               zIndex: beach[3]
             });
+
+            //Add event listener to marker for click function 
+            marker.addListener('click', function() {
+              infowindow.open(map, marker);
+            });
+
+
           }
+          //End Of For Loop
+
+
         }
+        // End Of Setmarkers
+
+    }
+    // End of Map Init
+
         </script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvnXPn5NktamI5EZ568pLRgKzY9O9Cnjg&callback=initMap"
             async defer>

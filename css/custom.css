@@ -1533,7 +1533,7 @@ div.col-xs-10.col-xs-offset-1 {
   font-size: 20px; }
 
 .member-search-inputs input:first-child {
-  margin-right: 6em; }
+  margin-right: 4.5em; }
 
 .member-search-inputs input, textarea {
   background-color: #ffffff;
@@ -1541,6 +1541,9 @@ div.col-xs-10.col-xs-offset-1 {
   border-radius: 0px;
   padding: 10px;
   width: 400px; }
+
+.member-bubble span {
+  padding-left: 10px; }
 
 /*Navigation*/
 /*Sass Variables*/

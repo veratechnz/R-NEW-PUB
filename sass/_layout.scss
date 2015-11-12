@@ -420,9 +420,6 @@ hr {
   margin-left: 0%;
 }
 
-
-
-
 /*Member Search Page*/
 
 .member-map{
@@ -459,7 +456,7 @@ hr {
 }
 
 .member-search-inputs input:first-child{
- margin-right: 6em; 
+ margin-right: 4.5em; 
 }
 
 .member-search-inputs input, textarea{
@@ -471,5 +468,6 @@ hr {
 }
 
 
-
-
+.member-bubble span{
+  padding-left: 10px;
+}
