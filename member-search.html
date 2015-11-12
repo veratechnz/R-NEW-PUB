@@ -364,7 +364,7 @@
         //Global Variables
         // Data for the markers consisting of a name, a LatLng and a zIndex for the
         // order in which these markers should display on top of each other.
-        var beaches = [
+        var members = [
           ['Auckland Museum', -36.86064, 174.77774, 4],
           ['Henderson Auckland', -36.87393,    174.62772, 5],
           ['Muriwai Auckland', -36.93818,  174.65408, 3],
@@ -431,8 +431,8 @@
           };
 
         // For loop for locations array
-          for (var i = 0; i < beaches.length; i++) {
-            var beach = beaches[i];
+          for (var i = 0; i < members.length; i++) {
+            var beach = members[i];
 
             var marker = new google.maps.Marker({
               position: {lat: beach[1], lng: beach[2]},
