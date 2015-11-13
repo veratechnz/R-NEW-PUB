@@ -1,0 +1,12 @@
+Issues:
+
+Content: 
+CK+ Auto Correcton Off 
+Contact Info Icons 
+
+
+Dev: 
+Mob Responsive
+Nav Testing
+custom.js to be updated.
+
