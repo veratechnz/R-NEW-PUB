@@ -1481,10 +1481,11 @@ div.col-xs-10.col-xs-offset-1 {
   padding-top: 10em; }
 
 .home-body .section-1, .home-body .section-2, .home-body .section-3, .home-body .section-4, .home-body .section-5, .home-body .section-6 {
-  padding: 7em 0; }
+  padding-top: 7.9em;
+  padding-bottom: 7.9em; }
 
 .home-body .section-intro {
-  background-image: url("../img/full-c-grad.jpg");
+  background-image: url("../img/full-e-grad.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -1494,7 +1495,7 @@ div.col-xs-10.col-xs-offset-1 {
   background-attachment: fixed; }
 
 .home-body .section-4 {
-  background-image: url("../img/full-e-grad.jpg");
+  background-image: url("../img/full-c-grad.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -2613,7 +2614,7 @@ mini-logo {
   margin-bottom: 2em; }
 
 .hero-image {
-  margin-top: 2em;
+  margin-top: 9em;
   margin-bottom: 2em; }
 
 /*Shopping Cart Template Overrides*/
