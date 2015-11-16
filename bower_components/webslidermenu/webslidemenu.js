@@ -11,11 +11,11 @@ $(function() {
 
 
 	//Initiator for menuopen
-	$('#navToggle').click(function(){
+	$('#navToggle').on('click', function(){
 		if (wsmenucontent.hasClass('menuopen')) {$(menuclose)}
 		else {$(menuopen)}
 	});
-	wsmenucontent.click(function(){
+	wsmenucontent.on('click', function(){
 		if (wsmenucontent.hasClass('menuopen')) {$(menuclose)}
 	});
 	
@@ -27,11 +27,11 @@ $(function() {
 	
 	$('.wsmenu-list li').has('.megamenu').prepend('<span class="wsmenu-click"><i class="wsmenu-arrow fa fa-angle-down"></i></span>');
 		
-	$('.wsmenu-mobile').click(function(){
+	$('.wsmenu-mobile').on('click', function(){
 		$('.wsmenu-list').slideToggle('slow');
 	});
 
-	$('.wsmenu-click').click(function(){
+	$('.wsmenu-click').on('click', function(){
 	$(this).siblings('.wsmenu-submenu').slideToggle('slow');
 	$(this).children('.wsmenu-arrow').toggleClass('wsmenu-rotate');
 	$(this).siblings('.wsmenu-submenu-sub').slideToggle('slow');
