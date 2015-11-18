@@ -225,12 +225,24 @@
   border-radius: 0px;
 }
 
- a.btn.login-btn:hover{
+a.btn.login-btn:hover, .btn.enter-btn:hover{
   color:  #fff;
   border-color: $blue-a;
   background-color: $blue-a;
 }
 
+.enter-btn, .enter-btn:visited, .enter-btn:active{
+ background-color: transparent;
+ color: white;
+ border: #fff solid 2px;
+ float: right;
+ font-family: 'proxima_nova_altlight';
+ font-size: 16px;
+ margin-right: 1em;
+ margin-bottom: 1.2em;
+ margin-top: 0.8em;
+ border-radius: 0px; 
+}
 
 
 /* PUBLIC PARALLAX BUTTONS ----------------------------------------- */

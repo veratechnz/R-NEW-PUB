@@ -168,6 +168,31 @@
 
 }
 
+
+/* MEDIA QUERIES FOR FALLBACK LOGIN PAGE*/
+@media only screen and (min-width: 230px) and (max-width: 780px) {
+  .member-text-header { 
+    text-align: left;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 3.5em;
+    font-size: 2.5em !important;
+
+  }
+
+  .member-login {
+    padding-left: 2.9em;
+    padding-right: 2.9em;
+  }
+
+}
+
+
+
+
+
+
 @media(min-width:768px) and (max-width:991px){
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';

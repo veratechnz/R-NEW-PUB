@@ -1197,8 +1197,8 @@ section {
   padding: 4em 0; }
 
 hr {
-  margin-top: 4em;
-  margin-bottom: 4em; }
+  margin-top: 3em;
+  margin-bottom: 3em; }
 
 .header {
   width: 100%;
@@ -1413,7 +1413,7 @@ div.col-xs-10.col-xs-offset-1 {
   padding-left: 2.1em; }
 
 .member-login-box {
-  width: 16em; }
+  width: 17em; }
 
 .reinz-nav ul {
   float: right; }
@@ -1434,7 +1434,7 @@ div.col-xs-10.col-xs-offset-1 {
 .member-login-outer {
   min-height: 100%;
   /* Fallback for browsers do NOT support vh unit */
-  min-height: 90vh;
+  min-height: 100vh;
   /* These two lines are counted as one :-)       */
   display: flex;
   align-items: center; }
@@ -1550,6 +1550,31 @@ div.col-xs-10.col-xs-offset-1 {
 
 .member-bubble span {
   padding-left: 10px; }
+
+/*MEMBER LOGIN UPDATES*/
+.member-login {
+  padding-left: 1.5em; }
+
+.member-text-header {
+  padding-top: 0.6em;
+  padding-bottom: 0.5em; }
+
+.member-login input {
+  margin: 1em 0.5em 1em 0;
+  width: 100%; }
+
+.member-login input[type="text"], textarea {
+  border-radius: 0;
+  color: #fff; }
+
+.member-login input[type="password"], textarea {
+  border-radius: 0;
+  color: #fff;
+  background-color: transparent;
+  border: 0.3em solid #fff;
+  display: block;
+  font-size: 0.7em;
+  padding: 0.4em; }
 
 /*Navigation*/
 /*Sass Variables*/
@@ -1830,22 +1855,22 @@ div.wsmenucontainer nav.wsmenu {
 .nav-links {
   margin-top: .4em; }
 
-.footer {
-  margin-top: 5em; }
-  .footer p {
-    color: #BBBDBA;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
-    margin: 0px 0px 8px 0px; }
-  .footer .form-control {
-    background-color: #000000;
-    border: none; }
-  .footer .input-group-addon {
-    color: #ffffff;
-    background-color: #02357C;
-    cursor: pointer;
-    border: none; }
+.footer p {
+  color: #BBBDBA;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0px 0px 8px 0px; }
+
+.footer .form-control {
+  background-color: #000000;
+  border: none; }
+
+.footer .input-group-addon {
+  color: #ffffff;
+  background-color: #02357C;
+  cursor: pointer;
+  border: none; }
 
 .ftr-logo {
   margin: 10px 0 15px; }
@@ -2187,10 +2212,22 @@ a.btn.login-btn, a.btn.login-btn:visited, a.btn.login-btn:active {
   margin-top: 0.8em;
   border-radius: 0px; }
 
-a.btn.login-btn:hover {
+a.btn.login-btn:hover, .btn.enter-btn:hover {
   color: #fff;
   border-color: #8EC6CE;
   background-color: #8EC6CE; }
+
+.enter-btn, .enter-btn:visited, .enter-btn:active {
+  background-color: transparent;
+  color: white;
+  border: #fff solid 2px;
+  float: right;
+  font-family: 'proxima_nova_altlight';
+  font-size: 16px;
+  margin-right: 1em;
+  margin-bottom: 1.2em;
+  margin-top: 0.8em;
+  border-radius: 0px; }
 
 /* PUBLIC PARALLAX BUTTONS ----------------------------------------- */
 .read-btn-white {
@@ -2809,6 +2846,19 @@ mini-logo {
     margin-top: 1.2em; }
   .search-btn, .login-btn {
     margin-right: 0.2em; } }
+
+/* MEDIA QUERIES FOR FALLBACK LOGIN PAGE*/
+@media only screen and (min-width: 230px) and (max-width: 780px) {
+  .member-text-header {
+    text-align: left;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-right: 1.5em;
+    margin-top: 3.5em;
+    font-size: 2.5em !important; }
+  .member-login {
+    padding-left: 2.9em;
+    padding-right: 2.9em; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   a.sf-with-ul, .sf-menu.public-nav a {
