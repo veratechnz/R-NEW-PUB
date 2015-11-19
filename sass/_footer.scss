@@ -151,13 +151,6 @@
   padding-top: 2em;
 }
 
-.copy-foot{
-  color: $white;
-  padding-left: 1.4em;
-  font-size: 12px;
-  margin-top: 1.4em;
-}
-
 .footer div.col-md-3 p {
   color: $grey-b;
 }
@@ -180,4 +173,11 @@
 .footer-contact i {
   color: $white;
   padding-right: 4px;
+}
+
+.copy-foot{
+  color: $white;
+  padding-left: 1.4em;
+  font-size: 12px;
+  margin-top: 1.4em;
 }

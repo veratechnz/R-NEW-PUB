@@ -217,10 +217,9 @@ div.wsmenucontainer nav.wsmenu{
     }
 
     .wsmenu-submenu {
-        top: 56px;
+        top: 52px;
     }
 
-    
     .wsmenu-list > li > a {
       font-family: 'proxima_nova_rgbold';
       font-size: 12pt;
@@ -366,3 +365,4 @@ div.wsmenucontainer nav.wsmenu{
   margin-top: .4em;
 }
 
+.wsmenu-click i.wsmenu-arrow{z-index: 3500;}

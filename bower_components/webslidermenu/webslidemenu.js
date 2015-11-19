@@ -9,7 +9,6 @@ $(function() {
 	$(items).removeClass('menuopen').addClass('menuclose');
 	}
 
-
 	//Initiator for menuopen
 	$('#navToggle').on('click', function(){
 		if (wsmenucontent.hasClass('menuopen')) {$(menuclose)}
@@ -31,12 +30,20 @@ $(function() {
 		$('.wsmenu-list').slideToggle('slow');
 	});
 
-	$('.wsmenu-click').on('click', function(){
-	$(this).siblings('.wsmenu-submenu').slideToggle('slow');
-	$(this).children('.wsmenu-arrow').toggleClass('wsmenu-rotate');
-	$(this).siblings('.wsmenu-submenu-sub').slideToggle('slow');
-	$(this).siblings('.wsmenu-submenu-sub-sub').slideToggle('slow');
-	$(this).siblings('.megamenu').slideToggle('slow');	
-	});
+
+	//Mobile Menu Arrow targeting. 
+	function menuMobilePublic(){
+		$('.wsmenu-arrow').on('click', function(e){
+				e.preventDefault();
+				//grabs inital clicked target element(arrow icon)
+				var homeInit = $(e.target);
+				//grabs list parent of target arrow icon	
+				var homeBase = homeInit.closest('li');
+				//Traverses down the DOM to first child .wsmenu-submenu
+			 	homeBase.children('.wsmenu-submenu').slideToggle('slow');
+			 	$('.wsmenu-click').children('.wsmenu-arrow').toggleClass('wsmenu-rotate');
+			});
+	}
+	menuMobilePublic();
 
 });

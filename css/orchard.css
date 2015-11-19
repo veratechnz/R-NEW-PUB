@@ -1,0 +1,94 @@
+/**************Orchard Upgrades From Pre Live State // Menu Fixes ETC // 06-11-2015 ******************/
+/*Replacing Member-Nav The new twelve-point Class.*/
+/*Have deleted standard twelve-point*/
+.member-menu > li{
+    width: 12.5%;
+    margin-top: 2em;
+    height: 100%; 
+} 
+.member-menu .r-font-nav{
+    margin-top: 0.65em;
+}
+.member-nav .wsmenu-submenu{
+    top: 85px;
+}
+.member-nav a:hover {
+    text-decoration: none;
+}
+
+
+/*Media Query Updates For Member nav Mobile Content Orchard*/
+@media(max-width:767px) {
+.member-nav .wsmenu-submenu{
+    top: 0px;
+}
+
+.member-nav .twelve-point h5 {
+float: none;
+}
+
+.member-nav .wsmenu-click i{
+    margin-top: 0px;
+}
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+.member-nav .wsmenu-submenu{
+    top: 0px;
+}
+
+.member-nav .twelve-point h5 {
+float: none;
+}
+
+.member-nav .wsmenu-click i{
+    margin-top: 0px;
+}
+    
+}
+
+@media(min-width:992px) and (max-width:1049px) {
+
+.member-nav .wsmenu-submenu{
+    top: 0px;
+}
+
+.member-nav .twelve-point h5 {
+float: none;
+}
+
+.member-nav .wsmenu-click i{
+    margin-top: 0px;
+}
+
+}
+
+/* Public Menu Fixes Including .wsmenu-click z-index::after 2000 */
+.slideLeft.clearfix.menuopen .wsmenu-list > ul > li {
+    color: #666;
+}
+.slideLeft.clearfix.menuopen div.zone.zone-navigation ul.mobile-sub.wsmenu-list > li > a {
+    color: #666;
+}
+
+.mobile-sub.wsmenu-list li ul.wsmenu-submenu li a{
+    color: #fff;
+}
+
+.member-nav .wsmenu-submenu {
+    z-index: 2003;
+}
+
+/* Other Fixes */
+.member-nav{
+    margin-top: 10px;
+}
+
+/*Login Page Fix*/
+.member-fullscrn section{
+    background-color: transparent;
+}
+
+
