@@ -44,6 +44,7 @@ $(function() {
 			 	$('.wsmenu-click').children('.wsmenu-arrow').toggleClass('wsmenu-rotate');
 			});
 	}
+	
 	menuMobilePublic();
 
 });
