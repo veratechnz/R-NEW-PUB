@@ -795,6 +795,13 @@ a {
   outline: 0;
   line-height: 1.05em; }
 
+/*Special Reset for Orchard HTML Injection*/
+.member-nav a {
+  color: #000; }
+
+.member-nav a:hover {
+  color: #8EC6CE; }
+
 a:focus {
   outline: 0; }
 
@@ -1857,6 +1864,8 @@ div.wsmenucontainer nav.wsmenu {
     width: 12.5%;
     margin-top: 0.7em;
     height: 100%; }
+  .member-nav li.twelve-point:hover p.r-font-nav a, .member-nav li.twelve-point:hover span.raw h5 a {
+    color: #8EC6CE; }
   .member-nav .wsmenu-list a {
     height: 100%; }
   .member-nav h5 {

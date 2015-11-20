@@ -169,7 +169,6 @@ ul .nav-searcher {
  }
 
 
-
 /*Public Menu*/
 
 
@@ -304,6 +303,10 @@ div.wsmenucontainer nav.wsmenu{
     width: 12.5%;
     margin-top: 0.7em;
     height: 100%;
+  }
+
+  li.twelve-point:hover  p.r-font-nav a, li.twelve-point:hover span.raw h5 a{
+    color: $blue-a;
   }
 
   .wsmenu-list a {

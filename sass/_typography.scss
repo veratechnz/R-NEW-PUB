@@ -293,6 +293,16 @@ a{
   line-height: 1.05em;
 }
 
+/*Special Reset for Orchard HTML Injection*/
+.member-nav a{
+  color: #000;
+}
+.member-nav a:hover{
+  color: $blue-a;
+}
+
+
+
 a:focus {
   outline: 0;
 }
