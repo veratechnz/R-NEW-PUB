@@ -17,22 +17,29 @@
 		margin-top: 1.55em;
 	}
 
-
-	/*Mobile Member Menu*/
-
-
 	.nav-welcome{
 		font-size: 14px;
 	}
 
-	.member-nav .twelve-point{
-		height: 4em;
+
+	/*Mobile Member Menu*/
+	.member-nav .wsmenu-click {
+		width: 20%;
+	}
+
+	.member-nav .mobile-sub.wsmenu-list li.twelve-point{
+		height: 44px;
+		margin-top: 20px;
 		.r-font-nav{display: none;}
 		h5{
 			color: black; 
-			float: right;
+			text-align: center;
 			margin-right: 1.4em;
 		}
+	}
+
+	.member-nav .mobile-sub ul.wsmenu-submenu {
+		z-index: 4000;
 	}
 
 	.ws-menu{
@@ -64,23 +71,6 @@
 	}
 	.header{z-index: 1056; min-height: 0px; max-height: 0px; height: 0px; padding: 0px;}
 	.navbar{z-index: 1054;}
-
-
-	/*Member Navigation*/
-	.member-nav .mobile-sub.wsmenu-list li.twelve-point span.raw{
-		width: 80%;
-		
-	}
-
-	.member-nav .mobile-sub.wsmenu-list li.twelve-point span.raw h5 a{
-		z-index: 4500;
-		color: red;
-		display: block;
-	}
-
-	.member-nav .wsmenu-click{
-		width: 20%;
-	}
 
 
 	/*Public Nav*/
@@ -254,7 +244,7 @@
 		margin-top: 1.18em;
 	}
 
-	.public-nav .mobile-sub.wsmenu-list li a{font-size: 15px; color: #fff;}
+	.public-nav .mobile-sub.wsmenu-list li a{font-size: 16px; color: #fff;}
 
 	/*Nav Links*/
 	.search-btn{
@@ -270,14 +260,23 @@
 	}
 
 	/*Mobile Menu For Member Nav*/
-	.member-nav .twelve-point{
-		height: 4em;
+	.member-nav .wsmenu-click {
+		width: 20%;
+	}
+
+	.member-nav .mobile-sub.wsmenu-list li.twelve-point{
+		height: 44px;
+		margin-top: 20px;
 		.r-font-nav{display: none;}
 		h5{
 			color: black; 
-			float: right;
+			text-align: center;
 			margin-right: 1.4em;
 		}
+	}
+
+	.member-nav .mobile-sub ul.wsmenu-submenu {
+		z-index: 4000;
 	}
 
 	.ws-menu{
@@ -342,12 +341,14 @@
 
 
 @media(min-width:992px) and (max-width:1049px){
-	a.sf-with-ul, .sf-menu.public-nav a{
-		font-family:'proxima_nova_ththin';
-		font-size: 1.3em;
-		padding-left: 0.38em;
-		padding-right: 0.38em;
-		margin-top: 0.35em;
+	.public-nav .wsmenu-list > li > a {
+	    color: #ffffff;
+	    font-family: "proxima_nova_rgbold";
+	    font-size: 16pt;
+	    font-weight: 400;
+	    letter-spacing: 0.08em;
+	    padding: 0;
+	    text-transform: uppercase;
 	}
 
 	#sample-menu-1.sf-menu.public-nav.sf-js-enabled{
@@ -365,7 +366,7 @@
 	  height: 40px;
 	}
 
-	.public-nav .mobile-sub.wsmenu-list li a{font-size: 15px;}
+	.public-nav .mobile-sub.wsmenu-list li a{font-size: 16px;}
 
 	/*Nav Links*/
 	.search-btn{
@@ -388,14 +389,23 @@
 	.pad-adjust{padding: 2px;}
 
 	/*Mobile Menu For Member Nav*/
-	.member-nav .twelve-point{
-		height: 4em;
+	.member-nav .wsmenu-click {
+		width: 20%;
+	}
+
+	.member-nav .mobile-sub.wsmenu-list li.twelve-point{
+		height: 44px;
+		margin-top: 20px;
 		.r-font-nav{display: none;}
 		h5{
 			color: black; 
-			float: right;
+			text-align: center;
 			margin-right: 1.4em;
 		}
+	}
+
+	.member-nav .mobile-sub ul.wsmenu-submenu {
+		z-index: 4000;
 	}
 
 	.ws-menu{
@@ -422,7 +432,7 @@
 
 	.public-nav .wsmenu-list > li > a{
 		color: #666;
-		font-size: 12px;
+		font-size: 16px;
 	}
 
 	.public-nav .wsmenu-submenu li a{
