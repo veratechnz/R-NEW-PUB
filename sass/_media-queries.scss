@@ -66,6 +66,22 @@
 	.navbar{z-index: 1054;}
 
 
+	/*Member Navigation*/
+	.member-nav .mobile-sub.wsmenu-list li.twelve-point span.raw{
+		width: 80%;
+		
+	}
+
+	.member-nav .mobile-sub.wsmenu-list li.twelve-point span.raw h5 a{
+		z-index: 4500;
+		color: red;
+		display: block;
+	}
+
+	.member-nav .wsmenu-click{
+		width: 20%;
+	}
+
 
 	/*Public Nav*/
 	.public-nav .wsmenu-submenu{
