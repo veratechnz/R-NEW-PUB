@@ -1,6 +1,11 @@
 /*Buttons*/
 @import "globals.scss";
 
+
+.btn:focus,.btn:hover{
+  color: #fff;
+}
+
 .btn-primary{
   color: $blue-b;
   background-color: transparent;

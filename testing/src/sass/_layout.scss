@@ -1,0 +1,120 @@
+// CSS FOR LAYOUT *************************************** //
+
+// MAIN CSS
+
+body { 
+  background: url(../img/bkg-new4.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+
+}
+
+
+
+// LOGIN BOX CSS
+.right-side-box {
+	height:100%;
+	position: absolute;
+	right: 0;
+	background-color:#000;
+}
+
+#member-login-container {
+	position:relative;
+	top: 37%;
+}
+
+
+#member-login-container h2 {
+	position: relative;
+	color: #fff;
+	padding-left: 20px;
+}
+
+.inputBox input {
+	border: 2px solid white; 
+	background-color: #000;
+	color: white;
+	padding: 6px;
+	width: 100%;
+}
+
+.inputBox {
+	padding: 0 20px 15px;
+}
+
+.loginButton {
+	border: 2px solid #fff; 
+	background-color: transparent;
+	color: white;
+	padding: 6px;
+	margin-left: 60%;
+	margin-right: 20px;
+	width: 30%;
+}
+
+.loginButton:hover {
+	background-color: #fff; 
+	color: #0d497c;
+}
+
+// CHANGE Placeholder text colour / opacity:
+::-webkit-input-placeholder {
+   opacity: 1;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   opacity: 1;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   opacity: 1; 
+}
+
+:-ms-input-placeholder {  
+   opacity: 1; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// CENTER-CONTENT div
+#center-content-container {
+	border-radius: 200px;
+	z-index: 20;
+	position: absolute;
+	top:0;
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 25%;
+	color: #fff;
+
+}
+
+.center-content {
+	position: relative;
+	top: 50%;
+  	transform: translateY(-50%);
+}
+
+.logo-img {
+	width: 70%;
+	margin-top: 15%;
+	padding: 0 0 1em;
+}
+
+
+
+

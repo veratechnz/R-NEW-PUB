@@ -3,6 +3,12 @@
 /*Media Queries For Public Nav Re-Sizing*/
 
 @media(max-width:767px){
+	
+	/*Padding Fix For Mobile*/
+	section{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
 
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';
@@ -19,6 +25,11 @@
 
 	.nav-welcome{
 		font-size: 14px;
+	}
+
+	/*Top Spacer Adjustment For Member Menu*/
+	.member-spacer {
+	    margin-top: 50px;
 	}
 
 
@@ -74,6 +85,11 @@
 
 
 	/*Public Nav*/
+
+	.public-spacer {
+	    margin-top: 60px;
+	}
+
 	.public-nav .wsmenu-submenu{
 		top: 0px;
 	}
@@ -189,7 +205,7 @@
 }
 
 
-/* MEDIA QUERIES FOR FALLBACK LOGIN PAGE*/
+/* MEDIA QUERIES & FIXUP FOR FALLBACK LOGIN PAGE*/
 @media only screen and (min-width: 230px) and (max-width: 780px) {
   .member-text-header { 
     text-align: left;
@@ -202,8 +218,16 @@
   }
 
   .member-login {
-    padding-left: 2.9em;
-    padding-right: 2.9em;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .member-login input {
+  	width: 15em;
+  }
+
+  .enter-btn, .enter-btn:visited, .enter-btn:active{
+  	margin-right: 8em;
   }
 
   .apps .full-scrn .col-md-3 {
@@ -221,6 +245,13 @@
 
 
 @media(min-width:768px) and (max-width:991px){
+	
+	/*Padding Fix For Mobile*/
+	section{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';
 		font-size: 1.3em;
@@ -257,6 +288,11 @@
 		font-size: 14px;
 		padding: 6px;
 		margin-top: 1.2em;
+	}
+
+	/*Top Spacer Adjustment For Member Menu*/
+	.member-spacer {
+	    margin-top: 50px;
 	}
 
 	/*Mobile Menu For Member Nav*/
@@ -302,6 +338,10 @@
 
 
 	/*Public Nav*/
+	.public-spacer {
+	    margin-top: 60px;
+	}
+
 	.public-nav .wsmenu-submenu{
 		top: 0px;
 	}
@@ -341,6 +381,12 @@
 
 
 @media(min-width:992px) and (max-width:1049px){
+	/*Padding Fix For Mobile*/
+	section{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
 	.public-nav .wsmenu-list > li > a {
 	    color: #ffffff;
 	    font-family: "proxima_nova_rgbold";
@@ -388,6 +434,11 @@
 	.pad-adjust{padding: 2px;}
 	.pad-adjust{padding: 2px;}
 
+	/*Top Spacer Adjustment For Member Menu*/
+	.member-spacer {
+	    margin-top: 50px;
+	}
+
 	/*Mobile Menu For Member Nav*/
 	.member-nav .wsmenu-click {
 		width: 20%;
@@ -426,6 +477,10 @@
 	}
 
 	/*Public Nav*/
+	.public-spacer {
+	    margin-top: 60px;
+	}
+	
 	.public-nav .wsmenu-submenu{
 		top: 0px;
 	}

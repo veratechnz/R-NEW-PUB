@@ -1,0 +1,72 @@
+// CSS FOR TEXT *************************************** //
+
+// TAKEN FROM REINZ MASTER FILES:
+
+/*Resets*/
+p {
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 1.2em;
+  margin-top: 0.8em;
+  line-height: 1.05em;
+}
+
+
+
+h1{
+  font-family:'Helvetica';
+  font-size: 38px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.05em;
+  margin-bottom: 70px;
+}
+
+h2{
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.05em;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-family:'proxima_nova_ththin';
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  line-height: 1.05em;
+}
+
+h4{
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #0D497C;
+  text-transform: uppercase;
+  line-height: 1.05em;
+}
+
+h5{
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 11pt;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.05em;
+}
+
+h6 {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 9pt;
+  color: #0D497C;
+  text-transform: uppercase;
+  line-height: 1.05em;
+}

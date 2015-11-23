@@ -1,0 +1,55 @@
+// SVG SECTION CSS  ******************************* // 
+
+.transparent {
+	fill: #000816;
+	opacity: 0.4;
+}
+
+#icon-1:hover .transparent,
+#icon-2:hover .transparent,
+#icon-3:hover .transparent,
+#icon-4:hover .transparent,
+#icon-5:hover .transparent,
+#icon-6:hover .transparent,
+#icon-7:hover .transparent,
+#icon-8:hover .transparent {
+	fill: #0D497C;
+	opacity: 0.8;
+}
+
+#enter-button:hover {
+	opacity: 0.4;
+}
+
+#svg-container {
+	width: 67%;
+	padding-top: 50%;
+	position: relative;
+	top: 50px;
+	
+}
+
+.svg-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+#circle-centre,  #logo, #circle-bg, #enter-button {
+	position: absolute;
+}
+
+#circle-bg {
+	z-index: 1;
+	opacity: 0.4;
+}
+
+#circle-centre {
+	z-index: 2;
+	opacity: 0.4;
+}
+
+#svg-icons {
+	z-index: 10;
+}
