@@ -8,8 +8,7 @@
     "shake": true,
     "swing": true,
     "tada": true,
-    "wobble": true,
-    "jello": true
+    "wobble": true
   },
 
   "bouncing_entrances": {

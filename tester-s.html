@@ -16,7 +16,79 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">   
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">   
 	<link rel="stylesheet" href="testing/assets/css/styles.css">
-	
+	<style>	
+		.morphext > .animated {
+		    display: inline-block;
+		}
+		/*All Edits:*/
+		@font-face {
+		    font-family: 'proxima_nova_rgbold';
+		    src: url('../fonts/proxima_nova_bold-webfont.eot');
+		    src: url('../fonts/proxima_nova_bold-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../fonts/proxima_nova_bold-webfont.woff2') format('woff2'),
+		         url('../fonts/proxima_nova_bold-webfont.woff') format('woff'),
+		         url('../fonts/proxima_nova_bold-webfont.ttf') format('truetype'),
+		         url('../fonts/proxima_nova_bold-webfont.svg#proxima_nova_rgbold') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+		@font-face {
+		    font-family: 'proxima_nova_ththin';
+		    src: url('../fonts/proxima_nova_thin-webfont.eot');
+		    src: url('../fonts/proxima_nova_thin-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../fonts/proxima_nova_thin-webfont.woff2') format('woff2'),
+		         url('../fonts/proxima_nova_thin-webfont.woff') format('woff'),
+		         url('../fonts/proxima_nova_thin-webfont.ttf') format('truetype'),
+		         url('../fonts/proxima_nova_thin-webfont.svg#proxima_nova_ththin') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+		@font-face {
+		    font-family: 'proxima_nova_altlight';
+		    src: url('../fonts/proxima_nova_alt_light-webfont.eot');
+		    src: url('../fonts/proxima_nova_alt_light-webfont.eot?#iefix') format('embedded-opentype'),
+		         url('../fonts/proxima_nova_alt_light-webfont.woff2') format('woff2'),
+		         url('../fonts/proxima_nova_alt_light-webfont.woff') format('woff'),
+		         url('../fonts/proxima_nova_alt_light-webfont.ttf') format('truetype'),
+		         url('../fonts/proxima_nova_alt_light-webfont.svg#proxima_nova_altlight') format('svg');
+		    font-weight: normal;
+		    font-style: normal;
+
+		}
+
+
+		/*Resets*/
+		p {
+		  font-family: 'proxima_nova_altlight';
+		  font-size: 20px;
+		  margin-bottom: 1.2em;
+		  margin-top: 0.8em;
+		  line-height: 1.05em;
+		}
+
+		h1{
+		  font-family:'proxima_nova_ththin';
+		  font-size: 38px;
+		  font-weight: 800;
+		  text-transform: uppercase;
+		  line-height: 1.05em;
+		  margin-bottom: 70px;
+		}
+
+		h2{
+		  font-family: 'proxima_nova_rgbold';
+		  font-size: 20px;
+		  letter-spacing: 1px;
+		  text-transform: uppercase;
+		  line-height: 1.05em;
+		  margin-bottom: 25px;
+		}
+	</style>
 </head>
 
 
@@ -81,7 +153,7 @@
 
 							<!-- Icon-2 -->
 							<a xlink:href="http://www.google.com">
-								<g id="icon-2">
+								<g id="icon-2" class="resources">
 									<circle class="transparent" cx="494.3" cy="129.2" r="54.4"/>
 									<path fill="#FFFFFF" d="M479.8,142.6c-0.4,0.4-0.4,1,0,1.4l1.9,1.8c0.4,0.4,1.1,0.2,1.5-0.2l9.8-9.2l-3-3.3L479.8,142.6z M514,116.6
 									c-0.1-0.9-0.7-0.7-0.9-0.3s-1.4,2.1-1.9,2.9c-0.5,0.8-1.7,2.3-3.8,0.8c-2.3-1.5-1.5-2.6-1.1-3.3c0.4-0.7,1.6-2.8,1.8-3
@@ -98,7 +170,7 @@
 
 							<!-- Icon-3 -->
 							<a xlink:href="#">
-								<g id="icon-3">
+								<g id="icon-3" class="membership">
 									
 									<circle class="transparent" cx="555.9" cy="296" r="54.4"/>
 									<path fill="#FFFFFF" d="M571,298.7c0-1.8,1.1-1.2,1.6-4.4c0.2-1.3,1.2,0,1.4-3.1c0-1.2-0.5-1.5-0.5-1.5s0.3-1.8,0.4-3.2
@@ -113,7 +185,7 @@
 
 							<!-- Icon-4 -->
 							<a xlink:href="#">
-								<g id="icon-4">
+								<g id="icon-4" class="statistics">
 									<circle class="transparent" cx="501.5" cy="466.7" r="54.4"/>
 									<g>
 										<path fill="#FFFFFF" d="M499.3,461.5l8.9,5.7c0.8,0.5,1.8,0.3,2.3-0.4l9.2-13.2c0.5-0.8,0.3-1.8-0.4-2.3c-0.8-0.5-1.8-0.3-2.3,0.4
@@ -129,7 +201,7 @@
 
 							<!-- Icon-5 -->
 							<a xlink:href="#">
-								<g id="icon-5">
+								<g id="icon-5" class="home">
 									<circle class="transparent" cx="308.2" cy="554.3" r="54.4"/>
 									<path fill="#FFFFFF" d="M324.7,554.9l-14.9-14.9c-0.8-0.8-2-0.8-2.8,0l-14.9,14.9c-0.8,0.8-0.5,1.4,0.6,1.4h3.1v11.5
 									c0,0.8,0,1.5,1.5,1.5h7.2v-11.5h7.6v11.5h7.6c1.1,0,1.2-0.7,1.2-1.5v-11.5h3.1C325.2,556.3,325.5,555.7,324.7,554.9"/>
@@ -139,7 +211,7 @@
 
 							<!-- Icon-6 -->
 							<a xlink:href="#">
-								<g id="icon-6">
+								<g id="icon-6" class="contact">
 									<circle class="transparent" cx="122.3" cy="467.2" r="54.4"/>
 									<path fill="#FFFFFF" d="M110,446.2l6.7,8.6l0.1,0.1c0.3,0.4,0.5,0.9,0.7,1.4c0.1,0.5,0.2,1.1,0.1,1.7c-0.1,0.6-0.3,1.1-0.6,1.6
 									l-0.1,0.1c-0.3,0.4-0.6,0.8-1.1,1.1l-0.1,0.1l-3.3,2.4c-0.2,0.5-0.5,1.5,0.4,2.8c1.4,2.1,3,4,4.8,5.7l0,0v0c1.8,1.8,3.7,3.4,5.7,4.8
@@ -155,7 +227,7 @@
 
 							<!-- Icon-7 -->
 							<a xlink:href="#">
-								<g id="icon-7">
+								<g id="icon-7" class="directory">
 									<circle class="transparent" cx="60.6" cy="296" r="54.4"/>
 									<g id="Latest_News_no_circle_1_">
 										<g>
@@ -182,7 +254,7 @@
 
 							<!-- Icon-8 -->
 							<a xlink:href="#">
-								<g id="icon-8">							
+								<g id="icon-8" class="medialink">							
 									<circle class="transparent" cx="122.3" cy="129.2" r="54.4"/>
 									<g id="Media_2_">
 										<g>
@@ -236,16 +308,13 @@
 
 		</div>	<!-- close body-row -->
 	</div>	<!-- close container-fluid -->
-
-
-
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-
+	<script src="bower_components/letteringjs/jquery.lettering.js"></script>
+	<script src="bower_components/textillate/jquery.textillate.js"></script>
+	<script src="bower_components/morphext/dist/morphext.js"></script>
 	<script type="text/javascript">
-
-	$(document).ready(function(){
-
+	
+	$(function(){
 		var htmlContent = {
 				about: { 
 					hTwo: 'About REINZ', 
@@ -269,43 +338,95 @@
 				},
 				contact: { 
 					hTwo: 'Contact', 
-					cPara: 'For all enquiries please phone <br>09 356 1755'},
+					cPara: 'For all enquiries please phone Ph: 09 356 1755'},
 
 				directory: { 
-					htwo: 'Member Directory', 
+					hTwo: 'Member Directory', 
 					cPara: 'Locate a Real Estate professional near you'
 				},
 
 				medialink: { 
-					htwo: 'Media', 
+					hTwo: 'Media', 
 					cPara: 'REINZ releases regular commentary on property trends'
 				}
 			}
-
 		// functions on hover to replace h2 and p 
 		// of the center content div
-		$('#icon-1').hover(function(){
-			transform(this);
-		});
+
+		var selectorHover = function(){
+			$('.about, .resources, .statistics, .home, .membership, .contact, .directory, .medialink')	
+				.hover(function(){
+				transform(this);
+			});
+		}();
 
 		//Selecting string data from object based on icon hover and repopulating with data/text.
 		function transform(icon){
-				//Grabbing className from the hovered icon
-				var propString = icon.className.baseVal
-				//Setting up reference to the object. 
-				var propSelect  = htmlContent[propString];
+				//conditional for removing content
+				if (icon.className.baseVal !== 'home' ){
+					//hide Main center logo
+					$('.logo-img').hide();
+					//Grabbing className from the hovered icon
+					var propString = icon.className.baseVal
+					//Setting up reference to the object. 
+					var propSelect  = htmlContent[propString];					
+					
+					$('#hTwo').html(propSelect.hTwo).textillate({				
+				 	initialDelay: 0,
+				 	in: {
+				 	  // set the effect name
+				 	  effect: 'fadeInLeftBig',
+				 	  // set the delay factor applied to each consecutive character
+				 	  delayScale: 1.8,
+				 	  // set the delay between each character
+				 	  delay: 80,
+				 	  // set to true to animate all the characters at the same time
+				 	  sync: false,
+				 	  // randomize the character sequence 
+				 	  // (note that shuffle doesn't make sense with sync = true)
+				 	  shuffle: false,
+				 	  // reverse the character sequence 
+				 	  // (note that reverse doesn't make sense with sync = true)
+				 	  reverse: false,
+				 	},
+				 	  // callback that executes once the animation has finished
+				 	  callback: function () {
+				 	  	alert('again');
+				 	  },
+				 	});
 
-				console.log();
-				$('#hTwo').html(propSelect.hTwo);
-				$('#cPara').html(propSelect.cPara);
-								
-		}
+					$('#cPara').html(propSelect.cPara).textillate({
+					initialDelay: 0,
+					in: {
+					  // set the effect name
+					  effect: 'flipInX',
+					  // set the delay factor applied to each consecutive character
+					  delayScale: 1,
+					  // set the delay between each character
+					  delay: 10,
+					  // set to true to animate all the characters at the same time
+					  sync: false,
+					  // randomize the character sequence 
+					  // (note that shuffle doesn't make sense with sync = true)
+					  shuffle: false,
+					  // reverse the character sequence 
+					  // (note that reverse doesn't make sense with sync = true)
+					  reverse: false,
+					}
+
+					});
+
+					} else {
+						$('.logo-img').show();
+						$('.logo-img').html('');
+						$('#hTwo, #cPara').html('')
+					}	
+					
+		} //Transform Function Ends
 
 
 
-	});
-
-
+	}); //Document Ready Ends
 	</script>
 
 
