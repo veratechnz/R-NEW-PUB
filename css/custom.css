@@ -726,7 +726,7 @@ a:focus {
 /*Resets*/
 p {
   font-family: 'proxima_nova_altlight';
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 1.2em;
   margin-top: 0.8em;
   line-height: 1.05em; }
@@ -2167,6 +2167,30 @@ div.wsmenucontainer nav.wsmenu {
   border: 2px solid #8EC6CE;
   margin-bottom: 25px; }
 
+.read-btn-e {
+  color: #0D497C;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 0.8em 1.1em;
+  border: 2px solid #0D497C;
+  margin-bottom: 25px;
+  border-radius: 0px;
+  display: block; }
+
+.read-btn-e:hover, .read-btn-e:active, .read-btn-e:visited {
+  color: #fff;
+  background-color: #8EC6CE;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8EC6CE;
+  margin-bottom: 25px;
+  border-radius: 0px;
+  display: block; }
+
 .join-button {
   float: right;
   margin-top: 1.2em; }
@@ -2368,6 +2392,27 @@ a.btn.login-btn:hover, .btn.enter-btn:hover {
   text-transform: uppercase;
   border-color: #8EC6CE;
   float: left; }
+
+/*Button Link Resets For Parallax Home Page*/
+.section-intro a.read-btn-white {
+  display: block;
+  margin-bottom: 6em;
+  margin-top: 3em;
+  text-decoration: none; }
+
+a.read-btn {
+  display: block;
+  margin-bottom: 5em;
+  margin-top: 3em; }
+
+a.read-btn-white {
+  display: block;
+  color: #fff;
+  border-color: #fff;
+  text-decoration: none; }
+
+a.read-btn:hover, a.read-btn:active, a.read-btn:visited {
+  text-decoration: none; }
 
 /*Modal-Layout*/
 .modal {

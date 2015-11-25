@@ -118,6 +118,32 @@
   margin-bottom: 25px;
 }
 
+.read-btn-e {
+  color: $blue-b;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-size: 16px;
+  margin-top: 15px;
+  padding: 0.8em 1.1em;
+  border: 2px solid $blue-b;
+  margin-bottom: 25px;
+  border-radius: 0px;
+  display: block;
+}
+
+.read-btn-e:hover, .read-btn-e:active, .read-btn-e:visited {
+  color: #fff;
+  background-color: $blue-a;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  padding: 0.8em 1.1em;
+  border: 2px solid $blue-a;
+  margin-bottom: 25px;
+  border-radius: 0px;
+  display: block;
+}
+
 .join-button{
   float: right;
   margin-top: 1.2em;
@@ -344,3 +370,27 @@ a.btn.login-btn:hover, .btn.enter-btn:hover{
   float: left;
 }
 
+/*Button Link Resets For Parallax Home Page*/
+.section-intro a.read-btn-white {
+  display: block;
+  margin-bottom: 6em;
+  margin-top: 3em;
+  text-decoration: none;
+}
+
+a.read-btn {
+  display: block;
+  margin-bottom: 5em;
+  margin-top: 3em;
+}
+
+a.read-btn-white{
+  display: block;
+  color: #fff;
+  border-color: #fff;
+  text-decoration: none;
+}
+
+a.read-btn:hover, a.read-btn:active, a.read-btn:visited {
+  text-decoration: none;
+}
