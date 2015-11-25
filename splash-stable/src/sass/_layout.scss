@@ -17,7 +17,7 @@ body {
 // LOGIN BOX CSS
 .right-side-box {
 	height:100%;
-	position: absolute;
+	position: fixed;
 	right: 0;
 	background-color:#000;
 }
@@ -40,26 +40,9 @@ body {
 	color: white;
 	padding: 6px;
 	width: 100%;
+	opacity: 1 !important;
 }
 
-.inputBox {
-	padding: 0 20px 15px;
-}
-
-.loginButton {
-	border: 2px solid #fff; 
-	background-color: transparent;
-	color: white;
-	padding: 6px;
-	margin-left: 60%;
-	margin-right: 20px;
-	width: 30%;
-}
-
-.loginButton:hover {
-	background-color: #fff; 
-	color: #0d497c;
-}
 
 // CHANGE Placeholder text colour / opacity:
 ::-webkit-input-placeholder {
@@ -81,6 +64,27 @@ body {
 
 
 
+.inputBox {
+	padding: 0 20px 15px;
+}
+
+.loginButton {
+	border: 2px solid #fff; 
+	background-color: transparent;
+	color: white;
+	padding: 6px;
+	margin-left: 60%;
+	margin-right: 20px;
+	width: 30%;
+}
+
+.loginButton:hover {
+	background-color: #fff; 
+	color: #0d497c;
+}
+
+
+
 
 
 
@@ -96,9 +100,9 @@ body {
 	position: absolute;
 	top:0;
 	height: 50%;
-	width: 50%;
-	margin-left: 25%;
-	margin-top: 25%;
+	width: 46%;
+	margin-left: 27%;
+	margin-top: 20%;
 	color: #fff;
 
 }
@@ -111,10 +115,9 @@ body {
 
 .logo-img {
 	width: 70%;
-	margin-top: 15%;
+	margin-top: 26%;
 	padding: 0 0 1em;
 }
-
 
 
 

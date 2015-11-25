@@ -30,13 +30,14 @@
 		<div class="col-sm-9 center-block">
 
 			
+
+			
 			<!-- Container for svg ************************************** -->
 			<div id="svg-container" class="center-block">
+				
 				<div id="center-content-container" class="text-center">
 
 					<div id="content-1" class="center-content">
-						<h2 id="hTwo"></h2>
-						<p id="cPara"></p>
 						<img class="logo-img" src="assets/img/reinz-logo.svg" alt="">	
 						<button class="enterSite-btn">Enter Site</button>	
 					</div>
@@ -45,11 +46,10 @@
 				</div>
 
 
-
 				<!-- Circles -->
 				
-				<img class="svg-box" id="circle-centre" src="assets/svg/circle-centre.svg" alt="">
-				<img class="svg-box" id="circle-bg" src="assets/svg/circle-bg.svg" alt="">
+				<!-- <img class="svg-box" id="circle-centre" src="assets/svg/circle-centre.svg" alt="">
+				<img class="svg-box" id="circle-bg" src="assets/svg/circle-bg.svg" alt=""> -->
 
 
 
@@ -60,7 +60,17 @@
 
 						<!-- preserveAspectRatio = "xMinYMin meet" -->
 
+						<!-- Background circles ***************** -->
 
+						<circle id="circle-bg" fill="#000816" cx="308.1" cy="296.2" r="249.2"/>
+
+						<g id="circle-centre">
+							<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="146.5538" y1="296.012" x2="469.8889" y2="296.012">
+								<stop  offset="0" style="stop-color:#AFD5E5"/>
+								<stop  offset="1" style="stop-color:#477699"/>
+							</linearGradient>
+							<circle fill="url(#SVGID_1_)" cx="308.2" cy="296" r="161.7"/>
+						</g>
 
 
 							
@@ -247,58 +257,45 @@
 
 	$(document).ready(function(){
 
-		var htmlContent = {
-			about: { hTwo: 'About REINZ', para: 'A national membership organisation that represents 14,000 professionals'},
-			resources: { hTwo: 'Resources', para:'REINZ provides legal information and other useful tools for Real Estate Transactions'},
-			statistics: { hTwo: 'Statistics', para: 'REINZ collects and maintains the most recent national property data'},
-			home: { hTwo: 'LOGO HERE', para: 'REINZ collects and maintains the most recent national property data'},
-			membership: { hTwo: 'Membership', para: '97% of Real Estate Professionals are members of REINZ'},
-			contact: { hTwo: 'Contact', para: 'For all enquiries please phone <br>09 356 1755'},
-			directory: { htwo: 'Member Directory', para: 'Locate a Real Estate professional near you'},
-			medialink: { htwo: 'Media', para: 'REINZ releases regular commentary on property trends'}
-		}
-
 		// functions on hover to replace h2 and p 
 		// of the center content div
-		function iconOne(){
-			$("#icon-1").hover(function(){
-				$("#content-1").html(htmlContent.about);
 
-			});			
-		}
+		$("#icon-1").hover(function(){
+			$("#content-1").html("<h2>About REINZ</h2><p>A national membership organisation that represents 14,000 professionals</p>");
 
+		});
 
 		$("#icon-2").hover(function(){
-			$("#content-1").html(htmlContent.resources);
+			$("#content-1").html("<h2>Resources</h2><p>REINZ provides legal information and other useful tools for Real Estate Transactions</p>");
 		});
 
 		$("#icon-3").hover(function(){
-			$("#content-1").html(htmlContent.membership);
+			$("#content-1").html("<h2>Membership</h2><p>97% of Real Estate Professionals are members of REINZ</p>");
 		});
 
 		$("#icon-4").hover(function(){
-			$("#content-1").html(htmlContent.statistics);
+			$("#content-1").html("<h2>Statistics</h2><p>REINZ collects and maintains the most recent national property data</p>");
 		});
 
 		$("#icon-5").hover(function(){
-			$("#content-1").html(htmlContent.home);
+			$("#content-1").html("<h2>LOGO HERE</h2><p>REINZ collects and maintains the most recent national property data</p>");
 			// ^^ replace with original content ^^
 		});
 
 		$("#icon-6").hover(function(){
-			$("#content-1").html(htmlContent.contact);
+			$("#content-1").html("<h2>Contact</h2><p>For all enquiries please phone <br>09 356 1755</p>");
 		});
 
 		$("#icon-7").hover(function(){
-			$("#content-1").html(htmlContent.directory);
+			$("#content-1").html("<h2>Member Directory</h2><p>Locate a Real Estate professional near you</p>");
 		});
 
 		$("#icon-8").hover(function(){
-			$("#content-1").html(htmlContent.medialink);
+			$("#content-1").html("<h2>Media</h2><p>REINZ releases regular commentary on property trends</p>	");
 		});
 
 
-	});
+		});
 
 
 	</script>

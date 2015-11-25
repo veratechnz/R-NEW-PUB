@@ -69,7 +69,7 @@
  		h1#hTwo.splash{
 		  font-family:'proxima_nova_ththin';
 		  font-size: 34px;
-		  font-weight: 800;
+		  font-weight: ;
 		  text-transform: uppercase;
 		  line-height: 1.05em;
 		  margin-bottom: 28px;
@@ -118,6 +118,8 @@
 		    width: 30%;
 		}
 
+		#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv {display: none;}
+
 	</style>
 </head>
 
@@ -134,12 +136,57 @@
 			<!-- Container for svg ************************************** -->
 			<div id="svg-container" class="center-block">
 				<div id="center-content-container" class="text-center">
-
 					<div id="content-1" class="center-content">
+
+						<div id="aboutDiv">
+							<h1 id="hTwo" class="splash">About REINZ</h1>
+							<p id="cPara">A national membership organisation that represents 14,000 professionals</p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>	
+
+						<div id="resourcesDiv">	
+							<h1 id="hTwo" class="splash">Resources</h1>
+							<p id="cPara">REINZ provides legal information and other useful tools for Real Estate Transactions</p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>	
+
+						<div id="membershipDiv">
+							<h1 id="hTwo" class="splash">Membership</h1>
+							<p id="cPara">97% of Real Estate Professionals are members of REINZ</p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>
+
+						<div id="statisticsDiv">
+							<h1 id="hTwo" class="splash">Statistics</h1>
+							<p id="cPara">REINZ collects and maintains the most recent national property dat</p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>	
+
+						<div id="homeDiv">
 						<img class="logo-img" src="splash-stable/assets/img/reinz-logo.svg" alt="">	
-						<h1 id="hTwo" class="splash"></h1>
-						<p id="cPara"></p>
-						<button class="enterSite-btn">Enter Site</button>	
+							<h1 id="hTwo" class="splash"></h1>
+							<p id="cPara"></p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>	
+
+						<div id="contactDiv">
+							<h1 id="hTwo" class="splash">Contact</h1>
+							<p id="cPara">For all enquiries please phone <br>09 356 1755</p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>	
+
+						<div id="directoryDiv">
+							<h1 id="hTwo" class="splash">Member Directory</h1>
+							<p id="cPara">Locate a Real Estate professional near you</p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>	
+
+						<div id="mediaLinkDiv">
+							<h1 id="hTwo" class="splash">Media</h1>
+							<p id="cPara">REINZ releases regular commentary on property trends</p>
+							<button class="enterSite-btn">Enter Site</button>
+						</div>	
+
 					</div>
 
 					
@@ -343,159 +390,98 @@
 	<script src="bower_components/textillate/jquery.textillate.js"></script>
 	<script src="bower_components/morphext/dist/morphext.js"></script>
 	<script type="text/javascript">
-	
+
 	$(function(){
-		var htmlContent = {
-				about: { 
-					hTwo: 'About REINZ', 
-					cPara: 'A national membership organisation that represents 14,000 professionals'
-				},
-				resources: { 
-					hTwo: 'Resources', 
-					cPara:'REINZ provides legal information and other useful tools for Real Estate Transactions'
-				},
-				statistics: { 
-					hTwo: 'Statistics', 
-					cPara: 'REINZ collects and maintains the most recent national property data'
-				},
-				home: { 
-					hTwo: 'LOGO HERE', 
-					cPara: 'REINZ collects and maintains the most recent national property data'
-				},
-				membership: { 
-					hTwo: 'Membership', 
-					cPara: '97% of Real Estate Professionals are members of REINZ'
-				},
-				contact: { 
-					hTwo: 'Contact', 
-					cPara: 'For all enquiries please phone Ph: 09 356 1755'},
 
-				directory: { 
-					hTwo: 'Member Directory', 
-					cPara: 'Locate a Real Estate professional near you'
-				},
 
-				medialink: { 
-					hTwo: 'Media', 
-					cPara: 'REINZ releases regular commentary on property trends'
-				}
-			}
-		// functions on hover to replace h2 and p 
-		// of the center content div
+		
+		.css("display", "block");
 
-		var varCheck = 'off';
 
-		var selectorHover = function(){
-			$('.about, .resources, .statistics, .home, .membership, .contact, .directory, .medialink')	
-				.hover(function(){
-				transform(this);
+
+		$('.about').hover(function(){
+			$('#resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#aboutDiv').show("fast");
 			});
-		}();
+		});
+
+		$('.resources').hover(function(){
+			$('#aboutDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#resourcesDiv').show(1);
+		});
+
+		$('.membership').hover(function(){
+			$('#aboutDiv, #resourcesDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#membershipDiv').show(1);
+		});
+
+		$('.statistics').hover(function(){
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#statisticsDiv').show(1);
+		});
+
+		$('.home').hover(function(){
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#homeDiv').show(1);
+		});
+
+		$('.contact').hover(function(){
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#contactDiv').show(1);
+		});
+
+		$('.directory').hover(function(){
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #mediaLinkDiv').css("display", "none");
+				$('#directoryDiv').show(1);
+		});
+
+		$('.medialink').hover(function(){
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv').css("display", "none");
+				$('#mediaLinkDiv').show(1);
+		});
+
+	}); //Selfie Ends
 
 
-		$('h2').textillate({	
-			autoStart: false,		
-		 	initialDelay: 0,
-		 	in: {
-		 	  // set the effect name
-		 	  effect: 'fadeInLeftBig',
-		 	  // set the delay factor applied to each consecutive character
-		 	  delayScale: 1.8,
-		 	  // set the delay between each character
-		 	  delay: 55,
-		 	  // set to true to animate all the characters at the same time
-		 	  sync: false,
-		 	  // randomize the character sequence 
-		 	  // (note that shuffle doesn't make sense with sync = true)
-		 	  shuffle: false,
-		 	  // reverse the character sequence 
-		 	  // (note that reverse doesn't make sense with sync = true)
-		 	  reverse: false,
-		 	},
-		 	  // callback that executes once the animation has finished
-		 	  callback: function () {
-		  	
-		 	  },
-		 	});
 
+	
+	// $(function(){
+	// 	var htmlContent = {
+	// 			about: { 
+	// 				hTwo: 'About REINZ', 
+	// 				cPara: 'A national membership organisation that represents 14,000 professionals'
+	// 			},
+	// 			resources: { 
+	// 				hTwo: 'Resources', 
+	// 				cPara:'REINZ provides legal information and other useful tools for Real Estate Transactions'
+	// 			},
+	// 			statistics: { 
+	// 				hTwo: 'Statistics', 
+	// 				cPara: 'REINZ collects and maintains the most recent national property data'
+	// 			},
+	// 			home: { 
+	// 				hTwo: 'LOGO HERE', 
+	// 				cPara: 'REINZ collects and maintains the most recent national property data'
+	// 			},
+	// 			membership: { 
+	// 				hTwo: 'Membership', 
+	// 				cPara: '97% of Real Estate Professionals are members of REINZ'
+	// 			},
+	// 			contact: { 
+	// 				hTwo: 'Contact', 
+	// 				cPara: 'For all enquiries please phone Ph: 09 356 1755'},
 
+	// 			directory: { 
+	// 				hTwo: 'Member Directory', 
+	// 				cPara: 'Locate a Real Estate professional near you'
+	// 			},
 
+	// 			medialink: { 
+	// 				hTwo: 'Media', 
+	// 				cPara: 'REINZ releases regular commentary on property trends'
+	// 			}
+	// 		}
 
-		function fxHtwo(){
-			$('#hTwo').textillate({		
-			 	initialDelay: 0,
-			 	in: {
-			 	  // set the effect name
-			 	  effect: 'fadeInLeftBig',
-			 	  // set the delay factor applied to each consecutive character
-			 	  delayScale: 1.8,
-			 	  // set the delay between each character
-			 	  delay: 55,
-			 	  // set to true to animate all the characters at the same time
-			 	  sync: false,
-			 	  // randomize the character sequence 
-			 	  // (note that shuffle doesn't make sense with sync = true)
-			 	  shuffle: false,
-			 	  // reverse the character sequence 
-			 	  // (note that reverse doesn't make sense with sync = true)
-			 	  reverse: false,
-			 	},
-			 	  // callback that executes once the animation has finished
-			 	  callback: function () {
-			  	
-			 	  },
-			 	});
-			$('h2').textillate('start');
-		}
-
-		function fxCpara(){
-			$('#cPara').textillate({
-								initialDelay: 0,
-								in: {
-								  // set the effect name
-								  effect: 'flipInX',
-								  // set the delay factor applied to each consecutive character
-								  delayScale: 1,
-								  // set the delay between each character
-								  delay: 10,
-								  // set to true to animate all the characters at the same time
-								  sync: false,
-								  // randomize the character sequence 
-								  // (note that shuffle doesn't make sense with sync = true)
-								  shuffle: false,
-								  // reverse the character sequence 
-								  // (note that reverse doesn't make sense with sync = true)
-								  reverse: false,
-								}
-
-								});
-			}
-
-
-		//Selecting string data from object based on icon hover and repopulating with data/text.
-		function transform(icon){
-				//conditional for removing content
-				if (icon.className.baseVal !== 'home' ){
-					//hide Main center logo
-					$('.logo-img').hide();
-					//Grabbing className from the hovered icon
-					var propString = icon.className.baseVal
-					//Setting up reference to the object. 
-					var propSelect  = htmlContent[propString];					
-					$('#hTwo').html(propSelect.hTwo).promise().done(function(){
-							fxHtwo();
-					});
-					$('#cPara').html(propSelect.cPara).promise().done(function(){
-							fxCpara();
-					});
-
-					} else {
-						$('.logo-img').show();
-						$('.logo-img').html('');
-						$('#hTwo, #cPara').html('')
-					}	
-		} //Transform Function Ends
-	}); //Document Ready Ends
 	</script>
 
 
