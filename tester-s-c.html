@@ -66,10 +66,10 @@
 		  line-height: 1.05em;
 		}
 
- 		h1#hTwo.splash{
+ 		h1{
 		  font-family:'proxima_nova_ththin';
 		  font-size: 34px;
-		  font-weight: 800;
+		  font-weight: ;
 		  text-transform: uppercase;
 		  line-height: 1.05em;
 		  margin-bottom: 28px;
@@ -120,6 +120,7 @@
 
 		#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv {display: none;}
 
+
 	</style>
 </head>
 
@@ -135,61 +136,57 @@
 			
 			<!-- Container for svg ************************************** -->
 			<div id="svg-container" class="center-block">
+
 				<div id="center-content-container" class="text-center">
 					<div id="content-1" class="center-content">
-
 						<div id="aboutDiv">
-							<h1 id="hTwo" class="splash">About REINZ</h1>
-							<p id="cPara">A national membership organisation that represents 14,000 professionals</p>
+							<h1 class="splash" id="AA">About REINZ</h1>
+							<p id="pA">A national membership organisation that represents 14,000 professionals</p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>	
 
 						<div id="resourcesDiv">	
-							<h1 id="hTwo" class="splash">Resources</h1>
-							<p id="cPara">REINZ provides legal information and other useful tools for Real Estate Transactions</p>
+							<h1 class="splash" id="BB">Resources</h1>
+							<p id="pB">REINZ provides legal information and other useful tools for Real Estate Transactions</p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>	
 
 						<div id="membershipDiv">
-							<h1 id="hTwo" class="splash">Membership</h1>
+							<h1 class="splash">Membership</h1>
 							<p id="cPara">97% of Real Estate Professionals are members of REINZ</p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>
 
 						<div id="statisticsDiv">
-							<h1 id="hTwo" class="splash">Statistics</h1>
+							<h1 class="splash">Statistics</h1>
 							<p id="cPara">REINZ collects and maintains the most recent national property dat</p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>	
 
 						<div id="homeDiv">
 						<img class="logo-img" src="splash-stable/assets/img/reinz-logo.svg" alt="">	
-							<h1 id="hTwo" class="splash"></h1>
-							<p id="cPara"></p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>	
 
 						<div id="contactDiv">
-							<h1 id="hTwo" class="splash">Contact</h1>
+							<h1 class="splash">Contact</h1>
 							<p id="cPara">For all enquiries please phone <br>09 356 1755</p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>	
 
 						<div id="directoryDiv">
-							<h1 id="hTwo" class="splash">Member Directory</h1>
+							<h1 class="splash">Member Directory</h1>
 							<p id="cPara">Locate a Real Estate professional near you</p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>	
 
 						<div id="mediaLinkDiv">
-							<h1 id="hTwo" class="splash">Media</h1>
+							<h1 class="splash">Media</h1>
 							<p id="cPara">REINZ releases regular commentary on property trends</p>
 							<button class="enterSite-btn">Enter Site</button>
 						</div>	
 
 					</div>
-
-					
 				</div>
 
 
@@ -277,7 +274,7 @@
 
 
 							<!-- Icon-5 -->
-							<a xlink:href="http://reinzportal2.reinz.co.nz/">
+							<a xlink:href="#">
 								<g id="icon-5" class="home">
 									<circle class="transparent" cx="308.2" cy="554.3" r="54.4"/>
 									<path fill="#FFFFFF" d="M324.7,554.9l-14.9-14.9c-0.8-0.8-2-0.8-2.8,0l-14.9,14.9c-0.8,0.8-0.5,1.4,0.6,1.4h3.1v11.5
@@ -385,7 +382,7 @@
 
 		</div>	<!-- close body-row -->
 	</div>	<!-- close container-fluid -->
-	<script src="bower_components/jquery/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script src="bower_components/letteringjs/jquery.lettering.js"></script>
 	<script src="bower_components/textillate/jquery.textillate.js"></script>
 	<script src="bower_components/morphext/dist/morphext.js"></script>
@@ -393,95 +390,150 @@
 
 	$(function(){
 
-		$('.about').hover(function(){
-			$('#resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').hide(800, function(){
-				$('#aboutDiv').show(800);
-			});
+		//Apply Textillate object to the element
+		$('h1').textillate({
+
+				  autoStart: false,
+				  // enable looping
+				  loop: false,
+
+				  // sets the minimum display time for each text before it is replaced
+				  minDisplayTime: 0,
+
+				  // sets the initial delay before starting the animation
+				  // (note that depending on the in effect you may need to manually apply 
+				  // visibility: hidden to the element before running this plugin)
+				  initialDelay: 0,
+
+				  // in animation settings
+				  in: {
+				    // set the effect name
+				    effect: 'fadeInLeftBig',
+
+				    // set the delay factor applied to each consecutive character
+				    delayScale: 1.5,
+
+				    // set the delay between each character
+				    delay: 10,
+
+				    // set to true to animate all the characters at the same time
+				    sync: false,
+
+				    // randomize the character sequence 
+				    // (note that shuffle doesn't make sense with sync = true)
+				    shuffle: false,
+
+				    // reverse the character sequence 
+				    // (note that reverse doesn't make sense with sync = true)
+				    reverse: false,
+				  },
+
 		});
 
-		$('.resources').hover(function(){
-			$('#aboutDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').hide(800, function(){
-				$('#resourcesDiv').show(800);
-			});
+
+		$('p').textillate({
+				  autoStart: false,
+
+				  in: {
+				    // set the effect name
+				    effect: 'fadeInLeftBig',
+
+				    // set the delay factor applied to each consecutive character
+				    delayScale: 0.2,
+
+				    // set the delay between each character
+				    delay: 1,
+
+
+				    // callback that executes once the animation has finished
+				    callback: function () {
+						$('button').show();				    
+				    }
+				  },
+
 		});
 
-		$('.membership').hover(function(){
-			$('#aboutDiv, #resourcesDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').hide(800, function(){
-				$('#membershipDiv').show(800);
-			});
+		function stopTexts(){
+			$('h1').textillate('stop');
+			$('p').textillate('stop');
+		}
+
+
+		$('.about').mouseenter(function(){
+			stopTexts();
+			$('#resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+					$('#aboutDiv').css("display", "block").promise().done(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});
 		});
 
-		$('.statistics').hover(function(){
-			$('#aboutDiv, #resourcesDiv, #membershipDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').hide(800, function(){
-				$('#statisticsDiv').show(800);
-			});
+		$('.resources').mouseenter(function(){
+			stopTexts();
+			$('#aboutDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#resourcesDiv').css("display", "block").promise().done(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});
+
 		});
 
-		$('.home').hover(function(){
-			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').hide(800, function(){
-				$('#homeDiv').show(800);
-			});
+		$('.membership').mouseenter(function(){
+			stopTexts();
+			$('#aboutDiv, #resourcesDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#membershipDiv').show(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});
 		});
 
-		$('.contact').hover(function(){
-			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #directoryDiv, #mediaLinkDiv').hide(800, function(){
-				$('#contactDiv').show(800);
-			});
+		$('.statistics').mouseenter(function(){
+			stopTexts();
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#statisticsDiv').show(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});
 		});
 
-		$('.directory').hover(function(){
-			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #mediaLinkDiv').hide(800, function(){
-				$('#directoryDiv').show(800);
-			});
+		$('.home').mouseenter(function(){
+			stopTexts();
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#homeDiv').show().promise().done(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});
 		});
 
-		$('.medialink').hover(function(){
-			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv').hide(800, function(){
-				$('#mediaLinkDiv').show(800);
-			});
+		$('.contact').mouseenter(function(){
+			stopTexts();
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
+				$('#contactDiv').show().promise().done(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});
+		});
+
+		$('.directory').mouseenter(function(){
+			stopTexts();
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #mediaLinkDiv').css("display", "none");
+				$('#directoryDiv').show().promise().done(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});
+		});
+
+		$('.medialink').mouseenter(function(){
+			stopTexts();
+			$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv').css("display", "none");
+				$('#mediaLinkDiv').show(function (){
+						$('h1').textillate('start');
+						$('p').textillate('start');
+					});;
 		});
 
 	}); //Selfie Ends
 
-
-
-	
-	// $(function(){
-	// 	var htmlContent = {
-	// 			about: { 
-	// 				hTwo: 'About REINZ', 
-	// 				cPara: 'A national membership organisation that represents 14,000 professionals'
-	// 			},
-	// 			resources: { 
-	// 				hTwo: 'Resources', 
-	// 				cPara:'REINZ provides legal information and other useful tools for Real Estate Transactions'
-	// 			},
-	// 			statistics: { 
-	// 				hTwo: 'Statistics', 
-	// 				cPara: 'REINZ collects and maintains the most recent national property data'
-	// 			},
-	// 			home: { 
-	// 				hTwo: 'LOGO HERE', 
-	// 				cPara: 'REINZ collects and maintains the most recent national property data'
-	// 			},
-	// 			membership: { 
-	// 				hTwo: 'Membership', 
-	// 				cPara: '97% of Real Estate Professionals are members of REINZ'
-	// 			},
-	// 			contact: { 
-	// 				hTwo: 'Contact', 
-	// 				cPara: 'For all enquiries please phone Ph: 09 356 1755'},
-
-	// 			directory: { 
-	// 				hTwo: 'Member Directory', 
-	// 				cPara: 'Locate a Real Estate professional near you'
-	// 			},
-
-	// 			medialink: { 
-	// 				hTwo: 'Media', 
-	// 				cPara: 'REINZ releases regular commentary on property trends'
-	// 			}
-	// 		}
 
 	</script>
 
