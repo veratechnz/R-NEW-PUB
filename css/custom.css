@@ -2165,7 +2165,7 @@ div.wsmenucontainer nav.wsmenu {
   width: 9.5em;
   padding: 0.8em 1.1em;
   border: 2px solid #8EC6CE;
-  margin-bottom: 25px; }
+  margin-bottom: 5em; }
 
 .read-btn-e {
   color: #0D497C;
@@ -2262,7 +2262,7 @@ div.wsmenucontainer nav.wsmenu {
   font-size: 22px;
   margin-right: 1em;
   margin-bottom: 1.2em;
-  margin-top: 0.28em;
+  margin-top: 10px;
   border-radius: 0px; }
 
 .search-btn:hover {
@@ -2286,15 +2286,33 @@ a.btn.login-btn, a.btn.login-btn:visited, a.btn.login-btn:active {
   float: right;
   font-family: 'proxima_nova_altlight';
   font-size: 16px;
-  margin-right: 1em;
+  margin-right: 0em;
   margin-bottom: 1.2em;
-  margin-top: 0.8em;
+  margin-top: 1em;
   border-radius: 0px; }
 
 a.btn.login-btn:hover, .btn.enter-btn:hover {
   color: #fff;
   border-color: #8EC6CE;
   background-color: #8EC6CE; }
+
+a.login-btn-mini i {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 0px;
+  color: #fff;
+  float: right; }
+
+a.login-btn-mini:hover i, a.login-btn-mini:visited i, a.login-btn-mini:active i {
+  margin-top: 20px;
+  background-color: #8EC6CE;
+  border: 1px solid #8EC6CE;
+  padding: 8px;
+  border-radius: 0px;
+  color: #fff;
+  float: right; }
 
 .enter-btn, .enter-btn:visited, .enter-btn:active {
   background-color: transparent;
@@ -2491,6 +2509,81 @@ h4#searchModallLabel.modal-title {
 .search-modal .modal-content, .login-modal .modal-content {
   padding: 0px; }
 
+/* CUSTOM CSS by Emily */
+/*LAYOUT ---------------------------------------- */
+.form-box {
+  background-color: #0D497C;
+  padding: 3em; }
+
+.right-content-box {
+  padding: 3em; }
+
+/* FORMS ---------------------------------------- */
+.input-box input, .section-forms textarea {
+  border: 0;
+  border-radius: 0;
+  display: inline;
+  font-size: 14px;
+  color: grey; }
+
+.input-box input {
+  width: 80%; }
+
+.section-forms textarea {
+  width: 100%;
+  height: 10em; }
+
+.input-box {
+  padding: 15px 0 15px 15px;
+  background-color: #fff;
+  width: 48%;
+  margin-top: 20px; }
+
+.input-box-full {
+  border: solid 2px #8ec6ce;
+  padding: 15px 0 0 15px;
+  background-color: #fff;
+  width: 100%;
+  margin: 20px 0; }
+
+.input-box i {
+  vertical-align: bottom; }
+
+/* BUTTONS ---------------------------------------- */
+.submit-btn {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #fff;
+  margin-bottom: 25px; }
+
+.submit-btn:hover {
+  color: #fff;
+  background-color: #8ec6ce;
+  font-size: 12px;
+  text-transform: uppercase;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8ec6ce;
+  margin-bottom: 25px; }
+
+.checkbox-inline input[type=checkbox] {
+  border-radius: 0; }
+
+/* TYPOGRAPHY ---------------------------------------- */
+.right-content-box ul i {
+  padding-right: 10px;
+  margin-left: -34px; }
+
+.right-content-box ul p {
+  margin-left: 34px; }
+
+/*^^^^^ margin-left negative values added to create indent 
+for second line of text when columns squished down^^^^^ */
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -3348,6 +3441,12 @@ mini-logo {
   section {
     padding-left: 10px;
     padding-right: 10px; }
+  h1 {
+    font-size: 24px; }
+  .r-font-icon {
+    font-size: 34px; }
+  .page-title {
+    margin-top: 25px; }
   a.sf-with-ul, .sf-menu.public-nav a {
     font-family: 'proxima_nova_ththin';
     font-size: 1.3em;
@@ -3504,6 +3603,8 @@ mini-logo {
   section {
     padding-left: 10px;
     padding-right: 10px; }
+  h1 {
+    font-size: 28px; }
   a.sf-with-ul, .sf-menu.public-nav a {
     font-family: 'proxima_nova_ththin';
     font-size: 1.3em;
@@ -3598,6 +3699,8 @@ mini-logo {
   section {
     padding-left: 20px;
     padding-right: 20px; }
+  h1 {
+    font-size: 32px; }
   .public-nav .wsmenu-list > li > a {
     color: #ffffff;
     font-family: "proxima_nova_rgbold";
@@ -3741,7 +3844,9 @@ mini-logo {
   img.demo-logo {
     height: 39px;
     margin-right: 20px;
-    width: 220px; } }
+    width: 220px; }
+  .member-nav {
+    margin-top: 0px; } }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
   .public-nav .mobile-sub.wsmenu-list li a {
@@ -3754,7 +3859,9 @@ mini-logo {
   img.demo-logo {
     height: 34px;
     margin-right: 20px;
-    width: 200px; } }
+    width: 200px; }
+  .member-nav {
+    margin-top: 0px; } }
 
 @media (min-width: 1400px) and (max-width: 1550px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -3778,7 +3885,9 @@ mini-logo {
   img.demo-logo {
     height: 39px;
     margin-right: 20px;
-    width: 220px; } }
+    width: 220px; }
+  .member-nav {
+    margin-top: 0px; } }
 
 @media (min-width: 1551px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -3787,4 +3896,6 @@ mini-logo {
     padding-right: 0.8em; }
   #sample-menu-1.sf-menu.public-nav.sf-js-enabled {
     margin-top: 1.75em;
-    left: 50%; } }
+    left: 50%; }
+  .member-nav {
+    margin-top: 0px; } }

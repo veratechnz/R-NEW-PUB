@@ -10,6 +10,18 @@
 		padding-right: 10px;
 	}
 
+	h1{
+		font-size: 24px;
+	}
+
+	.r-font-icon {
+	    font-size: 34px;
+	}
+
+	.page-title {
+		margin-top: 25px;
+	}
+
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';
 		font-size: 1.3em;
@@ -252,6 +264,11 @@
 		padding-right: 10px;
 	}
 
+	h1{
+		font-size: 28px;
+	}
+
+
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';
 		font-size: 1.3em;
@@ -385,6 +402,10 @@
 	section{
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	h1{
+		font-size: 32px;
 	}
 
 	.public-nav .wsmenu-list > li > a {
@@ -586,6 +607,11 @@
 	    width: 220px;
 	}
 
+	.member-nav {
+	    margin-top: 0px;
+	}
+
+
 }
 
 
@@ -606,6 +632,11 @@ img.demo-logo {
     margin-right: 20px;
     width: 200px;
 }
+
+.member-nav {
+    margin-top: 0px;
+}
+
 
 }
 
@@ -648,6 +679,10 @@ img.demo-logo {
 	    width: 220px;
 	}
 
+	.member-nav {
+	    margin-top: 0px;
+	}
+
 
 }
 
@@ -662,6 +697,10 @@ img.demo-logo {
 	#sample-menu-1.sf-menu.public-nav.sf-js-enabled{
 		margin-top: 1.75em;
 		left: 50%;
+	}
+
+	.member-nav {
+	    margin-top: 0px;
 	}
 }
 

@@ -115,7 +115,7 @@
   width: 9.5em;
   padding: 0.8em 1.1em;
   border: 2px solid $blue-a;
-  margin-bottom: 25px;
+  margin-bottom: 5em;
 }
 
 .read-btn-e {
@@ -223,7 +223,7 @@
   font-size: 22px;
   margin-right: 1em;
   margin-bottom: 1.2em;
-  margin-top: 0.28em;
+  margin-top: 10px;
   border-radius: 0px;
 }
 
@@ -250,9 +250,9 @@
   float: right;
   font-family: 'proxima_nova_altlight';
   font-size: 16px;
-  margin-right: 1em;
+  margin-right: 0em;
   margin-bottom: 1.2em;
-  margin-top: 0.8em;
+  margin-top: 1em;
   border-radius: 0px;
 }
 
@@ -260,6 +260,26 @@ a.btn.login-btn:hover, .btn.enter-btn:hover{
   color:  #fff;
   border-color: $blue-a;
   background-color: $blue-a;
+}
+
+a.login-btn-mini i{
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 0px;
+  color: #fff;
+  float: right;
+}
+
+a.login-btn-mini:hover i, a.login-btn-mini:visited i, a.login-btn-mini:active i{
+  margin-top: 20px;
+  background-color: $blue-a;
+  border: 1px solid $blue-a;
+  padding: 8px;
+  border-radius: 0px;
+  color: #fff; 
+  float: right;
 }
 
 .enter-btn, .enter-btn:visited, .enter-btn:active{
@@ -394,3 +414,4 @@ a.read-btn-white{
 a.read-btn:hover, a.read-btn:active, a.read-btn:visited {
   text-decoration: none;
 }
+
