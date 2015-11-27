@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">   
 	<link rel="stylesheet" href="splash-stable/assets/css/styles.css">
 	<style>	
-
 		.morphext > .animated {
 		    display: inline-block;
 		}
@@ -398,50 +397,45 @@
 
 			$('.about').mouseenter(function(){
 				$('#resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
-						$('#aboutDiv').show('slide', {'left' : '2000px'}, 800);
+						$('#aboutDiv').fadeIn(1000);
 			});
 
 			$('.resources').mouseenter(function(){
 				$('#aboutDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
-					$('#resourcesDiv').show('slide', {direction: 'left'}, 800);
+					$('#resourcesDiv').fadeIn(1000);
 			});
 
 			$('.membership').mouseenter(function(){
 				$('#aboutDiv, #resourcesDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
-					$('#membershipDiv').show('slide', {direction: 'left'}, 800);
+					$('#membershipDiv').fadeIn(1000);
 			});
 
 			$('.statistics').mouseenter(function(){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
-					$('#statisticsDiv').show('slide', {direction: 'left'}, 800);
+					$('#statisticsDiv').fadeIn(1000);
 			});
 
 			$('.home').mouseenter(function(){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
-					$('#homeDiv').show('slide', {direction: 'left'}, 800);
+					$('#homeDiv').fadeIn(1000);
 			});
 
 			$('.contact').mouseenter(function(){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
-					$('#contactDiv').show('slide', {direction: 'left'}, 800);
+					$('#contactDiv').fadeIn(1000);
 			});
 
 			$('.directory').mouseenter(function(){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #mediaLinkDiv').css("display", "none");
-					$('#directoryDiv').show('slide', {direction: 'left'}, 800);
+					$('#directoryDiv').fadeIn(1000);
 			});
 
 			$('.medialink').mouseenter(function(){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv').css("display", "none");
-					$('#mediaLinkDiv').show('slide', {direction: 'left'}, 800);
+					$('#mediaLinkDiv').fadeIn(1000);
 			});
 
 	}); //Selfie Ends
-
-
 	</script>
-
-
-
 </body>
 </html>
