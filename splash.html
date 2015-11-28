@@ -84,11 +84,15 @@
 		}
 
 		button {
-		  font-family: 'proxima_nova_altlight';
-		  font-size: 20px;
-		  margin-bottom: 1.2em;
-		  margin-top: 0.8em;
-		  line-height: 1.05em;
+
+		}
+
+		#center-content-container.text-center  a{
+			font-family: 'proxima_nova_altlight';
+			font-size: 14px;
+			margin-bottom: 1.2em;
+			margin-top: 0.8em;
+			line-height: 1.05em;
 		}
 
 		.enterSite-btn {
@@ -125,9 +129,13 @@
 		    width: 30%;
 		}
 
+		#center-content-container a:hover, #center-content-container a:active, #center-content-container a:visited{
+			text-decoration: none;
+		}
+
 		#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv {display: none;}
-
-
+		.logo-img { margin-top: 8%;}
+	
 	</style>
 </head>
 
@@ -149,48 +157,50 @@
 						<div id="aboutDiv">
 							<h1 class="splash" id="AA">About REINZ</h1>
 							<p id="pA">A national membership organisation that represents 14,000 professionals.</p>
-							<form action="http://www.google.com"><button class="enterSite-btn">More Info</button></form>
+							<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
 						</div>	
 
 						<div id="resourcesDiv">	
 							<h1 class="splash" id="BB">Resources</h1>
 							<p id="pB">REINZ provides legal information and other useful tools for Real Estate Transactions.</p>
-							<form action="http://www.google.com"><button class="enterSite-btn">More Info</button></form>
+							<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
 						</div>	
 
 						<div id="membershipDiv">
 							<h1 class="splash">Membership</h1>
 							<p id="cPara">97% of Real Estate Professionals are members of REINZ.</p>
-							<form action="http://www.google.com"><button class="enterSite-btn">More Info</button></form>
+							<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
 						</div>
 
 						<div id="statisticsDiv">
 							<h1 class="splash">Statistics</h1>
 							<p id="cPara">REINZ collects and maintains the most recent national property data.</p>
-							<form action="http://www.google.com"><button class="enterSite-btn">More Info</button></form>
+							<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
 						</div>	
 
 						<div id="homeDiv">
-						<img class="logo-img" src="splash-stable/assets/img/reinz-logo.svg" alt="">	
-							<form action="http://www.google.com"><button class="enterSite-btn">Enter Site</button></form>
+						<img style="margin-left: 3%;" class="logo-img" src="splash-stable/assets/img/reinz-logo.svg" alt="">	
+							<div style="margin-top: 1%; margin-bottom: 4%;">
+								<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
+							</div>
 						</div>	
 
 						<div id="contactDiv">
 							<h1 class="splash">Contact</h1>
 							<p id="cPara">For all enquiries please phone <br>09 356 1755.</p>
-							<form action="http://www.google.com"><button class="enterSite-btn">More Info</button></form>
+							<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
 						</div>	
 
 						<div id="directoryDiv">
 							<h1 class="splash">Member Directory</h1>
 							<p id="cPara">Locate a Real Estate professional near you</p>
-							<form action="http://www.google.com"><button class="enterSite-btn">More Info</button></form>
+							<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
 						</div>	
 
 						<div id="mediaLinkDiv">
 							<h1 class="splash">Media</h1>
 							<p id="cPara">REINZ releases regular commentary on property trends</p>
-							<form action="http://www.google.com"><button class="enterSite-btn">More Info</button></form>
+							<a class="enterSite-btn" href="htttp://www.google.com" target="_blank">More Info</a>
 						</div>	
 
 					</div>
@@ -396,43 +406,59 @@
 	$(function(){
 
 			$('.about').mouseenter(function(){
+				setTimeout(function (){
 				$('#resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
-						$('#aboutDiv').fadeIn(1000);
+						$('#aboutDiv').fadeIn(800);
+				}, 200);
 			});
 
 			$('.resources').mouseenter(function(){
+				setTimeout(function (){
 				$('#aboutDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
 					$('#resourcesDiv').fadeIn(1000);
+				}, 200);
 			});
 
 			$('.membership').mouseenter(function(){
+				setTimeout(function (){
 				$('#aboutDiv, #resourcesDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
 					$('#membershipDiv').fadeIn(1000);
+				}, 200);
 			});
 
 			$('.statistics').mouseenter(function(){
+				setTimeout(function (){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #homeDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
 					$('#statisticsDiv').fadeIn(1000);
+				}, 200);
 			});
 
 			$('.home').mouseenter(function(){
+				setTimeout(function (){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #contactDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
 					$('#homeDiv').fadeIn(1000);
+				}, 200);
 			});
 
 			$('.contact').mouseenter(function(){
+				setTimeout(function (){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #directoryDiv, #mediaLinkDiv').css("display", "none");
 					$('#contactDiv').fadeIn(1000);
+				}, 200);
 			});
 
 			$('.directory').mouseenter(function(){
+				setTimeout(function (){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #mediaLinkDiv').css("display", "none");
 					$('#directoryDiv').fadeIn(1000);
+				}, 200);
 			});
 
 			$('.medialink').mouseenter(function(){
+				setTimeout(function (){
 				$('#aboutDiv, #resourcesDiv, #membershipDiv, #statisticsDiv, #homeDiv, #contactDiv, #directoryDiv').css("display", "none");
 					$('#mediaLinkDiv').fadeIn(1000);
+				}, 200);
 			});
 
 	}); //Selfie Ends

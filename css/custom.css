@@ -904,7 +904,7 @@ a:focus {
   font-size: 18px;
   font-weight: 800;
   float: right;
-  margin: 0.76em 0em 0em 0em; }
+  margin: 0.76em 2em 0em 0em; }
 
 .member-text h4 {
   margin-bottom: 0em; }
@@ -2288,7 +2288,7 @@ a.btn.login-btn, a.btn.login-btn:visited, a.btn.login-btn:active {
   font-size: 16px;
   margin-right: 0em;
   margin-bottom: 1.2em;
-  margin-top: 1em;
+  margin-top: 1.1em;
   border-radius: 0px; }
 
 a.btn.login-btn:hover, .btn.enter-btn:hover {
@@ -3630,7 +3630,7 @@ mini-logo {
   .login-btn {
     margin-right: 0.1em;
     font-size: 14px;
-    padding: 6px;
+    padding: 4px;
     margin-top: 1.2em; }
   /*Top Spacer Adjustment For Member Menu*/
   .member-spacer {
@@ -3727,7 +3727,7 @@ mini-logo {
   .login-btn {
     margin-right: 0.1em;
     font-size: 14px;
-    padding: 6px;
+    padding: 4px;
     margin-top: 1.2em; }
   .public-nav {
     margin: 12px 0px 0px 0px; }
@@ -3831,7 +3831,7 @@ mini-logo {
   .login-btn {
     margin-right: 0.1em;
     font-size: 14px;
-    padding: 6px;
+    padding: 4px;
     margin-top: 1.2em; }
   .public-nav {
     margin: 12px 0px 0px 0px; }
