@@ -221,7 +221,6 @@
   float: right;
   font-family: 'proxima_nova_altlight';
   font-size: 22px;
-  margin-right: 1em;
   margin-bottom: 1.2em;
   margin-top: 10px;
   border-radius: 0px;
@@ -258,7 +257,6 @@
 
 a.btn.login-btn:hover, .btn.enter-btn:hover{
   color:  #fff;
-  border-color: $blue-a;
   background-color: $blue-a;
 }
 
@@ -272,7 +270,17 @@ a.login-btn-mini i{
   float: right;
 }
 
-a.login-btn-mini:hover i, a.login-btn-mini:visited i, a.login-btn-mini:active i{
+a.login-btn-mini:visited i{
+  margin-top: 20px;
+  background-color: $blue-a;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 0px;
+  color: #fff; 
+  float: right;  
+}
+
+a.login-btn-mini:hover i {
   margin-top: 20px;
   background-color: $blue-a;
   border: 1px solid $blue-a;

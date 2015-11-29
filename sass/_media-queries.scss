@@ -136,6 +136,10 @@
 		background-color: $blue-b;
 	}
 
+	.public-nav .mobile-sub .wsmenu-submenu li a {
+		line-height: 30px;
+	}
+
 
 	.top-gap{
 		margin-top: 68px;
@@ -144,6 +148,10 @@
 /*	.container-fluid.page-wrapper.fill div.row{
 		max-height: 0px;
 	}*/
+
+	.member-nav .mobile-sub .wsmenu-submenu li a {
+		line-height: 35px;
+	}
 
 	.member-nav .wsmenu-submenu{
 		top: 0px;
@@ -213,6 +221,11 @@
 		margin-right: 0.2em;
 	}
 
+	/*Modals*/
+	.modal{
+		padding-left: 20px;
+	}
+
 
 }
 
@@ -248,6 +261,7 @@
   .apps .v-center {
     padding-top: 8em;
   }
+
 
 }
 
@@ -353,6 +367,10 @@
 	    min-height: 50vh;
 	}
 
+	.member-nav .mobile-sub .wsmenu-submenu li a {
+		line-height: 35px;
+	}
+
 
 	/*Public Nav*/
 	.public-spacer {
@@ -392,6 +410,16 @@
 	/*For maintanining background color Mobile public menu separation*/
 	.public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
 		background-color: $blue-b;
+	}
+
+	.public-nav .mobile-sub .wsmenu-submenu li a {
+		line-height: 30px;
+	}
+
+
+	/*Modals*/
+	.modal{
+		padding-left: 20px;
 	}
 
 }
@@ -453,7 +481,11 @@
 		color: #fff;
 	}
 	.pad-adjust{padding: 2px;}
-	.pad-adjust{padding: 2px;}
+
+	.public-nav .mobile-sub .wsmenu-submenu li a {
+		line-height: 30px;
+	}
+
 
 	/*Top Spacer Adjustment For Member Menu*/
 	.member-spacer {
@@ -497,6 +529,10 @@
 	    min-height: 50vh;
 	}
 
+	.member-nav .mobile-sub .wsmenu-submenu li a {
+		line-height: 35px;
+	}
+
 	/*Public Nav*/
 	.public-spacer {
 	    margin-top: 60px;
@@ -535,6 +571,11 @@
 	/*For maintanining background color Mobile public menu separation*/
 	.public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
 		background-color: $blue-b;
+	}
+
+	/*Modals*/
+	.modal{
+		padding-left: 20px;
 	}
 
 }

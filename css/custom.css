@@ -204,10 +204,10 @@ a:focus {
   -ms-transform-origin: 0% 0%;
   -moz-transform-origin: 0% 0%;
   -webkit-transform-origin: 0% 0%;
-  -o-transition: -o-transform 0.3s, opacity 0.3s;
-  -ms-transition: -ms-transform 0.3s, opacity 0.3s;
-  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s; }
+  -o-transition: -o-transform 0.2s, opacity 0.2s;
+  -ms-transition: -ms-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s; }
 
 .megamenu .title {
   font-size: 14px;
@@ -485,10 +485,10 @@ a:focus {
   -ms-transform-origin: 0% 0%;
   -moz-transform-origin: 0% 0%;
   -webkit-transform-origin: 0% 0%;
-  -o-transition: -o-transform 0.3s, opacity 0.3s;
-  -ms-transition: -ms-transform 0.3s, opacity 0.3s;
-  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s; }
+  -o-transition: -o-transform 0.2s, opacity 0.2s;
+  -ms-transition: -ms-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s; }
 
 .wsmenu-submenu li a {
   background: #fff;
@@ -527,10 +527,10 @@ a:focus {
   -ms-transform-origin: 0% 0%;
   -moz-transform-origin: 0% 0%;
   -webkit-transform-origin: 0% 0%;
-  -o-transition: -o-transform 0.4s, opacity 0.4s;
-  -ms-transition: -ms-transform 0.4s, opacity 0.4s;
-  -moz-transition: -moz-transform 0.4s, opacity 0.4s;
-  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s; }
+  -o-transition: -o-transform 0.2s, opacity 0.2s;
+  -ms-transition: -ms-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s; }
 
 .wsmenu-list .wsmenu-submenu li:hover .wsmenu-submenu-sub {
   opacity: 1;
@@ -554,10 +554,10 @@ a:focus {
   -ms-transform-origin: 0% 0%;
   -moz-transform-origin: 0% 0%;
   -webkit-transform-origin: 0% 0%;
-  -o-transition: -o-transform 0.4s, opacity 0.4s;
-  -ms-transition: -ms-transform 0.4s, opacity 0.4s;
-  -moz-transition: -moz-transform 0.4s, opacity 0.4s;
-  -webkit-transition: -webkit-transform 0.4s, opacity 0.4s; }
+  -o-transition: -o-transform 0.2s, opacity 0.2s;
+  -ms-transition: -ms-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s; }
 
 .wsmenu-list .wsmenu-submenu .wsmenu-submenu-sub li:hover .wsmenu-submenu-sub-sub {
   opacity: 1;
@@ -2260,7 +2260,6 @@ div.wsmenucontainer nav.wsmenu {
   float: right;
   font-family: 'proxima_nova_altlight';
   font-size: 22px;
-  margin-right: 1em;
   margin-bottom: 1.2em;
   margin-top: 10px;
   border-radius: 0px; }
@@ -2293,7 +2292,6 @@ a.btn.login-btn, a.btn.login-btn:visited, a.btn.login-btn:active {
 
 a.btn.login-btn:hover, .btn.enter-btn:hover {
   color: #fff;
-  border-color: #8EC6CE;
   background-color: #8EC6CE; }
 
 a.login-btn-mini i {
@@ -2305,7 +2303,16 @@ a.login-btn-mini i {
   color: #fff;
   float: right; }
 
-a.login-btn-mini:hover i, a.login-btn-mini:visited i, a.login-btn-mini:active i {
+a.login-btn-mini:visited i {
+  margin-top: 20px;
+  background-color: #8EC6CE;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 0px;
+  color: #fff;
+  float: right; }
+
+a.login-btn-mini:hover i {
   margin-top: 20px;
   background-color: #8EC6CE;
   border: 1px solid #8EC6CE;
@@ -3529,11 +3536,15 @@ mini-logo {
   /*For maintanining background color Mobile public menu separation*/
   .public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
     background-color: #0D497C; }
+  .public-nav .mobile-sub .wsmenu-submenu li a {
+    line-height: 30px; }
   .top-gap {
     margin-top: 68px; }
   /*	.container-fluid.page-wrapper.fill div.row{
 		max-height: 0px;
 	}*/
+  .member-nav .mobile-sub .wsmenu-submenu li a {
+    line-height: 35px; }
   .member-nav .wsmenu-submenu {
     top: 0px; }
   .wsmenu-list li.twelve-point ul.wsmenu-submenu li {
@@ -3575,7 +3586,10 @@ mini-logo {
   .nav-welcome {
     margin-top: 1.2em; }
   .search-btn, .login-btn {
-    margin-right: 0.2em; } }
+    margin-right: 0.2em; }
+  /*Modals*/
+  .modal {
+    padding-left: 20px; } }
 
 /* MEDIA QUERIES & FIXUP FOR FALLBACK LOGIN PAGE*/
 @media only screen and (min-width: 230px) and (max-width: 780px) {
@@ -3670,6 +3684,8 @@ mini-logo {
     margin-bottom: 6em;
     margin-top: 60px;
     min-height: 50vh; }
+  .member-nav .mobile-sub .wsmenu-submenu li a {
+    line-height: 35px; }
   /*Public Nav*/
   .public-spacer {
     margin-top: 60px; }
@@ -3692,7 +3708,12 @@ mini-logo {
     width: 100%; }
   /*For maintanining background color Mobile public menu separation*/
   .public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
-    background-color: #0D497C; } }
+    background-color: #0D497C; }
+  .public-nav .mobile-sub .wsmenu-submenu li a {
+    line-height: 30px; }
+  /*Modals*/
+  .modal {
+    padding-left: 20px; } }
 
 @media (min-width: 992px) and (max-width: 1049px) {
   /*Padding Fix For Mobile*/
@@ -3735,8 +3756,8 @@ mini-logo {
     color: #fff; }
   .pad-adjust {
     padding: 2px; }
-  .pad-adjust {
-    padding: 2px; }
+  .public-nav .mobile-sub .wsmenu-submenu li a {
+    line-height: 30px; }
   /*Top Spacer Adjustment For Member Menu*/
   .member-spacer {
     margin-top: 50px; }
@@ -3773,6 +3794,8 @@ mini-logo {
     margin-bottom: 6em;
     margin-top: 60px;
     min-height: 50vh; }
+  .member-nav .mobile-sub .wsmenu-submenu li a {
+    line-height: 35px; }
   /*Public Nav*/
   .public-spacer {
     margin-top: 60px; }
@@ -3795,7 +3818,10 @@ mini-logo {
     width: 100%; }
   /*For maintanining background color Mobile public menu separation*/
   .public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
-    background-color: #0D497C; } }
+    background-color: #0D497C; }
+  /*Modals*/
+  .modal {
+    padding-left: 20px; } }
 
 @media (min-width: 1050px) and (max-width: 1200px) {
   a.sf-with-ul, .sf-menu.public-nav a {
