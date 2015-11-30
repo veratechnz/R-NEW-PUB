@@ -3,9 +3,15 @@ $(function() {
 	var wsmenucontent = $('.wsmenucontent');
 	
 	var menuopen = function() {
+	//Hides login button for mobile UX purposes. 
+	$('i.fa.fa-mail-forward').hide();
+
 	$(items).removeClass('menuclose').addClass('menuopen');
 						}
 	var menuclose = function() { 
+	//Shows login button for mobile UX purposes. 
+	$('i.fa.fa-mail-forward').show();
+
 	$(items).removeClass('menuopen').addClass('menuclose');
 	}
 
@@ -14,6 +20,7 @@ $(function() {
 		if (wsmenucontent.hasClass('menuopen')) {$(menuclose)}
 		else {$(menuopen)}
 	});
+
 	wsmenucontent.on('click', function(){
 		if (wsmenucontent.hasClass('menuopen')) {$(menuclose)}
 	});

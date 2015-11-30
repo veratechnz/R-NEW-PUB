@@ -1,35 +1,35 @@
 // Custom JS File
 $(function() {
 
-	if (document.documentElement.clientWidth < 1050) {
+	checkFirstVisit();
 
-		$(window).ready(function(){
+		//Uses local storage to only trigger navIndicator function on users first visit. 
+		function checkFirstVisit(){
+			if (!localStorage.reinzCheck) {
+			    navIndicator();
+			    localStorage.reinzCheck = 'yes';
+			}
+		}
 
-			$(document).one('mousemove', function(e){
-			    menuHelper();
-			});
-
-			$(window).on("touchstart", function(ev) {
-				menuHelper();
-			});
-
-			function menuHelper(){
-				$('#navToggle').tooltip('show');
-					setTimeout(finishTooltip, 6000)
-				$('#navToggle').on('click', function(){
-					finishTooltip();
+		function navIndicator(){
+			if (document.documentElement.clientWidth < 1050) {
+				$(document).one('scroll touchstart', function(e){
+				    menuHelper();
 				});
 			}
+		} //navIndicator function ends.
 
-			function finishTooltip(){
-				$('#navToggle').tooltip('hide');
-			}
+		function menuHelper(){
+			$('#navToggle').tooltip('show');
+				setTimeout(finishTooltip, 6000);
+			$('#navToggle').on('click', function(){
+				finishTooltip();
+			});
+		}
 
-		});
-	
-	}
+		function finishTooltip(){
+			$('#navToggle').tooltip('hide');
+		}
 
-
-	// https://responsivedesign.is/develop/javascript/conditionally-load-javascript-based-on-media-query
 
 }); //selfie ENDs
