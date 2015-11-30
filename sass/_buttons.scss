@@ -426,3 +426,54 @@ a.read-btn:hover, a.read-btn:active, a.read-btn:visited {
   text-decoration: none;
 }
 
+/*Tooltips*/
+
+
+.tooltip.fade.right.in{
+  left: 43px;
+  top: 5.5px;
+}
+
+ .tooltip{
+  position: fixed;
+  background-color: #000;
+  border-color: #8ec6ce;
+  opacity: 0.9;
+  color: #fff;
+  opacity: 0.9;
+  width: 51%;
+  top: 100px;
+}
+
+.tooltip-arrow{
+    left: 53px;
+    top: 24px;
+}
+
+.tooltip.top .tooltip-arrow {
+    border-top-color: $blue-a;
+}
+
+.tooltip.right .tooltip-arrow {
+    border-right-color: $blue-a;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: $blue-a;
+}
+
+.tooltip.left .tooltip-arrow {
+    border-left-color: $blue-a;
+}
+
+.tooltip-inner {
+    border: solid 1px #ccc;
+}
+
+.arrow:after {
+  border-right-color: red;
+}
+
+.menu-tooltip + .tooltip > .tooltip-inner {
+  background-color: #000; border-color: $blue-a; color: #fff;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<style>
+		.red-tooltip + .tooltip > .tooltip-inner {background-color: #000; border-color: #fff; color: #fff;}
+
+	</style>
+</head>
+
+
+<body>
+	<h2>Show ToolTip on Page Load and then hide after period</h2>
+	<p><span class="font-regular">Timed tooltip example on a href</span>—like<a id="menu-note" href="#" class="red-tooltip" rel="tooltip" data-original-title="I am a 
+	Menu. Click or touch me to see more." data-placement="right">this example with other tips about</a></p>
+
+	<div id="helper">
+		<p>This is a helper.</p>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script>
+	$(window).ready(function(){
+
+		$(document).one('mousemove', function(e){
+		    menuHelper();
+		    $('#helper').tooltip('show');
+		});
+
+		$(window).on("touchstart", function(ev) {
+
+		});
+
+		function menuHelper(){
+			$('#menu-note').tooltip('show');
+			setTimeout(finishTooltip, 5000)
+		}
+
+		function finishTooltip(){
+			$('#menu-note').tooltip('hide');
+		}
+
+
+	});
+	</script>
+</body>	
+</html>
