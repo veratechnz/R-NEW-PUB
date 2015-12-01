@@ -9,11 +9,13 @@
 .member-menu .r-font-nav{
     margin-top: 0.65em;
 }
-.member-nav .wsmenu-submenu{
-    top: 117px;
-}
+
 .member-nav a:hover {
     text-decoration: none;
+}
+
+.member-nav .wsmenu-click i{
+    margin-top: 0px;
 }
 
 

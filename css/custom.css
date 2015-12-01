@@ -2854,6 +2854,22 @@ for second line of text when columns squished down^^^^^ */
     width: 100% !important;
     margin: 0%; } }
 
+/*IE Only Conditionals*/
+/*To target IE 10 and 11*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .member-login-outer div.col-xs-8.col-xs-offset-2 div.row {
+    margin-top: 45%; } }
+
+/*To target IE 8*/
+@media \0screen {
+  body {
+    background: blue; } }
+
+/*To target IE 8, 9 and 10*/
+@media screen\0 {
+  body {
+    background: orange; } }
+
 /* Images */
 /*Sass Variables*/
 .white {
@@ -3001,7 +3017,7 @@ mini-logo {
 
 /*****************************************************************************************************************/
 /******************************Universal Menu Menu Media Queries**************************************************/
-@media only screen and (min-width: 1051px) {
+@media only screen and (min-width: 1281px) {
   .wsmenu-list li:hover > .wsmenu-submenu {
     display: block !important; }
   .wsmenu-submenu li:hover > .wsmenu-submenu-sub {
@@ -3012,7 +3028,7 @@ mini-logo {
     display: block !important; } }
 
 /*------------------------------------ Mobile CSS ---------------------------------------------*/
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1280px) {
   /*.wsmenu-list > li:hover>a{background-color:rgba(0,0,0,0.08) !important; text-decoration:none;}
 */
   .hometext {
@@ -3366,7 +3382,7 @@ mini-logo {
   .animated-arrow {
     cursor: pointer;
     padding: 13px 35px 16px 0px;
-    margin: 10px 0 0 15px; }
+    margin: 14px 0 0 16px; }
   .animated-arrow span, .animated-arrow span:before, .animated-arrow span:after {
     cursor: pointer;
     height: 3px;
@@ -3768,7 +3784,7 @@ mini-logo {
   .home-body .section-6 {
     padding-top: 3.9em; } }
 
-@media (min-width: 992px) and (max-width: 1049px) {
+@media (min-width: 992px) and (max-width: 1050px) {
   /*Padding Fix For Mobile*/
   section {
     padding-left: 20px;
@@ -3876,7 +3892,7 @@ mini-logo {
   .modal {
     padding-left: 20px; } }
 
-@media (min-width: 1050px) and (max-width: 1200px) {
+@media (min-width: 1050px) and (max-width: 1280px) {
   a.sf-with-ul, .sf-menu.public-nav a {
     font-family: 'proxima_nova_ththin';
     font-size: 1.4em;
@@ -3925,9 +3941,70 @@ mini-logo {
     margin-right: 20px;
     width: 220px; }
   .member-nav {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  /*Mobile Menu For Member Nav*/
+  .member-nav .wsmenu-click {
+    width: 20%; }
+  .member-nav .mobile-sub.wsmenu-list li.twelve-point {
+    height: 44px;
+    margin-top: 20px; }
+    .member-nav .mobile-sub.wsmenu-list li.twelve-point .r-font-nav {
+      display: none; }
+    .member-nav .mobile-sub.wsmenu-list li.twelve-point h5 {
+      color: black;
+      text-align: center;
+      margin-right: 1.4em; }
+  .member-nav .mobile-sub ul.wsmenu-submenu {
+    z-index: 4000; }
+  .ws-menu {
+    z-index: 1300;
+    -webkit-box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75);
+    box-shadow: 16px -1px 18px -14px rgba(0, 0, 0, 0.75); }
+  .header {
+    z-index: 1056;
+    min-height: 0px;
+    max-height: 0px;
+    height: 0px;
+    padding: 0px; }
+  .navbar {
+    z-index: 1054; }
+  .wsmenucontainer.clearfix {
+    min-height: 0px; }
+  .top-gap {
+    margin-bottom: 6em;
+    margin-top: 60px;
+    min-height: 50vh; }
+  .member-nav .mobile-sub .wsmenu-submenu li a {
+    line-height: 35px; }
+  /*Top Spacer Adjustment For Member Menu*/
+  .member-spacer {
+    margin-top: 50px; }
+  /*Public Nav*/
+  .public-spacer {
+    margin-top: 60px; }
+  .public-nav .wsmenu-submenu {
+    top: 0px; }
+  .public-nav .wsmenu-list > li > a {
+    color: #666;
+    font-size: 16px; }
+  .public-nav .wsmenu-submenu li a {
+    color: #fff;
+    padding: 0.8em; }
+  .public-nav ul.wsmenu-submenu li a {
+    padding: 0.7em; }
+  .public-nav .mobile-sub .wsmenu-submenu li a {
+    color: #fff; }
+  /*For Link Arrow Separation Mobile Public Menu*/
+  .public-nav .mobile-sub.wsmenu-list li a {
+    width: 80%; }
+  .public-nav .mobile-sub.wsmenu-list li ul.wsmenu-submenu li a {
+    width: 100%; }
+  /*For maintanining background color Mobile public menu separation*/
+  .public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
+    background-color: #0D497C; } }
 
-@media (min-width: 1200px) and (max-width: 1399px) {
+@media (min-width: 1281px) and (max-width: 1399px) {
   .public-nav .mobile-sub.wsmenu-list li a {
     font-size: 13px; }
   /*Nav Links*/

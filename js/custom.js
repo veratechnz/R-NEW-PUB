@@ -12,7 +12,7 @@ $(function() {
 		}
 
 		function navIndicator(){
-			if (document.documentElement.clientWidth < 1050) {
+			if (document.documentElement.clientWidth < 1440) {
 				$(document).one('scroll touchstart', function(e){
 				    menuHelper();
 				});
@@ -30,6 +30,15 @@ $(function() {
 		function finishTooltip(){
 			$('#navToggle').tooltip('hide');
 		}
+
+
+		// Possible media Query for mobile and smaller device Detection 
+		function mobileChecker(){
+		 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) || $(window).width() < 1281 ) {
+		   location.replace("http://public-home-page/");
+			}
+		}
+
 
 
 }); //selfie ENDs

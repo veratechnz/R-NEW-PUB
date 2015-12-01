@@ -273,11 +273,6 @@
 
 }
 
-
-
-
-
-
 @media(min-width:768px) and (max-width:991px){
 	
 	/*Padding Fix For Mobile*/
@@ -438,7 +433,7 @@
 }
 
 
-@media(min-width:992px) and (max-width:1049px){
+@media(min-width:992px) and (max-width:1050px){
 	/*Padding Fix For Mobile*/
 	section{
 		padding-left: 20px;
@@ -593,7 +588,7 @@
 
 }
 
-@media(min-width:1050px) and (max-width:1200px){
+@media(min-width:1050px) and (max-width:1280px){
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';
 		font-size: 1.4em;
@@ -665,11 +660,98 @@
 	    margin-top: 0px;
 	}
 
+	/*Mobile Menu For Member Nav*/
+	.member-nav .wsmenu-click {
+		width: 20%;
+	}
+
+	.member-nav .mobile-sub.wsmenu-list li.twelve-point{
+		height: 44px;
+		margin-top: 20px;
+		.r-font-nav{display: none;}
+		h5{
+			color: black; 
+			text-align: center;
+			margin-right: 1.4em;
+		}
+	}
+
+	.member-nav .mobile-sub ul.wsmenu-submenu {
+		z-index: 4000;
+	}
+
+	.ws-menu{
+		z-index: 1300;
+		-webkit-box-shadow: 16px -1px 18px -14px rgba(0,0,0,0.75);
+		-moz-box-shadow: 16px -1px 18px -14px rgba(0,0,0,0.75);
+		box-shadow: 16px -1px 18px -14px rgba(0,0,0,0.75);
+	}
+	.header{z-index: 1056; min-height: 0px; max-height: 0px; height: 0px; padding: 0px;}
+	.navbar{z-index: 1054;}
+
+	.wsmenucontainer.clearfix{min-height: 0px;}
+
+	.top-gap {
+	    margin-bottom: 6em;
+	    margin-top: 60px;
+	    min-height: 50vh;
+	}
+
+	.member-nav .mobile-sub .wsmenu-submenu li a {
+		line-height: 35px;
+	}
+
+	/*Top Spacer Adjustment For Member Menu*/
+	.member-spacer {
+	    margin-top: 50px;
+	}
+
+
+	/*Public Nav*/
+	.public-spacer {
+	    margin-top: 60px;
+	}
+	
+	.public-nav .wsmenu-submenu{
+		top: 0px;
+	}
+
+	.public-nav .wsmenu-list > li > a{
+		color: #666;
+		font-size: 16px;
+	}
+
+	.public-nav .wsmenu-submenu li a{
+		color: #fff;
+		padding: 0.8em;
+	}
+
+	.public-nav ul.wsmenu-submenu li a{
+		padding: 0.7em;
+	}
+
+	.public-nav .mobile-sub .wsmenu-submenu li a {
+		color: #fff;
+	}
+
+	/*For Link Arrow Separation Mobile Public Menu*/
+
+	.public-nav .mobile-sub.wsmenu-list li a {
+		width: 80%;
+	}
+	.public-nav .mobile-sub.wsmenu-list li ul.wsmenu-submenu li a{
+		width: 100%;
+	}
+	/*For maintanining background color Mobile public menu separation*/
+	.public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
+		background-color: $blue-b;
+	}
+
 
 }
 
 
-@media(min-width:1200px) and (max-width: 1399px){
+@media(min-width:1281px) and (max-width: 1399px){
 
 .public-nav .mobile-sub.wsmenu-list li a{font-size: 13px;}
 /*Nav Links*/

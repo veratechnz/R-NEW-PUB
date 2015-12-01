@@ -1,0 +1,290 @@
+/*
+
+Title: Stylesheet for SASS for REINZ Splash Page Project
+
+Author: Emily James
+
+*/
+/* line 3, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+.transparent {
+  fill: #000816;
+  opacity: 0.4; }
+
+/* line 15, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+#icon-1:hover .transparent, #icon-2:hover .transparent, #icon-3:hover .transparent, #icon-4:hover .transparent, #icon-5:hover .transparent, #icon-6:hover .transparent, #icon-7:hover .transparent, #icon-8:hover .transparent {
+  fill: #0D497C;
+  opacity: 0.8; }
+
+/* line 20, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+#enter-button:hover {
+  opacity: 0.4; }
+
+/* line 24, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+#svg-container {
+  width: 55%;
+  padding-top: 50%;
+  position: relative;
+  top: 50px; }
+
+/* line 32, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+.svg-box {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+/* line 39, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+#circle-centre, #logo, #circle-bg, #enter-button {
+  position: absolute; }
+
+/* line 43, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+#circle-bg {
+  z-index: 1;
+  opacity: 0.4; }
+
+/* line 48, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+#circle-centre {
+  z-index: 2;
+  opacity: 0.4; }
+
+/* line 53, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/svg.scss */
+#svg-icons {
+  z-index: 10; }
+
+/* line 5, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+body {
+  background: url(../assets/img/bkg-new4.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 100%; }
+
+/* line 18, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+.right-side-box {
+  height: 100%;
+  position: fixed;
+  right: 0;
+  background-color: #000; }
+
+/* line 25, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+#member-login-container {
+  position: relative;
+  top: 37%; }
+
+/* line 31, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+#member-login-container h2 {
+  position: relative;
+  color: #fff;
+  padding-left: 20px; }
+
+/* line 37, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+.inputBox input {
+  border: 2px solid white;
+  background-color: #000;
+  color: white;
+  padding: 6px;
+  width: 100%;
+  opacity: 1 !important; }
+
+/* line 48, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+::-webkit-input-placeholder {
+  opacity: 1; }
+
+/* line 52, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+:-moz-placeholder {
+  /* Firefox 18- */
+  opacity: 1; }
+
+/* line 56, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+::-moz-placeholder {
+  /* Firefox 19+ */
+  opacity: 1; }
+
+/* line 60, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+:-ms-input-placeholder {
+  opacity: 1; }
+
+/* line 67, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+.inputBox {
+  padding: 0 20px 15px; }
+
+/* line 71, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+.loginButton {
+  border: 2px solid #fff;
+  background-color: transparent;
+  color: white;
+  padding: 6px;
+  margin-left: 60%;
+  margin-right: 20px;
+  width: 30%; }
+
+/* line 81, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+.loginButton:hover {
+  background-color: #fff;
+  color: #0d497c; }
+
+/* line 97, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+#center-content-container {
+  -webkit-border-radius: 200px;
+          border-radius: 200px;
+  z-index: 20;
+  position: absolute;
+  top: 0;
+  height: 50%;
+  width: 46%;
+  margin-left: 27%;
+  margin-top: 20%;
+  color: #fff; }
+
+/* line 110, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+.center-content {
+  position: relative;
+  top: 52%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%); }
+
+/* line 116, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/layout.scss */
+.logo-img {
+  width: 70%;
+  margin-top: 20%;
+  padding: 0 0 1em; }
+
+/*Resets*/
+/* line 6, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/text.scss */
+p {
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-size: 17px;
+  margin-bottom: 1.3em;
+  margin-top: 0.8em;
+  line-height: 1.2em; }
+
+/* line 17, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/text.scss */
+h1 {
+  font-family: 'Helvetica';
+  font-size: 38px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.05em;
+  margin-bottom: 70px; }
+
+/* line 26, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/text.scss */
+h2 {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.05em;
+  margin-bottom: 17px; }
+
+/* line 36, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/text.scss */
+h3 {
+  font-family: 'proxima_nova_ththin';
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  line-height: 1.05em; }
+
+/* line 45, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/text.scss */
+h4 {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.1em;
+  color: #0D497C;
+  text-transform: uppercase;
+  line-height: 1.05em; }
+
+/* line 55, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/text.scss */
+h5 {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 11pt;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.05em; }
+
+/* line 65, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/text.scss */
+h6 {
+  font-family: 'Helvetica';
+  font-weight: bold;
+  font-size: 9pt;
+  color: #0D497C;
+  text-transform: uppercase;
+  line-height: 1.05em; }
+
+/* line 4, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/buttons.scss */
+.readMore-btn {
+  color: #FFF;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #FFF;
+  margin-bottom: 25px; }
+
+/* line 15, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/buttons.scss */
+.readMore-btn:hover {
+  color: #0D497C;
+  background-color: #FFF; }
+
+/* line 21, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/buttons.scss */
+.enterSite-btn {
+  color: #0D497C;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fff;
+  width: 58%;
+  padding: 0.8em 1.1em;
+  border: 2px solid #FFF;
+  margin-bottom: 25px; }
+
+/* line 33, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/buttons.scss */
+.enterSite-btn:hover {
+  background-color: transparent;
+  color: #FFF; }
+
+@media only screen and (min-width: 230px) and (max-width: 768px) {
+  /* line 6, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  body {
+    height: initial; }
+
+  /* line 12, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  .right-side-box {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40%;
+    padding-bottom: 2em; }
+
+  /* line 20, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  #member-login-container {
+    top: 10%; }
+
+  /* line 24, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  .inputBox input {
+    width: 100%; }
+
+  /* line 28, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  h2 {
+    font-size: 1em;
+    margin-bottom: 1em; }
+
+  /* line 33, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  p {
+    font-size: 0.7em; }
+
+  /* line 37, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  .center-content {
+    padding: 7% 3%; }
+
+  /* line 41, /Users/Emily/Documents/Design Work/Veratech/REINZ/testing/src/sass/media.scss */
+  .enterSite-btn {
+    font-size: 7px; }
+ }

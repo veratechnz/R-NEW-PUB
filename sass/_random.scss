@@ -155,3 +155,25 @@ box-shadow:none !important;
 }
 
 
+/*IE Only Conditionals*/
+
+/*To target IE 10 and 11*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .member-login-outer div.col-xs-8.col-xs-offset-2 div.row{
+    margin-top: 45%;
+  }
+}
+
+/*To target IE 8*/
+
+@media \0screen {
+    body { background: blue; }
+}
+
+/*To target IE 8, 9 and 10*/
+
+@media screen\0 {
+    body { background: orange; }
+}
+
+

@@ -1,0 +1,39 @@
+// CSS FOR BUTTONS *************************************** //
+
+// MAIN CSS
+.readMore-btn {
+  color: #FFF;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  width: 9.5em;
+  padding: 0.8em 1.1em;
+  border: 2px solid #FFF;
+  margin-bottom: 25px;
+}
+
+.readMore-btn:hover {
+  color: #0D497C;
+  background-color: #FFF;
+}
+
+
+.enterSite-btn {
+  color: #0D497C;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #fff;
+  width: 58%;
+  padding: 0.8em 1.1em;
+  border: 2px solid #FFF;
+  margin-bottom: 25px;
+}
+
+.enterSite-btn:hover {
+  background-color: transparent;
+  color: #FFF;
+}
+
+
+
