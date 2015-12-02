@@ -235,6 +235,17 @@
 	    padding-top: 3.9em;
 	}
 
+	/*Member Directory Search*/
+	.member-search-btn {
+	    display: inline;
+	}
+	.member-search-inputs input, textarea {
+	    float: left;
+	    margin: 10px;
+	    padding: 10px;
+	    width: 400px;
+	}
+
 }
 
 
@@ -428,6 +439,19 @@
 	    padding-top: 3.9em;
 	}
 
+
+	/*Member Directory Search*/
+	.member-search-btn {
+	    display: inline;
+	}
+	.member-search-inputs input, textarea {
+	    float: left;
+	    margin: 10px;
+	    padding: 10px;
+	    width: 400px;
+	}
+
+
 }
 
 
@@ -578,9 +602,23 @@
 		padding-left: 20px;
 	}
 
+	/*Member Directory Search*/
+	.member-search-btn {
+	    display: inline;
+	}
+	.member-search-inputs input, textarea {
+	    float: left;
+	    margin: 10px;
+	    padding: 10px;
+	    width: 400px;
+	}
+
 }
 
 @media(min-width:1050px) and (max-width:1280px){
+
+
+
 	a.sf-with-ul, .sf-menu.public-nav a{
 		font-family:'proxima_nova_ththin';
 		font-size: 1.4em;
@@ -727,6 +765,17 @@
 		background-color: $blue-b;
 	}
 
+	/*Member Directory Search*/
+	.member-search-btn {
+	    display: inline;
+	}
+	.member-search-inputs input, textarea {
+	    float: left;
+	    margin: 10px;
+	    padding: 10px;
+	    width: 400px;
+	}
+
 
 }
 
@@ -745,6 +794,14 @@
 
 .member-nav {
     margin-top: 0px;
+}
+
+.member-search-btn {
+	display: block;
+	margin-bottom: 0px;
+	margin-left: 2em;
+	margin-top: 20px;
+	padding: 0.8em;
 }
 
 

@@ -131,6 +131,18 @@
   display: block;
 }
 
+a.btn.read-btn-e:hover, a.btn.read-btn-e:active, a.btn.read-btn-e:visited {
+  color: #fff;
+  background-color: $blue-a;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  padding: 0.8em 1.1em;
+  border: 2px solid $blue-a;
+  border-radius: 0px;
+  display: block;  
+}
+
 .read-btn-e:hover, .read-btn-e:active, .read-btn-e:visited {
   color: #fff;
   background-color: $blue-a;

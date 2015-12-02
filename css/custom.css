@@ -2179,6 +2179,17 @@ div.wsmenucontainer nav.wsmenu {
   border-radius: 0px;
   display: block; }
 
+a.btn.read-btn-e:hover, a.btn.read-btn-e:active, a.btn.read-btn-e:visited {
+  color: #fff;
+  background-color: #8EC6CE;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 15px;
+  padding: 0.8em 1.1em;
+  border: 2px solid #8EC6CE;
+  border-radius: 0px;
+  display: block; }
+
 .read-btn-e:hover, .read-btn-e:active, .read-btn-e:visited {
   color: #fff;
   background-color: #8EC6CE;
@@ -2894,7 +2905,7 @@ mini-logo {
   display: none; }
 
 .member-fullscrn, .member-fullscrn .page-wrapper {
-  background: url("../img/queen.jpg") no-repeat center center fixed;
+  background: url("../img/queen.jpg") repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -3650,7 +3661,15 @@ mini-logo {
     padding-bottom: 2em; }
   /*Layout*/
   .home-body .section-6 {
-    padding-top: 3.9em; } }
+    padding-top: 3.9em; }
+  /*Member Directory Search*/
+  .member-search-btn {
+    display: inline; }
+  .member-search-inputs input, textarea {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 400px; } }
 
 /* MEDIA QUERIES & FIXUP FOR FALLBACK LOGIN PAGE*/
 @media only screen and (min-width: 230px) and (max-width: 780px) {
@@ -3775,7 +3794,15 @@ mini-logo {
     padding-left: 20px; }
   /*Layout*/
   .home-body .section-6 {
-    padding-top: 3.9em; } }
+    padding-top: 3.9em; }
+  /*Member Directory Search*/
+  .member-search-btn {
+    display: inline; }
+  .member-search-inputs input, textarea {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 400px; } }
 
 @media (min-width: 992px) and (max-width: 1050px) {
   /*Padding Fix For Mobile*/
@@ -3879,7 +3906,15 @@ mini-logo {
     background-color: #0D497C; }
   /*Modals*/
   .modal {
-    padding-left: 20px; } }
+    padding-left: 20px; }
+  /*Member Directory Search*/
+  .member-search-btn {
+    display: inline; }
+  .member-search-inputs input, textarea {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 400px; } }
 
 @media (min-width: 1050px) and (max-width: 1280px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -3983,7 +4018,15 @@ mini-logo {
     width: 100%; }
   /*For maintanining background color Mobile public menu separation*/
   .public-nav .mobile-sub.wsmenu-list li.first ul.wsmenu-submenu li {
-    background-color: #0D497C; } }
+    background-color: #0D497C; }
+  /*Member Directory Search*/
+  .member-search-btn {
+    display: inline; }
+  .member-search-inputs input, textarea {
+    float: left;
+    margin: 10px;
+    padding: 10px;
+    width: 400px; } }
 
 @media (min-width: 1281px) and (max-width: 1399px) {
   .public-nav .mobile-sub.wsmenu-list li a {
@@ -3994,7 +4037,13 @@ mini-logo {
   .login-btn {
     margin-right: 0.1em; }
   .member-nav {
-    margin-top: 0px; } }
+    margin-top: 0px; }
+  .member-search-btn {
+    display: block;
+    margin-bottom: 0px;
+    margin-left: 2em;
+    margin-top: 20px;
+    padding: 0.8em; } }
 
 @media (min-width: 1400px) and (max-width: 1550px) {
   a.sf-with-ul, .sf-menu.public-nav a {
