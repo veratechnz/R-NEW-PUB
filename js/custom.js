@@ -30,7 +30,8 @@ $(function() {
 		function finishTooltip(){
 			$('#navToggle').tooltip('hide');
 		}
-		
+
+
 
 
 }); //selfie ENDs

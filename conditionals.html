@@ -1,0 +1,43 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>Document</title>
+	<!--[if IE 9]>
+	<script>
+		window.location.replace("/public-home-page");
+	</script>
+	<![endif]-->
+	<!--[if lte IE 8]>
+	</script>
+		window.location.replace("/public-home-page");
+	<script>
+	<![endif]-->
+	<script>
+	//Self invoking function Expression for checking window width.
+	var widthChecker = function(){
+		//Check window width. IE compatible.
+		function viewport()
+		{
+		var e = window
+		, a = 'inner';
+		if ( !( 'innerWidth' in window ) )
+		{
+		a = 'client';
+		e = document.documentElement || document.body;
+		}
+		return { width : e[ a+'Width' ] , height : e[ a+'Height' ] }
+		}
+		var winCheck = viewport();
+		if (/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) || (winCheck.width < 1281))
+		  { window.location.replace("/public-home-page"); }
+	}();
+	</script>
+  </head>
+  <body>
+  	<h1>THIS IS A NEW TITLE</h1>
+  	
+  </body>
+  </html>
+
+
