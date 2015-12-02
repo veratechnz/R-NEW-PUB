@@ -1084,7 +1084,7 @@ section i {
   padding: 0;
   text-transform: uppercase;
   margin-top: 1.9em;
-  margin-left: 1.8em;
+  margin-left: 4em;
   display: inline-block; }
 
 h4.white {
@@ -1527,7 +1527,7 @@ div.col-xs-10.col-xs-offset-1 {
   background-attachment: fixed; }
 
 .home-body .section-2 {
-  background-image: url("../img/full-b-grad.jpg");
+  background-image: url("../img/full-e-grad.jpg");
   background-size: cover;
   background-attachment: fixed; }
 
@@ -1786,7 +1786,7 @@ div.wsmenucontainer nav.wsmenu {
 
 .public-nav {
   max-height: 40px;
-  margin: 11px 20px 0px 20px;
+  margin: 11px 0px 0px 0px;
   width: 100%;
   display: block;
   color: #fff;
@@ -2883,13 +2883,8 @@ for second line of text when columns squished down^^^^^ */
   background-position: center; }
 
 .reinz-logo {
-  margin-top: 1.5em;
-  margin-right: 1em; }
-
-img.demo-logo {
-  margin-right: 20px;
-  width: 235px;
-  height: 40px; }
+  margin-top: 10px;
+  margin-right: 40px; }
 
 mini-logo {
   width: 112px;
@@ -3695,9 +3690,7 @@ mini-logo {
     left: 48%;
     margin-top: 1.55em; }
   .nav-welcome {
-    margin-right: 2.6em;
-    margin-top: 15px;
-    font-size: 17px; }
+    display: none; }
   .nav-button {
     margin-top: 1.18em; }
   .public-nav .mobile-sub.wsmenu-list li a {
@@ -3804,10 +3797,6 @@ mini-logo {
     margin-top: 1.55em; }
   .mini-logo {
     display: block; }
-  img.demo-logo {
-    margin-right: 20px;
-    width: 182px;
-    height: 40px; }
   .public-nav .mobile-sub.wsmenu-list li a {
     font-size: 16px; }
   /*Nav Links*/
@@ -3913,10 +3902,6 @@ mini-logo {
     margin-top: 1.2em; }
   .public-nav div.wsmenucontainer.clearfix {
     min-height: 0px; }
-  img.demo-logo {
-    margin-right: 20px;
-    width: 182px;
-    height: 40px; }
   .public-nav .mobile-sub.wsmenu-list li a {
     font-size: 15px; }
   /*Nav Links*/
@@ -3936,10 +3921,6 @@ mini-logo {
     padding: 2px; }
   .pad-adjust {
     padding: 2px; }
-  img.demo-logo {
-    height: 39px;
-    margin-right: 20px;
-    width: 220px; }
   .member-nav {
     margin-top: 0px; }
   /*Mobile Menu For Member Nav*/
@@ -4012,10 +3993,6 @@ mini-logo {
     margin-right: 0.1em; }
   .login-btn {
     margin-right: 0.1em; }
-  img.demo-logo {
-    height: 34px;
-    margin-right: 20px;
-    width: 200px; }
   .member-nav {
     margin-top: 0px; } }
 
@@ -4038,10 +4015,6 @@ mini-logo {
     margin-right: 0.1em; }
   .login-btn {
     margin-right: 0.1em; }
-  img.demo-logo {
-    height: 39px;
-    margin-right: 20px;
-    width: 220px; }
   .member-nav {
     margin-top: 0px; } }
 

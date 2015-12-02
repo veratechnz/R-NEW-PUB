@@ -300,9 +300,7 @@
 	}
 
 	.nav-welcome{
-		margin-right: 2.6em;
-		margin-top: 15px;
-		font-size: 17px;
+		display: none;
 	}
 
 	.nav-button{
@@ -463,12 +461,6 @@
 		display: block;
 	}
 
-	img.demo-logo{
-	  margin-right: 20px; 
-	  width: 182px;
-	  height: 40px;
-	}
-
 	.public-nav .mobile-sub.wsmenu-list li a{font-size: 16px;}
 
 	/*Nav Links*/
@@ -623,12 +615,6 @@
 		
 	}
 
-	img.demo-logo{
-	  margin-right: 20px; 
-	  width: 182px;
-	  height: 40px;
-	}
-
 	.public-nav .mobile-sub.wsmenu-list li a{font-size: 15px;}
 
 	/*Nav Links*/
@@ -649,12 +635,6 @@
 
 	.pad-adjust{padding: 2px;}
 	.pad-adjust{padding: 2px;}
-
-	img.demo-logo {
-	    height: 39px;
-	    margin-right: 20px;
-	    width: 220px;
-	}
 
 	.member-nav {
 	    margin-top: 0px;
@@ -763,12 +743,6 @@
 	margin-right: 0.1em
 }
 
-img.demo-logo {
-    height: 34px;
-    margin-right: 20px;
-    width: 200px;
-}
-
 .member-nav {
     margin-top: 0px;
 }
@@ -807,12 +781,6 @@ img.demo-logo {
 
 	.login-btn{
 		margin-right: 0.1em
-	}
-
-	img.demo-logo {
-	    height: 39px;
-	    margin-right: 20px;
-	    width: 220px;
 	}
 
 	.member-nav {

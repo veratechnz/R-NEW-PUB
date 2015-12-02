@@ -35,7 +35,7 @@ $(function() {
 		// Possible media Query for mobile and smaller device Detection 
 		function mobileChecker(){
 		 if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) || $(window).width() < 1281 ) {
-		   location.replace("http://public-home-page/");
+		 	window.location.replace("/public-home-page");
 			}
 		}
 
