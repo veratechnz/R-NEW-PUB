@@ -234,7 +234,7 @@ a.btn.read-btn-e:hover, a.btn.read-btn-e:active, a.btn.read-btn-e:visited {
   font-family: 'proxima_nova_altlight';
   font-size: 22px;
   margin-bottom: 1.2em;
-  margin-top: 5px;
+  margin-top: 4px;
   border-radius: 0px;
 }
 
@@ -273,36 +273,39 @@ a.btn.login-btn:hover, .btn.enter-btn:hover{
 }
 
 a.login-btn-mini i{
-  margin-top: 20px;
   background-color: transparent;
-  border: 1px solid #fff;
-  padding: 8px;
-  border-radius: 0px;
+  border-radius: 0;
   color: #fff;
   float: right;
-  margin-top: 8px;
+  font-size: 29px;
+  margin-top: 7px;
 }
 
 a.login-btn-mini:visited i{
-  margin-top: 20px;
-  background-color: $blue-a;
-  border: 1px solid #fff;
-  padding: 8px;
-  border-radius: 0px;
-  color: #fff; 
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff;
   float: right;
-  margin-top: 8px;  
+  font-size: 29px;
+  margin-top: 7px; 
 }
 
 a.login-btn-mini:hover i {
-  margin-top: 20px;
-  background-color: $blue-a;
-  border: 1px solid $blue-a;
-  padding: 8px;
-  border-radius: 0px;
-  color: #fff; 
+  background-color: transparent;
+  border-radius: 0;
+  color: #8ec6ce;
   float: right;
-  margin-top: 8px;
+  font-size: 29px;
+  margin-top: 7px;
+}
+
+a.login-btn-mini:active i {
+  background-color: transparent;
+  border-radius: 0;
+  color: #fff;
+  float: right;
+  font-size: 29px;
+  margin-top: 7px;
 }
 
 .enter-btn, .enter-btn:visited, .enter-btn:active{
