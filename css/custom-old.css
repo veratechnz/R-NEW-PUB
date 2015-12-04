@@ -795,13 +795,6 @@ a {
   outline: 0;
   line-height: 1.05em; }
 
-.table tbody tr td {
-  font-family: 'proxima_nova_altlight';
-  font-size: 18px;
-  margin-bottom: 1.2em;
-  margin-top: 0.8em;
-  line-height: 1.05em; }
-
 /*Special Reset for Orchard HTML Injection*/
 .member-nav a {
   color: #000; }
@@ -1067,9 +1060,6 @@ section i {
   margin-bottom: 1.2em;
   margin-top: 1.2em; }
 
-h2.parallax.sub-header {
-  margin-top: 0px; }
-
 .sub-header:before {
   content: "";
   position: absolute;
@@ -1181,31 +1171,31 @@ a.callusicon span.fa.fa-phone {
 .public-spacer ul {
   margin-bottom: 20px;
   list-style-type: disc;
+  list-style-position: inside;
   font-family: "proxima_nova_altlight";
   font-size: 18px;
-  line-height: 1.05em;
-  padding-left: 2em; }
+  line-height: 1.05em; }
 
 .public-spacer ol li {
   list-style-type: decimal;
   font-family: "proxima_nova_altlight";
+  list-style-position: inside;
   font-size: 18px;
-  line-height: 1.05em;
-  padding-left: 2em; }
+  line-height: 1.05em; }
 
 .member-spacer ul {
   list-style-type: disc;
+  list-style-position: inside;
   font-family: "proxima_nova_altlight";
   font-size: 18px;
-  line-height: 1.05em;
-  padding-left: 2em; }
+  line-height: 1.05em; }
 
 .member-spacer ol li {
   list-style-type: decimal;
   font-family: "proxima_nova_altlight";
+  list-style-position: inside;
   font-size: 18px;
-  line-height: 1.05em;
-  padding-left: 2em; }
+  line-height: 1.05em; }
 
 /*Layout*/
 /*Sass Variables*/
@@ -1234,9 +1224,6 @@ section {
 .panel {
   margin-top: 2em;
   margin-bottom: 3em; }
-
-.spacer {
-  height: 3.8em; }
 
 #data1 {
   margin-top: 11em; }
@@ -2285,7 +2272,7 @@ a.btn.read-btn-e:hover, a.btn.read-btn-e:active, a.btn.read-btn-e:visited {
   font-family: 'proxima_nova_altlight';
   font-size: 22px;
   margin-bottom: 1.2em;
-  margin-top: 4px;
+  margin-top: 5px;
   border-radius: 0px; }
 
 .search-btn:hover {
@@ -2319,36 +2306,34 @@ a.btn.login-btn:hover, .btn.enter-btn:hover {
   background-color: #8EC6CE; }
 
 a.login-btn-mini i {
+  margin-top: 20px;
   background-color: transparent;
-  border-radius: 0;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 0px;
   color: #fff;
   float: right;
-  font-size: 29px;
-  margin-top: 7px; }
+  margin-top: 8px; }
 
 a.login-btn-mini:visited i {
-  background-color: transparent;
-  border-radius: 0;
+  margin-top: 20px;
+  background-color: #8EC6CE;
+  border: 1px solid #fff;
+  padding: 8px;
+  border-radius: 0px;
   color: #fff;
   float: right;
-  font-size: 29px;
-  margin-top: 7px; }
+  margin-top: 8px; }
 
 a.login-btn-mini:hover i {
-  background-color: transparent;
-  border-radius: 0;
-  color: #8ec6ce;
-  float: right;
-  font-size: 29px;
-  margin-top: 7px; }
-
-a.login-btn-mini:active i {
-  background-color: transparent;
-  border-radius: 0;
+  margin-top: 20px;
+  background-color: #8EC6CE;
+  border: 1px solid #8EC6CE;
+  padding: 8px;
+  border-radius: 0px;
   color: #fff;
   float: right;
-  font-size: 29px;
-  margin-top: 7px; }
+  margin-top: 8px; }
 
 .enter-btn, .enter-btn:visited, .enter-btn:active {
   background-color: transparent;
@@ -2920,7 +2905,7 @@ mini-logo {
   display: none; }
 
 .member-fullscrn, .member-fullscrn .page-wrapper {
-  background: url("../img/queen.jpg") repeat-y center center fixed;
+  background: url("../img/queen.jpg") repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2960,9 +2945,6 @@ mini-logo {
 .hero-image {
   margin-top: 3em;
   margin-bottom: 2em; }
-
-.hero-image img.center-block.img-responsive {
-  max-width: 85%; }
 
 /*Shopping Cart Template Overrides*/
 .cart {
@@ -3089,7 +3071,7 @@ mini-logo {
 */
   .wsmenu > .wsmenu-list > li > a.active {
     color: #666666; }
-  /*.wsmenu > .wsmenu-list > li > a:hover{ color: #666666; background-color:rgba(0,0,0,0.08);}	*/
+  /*.wsmenu > .wsmenu-list > li > a:hover{ color: #666666; background-color:rgba(0,0,0,0.08);}  */
   .wsmenu-list li:hover .wsmenu-submenu {
     display: none; }
   .wsmenu-list li:hover .wsmenu-submenu .wsmenu-submenu-sub {
@@ -3151,7 +3133,7 @@ mini-logo {
     margin-right: 8px;
     background-size: 25px;
     font-size: 21px;
-    color: #0D497C;
+    color: rgba(0, 0, 0, 0.25);
     float: right; }
   .wsmenu-rotate {
     -webkit-transform: rotate(180deg);
@@ -3558,8 +3540,7 @@ mini-logo {
     width: 20%; }
   .member-nav .mobile-sub.wsmenu-list li.twelve-point {
     height: 44px;
-    margin-top: 20px;
-    border-bottom: 1px solid #efefef; }
+    margin-top: 20px; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point .r-font-nav {
       display: none; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point h5 {
@@ -3605,8 +3586,6 @@ mini-logo {
     margin-top: 60px; }
   .public-nav .wsmenu-submenu {
     top: 0px; }
-  .public-nav ul.mobile-sub.wsmenu-list li {
-    border-bottom: 1px solid #efefef; }
   .public-nav .wsmenu-list > li > a {
     color: #666; }
   .public-nav .wsmenu-submenu li a {
@@ -3628,9 +3607,9 @@ mini-logo {
     line-height: 30px; }
   .top-gap {
     margin-top: 68px; }
-  /*	.container-fluid.page-wrapper.fill div.row{
-		max-height: 0px;
-	}*/
+  /*    .container-fluid.page-wrapper.fill div.row{
+        max-height: 0px;
+    }*/
   .member-nav .mobile-sub .wsmenu-submenu li a {
     line-height: 35px; }
   .member-nav .wsmenu-submenu {
@@ -3743,7 +3722,7 @@ mini-logo {
   .login-btn {
     margin-right: 0.1em;
     font-size: 14px;
-    padding: 6px;
+    padding: 4px;
     margin-top: 1.2em; }
   /*Top Spacer Adjustment For Member Menu*/
   .member-spacer {
@@ -3753,8 +3732,7 @@ mini-logo {
     width: 20%; }
   .member-nav .mobile-sub.wsmenu-list li.twelve-point {
     height: 44px;
-    margin-top: 20px;
-    border-bottom: 1px solid #efefef; }
+    margin-top: 20px; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point .r-font-nav {
       display: none; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point h5 {
@@ -3791,8 +3769,6 @@ mini-logo {
     margin-top: 60px; }
   .public-nav .wsmenu-submenu {
     top: 0px; }
-  .public-nav ul.mobile-sub.wsmenu-list li {
-    border-bottom: 1px solid #efefef; }
   .public-nav .wsmenu-list > li > a {
     color: #666;
     font-size: 12px; }
@@ -3857,7 +3833,7 @@ mini-logo {
   .login-btn {
     margin-right: 0.1em;
     font-size: 14px;
-    padding: 6px;
+    padding: 4px;
     margin-top: 1.2em; }
   .public-nav {
     margin: 12px 0px 0px 0px; }
@@ -3867,8 +3843,6 @@ mini-logo {
     padding: 2px; }
   .public-nav .mobile-sub .wsmenu-submenu li a {
     line-height: 30px; }
-  .public-nav ul.mobile-sub.wsmenu-list li {
-    border-bottom: 1px solid #efefef; }
   /*Top Spacer Adjustment For Member Menu*/
   .member-spacer {
     margin-top: 50px; }
@@ -3877,8 +3851,7 @@ mini-logo {
     width: 20%; }
   .member-nav .mobile-sub.wsmenu-list li.twelve-point {
     height: 44px;
-    margin-top: 20px;
-    border-bottom: 1px solid #efefef; }
+    margin-top: 20px; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point .r-font-nav {
       display: none; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point h5 {
@@ -3973,7 +3946,7 @@ mini-logo {
   .login-btn {
     margin-right: 0.1em;
     font-size: 14px;
-    padding: 6px;
+    padding: 4px;
     margin-top: 1.2em; }
   .public-nav {
     margin: 12px 0px 0px 0px; }
@@ -3990,8 +3963,7 @@ mini-logo {
     width: 20%; }
   .member-nav .mobile-sub.wsmenu-list li.twelve-point {
     height: 44px;
-    margin-top: 20px;
-    border-bottom: 1px solid #efefef; }
+    margin-top: 20px; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point .r-font-nav {
       display: none; }
     .member-nav .mobile-sub.wsmenu-list li.twelve-point h5 {
@@ -4039,8 +4011,6 @@ mini-logo {
     padding: 0.7em; }
   .public-nav .mobile-sub .wsmenu-submenu li a {
     color: #fff; }
-  .public-nav ul.mobile-sub.wsmenu-list li {
-    border-bottom: 1px solid #efefef; }
   /*For Link Arrow Separation Mobile Public Menu*/
   .public-nav .mobile-sub.wsmenu-list li a {
     width: 80%; }

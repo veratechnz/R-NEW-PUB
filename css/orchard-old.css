@@ -83,6 +83,10 @@ float: none;
     z-index: 2003;
 }
 
+/* Other Fixes */
+.member-nav{
+    margin-top: 10px;
+}
 
 /*Login Page Fix*/
 .member-fullscrn section{
