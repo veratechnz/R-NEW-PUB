@@ -23,44 +23,10 @@
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <!-- Core CSS file -->
-<link rel="stylesheet" href="bower_components/photoswipe/dist/photoswipe.css"> 
-<!-- Skin CSS file (styling of UI - buttons, caption, etc.)
-     In the folder of skin CSS file there are also:
-     - .png and .svg icons sprite, 
-     - preloader.gif (for browsers that do not support CSS animations) -->
-<link rel="stylesheet" href="bower_components/photoswipe/dist/default-skin/default-skin.css"> 
+Orchard Site Needs Magnific CSS and Magnific js libraries. 
+<link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css"> 
 <style>
-.rslides {
-  position: relative;
-  list-style: none;
-  overflow: hidden;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  }
 
-.rslides li {
-  -webkit-backface-visibility: hidden;
-  position: absolute;
-  display: none;
-  width: 100%;
-  left: 0;
-  top: 0;
-  }
-
-.rslides li:first-child {
-  position: relative;
-  display: block;
-  float: left;
-  }
-
-.rslides img {
-  display: block;
-  height: auto;
-  float: left;
-  width: 100%;
-  border: 0;
-  }
 </style>
 
 
@@ -382,36 +348,52 @@
         
         <section class="member-spacer row">
             <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <!-- Place somewhere in the <body> of your page -->
-                    <div class="flexslider">
-                      <ul class="slides">
-                        <li data-thumb="img/article-a.jpg">
-                          <img src="img/article-a.jpg" />
-                        </li>
-                        <li data-thumb="img/article-b.jpg">
-                          <img src="img/article-b.jpg" />
-                        </li>
-                        <li data-thumb="img/article-c.jpg">
-                          <img src="img/article-c.jpg" />
-                        </li>
-                        <li data-thumb="img/article-d.jpg">
-                          <img src="img/article-d.jpg" />
-                        </li>
-                        <li data-thumb="img/article-e.jpg">
-                          <img src="img/article-e.jpg" />
-                        </li>
-                        <li data-thumb="img/article-f.jpg">
-                          <img src="img/article-f.jpg" />
-                        </li>
-                        <li data-thumb="img/article-g.jpg">
-                          <img src="img/article-g.jpg" />
-                        </li>
-                        <li data-thumb="img/article-h.jpg">
-                          <img src="img/article-h.jpg" />
-                        </li>
-                      </ul>
-                    </div>
+                <div class="col-md-10 col-md-offset-1">
+                        <h1>
+                            <span class="r-font-icon">B</span><span class="page-title">EVENTS GALLERY</span>
+                        </h1>
+
+                        <h2 class="sub-header">
+                            EVENT A 
+                        </h2>
+
+                        <div class="popup-gallery"> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-collage.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-collage.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-collage.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-collage.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                        </div>
+
+                        <h2 class="sub-header">
+                            EVENT B 
+                        </h2>
+
+                        <div class="popup-gallery"> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-collage.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-collage.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-collage.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-collage.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                        </div>
+
+
+                        <h2 class="sub-header">
+                            EVENT C 
+                        </h2>
+                        
+                        <div class="popup-gallery"> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-collage.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-collage.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-collage.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-collage.jpg"></a> 
+                            <a title="Winter Dance" href="img/event-pic-a.jpg"><img width="150" height="100" style="margin: 5px;" src="img/event-pic-a.jpg"></a> 
+                        </div>
+
+
+                        <br>
+                        <br>
+                        <br>
                 </div>
             </div>
         </section>
@@ -529,16 +511,7 @@
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
 <script src="bower_components/webslidermenu/webslidemenu.js"></script>
-<script src="bower_components/flexslider/jquery.flexslider-min.js"></script>
+<script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
 <script src="js/custom.js"></script>
-<script>
-// Can also be used with $(document).ready()
-$(window).load(function() {
-  $('.flexslider').flexslider({
-    animation: "slide",
-    controlNav: "thumbnails"
-  });
-});
-</script>
 </body>
 </html>
