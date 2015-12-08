@@ -31,7 +31,7 @@ $(function() {
 			$('#navToggle').tooltip('hide');
 		}
 
-
+		//Trigger for all magnific-popup site photo galleries. 
 		var magnificGallery = function(){
 		    $('.popup-gallery').magnificPopup({
 		        delegate: 'a',

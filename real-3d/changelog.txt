@@ -1,0 +1,109 @@
+update 30.11.2015. version 2.9.6
+- added option "btnDownloadPdf.openInNewWindow" - opens the pdf in new browser window
+- fixed bug for first page on mobile
+- fixed javascript error with "$" instead of "jQuery"
+
+update 6.11.2015. version 2.9.3
+- fix for table of content bug
+- fix for current page disabled bug
+
+update 28.10.2015. version 2.9
+-new - pdf flipbook (flibook from pdf url) - pdf scales with book zoom, pages are sharp at all scales
+-fix - html content on pages - click event was not working
+-fix - bug that lightbox always starts on page load
+
+update 19.10.2015. version 2.8.1.1
+-fix for css bug caused by 2.8.1
+
+update 18.10.2015. version 2.8.1
+-change to "view all pages" and "table of content" views
+
+update 8.10.2015. version 2.8.0.2
+-fix for lightbox opening on page load
+-fix for deeplinking
+
+update 7.10.2015. version 2.8
+-fix for 2 page and 3 page PDF flipbook and JPG flipbook
+-fix for PDF files that have double page with single page cover
+-fix for deeplinking
+-improved performance for 3D and 2D mode for mobile devices
+-many other minor bug fixes 
+
+update 4.8.2015. version 2.6.6
+fix - performance improvement for css3d mode
+fix - image quality of jpg pages and pdf pages
+fix - 2d mode css bug (fallback for IE9)
+
+update 10.7.2015. version 2.6.1
+fix - lightbox mode bug 
+new - option to hide bottom menu bar
+fix - html content css
+fix - bug with html content click handler
+
+update 10.7.2015. version 2.6
+new - page mode "doubleWithCover"- first and last pages are single pages, other pages are spreads
+fix - bugs in css3d mode on mobile
+fix - bug on mobile where playing flip sound was crashing the app
+fix - bugs with extra pages added at the end of the book
+fix - optimized pdf flipbook loading time and performance
+
+update 22.6.2015. version 2.5
+new - option to change texture size for webgl mode
+new - page shadow for webgl mode
+fix - improved page quality and performance in webgl mode by adding anisotropic texture filtering and changing texture site to power of two
+
+update 2.6.2015. version 2.3.2
+fix - loading of plugin scripts bug
+
+update 2.6.2015. version 2.3.1
+new - option to enable/disable book rotation with click and drag (webgl mode)
+new - option to enable/disable book rotation on mouse move (webgl mode)
+new - set maximum and minimum pan and tilt angles for book rotation
+new - current page display moved to bottom bar
+fix - page turn on click
+fix - page scroll when zoomed in IE, in CSS3D mode
+
+update 2.6.2015. version 2.1
+new - webgl mode - page bends while dragging
+new - more realistic flip animation
+new - disable web page zoom 
+new - add HTML content on pages
+new - book pan and tilt for css3d mode
+new - book shadow for css3d mode
+fix - css3d mode perspective
+fix - fullscreen for safari
+
+update 11.5.2015. version 1.6
+new - share system - pinterest, facebook, twitter, google plus, email
+new - enable / disable navigation buttons for first and last page
+
+update 11.5.2015. version 1.5.0.1
+fix for safari on windows
+fix for page flip duration
+fix for single page mode mobile
+fix for going to page(pdf flipbook)
+new - mobile settings - enable / disable buttons
+new - set book pan and tilt angles for 3d mode
+
+update 7.5.2015. version 1.5
+New - swipe to turn pages
+New - page drag
+New - 3d mode rewritten - with smooth CSS transformations and page shadows 
+New - single page mode - it can be used always or only on mobile devices
+New - optional side navigation arrows
+New - buttons for first and last page
+Fiexd - webgl mode - book resize in portrait mode
+Fiexd - webgl mode - book rotation disabled, click & drag now used to drag page
+Fiexd - book size does not depend on the pages resolution anymore, zoom value of 1 makes the book fit the container
+
+update 19.4.2015. 1.4.9
+Fixed - bug with multiple books in pdf mode
+Fixed - centering of the book for webgl mode
+Fixed - RTL for webgl mode
+
+update 12.4.2015. 1.4.8
+Fixed - bugs with zoom caused by recent updates
+Fixed - light intensity in WebGl mode
+Fixed - page resolution for pdf pages
+Fixed - bug if folder on the server contains string "flipbook"
+Fixed - scrollbars on table of content and thumbnails

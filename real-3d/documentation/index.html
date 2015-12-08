@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="utf-8">
+	<title>Real 3D FlipBook - jQuery Plugin</title>
+ 	<meta name="description" content="">
+	<meta name="author" content="zlac">
+	<meta name="copyright" content="zlac">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2015-05-21T00:00:00+02:00">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/documenter_style.css" rel="stylesheet">
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    
+	
+	<style>
+		html, body{background-color:#EEEEEE;color:#383838;}
+		h1,h2,h3,h4,h5,h6{color:#383838;}
+		section table{background-color:#EEEEEE;}
+		::-moz-selection{background:#333636;color:#00DFFC;}
+		::selection{background:#333636;color:#00DFFC;}
+		a.brand{background-image:url();}
+		a, a:hover, a:active{color:#008C9E;}
+		hr{border-top:1px solid #D4D4D4;border-bottom:1px solid #FFFFFF;}
+		div.navbar-inner, .navbar .nav li ul{background:#343838;color:#FFFFFF;}
+		a.btn-navbar{background:#343838;color:#FFFFFF;}
+		.navbar .nav li a{color:#FFFFFF;text-shadow:1px 1px 0px #494F4F;}
+		.navbar .nav li a:hover, .navbar .nav li.active a{text-shadow:none;}
+		div.navbar-inner ul{}
+		.marketing-byline{color:#FFFFFF;}
+		.navbar .nav > li a{color:#FFFFFF;}
+		.navbar .nav > li a:hover, a.btn-navbar:hover{background:#333636;color:#00DFFC;}
+		.navbar .nav .active > a, .navbar .nav .active > a:hover, a.btn-navbar:active{background-color:#333636;color:#00DFFC;}
+		.navbar .nav li ul li a:hover{background:#333636;color:#00DFFC;}
+		.navbar .nav li ul li a:active{background:#333636;color:#00DFFC;}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #008C9E, #006673);
+			  background-image: -ms-linear-gradient(top, #008C9E, #006673);
+			  background-image: -webkit-gradient(linear, 0 0, 0 008C9E%, from(#343838), to(#006673));
+			  background-image: -webkit-linear-gradient(top, #008C9E, #006673);
+			  background-image: -o-linear-gradient(top, #008C9E, #006673);
+			  background-image: linear-gradient(top, #008C9E, #006673);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#008C9E', endColorstr='#006673', GradientType=0);
+			  border-color: #006673 #006673 #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  background-color: #006673;
+		}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+	
+	
+    </head>
+    
+<body class="documenter-project-real-3d-flipbook-jquery-plugin" data-spy="scroll" id="top">
+
+<!-- Documentation Navbar -->
+
+<div class="navbar navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container"> 
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+			<a class="brand" href="#">Real 3D FlipBook - jQuery Plugin</a>
+			<div class="nav-collapse">
+			<ul class="nav">
+					
+			<li><a href="#special_notes" title="Special notes">Special notes</a></li>
+			<li><a href="#directories_and_files" title="Directories and files">Directories and files</a></li>
+			<li><a href="#how_to_use" title="How to use">How to use</a></li>
+			<li><a href="#plugin_options" title="Plugin options">Plugin options</a></li>
+			<li><a href="#css" title="CSS">CSS</a></li>
+
+			</ul>
+			</div>
+		</div>
+	</div>
+</div> <!-- End of Navbar -->
+
+<!-- Main Container Beginning -->			
+			
+<div class="container" id="documenter_content">
+    
+	<div id="documenter-cover">
+	<div class="masthead">
+	    <h1>Real 3D FlipBook - jQuery Plugin</h1>
+	    <p></p>
+	    <ul class="marketing-byline">
+			<li>created: 03/14/2013</li>
+			<li>latest update: 05/21/2015</li>
+			<li>by: zlac</li>
+			
+		</ul>
+	    <p class="download-info">
+			
+		</p>
+		
+	</div> <!-- masthead -->
+	
+   <div id="intro">
+    <p class="highlight hero-unit">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form here. Thanks so much!</p>
+   </div> <!-- intro -->
+   
+	</div>
+      
+  <section id="special_notes">
+	<div class="page-header"><h3>Special notes</h3><hr class="notop"></div>
+<h4 id="special_notes_due_to_local_security_restrictions,_some_things_will_not_work_locally,_especially_in_chrome_nbsp_but_everything_will_work_once_the_files_have_been_updated_to_your_website_i_recommend_testing_in_firefox_as_is_more_lenient_toward_local_iframe_security_nbsp">Due to local security restrictions, some things will not work locally, especially in Chrome.&nbsp; But everything will work once the files have been updated to your website. I recommend testing in Firefox as is more lenient toward local iframe security.&nbsp;</h4>
+<p>
+	To run locally in Google Chrome (on windows) :</p>
+<ol>
+	<li>
+		Close Chrome</li>
+	<li>
+		Click Start</li>
+	<li>
+		Type in &quot;run&quot; (without quotes)</li>
+	<li>
+		Click OK</li>
+	<li>
+		Type in &quot;chrome &nbsp;--allow-file-access-from-files&quot;&nbsp;(without quotes)</li>
+	<li>
+		Click OK</li>
+</ol>
+</section>
+<section id="directories_and_files">
+	<div class="page-header"><h3>Directories and files</h3><hr class="notop"></div>
+<p>	In your <strong>main</strong> downloaded folder<strong>&nbsp;</strong>from CodeCanyon you&#39;ll find the following structure:</p>
+<p>	<strong>documentation </strong>- contains documentation files</p>
+<p>	<strong>deploy </strong>- contains ready to use templates with minified javascript files</p>
+<p>	<strong>source </strong>- contains all source files (js files, css fiels and icon font files)</p>
+</section>
+<section id="how_to_use">
+	<div class="page-header"><h3>How to use</h3><hr class="notop"></div>
+<p class="plain">
+	In the deploy folder there are html templates ready to use so the best way is to start modifying one of the examples.</p>
+<p class="plain">
+	Plugin usage : call the plugin with an options object as an argument.</p>
+<p class="plain">
+	&nbsp;</p>
+<h3 class="plain">
+	Flipbook from images</h3>
+<p class="plain">
+	The pages can be images (jpg or png) In this case you need to have array of pages in the options object.&nbsp;<span style="font-size: 12px;">Each page needs to have src path, thumbnail path and a title.</span></p>
+<div>
+	&nbsp;</div>
+<pre class="prettyprint lang-js linenums">
+$(document).ready(function () {
+  var options = {
+    pages:[
+      {src:&quot;images/book1/page1.jpg&quot;, thumb:&quot;images/book1/thumb1.jpg&quot;, title:&quot;Cover&quot;},
+      {src:&quot;images/book1/page2.jpg&quot;, thumb:&quot;images/book1/thumb2.jpg&quot;, title:&quot;Page two&quot;},
+      {src:&quot;images/book1/page3.jpg&quot;, thumb:&quot;images/book1/thumb3.jpg&quot;, title:&quot;Page three&quot;},
+      {src:&quot;images/book1/page4.jpg&quot;, thumb:&quot;images/book1/thumb4.jpg&quot;, title:&quot;End&quot;}
+    ]
+  };
+
+  $(&quot;#book1&quot;).flipBook(options);
+})</pre>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<h3>
+	Flipbook from pdf</h3>
+<div>
+	&nbsp;</div>
+<div>
+	Flipbook can also be generated from a PDF file, in that case you need pdfUrl in options object, like this</div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<pre class="prettyprint lang-js linenums">
+$(document).ready(function () {
+  var options = {
+    pdfUrl:&quot;pdf/magazine.pdf&quot;
+  };
+
+  $(&quot;#book1&quot;).flipBook(options);
+})</pre>
+		<div>
+			&nbsp;</div>
+	</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	&nbsp;You can also override default options:</div>
+<div>
+	&nbsp;</div>
+<div>
+	<pre class="prettyprint lang-js linenums">
+$(document).ready(function () {
+  var options = {
+    pages:[
+      {src:&quot;images/book1/page1.jpg&quot;, thumb:&quot;images/book1/thumb1.jpg&quot;, title:&quot;Cover&quot;},
+      {src:&quot;images/book1/page2.jpg&quot;, thumb:&quot;images/book1/thumb2.jpg&quot;, title:&quot;Page two&quot;},
+      {src:&quot;images/book1/page3.jpg&quot;, thumb:&quot;images/book1/thumb3.jpg&quot;, title:&quot;Page three&quot;},
+      {src:&quot;images/book1/page4.jpg&quot;, thumb:&quot;images/book1/thumb4.jpg&quot;, title:&quot;&quot;} 
+    ],
+    lightBox:false, 
+    webgl:false,
+    skin:&quot;light&quot;,
+    zoom:.95,
+    zoomMin:.95
+  };
+
+  $(&quot;#book1&quot;).flipBook(options);
+})</pre>
+	<div>
+		&nbsp;</div>
+</div>
+<p class="plain">
+	List of all options and default values is listed in the next chapter. It can be found in Main.as and in flipbook.min.js.</p>
+</section>
+<section id="plugin_options">
+	<div class="page-header"><h3>Plugin options</h3><hr class="notop"></div>
+<p>
+	<strong>pages </strong>[Array]<strong>&nbsp;</strong>&nbsp;of page objects - this must be passed to plugin constructor. Each oage has src, thumb and title.</p>
+<div>
+	page object looks like this:</div>
+<div>
+	{ src: &quot;pages/book1/page1.jpg&quot;, thumb:&nbsp;&quot;pages/book1/thumb1.jpg&quot;, title:&quot;Page 1&quot;}</div>
+<div>
+	For example if your book has 4 pages, pages array will look like this</div>
+<div>
+	&nbsp;</div>
+<pre class="prettyprint lang-html linenums">
+pages:[
+{ src: &quot;pages/book1/page1.jpg&quot;, thumb: &quot;pages/book1/thumb1.jpg&quot;, title:&quot;Page 1&quot;},
+{ src: &quot;pages/book1/page2.jpg&quot;, thumb: &quot;pages/book1/thumb2.jpg&quot;, title:&quot;Page 2&quot;},
+{ src: &quot;pages/book1/page3.jpg&quot;, thumb: &quot;pages/book1/thumb3.jpg&quot;, title:&quot;Page 3&quot;},
+{ src: &quot;pages/book1/page4.jpg&quot;, thumb: &quot;pages/book1/thumb4.jpg&quot;, title:&quot;Page 4&quot;}
+]</pre>
+<div>
+	&nbsp;</div>
+<div>
+	You can add as many pages as you want. Page number should be even (4,6,8...) because each page needs to have front and back side.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>pdfUrl - </strong>the url of the PDF file. If options.pages is empty, it will use the pdf to generate the pages at runtime.&nbsp;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>pdfPageScale -&nbsp;</strong>scale of pdf pages that will be rendered to images, default : 1.5</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>skin&nbsp;</strong>- Strinig, &quot;light&quot; &nbsp;or &quot;dark&quot;, default : &quot;light&quot;</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>assets</strong> - Object, defines paths to assets used in the app, default: { preloader:&quot;images/preloader.jpg&quot;, left:&quot;images/left.png&quot;, overlay:&quot;images/overlay.jpg&quot;, flipMp3:&quot;mp3/turnPage.mp3&quot; }</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>rightToLeft </strong>- Boolean, defines if the book mode is normal left to right or right to left for eastern countries, default :false</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>startPage&nbsp;</strong>- int,&nbsp;page that will be displayed when the book starts, default:1</div>
+<div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>sounds</strong>&nbsp;- Boolean, defines if the sounds are enabled</div>
+</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>pageWidth&nbsp;</strong>- int, page width in pixels (should be the same size as the page image width, default: 1000</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>pageHeight&nbsp;</strong>- int, page height in pixels (should be the same size as the page image height, default: 1414</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>thumbnailWidth&nbsp;</strong>- int, thumbnail width in pixels (should be the same size as the thumbnail image&nbsp;width, default: 100</div>
+<div>
+	&nbsp;</div>
+<div>
+	<strong>thumbnailHeight&nbsp;</strong>- int, thumbnail&nbsp;height&nbsp;in pixels (should be the same size as the thumbnail&nbsp;image&nbsp;height, default: 141</div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		<strong>contentOnStart</strong> - Boolean, if the table of content will be displayed on start, default : false</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>thumbnailsOnStart&nbsp;</strong>- Boolean, if the thumbnails will be displayed on start, default : false</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>mode </strong>[String]<b> </b>You can select either &#39;normal&#39;, &#39;lightbox&#39; or &#39;fullscreen&#39;</div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<strong>singlePageMode</strong> - Boolean,&nbsp;if single page layout will be used instead of standard double page layout</div>
+	<div>
+		<p>
+			<strong>pageShadow1 (3d&amp;2d) </strong>[Boolean] if the shadow of currently flipping page will be displayed</p>
+		<p>
+			<strong>pageShadow2 (3d&amp;2d)&nbsp;</strong>[Boolean] if the shadow of next and previous pages will be displayed</p>
+		<p>
+			<strong>pageShadow3 [2d&amp;2d] </strong>[Boolean]<strong> </strong>another light and shadow overlay&nbsp;</p>
+		<p>
+			<strong>deepLinking</strong> [Object] default : {enabled:false, prefix:&quot;&quot;}</p>
+		<p>
+			<strong>deepLinking.enabled</strong> []Boolean &nbsp;if deeplinking will be used. With deeplining any page can be opened directly from the url.</p>
+		<p>
+			<strong>deepLinking.prefix</strong>[text] instead of default deeplinking hash #$page_number it can be defined custom prefix so the hash will be #$prefix$page_number. For example link to flipbook page 2:</p>
+		<p>
+			<b>pageFlipDuration</b>- [Number]</p>
+		<h3>
+			Mobile settings</h3>
+		<p>
+			<strong>singlePageModeIfMobile</strong>&nbsp;- [Boolean] if the single page view will be forced on mobile devices</p>
+		<p>
+			<strong>pdfBrowserViewerIfMobile&nbsp;</strong>[Boolean] if instead of flipbook app browser will open pdf directly in its own default pdf viewer. For this option PDF url must be set.&nbsp;</p>
+		<div>
+			<strong>btnTocIfMobile </strong>[Boolean]</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>btnThumbsIfMobile </strong>[Boolean]</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>btnShareIfMobile </strong>[Boolean]</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>btnDownloadPagesIfMobile</strong><strong>&nbsp;</strong>[Boolean]</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>btnDownloadPdfIfMobile</strong><strong>&nbsp;</strong>[Boolean]</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>btnSoundIfMobile</strong><strong>&nbsp;</strong>[Boolean]</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>btnExpandIfMobile</strong><strong>&nbsp;</strong>[Boolean]</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>btnPrintIfMobile</strong><strong>&nbsp;</strong>[Boolean]</div>
+	</div>
+</div>
+<h3>
+	Menu settings</h3>
+<p>
+	<strong>sideNavigationButtons </strong>[Boolean] if the side navigation buttons will be used instead of navigation buttons in bottom menu</p>
+<div>
+	you can override menu options and disable buttons or change icons and description.</div>
+<div>
+	&nbsp;</div>
+<div>
+	<div>
+		<strong>currentPage </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Current page&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnNext </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Next page&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-chevron-right&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnLast </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Last page&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-step-forward&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnPrev </strong>: {</div>
+	<div>
+		enabled:true,</div>
+	<div>
+		title:&quot;Previous page&quot;,</div>
+	<div>
+		icon:&quot;fa-chevron-left&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnFirst </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;First page&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-step-backward&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnZoomIn </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Zoom in&quot;,</div>
+	<div>
+		icon:&quot;fa-plus&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnZoomOut </strong>: {</div>
+	<div>
+		enabled:true,</div>
+	<div>
+		title:&quot;Zoom out&quot;,</div>
+	<div>
+		icon:&quot;fa-minus&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnToc </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Table of content&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-list-ol&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnThumbs </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Pages&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-th-large&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnShare </strong>: {</div>
+	<div>
+		enabled:true,</div>
+	<div>
+		title:&quot;Share&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-link&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnDownloadPages </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Download pages&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-download&quot; ,</div>
+	<div>
+		url:&quot;images/pages.zip&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnDownloadPdf </strong>: {</div>
+	<div>
+		enabled:true,</div>
+	<div>
+		title:&quot;Download PDF&quot;,</div>
+	<div>
+		icon:&quot;fa-file&quot; ,</div>
+	<div>
+		url:&quot;images/pages.pdf&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnSound </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Volume&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-volume-up&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnExpand </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Toggle fullscreen&quot;,</div>
+	<div>
+		icon:&quot;fa-expand&quot;,&nbsp;</div>
+	<div>
+		iconAlt:&quot;fa-compress&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnExpandLightbox </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Toggle fullscreen&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-expand&quot;,&nbsp;</div>
+	<div>
+		iconAlt:&quot;fa-compress&quot;</div>
+	<div>
+		},</div>
+	<div>
+		<strong>btnPrint </strong>: {</div>
+	<div>
+		enabled:true,&nbsp;</div>
+	<div>
+		title:&quot;Print&quot;,&nbsp;</div>
+	<div>
+		icon:&quot;fa-print&quot;</div>
+	<div>
+		}</div>
+</div>
+<div>
+	<div>
+		&nbsp;</div>
+	<div>
+		<div>
+			<div>
+				<strong>zoomLevels&nbsp;</strong>- [Array] zoom steps, default is [0.8,1,1.5,3,6]</div>
+		</div>
+	</div>
+</div>
+<h3>
+	Social share buttons</h3>
+<div>
+	<div>
+		<strong>google_plus</strong>: {</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; enabled: true,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; url: null</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; },</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; <strong>twitter</strong>: {</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; enabled: true,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; url: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; description: null</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; },</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; <strong>facebook</strong>: {</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; enabled: true,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; load_sdk: true,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; url: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; app_id: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; title: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; caption: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; description: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; image: null</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; },</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; <strong>pinterest</strong>: {</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; enabled: true,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; url: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; image: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; description: null</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; },</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; <strong>email</strong>: {</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; enabled: true,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; title: null,</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; description: null</div>
+	<div>
+		&nbsp; &nbsp; &nbsp; &nbsp; },</div>
+</div>
+<div>
+	<h3>
+		WebGL settings</h3>
+	<div>
+		<div>
+			<strong>cameraDistance</strong>:2800,</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>pan</strong>:0,</div>
+		<div>
+			<strong>panMax</strong>:20,</div>
+		<div>
+			<strong>panMin</strong>:-20,</div>
+		<div>
+			<strong>tilt</strong>:0,</div>
+		<div>
+			<strong>tiltMax</strong>:0,</div>
+		<div>
+			<strong>tiltMin</strong>:-60,</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong style="font-size: 12px;">bookX</strong><span style="font-size: 12px;">:0,</span></div>
+		<div>
+			<strong>bookY</strong>:0,</div>
+		<div>
+			<strong>bookZ</strong>:0,</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>pageMaterial</strong>:&#39;phong&#39;, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // page material, &#39;phong&#39;, &#39;lambert&#39; or &#39;basic&#39;</div>
+		<div>
+			<strong>pageShadow</strong>:false,</div>
+		<div>
+			<strong>pageHardness</strong>:1,</div>
+		<div>
+			<strong>coverHardness</strong>:4,</div>
+		<div>
+			<strong>pageSegmentsW</strong>:8,</div>
+		<div>
+			<strong>pageSegmentsH</strong>:1,</div>
+		<div>
+			<strong>pageShininess</strong>:20,</div>
+		<div>
+			<strong>pageFlipDuration</strong>:1.5,</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>pointLight</strong>:false, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// point light enabled</div>
+		<div>
+			<strong>pointLightX</strong>:0, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// point light x position</div>
+		<div>
+			<strong>pointLightY</strong>:0, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// point light y position</div>
+		<div>
+			<strong>pointLightZ</strong>:2000, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // point light z position</div>
+		<div>
+			<strong>pointLightColor</strong>:0xffffff, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // point light color</div>
+		<div>
+			<strong>pointLightIntensity</strong>:0.1, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// point light intensity</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>directionalLight</strong>:true, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // directional light enabled</div>
+		<div>
+			<strong>directionalLightX</strong>:0, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// directional light x position</div>
+		<div>
+			<strong>directionalLightY</strong>:0, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// directional light y position</div>
+		<div>
+			<strong>directionalLightZ</strong>:1000, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // directional light z position</div>
+		<div>
+			<strong>directionalLightColor</strong>:0xffffff, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // directional light color</div>
+		<div>
+			<strong>directionalLightIntensity</strong>:0.1, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// directional light intensity</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>ambientLight</strong>:true, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// ambient light enabled</div>
+		<div>
+			<strong>ambientLightColor</strong>:0xeeeeee, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // ambient light color</div>
+		<div>
+			<strong>ambientLightIntensity</strong>:0.1, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// ambient light intensity</div>
+		<div>
+			&nbsp;</div>
+		<div>
+			<strong>spotLight</strong>:false, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // spot light enabled</div>
+		<div>
+			<strong>spotLightX</strong>:0, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // spot light x position</div>
+		<div>
+			<strong>spotLightY</strong>:0, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // spot light y position</div>
+		<div>
+			<strong>spotLightZ</strong>:3000, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// spot light z position</div>
+		<div>
+			<strong>spotLightColor</strong>:0xffffff, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// spot light color</div>
+		<div>
+			<strong>spotLightIntensity</strong>:.05, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // spot light intensity</div>
+		<div>
+			<strong>spotLightShadowCameraNear</strong>:0.1, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;// spot light shadow near limit</div>
+		<div>
+			<strong>spotLightShadowCameraFar</strong>:10000, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // spot light shadow far limit</div>
+		<div>
+			<strong>spotLightCastShadow:</strong>false, &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // spot light casting shadows</div>
+		<div>
+			<strong>spotLightShadowDarkness</strong>:0.5 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // spot light shadow darkness</div>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+</section>
+<section id="css">
+	<div class="page-header"><h3>CSS</h3><hr class="notop"></div>
+<p>	flipbook.style.css - css file of the app, defines layout of the elements and colors for two skins &quot;light&quot; and &quot;dark&quot;</p>
+<div>
+	dark skin</div>
+<pre class="prettyprint lang-js linenums">
+.bg-dark{
+  background: #242424;
+  border-top: 1px solid rgba(58, 58, 58, 1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.9);
+}
+.color-dark{
+  color: #D8D8D8;
+}
+.color-dark:hover{
+  color: #FFF;
+}</pre>
+<div>
+	&nbsp;</div>
+<div>
+	light skin</div>
+<pre class="prettyprint lang-js linenums">
+.bg-light{
+  background: #DBDBDB;
+  border-top: 1px solid rgba(242, 242, 242, 1);
+  border-bottom: 1px solid rgba(197, 197, 197, 0.9);
+}
+.color-light{
+  color: #555;
+}
+.color-light:hover{
+  color: #000;
+}</pre>
+</section>
+
+
+
+    <hr />
+
+<footer>
+    <p>Copyright zlac 2015 made with the <a href="http://rxa.li/documenter">Documenter v2.0</a></p>
+</footer>
+
+</div><!-- /container --> 
+
+<!-- Le javascript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script>document.createElement('section');var duration='500',easing='swing';</script>
+<script src="assets/js/jquery.js"></script> 
+<script src="assets/js/jquery.scrollTo.js"></script>
+<script src="assets/js/jquery.easing.js"></script>
+<script src="assets/js/scripts.js"></script> 
+<script src="assets/js/google-code-prettify/prettify.js"></script> 
+<script src="assets/js/bootstrap-min.js"></script> 
+</body>
+</html>

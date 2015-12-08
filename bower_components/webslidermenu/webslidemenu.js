@@ -4,13 +4,13 @@ $(function() {
 	
 	var menuopen = function() {
 	//Hides login button for mobile UX purposes. 
-	$('i.fa.fa-mail-forward').hide();
+	$('i.fa.fa-sign-in').hide();
 
 	$(items).removeClass('menuclose').addClass('menuopen');
 						}
 	var menuclose = function() { 
 	//Shows login button for mobile UX purposes. 
-	$('i.fa.fa-mail-forward').show();
+	$('i.fa.fa-sign-in').show();
 
 	$(items).removeClass('menuopen').addClass('menuclose');
 	}
