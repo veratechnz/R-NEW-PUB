@@ -1205,7 +1205,11 @@ a.callusicon span.fa.fa-phone {
   font-family: "proxima_nova_altlight";
   font-size: 18px;
   line-height: 1.05em;
-  padding-left: 2em; }
+  padding-left: 2em;
+  list-style-position: inside; }
+
+.member-spacer ol li, .member-spacer ol {
+  list-style-position: inside; }
 
 /*Layout*/
 /*Sass Variables*/
@@ -2192,7 +2196,7 @@ div.wsmenucontainer nav.wsmenu {
   border-radius: 0px;
   display: block; }
 
-a.btn.read-btn-e:hover, a.btn.read-btn-e:active, a.btn.read-btn-e:visited {
+a.btn.read-btn-e:hover, a.btn.read-btn-e:active {
   color: #fff;
   background-color: #8EC6CE;
   font-size: 16px;

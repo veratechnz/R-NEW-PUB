@@ -764,4 +764,10 @@ a.callusicon span.fa.fa-phone{color: #fff;}
   font-size: 18px;
   line-height: 1.05em;
   padding-left: 2em;
+  list-style-position: inside;
 }
+
+.member-spacer ol li, .member-spacer ol {
+  list-style-position: inside;
+}
+
