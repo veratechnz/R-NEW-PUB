@@ -3086,7 +3086,8 @@ mini-logo {
     background-color: rgba(0, 0, 0, 0.45);
     cursor: pointer; }
   .overlapblackbg.menuopen {
-    display: block; }
+    display: block;
+    z-index: 1; }
   /* Default Theme */
   /*.wsmenu-submenu > li:hover>a{  color:#666666;}
 */
