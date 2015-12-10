@@ -128,7 +128,7 @@
   border: 2px solid $blue-b;
   margin-bottom: 25px;
   border-radius: 0px;
-  display: block;
+  display: inline-block;
 }
 
 a.btn.read-btn-e:hover, a.btn.read-btn-e:active{
@@ -140,7 +140,7 @@ a.btn.read-btn-e:hover, a.btn.read-btn-e:active{
   padding: 0.8em 1.1em;
   border: 2px solid $blue-a;
   border-radius: 0px;
-  display: block;  
+  display: inline-block;  
 }
 
 .read-btn-e:hover, .read-btn-e:active, .read-btn-e:visited {
@@ -153,7 +153,7 @@ a.btn.read-btn-e:hover, a.btn.read-btn-e:active{
   border: 2px solid $blue-a;
   margin-bottom: 25px;
   border-radius: 0px;
-  display: block;
+  display: inline-block;
 }
 
 .join-button{

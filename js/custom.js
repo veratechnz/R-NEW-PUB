@@ -32,7 +32,7 @@ $(function() {
 		}
 
 		//Trigger for all magnific-popup site photo galleries. 
-		var magnificGallery = function(){
+		function magnificGallery(){
 		    $('.popup-gallery').magnificPopup({
 		        delegate: 'a',
 		        type: 'image',
@@ -47,9 +47,12 @@ $(function() {
 		            tError: '&lt;a href="%url%"&gt;The image #%curr%&lt;/a&gt; could not be loaded.'
 		        }
 		    });
-		}();
+		}
 
-
-
+		//Check Gallery is in Url before running magnific popup. 
+		if (/gallery/.test(window.location.href)){
+			magnificGallery();
+		}
 
 }); //selfie ENDs
+

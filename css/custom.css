@@ -1257,7 +1257,6 @@ hr {
   width: 100%;
   display: block;
   min-height: 85px;
-  background: url(../images/topbg.jpg) top center no-repeat;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 78px; }
@@ -2194,7 +2193,7 @@ div.wsmenucontainer nav.wsmenu {
   border: 2px solid #0D497C;
   margin-bottom: 25px;
   border-radius: 0px;
-  display: block; }
+  display: inline-block; }
 
 a.btn.read-btn-e:hover, a.btn.read-btn-e:active {
   color: #fff;
@@ -2205,7 +2204,7 @@ a.btn.read-btn-e:hover, a.btn.read-btn-e:active {
   padding: 0.8em 1.1em;
   border: 2px solid #8EC6CE;
   border-radius: 0px;
-  display: block; }
+  display: inline-block; }
 
 .read-btn-e:hover, .read-btn-e:active, .read-btn-e:visited {
   color: #fff;
@@ -2217,7 +2216,7 @@ a.btn.read-btn-e:hover, a.btn.read-btn-e:active {
   border: 2px solid #8EC6CE;
   margin-bottom: 25px;
   border-radius: 0px;
-  display: block; }
+  display: inline-block; }
 
 .join-button {
   float: right;
@@ -3683,7 +3682,7 @@ mini-logo {
   .modal {
     padding-left: 20px; }
   .section-intro {
-    padding-bottom: 2em; }
+    height: 50em; }
   /*Layout*/
   .home-body .section-6 {
     padding-top: 3.9em; }
@@ -3694,7 +3693,9 @@ mini-logo {
     float: left;
     margin: 10px;
     padding: 10px;
-    width: 400px; } }
+    width: 400px; }
+  h1 span.page-title {
+    border-bottom: none; } }
 
 /* MEDIA QUERIES & FIXUP FOR FALLBACK LOGIN PAGE*/
 @media only screen and (min-width: 230px) and (max-width: 780px) {
@@ -3830,7 +3831,11 @@ mini-logo {
     float: left;
     margin: 10px;
     padding: 10px;
-    width: 400px; } }
+    width: 400px; }
+  .section-intro {
+    height: 53em; }
+  h1 span.page-title {
+    border-bottom: none; } }
 
 @media (min-width: 992px) and (max-width: 1050px) {
   /*Padding Fix For Mobile*/
@@ -3945,7 +3950,11 @@ mini-logo {
     float: left;
     margin: 10px;
     padding: 10px;
-    width: 400px; } }
+    width: 400px; }
+  .section-intro {
+    height: 55em; }
+  h1 span.page-title {
+    border-bottom: none; } }
 
 @media (min-width: 1050px) and (max-width: 1280px) {
   a.sf-with-ul, .sf-menu.public-nav a {
@@ -4060,7 +4069,9 @@ mini-logo {
     float: left;
     margin: 10px;
     padding: 10px;
-    width: 400px; } }
+    width: 400px; }
+  .section-intro {
+    height: 55em; } }
 
 @media (min-width: 1281px) and (max-width: 1399px) {
   .public-nav .mobile-sub.wsmenu-list li a {

@@ -5,8 +5,10 @@
 	<title>REINZ svg testing</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">   
+    <!-- *** Changed Content -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/styles.css">
+	<!-- *** Changed Content Ends -->
 	<!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <![endif]-->
@@ -16,12 +18,8 @@
 	<div class="container-fluid">
 		<div class="row">
 
-
 		<div class="col-sm-9 center-block">
 
-			
-
-			
 			<!-- Container for svg ************************************** -->
 			<div id="svg-container" class="center-block">
 				
@@ -273,21 +271,95 @@
 					<button class="loginButton pull-right">
 						LOGIN
 					</button>
-
+					<!-- *** Changed Content -->
+					<button class="resetButton pull-right" style="margin-top: 10px;" data-toggle="modal" data-target="#forgotModal">
+						RESET PASSWORD
+					</button>
+					<!-- *** Changed Content Ends -->
 
 			</div>
 		</div>	<!-- close col-sm-3 -->
-
-
 		</div>	<!-- close body-row -->
-	</div>	<!-- close container-fluid -->
 
+		<!-- *** Changed Content -->
+		<!-- Modal For Password Reset -->
+		<div aria-labelledby="myModalLabel" role="dialog" tabindex="-1" id="forgotModal" class="modal fade login-modal in" style="padding-right: 16px;">
+		            <div class="vertical-alignment-helper">
+		                <div role="document" class="modal-dialog vertical-align-center">
+		                    <div id="loginMF" class="modal-content" style="display: none;">
+		<form method="post" id="btnLogin1Form" class="form-horizontal" action="/Users/Account/LogOn/">                            <div class="modal-header">
+		                                <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+		                                <h4 id="searchModallLabel" class="modal-title">Login</h4>
+		                            </div>
+		                        <!-- Modal Body Begins -->
+		                            <div class="modal-body">
+
+		                                <div class="form-group">
+		                                    <label for="" class="col-sm-3 control-label">REINZ ID</label>
+		                                    <div class="col-sm-9">
+		                                        <input type="text" value="" placeholder="USER NAME" name="userNameOrEmail" id="username-email" class="form-control">
+		                                    </div>
+		                                </div>
+		                                <div class="form-group">
+		                                    <label for="" class="col-sm-3 control-label">Password</label>
+		                                    <div class="col-sm-9">
+		                                        <input type="password" onkeypress="keyDownEvt(event,1)" class="form-control" id="password1" name="password" placeholder="PASSWORD" value="">
+		                                    </div>
+		                                </div>
+		                                <input type="hidden" value="~/reinz-portals" name="ReturnUrl" id="ReturnUrl">
+
+		                            </div>
+		                            <div class="modal-footer">
+		                                <button onclick="showSpin('btnLogin1');" id="btnLogin1" class="btn btn-default go-search" type="button">Login<img style="display:none;" src="/themes/reinzWebsite/img/ajax-loader.gif" id="btnLogin1Loading"></button>
+		                                <button class="btn btn-default forgot-password" id="btnForgotPassword" type="button">Forgot Password</button>
+		                            </div>
+										<input type="hidden" value="W0cX_TT6LnYQaAOAuouOuWLouTximm5cMLKsa_uSwIeOCLM9qfcwSzpKNiN6eJ4kwgevJHLu-BLxJLhpTaD6nrIXI7lHwYnhm_1evj2yO7A1" name="__RequestVerificationToken"></form>                    
+									</div><!-- end of loginMF-->
+
+		                    <div style="" id="forgotPF" class="modal-content">
+		                        <div class="modal-header">
+		                            <button aria-label="Close" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">×</span></button>
+		                            <h4 id="searchModallLabel" class="modal-title">Forgot Password</h4>
+		                        </div>
+		                        <!-- Modal Body Begins -->
+		                        <div class="modal-body">
+
+		                            <div class="form-group" id="resetDiv">
+		                                <p>Enter your e-mail address below to reset your password.</p>
+		                                <p style="display:none;color:red;" id="resetError"></p>
+		                                <input type="text" id="email" name="email" placeholder="Email" class="form-control">
+		                                <br style="clear:both">
+		                            </div>
+
+		                            <div class="form-group" style="display:none;" id="emailSent">
+		                                <h3 class="">Please check your email.</h3>
+		                                <p>Reset password email is sent. Please check your inbox in a few minutes.</p>
+
+		                            </div>
+
+
+		                        </div>
+		                        <div class="modal-footer">
+		                            <button id="btnBackToLogin" class="btn btn-default forgot-password" type="button"> Back </button>
+		                            <button class="btn btn-default go-search" id="btnResetPassword" type="button">Reset Password <img style="display:none;" src="/themes/reinzWebsite/img/ajax-loader.gif" id="resetLoading"></button>
+		                        </div>
+		                    </div> <!-- end of forgotPF-->
+
+		                </div>
+		            </div>
+		        </div>
+		<!-- Modal For Password Reset Ends -->
+		<!-- *** Changed Content Ends -->
+
+	</div>	<!-- close container-fluid -->
 
 
 	<script src="js/jquery.min.js"></script>
 	<script src="js/jquery-ui.min.js"></script>
-	<script src="js/jquery.ripples.js"></script>
-	<script type="text/javascript">
+	<!-- *** Changed Content -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- *** Changed Content ENDS -->
+	<script>
 
 	$(function(){
 
@@ -350,11 +422,5 @@
 
 	}); //Selfie Ends
 	</script>
-	<script>
-
-	</script>
-
-
-
 </body>
 </html>

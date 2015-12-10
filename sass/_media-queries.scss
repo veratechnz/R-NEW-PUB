@@ -232,7 +232,7 @@
 	}
 
 	.section-intro {
-	    padding-bottom: 2em;
+	   height: 50em;
 	}
 
 	/*Layout*/
@@ -249,6 +249,10 @@
 	    margin: 10px;
 	    padding: 10px;
 	    width: 400px;
+	}
+
+	h1 span.page-title{
+		border-bottom: none;
 	}
 
 }
@@ -288,6 +292,8 @@
 
 
 }
+
+
 
 @media(min-width:768px) and (max-width:991px){
 	
@@ -461,6 +467,14 @@
 	    width: 400px;
 	}
 
+	.section-intro {
+	   height: 53em;
+	}
+
+	h1 span.page-title{
+		border-bottom: none;
+	}
+
 
 }
 
@@ -626,6 +640,14 @@
 	    margin: 10px;
 	    padding: 10px;
 	    width: 400px;
+	}
+
+	.section-intro {
+	   height: 55em;
+	}
+
+	h1 span.page-title{
+		border-bottom: none;
 	}
 
 }
@@ -796,6 +818,9 @@
 	    width: 400px;
 	}
 
+	.section-intro {
+	   height: 55em;
+	}
 
 }
 
